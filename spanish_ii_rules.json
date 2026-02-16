@@ -1,12 +1,17 @@
 {
   "Subjunctive": {
     "rule": "The subjunctive mood expresses doubt, desire, emotion, uncertainty, or hypothetical situations. It's used after certain triggers like expressions of doubt (dudar que), emotion (alegrarse que), desire (querer que), impersonal expressions (es necesario que), and certain conjunctions.",
-    "key_triggers": [
-      "Doubt: dudar que, no creer que, no pensar que",
-      "Emotion: alegrarse que, temer que, sorprender que",
-      "Desire/influence: querer que, esperar que, pedir que",
-      "Impersonal expressions: es importante que, es necesario que, es posible que",
-      "Conjunctions: aunque, para que, sin que, antes de que (future), después de que (future)"
+    "structure": "Trigger phrase + que + subjunctive verb form",
+    "formation": [
+      "Present subjunctive: Take yo form, drop -o, add opposite endings (-ar verbs: -e, -es, -e, -emos, -éis, -en; -er/-ir verbs: -a, -as, -a, -amos, -áis, -an)",
+      "Irregulars: haya, sea, vaya, esté, dé, sepa, etc."
+    ],
+    "uses": [
+      "After expressions of doubt: dudar que, no creer que, no pensar que",
+      "After expressions of emotion: alegrarse que, temer que, sorprender que",
+      "After expressions of desire/influence: querer que, esperar que, pedir que",
+      "After impersonal expressions: es importante que, es necesario que, es posible que",
+      "After certain conjunctions: aunque, para que, sin que, antes de que (future), después de que (future)"
     ],
     "examples": [
       "Dudo que el gobierno suba los impuestos. (I doubt the government will raise taxes.)",
@@ -14,120 +19,106 @@
       "Espero que vengas a la fiesta. (I hope you come to the party.)",
       "No creo que sea el mejor momento. (I don't think it's the best moment.)"
     ],
-    "common_mistakes": [
-      "Using indicative after expressions of doubt or emotion",
-      "Forgetting that 'creo que' takes indicative, but 'no creo que' takes subjunctive"
+    "important": [
+      "'Creo que' takes indicative, but 'no creo que' takes subjunctive",
+      "Subjunctive is used for pending/future actions with time conjunctions",
+      "Some conjunctions always require subjunctive (para que, sin que, a menos que)"
     ]
   },
   "Ser vs Estar": {
     "rule": "SER is for permanent/essential characteristics, identity, origin, time, events, and possession. ESTAR is for temporary states, locations, conditions, emotions, and progressive actions.",
-    "ser_uses": [
-      "Identity/profession: Soy médico (I'm a doctor)",
-      "Origin: Es de España (She's from Spain)",
-      "Material/possession: El libro es de Juan (The book is Juan's)",
-      "Time/events: La fiesta es a las 8 (The party is at 8)",
-      "Characteristics: Es alto y simpático (He's tall and nice)"
+    "structure": "Subject + ser/estar + complement",
+    "formation": [
+      "Ser: soy, eres, es, somos, sois, son",
+      "Estar: estoy, estás, está, estamos, estáis, están"
     ],
-    "estar_uses": [
-      "Location: Estoy en casa (I'm at home)",
-      "Temporary states: Está cansado (He's tired)",
-      "Emotions: Estamos contentos (We're happy)",
-      "Progressive: Estoy estudiando (I'm studying)",
-      "Resulting condition: La puerta está abierta (The door is open)"
+    "uses": [
+      "SER: Identity/profession (Soy médico), origin (Es de España), material/possession (Es de Juan), time/events (Es a las 8), characteristics (Es alto)",
+      "ESTAR: Location (Estoy en casa), temporary states (Está cansado), emotions (Estamos contentos), progressive (Estoy estudiando), resulting condition (La puerta está abierta)"
     ],
     "examples": [
-      "María es inteligente. (permanent trait)",
-      "María está cansada hoy. (temporary state)",
-      "La reunión es en la oficina. (event location)",
-      "Pedro está en la oficina. (physical location)"
+      "María es inteligente. (María is intelligent - permanent trait)",
+      "María está cansada hoy. (María is tired today - temporary state)",
+      "La reunión es en la oficina. (The meeting is in the office - event location)",
+      "Pedro está en la oficina. (Pedro is in the office - physical location)",
+      "Ser listo (to be clever) vs estar listo (to be ready)",
+      "Ser aburrido (to be boring) vs estar aburrido (to be bored)"
     ],
-    "meaning_changers": [
-      "ser listo (to be clever) vs estar listo (to be ready)",
-      "ser aburrido (to be boring) vs estar aburrido (to be bored)",
-      "ser bueno (to be good/kind) vs estar bueno (to taste good/be healthy)"
+    "important": [
+      "Some adjectives change meaning with ser vs estar (listo, aburrido, bueno, malo, vivo, rico)",
+      "Location of events uses SER, physical location of people/things uses ESTAR",
+      "Progressive tenses always use ESTAR + gerund"
     ]
   },
   "Imperfecto vs Pretérito": {
     "rule": "IMPERFECTO describes ongoing, habitual, or background actions in the past. PRETÉRITO describes completed, specific actions or events with definite beginning/end.",
-    "imperfecto_uses": [
-      "Habitual actions: Siempre jugaba al fútbol (I always played soccer)",
-      "Descriptions: Era un día soleado (It was a sunny day)",
-      "Ongoing actions: Mientras estudiaba, sonó el teléfono (While I was studying...)",
-      "Time/age: Tenía 10 años cuando... (I was 10 years old when...)",
-      "Mental/emotional states: Quería ir pero no podía (I wanted to go but couldn't)"
+    "structure": "Subject + imperfect/preterite verb + complement",
+    "formation": [
+      "Imperfect -ar: -aba, -abas, -aba, -ábamos, -abais, -aban",
+      "Imperfect -er/-ir: -ía, -ías, -ía, -íamos, -íais, -ían",
+      "Preterite -ar: -é, -aste, -ó, -amos, -asteis, -aron",
+      "Preterite -er/-ir: -í, -iste, -ió, -imos, -isteis, -ieron"
     ],
-    "preterito_uses": [
-      "Completed actions: Jugué al fútbol ayer (I played soccer yesterday)",
-      "Specific events: Llegó a las 3 (He arrived at 3)",
-      "Series of actions: Entré, vi, compré (I entered, saw, bought)",
-      "Interrupting actions: Estudiaba cuando sonó (I was studying when it rang)",
-      "Sudden changes: De repente, se cayó (Suddenly, he fell)"
+    "uses": [
+      "IMPERFECTO: Habitual actions (siempre jugaba), descriptions (era un día soleado), ongoing actions (mientras estudiaba), time/age (tenía 10 años), mental/emotional states (quería ir)",
+      "PRETÉRITO: Completed actions (jugué ayer), specific events (llegó a las 3), series of actions (entré, vi, compré), interrupting actions (sonó el teléfono), sudden changes (se cayó)"
     ],
     "examples": [
-      "Cuando era niño, vivía en Madrid. (When I was a child, I lived in Madrid.)",
-      "Ayer fui al supermercado. (Yesterday I went to the supermarket.)",
-      "Leía el periódico cuando llamaste. (I was reading the paper when you called.)",
-      "Antes de mudarse, mi abuela siempre contaba cuentos. (Before moving, my grandmother always told stories.)"
+      "Cuando era niño, vivía en Madrid. (When I was a child, I lived in Madrid - habitual/ongoing)",
+      "Ayer fui al supermercado. (Yesterday I went to the supermarket - completed)",
+      "Leía el periódico cuando llamaste. (I was reading the paper when you called - ongoing + interruption)",
+      "Antes de mudarse, mi abuela siempre contaba cuentos. (Before moving, my grandmother always told stories - habitual)"
     ],
-    "key_indicators": {
-      "imperfecto": ["siempre", "generalmente", "todos los días", "mientras", "cuando + description"],
-      "preterito": ["ayer", "anoche", "el año pasado", "de repente", "una vez"]
-    }
+    "important": [
+      "Time markers: Imperfect (siempre, generalmente, todos los días, mientras); Preterite (ayer, anoche, el año pasado, de repente)",
+      "In the same sentence, imperfect often sets the scene, preterite tells what happened",
+      "Verbs like saber, conocer, querer, poder change meaning in preterite"
+    ]
   },
   "Para vs Por": {
     "rule": "PARA indicates purpose, destination, deadline, or recipient. POR indicates cause, means, duration, exchange, or location of movement.",
-    "para_uses": [
-      "Purpose: Estudio para aprender (I study to learn)",
-      "Destination: Salgo para México (I'm leaving for Mexico)",
-      "Deadline: Para el viernes (By Friday)",
-      "Recipient: Es para ti (It's for you)",
-      "Opinion: Para mí, es importante (For me/In my opinion...)"
+    "structure": "Verb/noun + para/por + complement",
+    "formation": [
+      "Para: purpose, destination, deadline, recipient, opinion",
+      "Por: cause/reason, duration, exchange, movement through, means"
     ],
-    "por_uses": [
-      "Cause/reason: Ganó por trabajar duro (He won because of hard work)",
-      "Duration: Viví allí por dos años (I lived there for two years)",
-      "Exchange: Pagué $5 por el café (I paid $5 for the coffee)",
-      "Movement through: Pasé por el parque (I went through the park)",
-      "Means: Hablé por teléfono (I spoke by phone)"
-    ],
-    "fixed_expressions": [
-      "por favor (please)",
-      "por ejemplo (for example)",
-      "por fin (finally)",
-      "por lo general (generally)",
-      "por supuesto (of course)",
-      "para siempre (forever)",
-      "para colmo (to top it all off)"
+    "uses": [
+      "PARA: Purpose (estudio para aprender), destination (salgo para México), deadline (para el viernes), recipient (es para ti), opinion (para mí)",
+      "POR: Cause/reason (ganó por trabajar duro), duration (viví por dos años), exchange (pagué $5 por el café), movement through (pasé por el parque), means (hablé por teléfono)"
     ],
     "examples": [
-      "Trabajo para vivir. (I work in order to live.)",
-      "Trabajo por la mañana. (I work during/in the morning.)",
-      "Este regalo es para María. (This gift is for María.)",
-      "Por lo general, desayuno café. (Generally, I have coffee for breakfast.)"
+      "Trabajo para vivir. (I work in order to live - purpose)",
+      "Trabajo por la mañana. (I work during/in the morning - time period)",
+      "Este regalo es para María. (This gift is for María - recipient)",
+      "Por lo general, desayuno café. (Generally, I have coffee for breakfast - fixed expression)",
+      "Pagué 20 dólares por esta camisa. (I paid 20 dollars for this shirt - exchange)",
+      "Salgo para el aeropuerto. (I'm leaving for the airport - destination)"
+    ],
+    "important": [
+      "Fixed expressions with POR: por favor, por ejemplo, por fin, por lo general, por supuesto",
+      "Fixed expressions with PARA: para siempre, para colmo",
+      "Por + time period = duration; Para + specific time = deadline"
     ]
   },
   "Saber vs Conocer": {
     "rule": "SABER is for factual knowledge, information, and skills (how to do something). CONOCER is for familiarity with people, places, and things.",
-    "saber_uses": [
-      "Facts/information: Sé la capital (I know the capital)",
-      "How to do: Sé nadar (I know how to swim)",
-      "That-clauses: Sé que es verdad (I know that it's true)",
-      "Awareness: Ya sé (I already know)"
+    "structure": "Subject + saber/conocer + complement",
+    "formation": [
+      "Saber: sé, sabes, sabe, sabemos, sabéis, saben",
+      "Conocer: conozco, conoces, conoce, conocemos, conocéis, conocen"
     ],
-    "conocer_uses": [
-      "People: Conozco a María (I know María)",
-      "Places: Conozco París (I know/I'm familiar with Paris)",
-      "Things: Conozco ese libro (I'm familiar with that book)",
-      "Experience: Conozco su trabajo (I'm familiar with his/her work)"
+    "uses": [
+      "SABER: Facts/information (sé la capital), how to do (sé nadar), that-clauses (sé que es verdad), awareness (ya sé)",
+      "CONOCER: People (conozco a María), places (conozco París), things (conozco ese libro), experience (conozco su trabajo)"
     ],
     "examples": [
-      "¿Sabes la capital de Australia? (Do you know the capital of Australia?)",
-      "¿Conoces a mi hermano? (Do you know my brother?)",
-      "Sé tocar la guitarra. (I know how to play guitar.)",
-      "Conozco bien esta ciudad. (I know this city well.)",
-      "Sé que mañana va a llover. (I know that it will rain tomorrow.)"
+      "¿Sabes la capital de Australia? (Do you know the capital of Australia? - fact)",
+      "¿Conoces a mi hermano? (Do you know my brother? - person)",
+      "Sé tocar la guitarra. (I know how to play guitar - skill)",
+      "Conozco bien esta ciudad. (I know this city well - familiarity)",
+      "Sé que mañana va a llover. (I know that it will rain tomorrow - fact/information)"
     ],
-    "remember": [
+    "important": [
       "Saber + infinitive = to know how to do something",
       "Saber + que = to know that (fact)",
       "Conocer + person requires 'a' (personal a): Conozco a Juan",
@@ -136,919 +127,794 @@
   },
   "Pedir vs Preguntar": {
     "rule": "PEDIR is to ask for/request something or ask someone to do something. PREGUNTAR is to ask a question or inquire about information.",
-    "pedir_uses": [
-      "Request objects: Pido un café (I order/ask for a coffee)",
-      "Request actions: Te pido que vengas (I ask you to come)",
-      "Borrow/request: Pedir prestado (to borrow)",
-      "Order in restaurant: Pedir el menú (to order from the menu)"
+    "structure": "Subject + pedir/preguntar + complement",
+    "formation": [
+      "Pedir: pido, pides, pide, pedimos, pedís, piden (stem-changing e→i)",
+      "Preguntar: pregunto, preguntas, pregunta, preguntamos, preguntáis, preguntan (regular)"
     ],
-    "preguntar_uses": [
-      "Ask questions: Pregunto la hora (I ask what time it is)",
-      "Inquire: Preguntar por alguien (to ask about someone)",
-      "With si: Pregunté si venía (I asked if he was coming)",
-      "Question words: Preguntar dónde/cuándo/cómo (to ask where/when/how)"
-    ],
-    "structures": [
-      "Pedir + noun: Pido ayuda (I ask for help)",
-      "Pedir que + subjunctive: Pido que vengas (I ask that you come)",
-      "Preguntar + question word: Pregunté dónde estaba (I asked where it was)",
-      "Preguntar si: Preguntó si tenemos tiempo (He asked if we have time)"
+    "uses": [
+      "PEDIR: Request objects (pido un café), request actions (te pido que vengas), borrow/request (pedir prestado), order in restaurant (pedir el menú)",
+      "PREGUNTAR: Ask questions (pregunto la hora), inquire (preguntar por alguien), with si (pregunté si venía), question words (preguntar dónde/cuándo/cómo)"
     ],
     "examples": [
-      "Voy a pedir que me traigan el menú. (I'm going to request that they bring me the menu.)",
-      "Voy a preguntar si tienen opciones vegetarianas. (I'm going to ask if they have vegetarian options.)",
-      "Le pedí el favor de ayudarme. (I asked him the favor of helping me.)",
-      "Le pregunté cuánto costaba. (I asked him how much it cost.)"
+      "Voy a pedir que me traigan el menú. (I'm going to request that they bring me the menu - request action)",
+      "Voy a preguntar si tienen opciones vegetarianas. (I'm going to ask if they have vegetarian options - ask question)",
+      "Le pedí el favor de ayudarme. (I asked him the favor of helping me - request)",
+      "Le pregunté cuánto costaba. (I asked him how much it cost - question)",
+      "Pedí un café. (I ordered/asked for a coffee - request object)"
+    ],
+    "important": [
+      "Pedir + noun = ask for/request (pido ayuda)",
+      "Pedir que + subjunctive = ask that someone do something",
+      "Preguntar + question word = ask + question (pregunté dónde, cuándo, cómo)",
+      "Preguntar si = ask if/whether"
     ]
   },
   "Llevar vs Traer": {
-    "rule": "LLEVAR is to take/carry away from the speaker's location. TRAER is to bring/carry toward the speaker's location.",
-    "llevar_uses": [
-      "Take away: Llevo el libro a casa (I take the book home)",
-      "Carry: Llevo mi mochila (I carry my backpack)",
-      "Take someone: Llevo a mi hijo al colegio (I take my son to school)",
-      "Transport: El río lleva agua al mar (The river carries water to the sea)",
-      "Wear: Llevo jeans (I'm wearing jeans)"
+    "rule": "LLEVAR is to take/carry away from the speaker's location. TRAER is to bring/carry toward the speaker's location. The key is direction relative to the speaker.",
+    "structure": "Subject + llevar/traer + object + location",
+    "formation": [
+      "Llevar: llevo, llevas, lleva, llevamos, lleváis, llevan (regular)",
+      "Traer: traigo, traes, trae, traemos, traéis, traen (irregular yo form)"
     ],
-    "traer_uses": [
-      "Bring here: Trae el libro cuando vengas (Bring the book when you come)",
-      "Bring with: Traje mi cámara (I brought my camera)",
-      "Bring someone: Trae a tu amigo (Bring your friend)",
-      "Come with: ¿Qué traes? (What did you bring?)"
+    "uses": [
+      "LLEVAR: Take away (llevo el libro a casa), carry (llevo mi mochila), take someone (llevo a mi hijo al colegio), transport (el río lleva agua al mar), wear (llevo jeans)",
+      "TRAER: Bring here (trae el libro cuando vengas), bring with (traje mi cámara), bring someone (trae a tu amigo)"
     ],
-    "key_concept": "The key is the direction relative to the speaker: llevar = away from speaker, traer = toward speaker",
     "examples": [
-      "¿Me puedes traer el libro cuando vengas? (Can you bring me the book when you come?)",
-      "Voy a llevar este paquete al correo. (I'm going to take this package to the post office.)",
-      "La corriente lleva los barcos hacia el océano. (The current carries the boats toward the ocean.)",
-      "La marea trae conchas a la orilla. (The tide brings shells to the shore.)"
+      "¿Me puedes traer el libro cuando vengas? (Can you bring me the book when you come? - toward speaker)",
+      "Voy a llevar este paquete al correo. (I'm going to take this package to the post office - away from speaker)",
+      "La corriente lleva los barcos hacia el océano. (The current carries the boats toward the ocean - general movement)",
+      "La marea trae conchas a la orilla. (The tide brings shells to the shore - toward speaker's location)",
+      "El río lleva agua de las montañas hasta el mar. (The river carries water from mountains to sea - general movement)"
     ],
-    "with_time": [
+    "important": [
+      "Direction is key: llevar = away from speaker, traer = toward speaker",
       "Llevar + time = to have been doing: Llevo dos años aquí (I've been here for two years)",
-      "This is a special use of llevar unrelated to the llevar/traer distinction"
+      "Llevar also means 'to wear': Llevo una camisa azul"
     ]
   },
   "Conjunctions": {
     "rule": "Conjunctions connect clauses and determine mood (indicative vs subjunctive). Some always require subjunctive, others depend on whether the action is future/uncertain or past/certain.",
-    "always_subjunctive": [
-      "para que (so that): Hablo despacio para que entiendas",
-      "sin que (without): Salió sin que lo viera",
-      "a menos que (unless): No iré a menos que vengas",
-      "con tal de que (provided that): Lo haré con tal de que me ayudes",
-      "aunque (even if/though - uncertainty): Aunque llueva, iré",
-      "por más que / por mucho que (no matter how much): Por más que intente, no puedo"
+    "structure": "Main clause + conjunction + subordinate clause",
+    "formation": [
+      "Always subjunctive conjunctions: para que, sin que, a menos que, con tal de que, aunque (uncertainty), por más/mucho que",
+      "Depends on time: cuando, después de que, hasta que, en cuanto, tan pronto como (future=subjunctive, past=indicative)"
     ],
-    "depends_on_time": [
-      "cuando (when): future=subjunctive, past/habitual=indicative",
-      "después de que (after): future=subjunctive, past=indicative",
-      "hasta que (until): future=subjunctive, past=indicative",
-      "en cuanto (as soon as): future=subjunctive, past=indicative",
-      "tan pronto como (as soon as): future=subjunctive, past=indicative"
+    "uses": [
+      "ALWAYS SUBJUNCTIVE: para que (so that), sin que (without), a menos que (unless), con tal de que (provided that), aunque (even if - uncertainty), por más/mucho que (no matter how much)",
+      "FUTURE=SUBJUNCTIVE, PAST=INDICATIVE: cuando (when), después de que (after), hasta que (until), en cuanto (as soon as), tan pronto como (as soon as)"
     ],
     "examples": [
-      "Te llamo cuando llegue. (I'll call you when I arrive. - future, subjunctive)",
-      "Te llamé cuando llegué. (I called you when I arrived. - past, indicative)",
-      "Estudiaré hasta que lo entienda. (I'll study until I understand it. - future, subjunctive)",
-      "Estudié hasta que lo entendí. (I studied until I understood it. - past, indicative)",
-      "Iremos al parque después de que deje de llover. (We'll go to the park after it stops raining. - future, subjunctive)",
-      "Por más que intente, no consigo resolver esto. (No matter how much I try, I can't solve this. - always subjunctive)"
+      "Te llamo cuando llegue. (I'll call you when I arrive - future, subjunctive)",
+      "Te llamé cuando llegué. (I called you when I arrived - past, indicative)",
+      "Estudiaré hasta que lo entienda. (I'll study until I understand it - future, subjunctive)",
+      "Estudié hasta que lo entendí. (I studied until I understood it - past, indicative)",
+      "Iremos al parque después de que deje de llover. (We'll go to the park after it stops raining - future, subjunctive)",
+      "Por más que intente, no consigo resolver esto. (No matter how much I try, I can't solve this - always subjunctive)"
+    ],
+    "important": [
+      "Time conjunctions: future/pending actions = subjunctive; past/habitual actions = indicative",
+      "Purpose conjunctions (para que, sin que) always use subjunctive",
+      "Concessive conjunctions (por más que, aunque) use subjunctive for uncertainty"
     ]
   },
   "Conditional Clauses": {
-    "rule": "There are three types of conditional sentences in Spanish, each using different verb combinations to express different levels of possibility.",
-    "type_1_real": {
-      "structure": "Si + present indicative, present/future/imperative",
-      "use": "Real, possible, or likely conditions",
-      "examples": [
-        "Si tienes dudas, pregunta. (If you have doubts, ask.)",
-        "Si llueve, me quedo en casa. (If it rains, I'll stay home.)",
-        "Si encuentras errores, avísame. (If you find errors, let me know.)"
-      ]
-    },
-    "type_2_hypothetical": {
-      "structure": "Si + imperfect subjunctive, conditional",
-      "use": "Hypothetical or contrary-to-fact present/future",
-      "examples": [
-        "Si tuviera dinero, viajaría. (If I had money, I would travel.)",
-        "Si fuera rico, compraría una casa. (If I were rich, I would buy a house.)",
-        "Si tuvieras más confianza, participarías más. (If you had more confidence, you would participate more.)"
-      ]
-    },
-    "type_3_past": {
-      "structure": "Si + pluperfect subjunctive, conditional perfect",
-      "use": "Contrary-to-fact past conditions",
-      "examples": [
-        "Si hubiera estudiado, habría aprobado. (If I had studied, I would have passed.)"
-      ]
-    },
+    "rule": "Conditional clauses express hypothetical situations using 'si' (if). There are three types depending on the likelihood and time frame of the condition.",
+    "structure": "Type 1: Si + present indicative, present/future/imperative | Type 2: Si + imperfect subjunctive, conditional | Type 3: Si + pluperfect subjunctive, conditional perfect",
+    "formation": [
+      "Type 1: Si + present (tienes), result in present/future/imperative",
+      "Type 2: Si + imperfect subjunctive (tuvieras), conditional (harías)",
+      "Type 3: Si + pluperfect subjunctive (hubieras tenido), conditional perfect (habrías hecho)"
+    ],
+    "uses": [
+      "TYPE 1: Real, possible, or likely conditions in present or future",
+      "TYPE 2: Hypothetical or contrary-to-fact situations in present or future",
+      "TYPE 3: Contrary-to-fact past conditions (what didn't happen)"
+    ],
+    "examples": [
+      "Si tienes dudas, pregunta. (If you have doubts, ask - Type 1: real/possible)",
+      "Si tuviera dinero, viajaría. (If I had money, I would travel - Type 2: hypothetical present)",
+      "Si hubiera estudiado, habría aprobado. (If I had studied, I would have passed - Type 3: contrary-to-fact past)",
+      "Si llueve, me quedo en casa. (If it rains, I'll stay home - Type 1)",
+      "Si fuera rico, compraría una casa. (If I were rich, I would buy a house - Type 2)",
+      "Si tuvieras más confianza, participarías más. (If you had more confidence, you would participate more - Type 2)"
+    ],
     "important": [
-      "NEVER use future or conditional after 'si'",
-      "Si tendrás / Si tendría are both WRONG",
-      "Type 1 uses present indicative, not future, even when talking about future"
+      "NEVER use future or conditional tense after 'si' - this is a MAJOR error",
+      "WRONG: Si tendrás / Si tendría → CORRECT: Si tienes (Type 1) / Si tuvieras (Type 2)",
+      "Type 1 uses present indicative after 'si', NOT future, even when talking about future events",
+      "Choose type based on likelihood: Type 1 = likely/possible, Type 2 = unlikely/hypothetical, Type 3 = past/impossible"
+    ]
+  },
+  "Conditional Clauses Type 2": {
+    "rule": "Type 2 conditional sentences express hypothetical or contrary-to-fact situations in the present or future. See 'Conditional Clauses' for complete information on all three types.",
+    "structure": "Si + imperfect subjunctive, conditional",
+    "formation": [
+      "If-clause: imperfect subjunctive (-ra or -se endings)",
+      "Main clause: conditional tense (infinitive + ía, ías, ía, íamos, íais, ían)"
+    ],
+    "uses": [
+      "Hypothetical present situations",
+      "Contrary-to-fact present (opposite of reality)",
+      "Unlikely future scenarios"
+    ],
+    "examples": [
+      "Si tuviera más dinero, haría un viaje alrededor del mundo. (If I had more money, I would take a trip around the world)",
+      "Si fuera tú, no iría. (If I were you, I wouldn't go)",
+      "Si estudiaras más, aprobarías el examen. (If you studied more, you would pass the exam)",
+      "Si tuvieras más confianza, participarías más. (If you had more confidence, you would participate more)"
+    ],
+    "important": [
+      "This is covered in detail under 'Conditional Clauses' category",
+      "NEVER use conditional or future after 'si'",
+      "Type 2 expresses hypothetical situations, Type 1 expresses real possibilities"
     ]
   },
   "Imperative": {
     "rule": "The imperative gives commands or instructions. It has different forms for affirmative and negative commands, and formal vs informal.",
-    "affirmative_tu": {
-      "description": "Use 3rd person singular present (él/ella form) for regular verbs",
-      "examples": [
-        "hablar → habla (speak)",
-        "comer → come (eat)",
-        "escribir → escribe (write)"
-      ],
-      "irregulars": [
-        "tener → ten (have)",
-        "venir → ven (come)",
-        "poner → pon (put)",
-        "salir → sal (leave)",
-        "hacer → haz (do)",
-        "decir → di (say)",
-        "ir → ve (go)",
-        "ser → sé (be)"
-      ]
-    },
-    "negative_tu": {
-      "description": "Use present subjunctive (tú form without final -s)",
-      "examples": [
-        "No hables (Don't speak)",
-        "No comas (Don't eat)",
-        "No escribas (Don't write)"
-      ]
-    },
-    "usted_ustedes": {
-      "description": "Always use present subjunctive for both affirmative and negative",
-      "examples": [
-        "Hable usted (Speak - formal)",
-        "No hablen ustedes (Don't speak - formal plural)",
-        "Coma con cuidado (Eat carefully - formal)"
-      ]
-    },
-    "with_pronouns": {
-      "affirmative": "Pronouns attach to end: Dime (Tell me), Házlo (Do it), Dáselo (Give it to him)",
-      "negative": "Pronouns go before: No me digas (Don't tell me), No lo hagas (Don't do it)"
-    }
-  },
-  "Reflexive Pronouns": {
-    "rule": "Reflexive pronouns (me, te, se, nos, os, se) indicate the subject performs an action on itself or express spontaneous/natural processes.",
-    "true_reflexive": {
-      "description": "Subject does action to itself",
-      "examples": [
-        "Me lavo las manos. (I wash my hands. - myself)",
-        "Se peina. (He combs his hair. - himself)",
-        "Nos vestimos. (We get dressed. - ourselves)"
-      ]
-    },
-    "reciprocal": {
-      "description": "Each other",
-      "examples": [
-        "Se aman. (They love each other.)",
-        "Nos vemos mañana. (We'll see each other tomorrow.)"
-      ]
-    },
-    "change_meaning": {
-      "description": "Some verbs change meaning with se",
-      "examples": [
-        "dormir (to sleep) → dormirse (to fall asleep)",
-        "ir (to go) → irse (to leave/go away)",
-        "llamar (to call) → llamarse (to be named)",
-        "poner (to put) → ponerse (to put on/become)"
-      ]
-    },
-    "spontaneous": {
-      "description": "Natural processes or unplanned events",
-      "examples": [
-        "Se rompió el vaso. (The glass broke.)",
-        "Se derritió el hielo. (The ice melted.)",
-        "Se cayó. (He/she fell.)",
-        "Se acabó la comida. (The food ran out.)"
-      ]
-    },
-    "always_reflexive": {
-      "description": "Some verbs are always used reflexively",
-      "examples": [
-        "quejarse (to complain)",
-        "arrepentirse (to regret)",
-        "atreverse (to dare)",
-        "acordarse (to remember)"
-      ]
-    }
-  },
-  "Object Pronouns": {
-    "rule": "Direct object pronouns replace the direct object (what/who receives the action). Indirect object pronouns replace the indirect object (to/for whom). Order: IOP + DOP + verb.",
-    "direct_pronouns": [
-      "me (me)",
-      "te (you - informal)",
-      "lo/la (him/her/it/you - formal)",
-      "nos (us)",
-      "os (you all - Spain)",
-      "los/las (them/you all - formal)"
+    "structure": "Verb in imperative form (+ pronouns if needed)",
+    "formation": [
+      "Affirmative tú: Use 3rd person singular present for regulars (habla, come, escribe). Irregulars: ten, ven, pon, sal, haz, di, ve, sé",
+      "Negative tú: Use present subjunctive without final -s (no hables, no comas, no escribas)",
+      "Usted/Ustedes: Always use present subjunctive for both affirmative and negative (hable, coma, escriba / no hable, no coma)"
     ],
-    "indirect_pronouns": [
-      "me (to/for me)",
-      "te (to/for you - informal)",
-      "le (to/for him/her/you - formal)",
-      "nos (to/for us)",
-      "os (to/for you all - Spain)",
-      "les (to/for them/you all)"
-    ],
-    "order_rules": [
-      "Indirect before direct: Me lo dio (He gave it to me)",
-      "If both start with 'l', indirect becomes 'se': Se lo di (I gave it to him/her)",
-      "With infinitive: attach to end or before conjugated verb: Voy a dártelo / Te lo voy a dar",
-      "With gerund: attach to end or before conjugated verb: Estoy dándotelo / Te lo estoy dando",
-      "With imperative: affirmative=attach, negative=before: Dámelo (Give it to me) / No me lo des (Don't give it to me)"
+    "uses": [
+      "Give direct commands or instructions",
+      "Make requests (polite or direct)",
+      "Give directions",
+      "Offer suggestions or advice"
     ],
     "examples": [
-      "¿La carta? Ya la escribí. (The letter? I already wrote it.)",
-      "¿Le diste el regalo a María? Sí, se lo di. (Did you give the gift to María? Yes, I gave it to her.)",
-      "No me lo digas. (Don't tell it to me.)",
-      "Voy a comprártelo. (I'm going to buy it for you.)"
+      "Habla más despacio. (Speak more slowly - tú affirmative)",
+      "No hables tan rápido. (Don't speak so fast - tú negative)",
+      "Hable usted con el director. (Speak with the director - usted affirmative)",
+      "Ten cuidado. (Be careful - tú irregular)",
+      "No tengas miedo. (Don't be afraid - tú negative)",
+      "Dime la verdad. (Tell me the truth - with pronoun attached)",
+      "No me digas. (Don't tell me - pronoun before verb)"
+    ],
+    "important": [
+      "With pronouns: Affirmative = attach to end (Dime, Házlo, Dáselo); Negative = place before verb (No me digas, No lo hagas)",
+      "8 irregular tú affirmative commands: ten, ven, pon, sal, haz, di, ve, sé",
+      "All negative commands use subjunctive forms",
+      "Usted/ustedes commands always use subjunctive (same form for affirmative and negative)"
+    ]
+  },
+  "Reflexive Pronouns": {
+    "rule": "Reflexive pronouns (me, te, se, nos, os, se) indicate the subject performs an action on itself, express spontaneous/natural processes, or are required with certain verbs.",
+    "structure": "Reflexive pronoun + verb (or verb + reflexive pronoun attached)",
+    "formation": [
+      "Reflexive pronouns: me, te, se, nos, os, se",
+      "Position: Before conjugated verb or attached to infinitive/gerund/affirmative command"
+    ],
+    "uses": [
+      "TRUE REFLEXIVE: Subject does action to itself (me lavo, se peina, nos vestimos)",
+      "RECIPROCAL: Each other (se aman, nos vemos)",
+      "CHANGE MEANING: Some verbs change meaning with se (dormir→dormirse, ir→irse, llamar→llamarse)",
+      "SPONTANEOUS: Natural processes or unplanned events (se rompió, se derritió, se cayó)",
+      "ALWAYS REFLEXIVE: Some verbs always used reflexively (quejarse, arrepentirse, atreverse)"
+    ],
+    "examples": [
+      "Me lavo las manos. (I wash my hands - true reflexive)",
+      "Se aman. (They love each other - reciprocal)",
+      "El hielo se derritió con el calor. (The ice melted with the heat - spontaneous/natural process)",
+      "Se rompió el vaso. (The glass broke - unplanned event)",
+      "Me llamo María. (My name is María / I'm called María - always reflexive)",
+      "Nos vemos mañana. (We'll see each other tomorrow - reciprocal)"
+    ],
+    "important": [
+      "Position: Me lavo (present) / Voy a lavarme or Me voy a lavar (with infinitive) / Estoy lavándome or Me estoy lavando (with gerund)",
+      "Some common always-reflexive verbs: quejarse, arrepentirse, atreverse, acordarse, darse cuenta",
+      "Spontaneous se often indicates natural processes: se cayó, se rompió, se acabó, se derritió"
+    ]
+  },
+  "Object Pronouns": {
+    "rule": "Direct object pronouns replace the direct object (what/who receives the action). Indirect object pronouns replace the indirect object (to/for whom). Order: Indirect + Direct + Verb.",
+    "structure": "IOP + DOP + verb (or verb + IOP + DOP attached)",
+    "formation": [
+      "Direct pronouns: me, te, lo/la, nos, os, los/las",
+      "Indirect pronouns: me, te, le, nos, os, les",
+      "When both start with 'l': le/les becomes se → se lo, se la, se los, se las"
+    ],
+    "uses": [
+      "Direct pronouns replace direct objects (¿El libro? Lo leí)",
+      "Indirect pronouns replace indirect objects (Le di el regalo = I gave the gift to him/her)",
+      "Both together: Indirect before direct (Me lo dio = He gave it to me)",
+      "Le/les becomes 'se' before lo/la/los/las (Se lo di = I gave it to him/her/them)"
+    ],
+    "examples": [
+      "¿La carta? Ya la escribí. (The letter? I already wrote it - direct object)",
+      "¿Le diste el regalo a María? Sí, se lo di. (Did you give the gift to María? Yes, I gave it to her - both objects)",
+      "No me lo digas. (Don't tell it to me - both pronouns before negative command)",
+      "Voy a comprártelo. (I'm going to buy it for you - both attached to infinitive)",
+      "Estoy dándotelo. (I'm giving it to you - both attached to gerund)"
+    ],
+    "important": [
+      "Order is ALWAYS: Indirect + Direct + Verb (or attached in same order)",
+      "Le/les + lo/la/los/las = se lo/la/los/las (never le lo)",
+      "With infinitive/gerund: can attach or place before conjugated verb (Voy a dártelo = Te lo voy a dar)",
+      "With commands: Affirmative = attach (Dámelo), Negative = before (No me lo des)"
     ]
   },
   "Passive Voice": {
-    "rule": "The passive voice emphasizes the action or the recipient rather than the doer. Spanish has two main passive constructions: ser + past participle and the se passive.",
-    "ser_passive": {
-      "structure": "ser (conjugated) + past participle (agrees with subject)",
-      "use": "When the agent (doer) is mentioned or emphasized",
-      "examples": [
-        "Los resultados serán publicados por la universidad. (The results will be published by the university.)",
-        "Los estudiantes fueron invitados a la conferencia. (The students were invited to the conference.)",
-        "El libro fue escrito por García Márquez. (The book was written by García Márquez.)"
-      ]
-    },
-    "se_passive": {
-      "structure": "se + verb (3rd person) + subject",
-      "use": "When the agent is unknown or not important",
-      "examples": [
-        "Se venden casas. (Houses are sold / Houses for sale.)",
-        "Se habla español. (Spanish is spoken.)",
-        "Se necesitan profesores. (Teachers are needed.)",
-        "Aquí se come bien. (One eats well here / The food is good here.)"
-      ]
-    },
-    "agreement": [
-      "Past participle agrees in gender and number with subject: fueron invitados (masculine plural)",
-      "Se passive: verb agrees with subject: Se vende casa (singular) vs Se venden casas (plural)"
+    "rule": "The passive voice emphasizes the action or the recipient rather than the doer. Spanish has two main passive constructions: ser + past participle (emphasizes agent) and se passive (agent unknown/unimportant).",
+    "structure": "Ser passive: Subject + ser + past participle (+ por + agent) | Se passive: Se + verb + subject",
+    "formation": [
+      "Ser passive: ser (conjugated) + past participle (agrees with subject in gender/number)",
+      "Se passive: se + verb (3rd person, agrees with subject in number)"
+    ],
+    "uses": [
+      "SER PASSIVE: When the agent (doer) is mentioned or emphasized",
+      "SE PASSIVE: When the agent is unknown or not important"
+    ],
+    "examples": [
+      "Los resultados serán publicados por la universidad. (The results will be published by the university - ser passive, agent mentioned)",
+      "Los estudiantes fueron invitados a la conferencia. (The students were invited to the conference - ser passive)",
+      "Se venden casas. (Houses are sold / Houses for sale - se passive, agent unknown)",
+      "Se habla español. (Spanish is spoken - se passive)",
+      "Aquí se come bien. (One eats well here / The food is good here - se passive)"
+    ],
+    "important": [
+      "Past participle in ser passive agrees with subject: fueron invitados (masculine plural)",
+      "Se passive verb agrees with subject: Se vende casa (singular) vs Se venden casas (plural)",
+      "Ser passive is less common in Spanish than in English; se passive is preferred"
     ]
   },
   "Present Perfect vs Preterite": {
     "rule": "PRESENT PERFECT (haber + past participle) connects past to present or describes recent actions. PRETERITE describes completed actions at specific past times.",
-    "present_perfect": {
-      "formation": "haber (he, has, ha, hemos, habéis, han) + past participle",
-      "uses": [
-        "Recent past: He comido hace una hora (I ate an hour ago)",
-        "Life experience: He estado en París (I've been to Paris)",
-        "Actions affecting present: He perdido las llaves (I've lost my keys)",
-        "Unfinished time: Hoy he trabajado mucho (Today I've worked a lot)"
-      ],
-      "time_markers": ["hoy", "esta semana", "este mes", "todavía no", "ya", "nunca", "alguna vez"]
-    },
-    "preterite": {
-      "uses": [
-        "Completed past: Comí ayer (I ate yesterday)",
-        "Specific time: Fui en 2015 (I went in 2015)",
-        "Finished time: Ayer trabajé mucho (Yesterday I worked a lot)"
-      ],
-      "time_markers": ["ayer", "anoche", "la semana pasada", "el año pasado", "en 2020", "hace dos días"]
-    },
-    "regional": [
-      "In Spain: Present perfect for recent past is very common",
-      "In Latin America: Preterite often used even for recent past"
+    "structure": "Present perfect: haber (present) + past participle | Preterite: preterite verb form",
+    "formation": [
+      "Present perfect: he, has, ha, hemos, habéis, han + past participle (-ado, -ido)",
+      "Preterite: See 'Imperfecto vs Pretérito' for preterite formation"
+    ],
+    "uses": [
+      "PRESENT PERFECT: Recent past, life experience (ever), actions affecting present, unfinished time periods (hoy, esta semana)",
+      "PRETERITE: Completed past actions, specific time references, finished time periods (ayer, la semana pasada)"
     ],
     "examples": [
-      "He estudiado toda la mañana. (I've studied all morning. - still morning)",
-      "Estudié toda la mañana. (I studied all morning. - morning is over)",
-      "¿Has visto esta película? (Have you seen this movie? - ever)",
-      "¿Viste la película anoche? (Did you see the movie last night? - specific time)"
+      "He estudiado toda la mañana. (I've studied all morning - still morning or recent)",
+      "Estudié toda la mañana. (I studied all morning - morning is over)",
+      "¿Has visto esta película? (Have you seen this movie? - ever in your life)",
+      "¿Viste la película anoche? (Did you see the movie last night? - specific past time)",
+      "Hoy he trabajado mucho. (Today I've worked a lot - unfinished time period)",
+      "Ayer trabajé mucho. (Yesterday I worked a lot - finished time period)"
+    ],
+    "important": [
+      "Time markers: Present perfect (hoy, esta semana, ya, todavía no, nunca, alguna vez); Preterite (ayer, anoche, la semana pasada, en 2020)",
+      "In Spain: Present perfect for recent past is very common",
+      "In Latin America: Preterite often used even for recent past",
+      "Present perfect connects to present, preterite is disconnected from present"
     ]
   },
   "Possessives": {
-    "rule": "Possessive adjectives (mi, tu, su, etc.) go before nouns and don't have articles. Possessive pronouns (mío, tuyo, suyo, etc.) replace nouns and often use articles.",
-    "short_forms": {
-      "description": "Used before nouns",
-      "forms": [
-        "mi/mis (my)",
-        "tu/tus (your - informal)",
-        "su/sus (his/her/your - formal/their)",
-        "nuestro/nuestra/nuestros/nuestras (our)",
-        "vuestro/vuestra/vuestros/vuestras (your - Spain plural)"
-      ],
-      "examples": [
-        "mi casa (my house)",
-        "tus libros (your books)",
-        "nuestra familia (our family)"
-      ]
-    },
-    "long_forms": {
-      "description": "Used after nouns or as pronouns",
-      "forms": [
-        "mío/mía/míos/mías (mine)",
-        "tuyo/tuya/tuyos/tuyas (yours - informal)",
-        "suyo/suya/suyos/suyas (his/hers/yours - formal/theirs)",
-        "nuestro/nuestra/nuestros/nuestras (ours)",
-        "vuestro/vuestra/vuestros/vuestras (yours - Spain plural)"
-      ],
-      "examples": [
-        "un amigo mío (a friend of mine)",
-        "El libro es mío. (The book is mine.)",
-        "Esta casa es la nuestra. (This house is ours.)"
-      ]
-    },
-    "clarifying_su": [
-      "Su/suyo is ambiguous (his/her/your/their)",
-      "Clarify with: de él (his), de ella (hers), de usted (yours - formal), de ellos (theirs)",
-      "Example: su coche = el coche de él (his car)"
+    "rule": "Possessive adjectives (mi, tu, su, etc.) go before nouns without articles. Possessive pronouns (mío, tuyo, suyo, etc.) replace nouns and can use articles.",
+    "structure": "Short form (before noun): possessive + noun | Long form (after noun or alone): article + noun + possessive OR article + possessive",
+    "formation": [
+      "Short forms (before noun): mi/mis, tu/tus, su/sus, nuestro/a/os/as, vuestro/a/os/as",
+      "Long forms (after noun/alone): mío/a/os/as, tuyo/a/os/as, suyo/a/os/as, nuestro/a/os/as, vuestro/a/os/as"
+    ],
+    "uses": [
+      "SHORT FORMS: Before nouns, no article (mi casa, tus libros, nuestra familia)",
+      "LONG FORMS: After nouns (un amigo mío), standing alone as pronouns (El libro es mío), with articles (la mía, los tuyos)"
+    ],
+    "examples": [
+      "Mi casa es grande. (My house is big - short form before noun)",
+      "Un amigo mío vive aquí. (A friend of mine lives here - long form after noun)",
+      "El libro es mío. (The book is mine - long form as pronoun)",
+      "Esta casa es la nuestra. (This house is ours - long form with article)",
+      "Tus ideas son mejores que las mías. (Your ideas are better than mine - comparison)"
+    ],
+    "important": [
+      "Su/suyo is ambiguous (his/her/your/their) - clarify with: de él (his), de ella (hers), de usted (yours), de ellos (theirs)",
+      "Short forms never use articles: mi casa (NOT la mi casa)",
+      "Long forms agree in gender and number with the thing possessed",
+      "After ser, use long form without article: Es mío (NOT Es el mío)"
     ]
   },
   "Relative Pronouns": {
     "rule": "Relative pronouns connect clauses and refer back to a noun (antecedent). Choose based on the antecedent and function in the clause.",
-    "que": {
-      "description": "Most common; used for people or things as subject or object",
-      "examples": [
-        "El libro que leí (The book that I read)",
-        "La mujer que vive aquí (The woman who lives here)"
-      ]
-    },
-    "quien_quienes": {
-      "description": "Only for people; used after prepositions or in non-defining clauses",
-      "examples": [
-        "La persona con quien hablé (The person with whom I spoke)",
-        "Mi hermano, quien vive en Madrid, viene mañana. (My brother, who lives in Madrid, is coming tomorrow.)"
-      ]
-    },
-    "el_que_la_que": {
-      "description": "More specific; agrees with antecedent; used after prepositions",
-      "examples": [
-        "El que llegue último paga. (The one who arrives last pays.)",
-        "La casa en la que vivo (The house in which I live)"
-      ]
-    },
-    "lo_que": {
-      "description": "Neuter; refers to abstract ideas, concepts, or entire clauses",
-      "examples": [
-        "Lo que me preocupa es tu salud. (What worries me is your health.)",
-        "No entiendo lo que dices. (I don't understand what you're saying.)"
-      ]
-    },
-    "cuyo": {
-      "description": "Possessive; whose; agrees with thing possessed, not possessor",
-      "examples": [
-        "El autor cuyo libro leí (The author whose book I read)",
-        "La casa cuyas ventanas están rotas (The house whose windows are broken)"
-      ]
-    },
-    "formal_complex": {
-      "description": "Formal/technical relative structures",
-      "examples": [
-        "mediante el cual (by means of which)",
-        "a través del cual (through which)",
-        "gracias al cual (thanks to which)"
-      ]
-    }
+    "structure": "Antecedent + relative pronoun + subordinate clause",
+    "formation": [
+      "Que: most common, for people or things",
+      "Quien/quienes: only for people, after prepositions or in non-defining clauses",
+      "El/la/los/las que: more specific, agrees with antecedent",
+      "Lo que: neuter, for abstract ideas or clauses",
+      "Cuyo/a/os/as: possessive, agrees with thing possessed"
+    ],
+    "uses": [
+      "QUE: People or things as subject or object (el libro que leí, la mujer que vive aquí)",
+      "QUIEN/ES: People only, after prepositions (la persona con quien hablé) or non-defining clauses",
+      "EL/LA/LOS/LAS QUE: More specific, after prepositions (la casa en la que vivo)",
+      "LO QUE: Abstract ideas, concepts, entire clauses (lo que me preocupa)",
+      "CUYO: Possessive - whose (el autor cuyo libro leí)"
+    ],
+    "examples": [
+      "El libro que leí es interesante. (The book that I read is interesting - que for thing as object)",
+      "La persona con quien hablé es amable. (The person with whom I spoke is kind - quien after preposition)",
+      "Lo que me preocupa es tu salud. (What worries me is your health - lo que for abstract idea)",
+      "El autor cuyo libro leí ganó un premio. (The author whose book I read won a prize - cuyo possessive)",
+      "La casa en la que vivo es antigua. (The house in which I live is old - el que after preposition)"
+    ],
+    "important": [
+      "Que is most common and used for both people and things",
+      "After prepositions with people, use quien/quienes",
+      "Lo que always refers to abstract ideas or concepts, not specific nouns",
+      "Cuyo agrees with the thing possessed, not the possessor"
+    ]
   },
   "Adverbs": {
     "rule": "Most Spanish adverbs are formed by adding -mente to the feminine singular form of an adjective. They modify verbs, adjectives, or other adverbs.",
+    "structure": "Adjective (feminine form) + -mente",
     "formation": [
-      "Adjective ends in -o: use feminine form + mente → rápido → rápida → rápidamente",
-      "Adjective ends in -e or consonant: add -mente directly → fácil → fácilmente",
-      "Written accent maintained: rápido → rápidamente (keeps the accent)"
+      "Adjective ends in -o: use feminine form + -mente (rápido → rápida → rápidamente)",
+      "Adjective ends in -e or consonant: add -mente directly (fácil → fácilmente)",
+      "Written accent maintained (rápido → rápidamente keeps accent)",
+      "Multiple adverbs: only last takes -mente (clara y directamente)"
     ],
-    "multiple_adverbs": {
-      "rule": "When 2+ adverbs appear together, only the LAST takes -mente; others use feminine adjective form",
-      "examples": [
-        "Habló clara y directamente. (He spoke clearly and directly.)",
-        "Actuó rápida y eficientemente. (She acted quickly and efficiently.)"
-      ]
-    },
-    "irregular_adverbs": [
-      "bueno → bien (well)",
-      "malo → mal (badly)",
-      "mucho → mucho (a lot)",
-      "poco → poco (a little)"
-    ],
-    "position": [
-      "Usually after the verb: Habla claramente (He speaks clearly)",
-      "Can be at beginning for emphasis: Honestamente, no sé (Honestly, I don't know)",
-      "Before adjectives: muy grande (very big), bastante caro (quite expensive)"
+    "uses": [
+      "Modify verbs: how an action is done (habla claramente)",
+      "Modify adjectives: degree or manner (muy grande, bastante caro)",
+      "Modify other adverbs: degree (muy rápidamente)"
     ],
     "examples": [
-      "El político habló honestamente. (The politician spoke honestly.)",
-      "Trabaja lenta pero cuidadosamente. (He works slowly but carefully.)",
-      "Respondió rápidamente a todas las preguntas. (She answered all questions quickly.)"
+      "El político habló honestamente. (The politician spoke honestly - modifies verb)",
+      "Habló clara y directamente. (He spoke clearly and directly - multiple adverbs, only last has -mente)",
+      "Actuó rápida y eficientemente. (She acted quickly and efficiently - multiple adverbs)",
+      "Trabaja lenta pero cuidadosamente. (He works slowly but carefully)",
+      "Respondió muy rápidamente. (She answered very quickly - adverb modifying adverb)"
+    ],
+    "important": [
+      "When 2+ adverbs together, only LAST takes -mente; others use feminine adjective form",
+      "Irregular adverbs: bueno→bien, malo→mal (not buenamente, malamente)",
+      "Position: usually after verb, can be at beginning for emphasis",
+      "Some adjectives used as adverbs without -mente: hablar claro, trabajar duro"
     ]
   },
   "Verbs like Gustar": {
     "rule": "Verbs like gustar use a reverse construction: the thing liked is the subject, and the person who likes is the indirect object. The verb agrees with the subject (thing liked).",
-    "structure": [
-      "Indirect object pronoun + verb + subject",
-      "Me gusta el café. (Coffee is pleasing to me. = I like coffee.)",
-      "Me gustan los gatos. (Cats are pleasing to me. = I like cats.)"
+    "structure": "Indirect object pronoun + verb + subject",
+    "formation": [
+      "Indirect object pronouns: me, te, le, nos, os, les",
+      "Verb agrees with subject: singular subject = singular verb; plural subject = plural verb",
+      "Common verbs: gustar, encantar, interesar, importar, molestar, faltar, quedar, doler, fascinar, aburrir"
     ],
-    "common_verbs": [
-      "gustar (to like/be pleasing)",
-      "encantar (to love/be enchanting)",
-      "interesar (to interest)",
-      "importar (to matter)",
-      "molestar (to bother)",
-      "faltar (to lack/be missing)",
-      "quedar (to have left/remain)",
-      "doler (to hurt)",
-      "fascinar (to fascinate)",
-      "aburrir (to bore)"
-    ],
-    "pronouns": [
-      "me (to me)",
-      "te (to you)",
-      "le (to him/her/you formal)",
-      "nos (to us)",
-      "os (to you all - Spain)",
-      "les (to them/you all)"
+    "uses": [
+      "Express likes/dislikes (gustar, encantar)",
+      "Express interest (interesar, fascinar)",
+      "Express importance (importar)",
+      "Express bothering (molestar, aburrir)",
+      "Express lacking (faltar, quedar)",
+      "Express pain (doler)"
     ],
     "examples": [
-      "Me gusta la música. (I like music. - singular subject)",
-      "Me gustan las películas. (I like movies. - plural subject)",
-      "A María le encanta bailar. (María loves to dance.)",
-      "Nos interesan los deportes. (Sports interest us. / We're interested in sports.)",
-      "¿Te duele la cabeza? (Does your head hurt?)",
-      "Me faltan dos dólares. (I'm missing two dollars. / I need two more dollars.)"
+      "Me gusta la música. (I like music - singular subject, singular verb)",
+      "Me gustan las películas. (I like movies - plural subject, plural verb)",
+      "A María le encanta bailar. (María loves to dance - infinitive subject)",
+      "Nos interesan los deportes. (Sports interest us / We're interested in sports - plural subject)",
+      "¿Te duele la cabeza? (Does your head hurt? - singular subject)",
+      "Me faltan dos dólares. (I'm missing two dollars - plural subject)"
     ],
-    "clarification": [
-      "Use 'a + person' to clarify or emphasize: A mí me gusta, a ti te gusta",
-      "A Juan le gusta (Juan likes it) - clarifies who 'le' refers to"
+    "important": [
+      "Structure: IOP + verb + subject (thing/person causing the feeling)",
+      "Verb agrees with subject (what's liked/interesting/hurting), NOT with person",
+      "Use 'a + person' to clarify or emphasize: A mí me gusta, A ti te gusta",
+      "With infinitives, use singular verb: Me gusta bailar y cantar"
     ]
   },
   "Time Expressions": {
     "rule": "Spanish has specific expressions and constructions for talking about time, including 'acabar de' (to have just), 'hace... que' (ago/for), 'llevar' (to have been), and others.",
-    "acabar_de": {
-      "structure": "acabar de + infinitive = to have just done",
-      "examples": [
-        "Acabo de llegar. (I have just arrived.)",
-        "Acabamos de comer. (We have just eaten.)",
-        "Acababa de salir cuando llamaste. (I had just left when you called.)"
-      ]
-    },
-    "hace_que": {
-      "ago": "hace + time = ago → Llegó hace dos horas (He arrived two hours ago)",
-      "for_duration": "hace + time + que + present = has been doing → Hace dos años que vivo aquí (I've been living here for two years)",
-      "examples": [
-        "Lo vi hace tres días. (I saw him three days ago.)",
-        "Hace mucho que no te veo. (I haven't seen you in a long time.)"
-      ]
-    },
-    "llevar": {
-      "structure": "llevar + time + gerund = to have been doing",
-      "examples": [
-        "Llevo tres años estudiando español. (I've been studying Spanish for three years.)",
-        "Lleva una hora esperando. (He's been waiting for an hour.)"
-      ]
-    },
-    "desde_hace": {
-      "structure": "desde hace + time = for/since",
-      "examples": [
-        "Vivo aquí desde hace cinco años. (I've been living here for five years.)",
-        "Trabajo desde las ocho. (I've been working since eight.)"
-      ]
-    },
-    "ya_todavia": [
-      "ya = already/yet/now → Ya terminé (I already finished)",
-      "todavía/aún = still/yet → Todavía no he terminado (I still haven't finished)",
-      "ya no = no longer → Ya no vive aquí (He no longer lives here)"
+    "structure": "Various structures depending on expression",
+    "formation": [
+      "Acabar de + infinitive = to have just done",
+      "Hace + time + que + present = has been doing for (time)",
+      "Hace + time = ago",
+      "Llevar + time + gerund = to have been doing for (time)",
+      "Desde hace + time = for/since"
+    ],
+    "uses": [
+      "ACABAR DE: Recent completion (acabo de llegar)",
+      "HACE... QUE (present): Duration of ongoing action (hace dos años que vivo aquí)",
+      "HACE (preterite): Time ago (llegó hace dos horas)",
+      "LLEVAR: Duration with gerund (llevo tres años estudiando)",
+      "YA: Already/now (ya terminé, ya no vive aquí)",
+      "TODAVÍA: Still/yet (todavía estoy trabajando, todavía no he terminado)"
+    ],
+    "examples": [
+      "Acabo de llegar. (I have just arrived - acabar de)",
+      "Lo vi hace tres días. (I saw him three days ago - hace + preterite)",
+      "Hace dos años que vivo aquí. (I've been living here for two years - hace...que + present)",
+      "Llevo tres años estudiando español. (I've been studying Spanish for three years - llevar + gerund)",
+      "Vivo aquí desde hace cinco años. (I've been living here for five years - desde hace)",
+      "Ya terminé. (I already finished - ya)",
+      "Todavía no he terminado. (I still haven't finished - todavía no)"
+    ],
+    "important": [
+      "Acabar de + infinitive (never participle): acabo de llegar (NOT acabo de llegado)",
+      "Hace with present tense = for (duration), hace with preterite = ago",
+      "Ya = already (affirmative), ya no = no longer",
+      "Todavía = still (affirmative), todavía no = not yet"
     ]
   },
   "Conditional Tense": {
     "rule": "The conditional expresses what would happen under certain conditions, polite requests, probability in the past, or future from a past perspective.",
-    "formation": {
-      "regular": "Infinitive + ía, ías, ía, íamos, íais, ían",
-      "examples": ["hablar → hablaría", "comer → comería", "vivir → viviría"],
-      "irregular_stems": [
-        "hacer → haría",
-        "decir → diría",
-        "poder → podría",
-        "tener → tendría",
-        "poner → pondría",
-        "salir → saldría",
-        "venir → vendría",
-        "querer → querría",
-        "saber → sabría",
-        "haber → habría"
-      ]
-    },
+    "structure": "Infinitive + conditional endings",
+    "formation": [
+      "Regular: Infinitive + ía, ías, ía, íamos, íais, ían",
+      "Same stem changes as future: hacer→haría, decir→diría, poder→podría, tener→tendría, poner→pondría, salir→saldría, venir→vendría, querer→querría, saber→sabría, haber→habría"
+    ],
     "uses": [
-      "Hypothetical: Si tuviera dinero, viajaría. (If I had money, I would travel.)",
-      "Polite request: ¿Podrías ayudarme? (Could you help me?)",
-      "Probability in past: Serían las tres cuando llegó. (It must have been three when he arrived.)",
-      "Future in past: Dijo que vendría. (He said he would come.)",
-      "Advice: Yo no haría eso. (I wouldn't do that.)"
+      "Hypothetical situations (Si tuviera dinero, viajaría)",
+      "Polite requests (¿Podrías ayudarme?)",
+      "Probability in the past (Serían las tres cuando llegó)",
+      "Future from past perspective (Dijo que vendría)",
+      "Giving advice (Yo no haría eso)"
     ],
     "examples": [
-      "Si tuviera más dinero, haría un viaje alrededor del mundo. (If I had more money, I would take a trip around the world.)",
-      "¿Te gustaría bailar? (Would you like to dance?)",
-      "Me gustaría un café, por favor. (I would like a coffee, please.)"
+      "Si tuviera más dinero, haría un viaje alrededor del mundo. (If I had more money, I would take a trip around the world - hypothetical)",
+      "¿Te gustaría bailar? (Would you like to dance? - polite request)",
+      "Me gustaría un café, por favor. (I would like a coffee, please - polite)",
+      "Serían las diez cuando llamó. (It must have been ten when he called - probability in past)",
+      "Dijo que vendría mañana. (He said he would come tomorrow - future in past)"
+    ],
+    "important": [
+      "Used in Type 2 conditionals with si + imperfect subjunctive",
+      "Never use conditional after 'si' in conditional sentences",
+      "Same irregular stems as future tense",
+      "More polite than present for requests: ¿Podrías...? vs ¿Puedes...?"
     ]
   },
   "Future Simple": {
     "rule": "The future tense expresses what will happen, probability in the present, or predictions. It has regular and irregular forms.",
-    "formation": {
-      "regular": "Infinitive + é, ás, á, emos, éis, án",
-      "examples": ["hablar → hablaré", "comer → comeré", "vivir → viviré"],
-      "irregular_stems": [
-        "hacer → haré",
-        "decir → diré",
-        "poder → podré",
-        "tener → tendré",
-        "poner → pondré",
-        "salir → saldré",
-        "venir → vendré",
-        "querer → querré",
-        "saber → sabré",
-        "haber → habrá"
-      ]
-    },
-    "uses": [
-      "Future action: Mañana estudiaré. (Tomorrow I will study.)",
-      "Probability/conjecture: Serán las tres. (It must be three o'clock.)",
-      "Promise: Te lo haré. (I'll do it for you.)",
-      "Prediction: Lloverá mañana. (It will rain tomorrow.)"
+    "structure": "Infinitive + future endings",
+    "formation": [
+      "Regular: Infinitive + é, ás, á, emos, éis, án",
+      "Irregular stems (same as conditional): hacer→haré, decir→diré, poder→podré, tener→tendré, poner→pondré, salir→saldré, venir→vendré, querer→querré, saber→sabré, haber→habrá"
     ],
-    "alternatives": [
-      "ir a + infinitive: Voy a estudiar (I'm going to study) - more common in speech",
-      "Present tense for near future: Mañana estudio (Tomorrow I study/I'm studying)"
+    "uses": [
+      "Future actions (Mañana estudiaré)",
+      "Probability/conjecture in present (Serán las tres = It must be 3 o'clock)",
+      "Promises (Te lo haré)",
+      "Predictions (Lloverá mañana)"
     ],
     "examples": [
-      "El próximo año viajaré a España. (Next year I will travel to Spain.)",
-      "¿Dónde estará Juan? (Where could Juan be?)",
-      "Te llamaré más tarde. (I'll call you later.)"
+      "El próximo año viajaré a España. (Next year I will travel to Spain - future action)",
+      "¿Dónde estará Juan? (Where could Juan be? - probability/conjecture)",
+      "Te llamaré más tarde. (I'll call you later - promise)",
+      "Mañana lloverá. (It will rain tomorrow - prediction)",
+      "Los resultados serán publicados el próximo mes. (The results will be published next month)"
+    ],
+    "important": [
+      "In conversation, 'ir a + infinitive' is more common than future tense",
+      "Probability in present: future tense (¿Dónde estará? = Where could he be?)",
+      "Same irregular stems as conditional",
+      "Don't use future after 'si' in conditional sentences"
     ]
   },
   "Past Perfect": {
     "rule": "The past perfect (pluperfect) expresses an action that occurred before another past action. It uses the imperfect of haber + past participle.",
-    "formation": {
-      "structure": "había, habías, había, habíamos, habíais, habían + past participle",
-      "examples": [
-        "hablar → había hablado",
-        "comer → había comido",
-        "vivir → había vivido"
-      ]
-    },
+    "structure": "Había/habías/había/habíamos/habíais/habían + past participle",
+    "formation": [
+      "Imperfect of haber: había, habías, había, habíamos, habíais, habían",
+      "Past participles: -ado (for -ar verbs), -ido (for -er/-ir verbs)",
+      "Irregular participles: hecho, dicho, visto, escrito, abierto, muerto, puesto, vuelto, roto, etc."
+    ],
     "uses": [
-      "Action before another past action: Cuando llegué, ya había salido. (When I arrived, he had already left.)",
-      "Past experience: Nunca había estado en París. (I had never been to Paris.)",
-      "Unrealized past action: Había planeado ir, pero no pude. (I had planned to go, but couldn't.)"
+      "Action before another past action (Cuando llegué, ya había salido)",
+      "Past experience before a past time (Nunca había estado en París)",
+      "Unrealized past action (Había planeado ir, pero no pude)"
     ],
     "examples": [
-      "Ya había comido cuando me invitaron. (I had already eaten when they invited me.)",
-      "Nunca había visto algo así. (I had never seen anything like that.)",
-      "Cuando llegamos, la película ya había empezado. (When we arrived, the movie had already started.)"
+      "Ya había comido cuando me invitaron. (I had already eaten when they invited me - action before another past action)",
+      "Nunca había visto algo así. (I had never seen anything like that - past experience)",
+      "Cuando llegamos, la película ya había empezado. (When we arrived, the movie had already started - earlier action)",
+      "Había planeado visitarte, pero me enfermé. (I had planned to visit you, but I got sick - unrealized past)"
     ],
-    "time_sequence": [
-      "First action (earlier): había comido (had eaten)",
-      "Second action (later): me invitaron (they invited me)",
-      "The past perfect shows which action happened first"
+    "important": [
+      "Shows sequence: past perfect for earlier action, preterite/imperfect for later action",
+      "Often used with 'ya' (already), 'todavía' (still/yet), 'nunca' (never)",
+      "Distinguishes which of two past actions happened first"
     ]
   },
   "Comparatives and Superlatives": {
     "rule": "Comparatives compare two things using más/menos... que or tan... como. Superlatives express the highest degree using el/la/los/las más/menos.",
-    "comparative_equality": {
-      "structure": "tan + adjective/adverb + como = as... as",
-      "examples": [
-        "Es tan alto como su hermano. (He's as tall as his brother.)",
-        "Corre tan rápido como tú. (He runs as fast as you.)"
-      ]
-    },
-    "comparative_inequality": {
-      "structure": "más/menos + adjective/adverb + que = more/less... than",
-      "examples": [
-        "Es más inteligente que yo. (He's more intelligent than me.)",
-        "Corro menos rápido que tú. (I run less fast than you.)"
-      ]
-    },
-    "irregular_comparatives": [
-      "bueno → mejor (better)",
-      "malo → peor (worse)",
-      "grande → mayor (older/bigger)",
-      "pequeño → menor (younger/smaller)",
-      "mucho → más (more)",
-      "poco → menos (less)"
+    "structure": "Comparative: más/menos/tan + adj/adv + que/como | Superlative: el/la/los/las + más/menos + adj + de",
+    "formation": [
+      "Comparative equality: tan + adj/adv + como",
+      "Comparative inequality: más/menos + adj/adv + que",
+      "Superlative: el/la/los/las + más/menos + adj + de",
+      "Irregular comparatives: bueno→mejor, malo→peor, grande→mayor, pequeño→menor, mucho→más, poco→menos"
     ],
-    "superlative": {
-      "structure": "el/la/los/las + más/menos + adjective (+ de)",
-      "examples": [
-        "Es el más alto de la clase. (He's the tallest in the class.)",
-        "Son las mejores estudiantes del colegio. (They're the best students in the school.)"
-      ]
-    },
-    "absolute_superlative": {
-      "structure": "adjective + ísimo/a/os/as = very/extremely",
-      "examples": [
-        "Es altísimo. (He's extremely tall.)",
-        "La película es interesantísima. (The movie is very interesting.)"
-      ]
-    }
+    "uses": [
+      "EQUALITY: Compare equal things (tan alto como)",
+      "INEQUALITY: Compare unequal things (más alto que, menos alto que)",
+      "SUPERLATIVE: Express highest/lowest degree (el más alto de)",
+      "ABSOLUTE SUPERLATIVE: Very/extremely (altísimo)"
+    ],
+    "examples": [
+      "Es tan alto como su hermano. (He's as tall as his brother - equality)",
+      "Es más inteligente que yo. (He's more intelligent than me - inequality)",
+      "Es el más alto de la clase. (He's the tallest in the class - superlative)",
+      "Es el mejor estudiante del colegio. (He's the best student in the school - irregular superlative)",
+      "La película es interesantísima. (The movie is extremely interesting - absolute superlative)"
+    ],
+    "important": [
+      "Use 'de' not 'en' after superlative: el mejor del mundo",
+      "Irregular comparatives don't use más: mejor (NOT más bueno), peor (NOT más malo)",
+      "Absolute superlative: -ísimo/a/os/as (drop final vowel, add -ísimo)",
+      "Some spelling changes in -ísimo: rico→riquísimo, largo→larguísimo"
+    ]
   },
   "Present Simple vs Present Continuous": {
     "rule": "PRESENT SIMPLE expresses habitual actions, general truths, and states. PRESENT CONTINUOUS (estar + gerund) expresses actions in progress right now or temporary situations.",
-    "present_simple": {
-      "uses": [
-        "Habitual actions: Trabajo todos los días (I work every day)",
-        "General truths: El sol sale por el este (The sun rises in the east)",
-        "States: Vivo en Madrid (I live in Madrid)",
-        "Scheduled future: El tren sale a las 3 (The train leaves at 3)"
-      ]
-    },
-    "present_continuous": {
-      "formation": "estar (conjugated) + gerund (-ando/-iendo)",
-      "uses": [
-        "Action in progress now: Estoy comiendo (I'm eating right now)",
-        "Temporary situation: Estoy trabajando en un proyecto (I'm working on a project)",
-        "Changing situation: Está lloviendo (It's raining)"
-      ]
-    },
-    "gerund_formation": [
-      "-ar verbs: -ando → hablar → hablando",
-      "-er/-ir verbs: -iendo → comer → comiendo, vivir → viviendo",
-      "Irregulars: leer → leyendo, dormir → durmiendo, pedir → pidiendo"
+    "structure": "Present simple: conjugated verb | Present continuous: estar + gerund (-ando/-iendo)",
+    "formation": [
+      "Present simple: regular conjugation (-o, -as, -a, -amos, -áis, -an for -ar verbs)",
+      "Present continuous: estar + gerund (-ar→-ando, -er/-ir→-iendo)",
+      "Gerund irregulars: leer→leyendo, dormir→durmiendo, pedir→pidiendo, ir→yendo"
+    ],
+    "uses": [
+      "PRESENT SIMPLE: Habitual actions (trabajo todos los días), general truths (el sol sale por el este), states (vivo en Madrid), scheduled future (el tren sale a las 3)",
+      "PRESENT CONTINUOUS: Action in progress now (estoy comiendo), temporary situation (estoy trabajando en un proyecto), changing situation (está lloviendo)"
     ],
     "examples": [
-      "Como pan todos los días. (I eat bread every day. - habit)",
-      "Estoy comiendo pan ahora. (I'm eating bread now. - in progress)",
-      "¿Qué haces? - Soy profesor. (What do you do? - I'm a teacher. - profession)",
-      "¿Qué estás haciendo? - Estoy estudiando. (What are you doing? - I'm studying. - right now)"
+      "Como pan todos los días. (I eat bread every day - habitual, present simple)",
+      "Estoy comiendo pan ahora. (I'm eating bread now - in progress, present continuous)",
+      "¿Qué haces? - Soy profesor. (What do you do? - I'm a teacher - profession, present simple)",
+      "¿Qué estás haciendo? - Estoy estudiando. (What are you doing? - I'm studying - right now, present continuous)",
+      "Vivo en Madrid. (I live in Madrid - state, present simple)",
+      "Estoy viviendo en un hotel temporalmente. (I'm living in a hotel temporarily - temporary, present continuous)"
     ],
-    "not_used_continuous": [
+    "important": [
       "State verbs rarely use continuous: ser, estar, tener, saber, conocer",
-      "Spanish uses simple present more than English uses simple present"
+      "Spanish uses simple present more than English (I'm going tomorrow = Voy mañana)",
+      "Gerund stem changes: e→i (servir→sirviendo), o→u (dormir→durmiendo)",
+      "Progressive emphasizes action in progress; simple present is more general"
     ]
   },
   "Se Constructions": {
-    "rule": "The pronoun 'se' has multiple uses in Spanish: reflexive, reciprocal, impersonal, passive, and with certain verbs to indicate unplanned events.",
-    "impersonal_se": {
-      "description": "Expresses 'one/people/they' (general subject)",
-      "structure": "se + verb (3rd person singular)",
-      "examples": [
-        "Se habla español aquí. (Spanish is spoken here / One speaks Spanish here.)",
-        "Se come bien en este restaurante. (One eats well in this restaurant.)",
-        "¿Cómo se dice 'hello' en español? (How do you say 'hello' in Spanish?)"
-      ]
-    },
-    "passive_se": {
-      "description": "Passive meaning when agent is not specified",
-      "structure": "se + verb (agrees with subject)",
-      "examples": [
-        "Se vende casa. (House for sale / House is being sold.)",
-        "Se necesitan profesores. (Teachers are needed.)",
-        "Se construyeron muchas casas. (Many houses were built.)"
-      ]
-    },
-    "accidental_se": {
-      "description": "Indicates unplanned or accidental events",
-      "structure": "se + indirect object pronoun + verb",
-      "examples": [
-        "Se me cayó el vaso. (I dropped the glass / The glass fell from me.)",
-        "Se nos olvidó la tarea. (We forgot the homework.)",
-        "Se te perdieron las llaves. (You lost your keys.)"
-      ]
-    },
-    "reciprocal": {
-      "description": "Each other (requires plural subject)",
-      "examples": [
-        "Se aman. (They love each other.)",
-        "Nos vemos mañana. (We'll see each other tomorrow.)"
-      ]
-    }
+    "rule": "The pronoun 'se' has multiple uses: impersonal (one/people), passive (when agent not specified), accidental (unplanned events), and reciprocal (each other).",
+    "structure": "Various depending on type: Impersonal: se + 3rd sing | Passive: se + verb + subject | Accidental: se + IOP + verb | Reciprocal: se + plural verb",
+    "formation": [
+      "Impersonal se: se + 3rd person singular verb",
+      "Passive se: se + verb (agrees with subject)",
+      "Accidental se: se + indirect object pronoun + verb",
+      "Reciprocal se: se + plural verb (requires plural subject)"
+    ],
+    "uses": [
+      "IMPERSONAL: Express 'one/people/they' as general subject (se habla español)",
+      "PASSIVE: Passive meaning when agent not specified (se vende casa)",
+      "ACCIDENTAL: Unplanned or accidental events (se me cayó)",
+      "RECIPROCAL: Each other (requires plural subject) (se aman)"
+    ],
+    "examples": [
+      "Se habla español aquí. (Spanish is spoken here / One speaks Spanish here - impersonal)",
+      "¿Cómo se dice 'hello' en español? (How do you say 'hello' in Spanish? - impersonal)",
+      "Se venden casas. (Houses for sale / Houses are sold - passive)",
+      "Se construyeron muchas casas. (Many houses were built - passive)",
+      "Se me cayó el vaso. (I dropped the glass / The glass fell from me - accidental)",
+      "Se nos olvidó la tarea. (We forgot the homework - accidental)",
+      "Se aman. (They love each other - reciprocal)",
+      "Nos vemos mañana. (We'll see each other tomorrow - reciprocal)"
+    ],
+    "important": [
+      "Impersonal se is always 3rd person singular, passive se agrees with subject",
+      "Accidental se removes blame: se me cayó (it fell from me) vs lo caí (I dropped it)",
+      "Common accidental se verbs: caerse, olvidarse, perderse, romperse, quemarse",
+      "Reciprocal se requires plural subject: se aman (they love each other)"
+    ]
   },
   "Todavía vs Ya": {
     "rule": "TODAVÍA (still/yet) indicates continuation or non-completion. YA (already/anymore/now) indicates completion or change of state.",
-    "todavia": {
-      "affirmative": "todavía/aún = still → Todavía estoy trabajando (I'm still working)",
-      "negative": "todavía no/aún no = not yet → Todavía no he terminado (I haven't finished yet)",
-      "examples": [
-        "¿Todavía vives en Madrid? (Do you still live in Madrid?)",
-        "Todavía no ha llegado. (He hasn't arrived yet.)",
-        "Aún estoy esperando. (I'm still waiting.)"
-      ]
-    },
-    "ya": {
-      "affirmative": "ya = already/now → Ya terminé (I already finished)",
-      "negative": "ya no = no longer/not anymore → Ya no vive aquí (He no longer lives here)",
-      "emphasis": "ya = now/right now → ¡Hazlo ya! (Do it now!)",
-      "examples": [
-        "Ya comí. (I already ate.)",
-        "Ya no fumo. (I don't smoke anymore.)",
-        "¿Ya terminaste? (Are you done already?)",
-        "¡Ya voy! (I'm coming!)"
-      ]
-    },
-    "contrast": [
-      "¿Todavía trabajas allí? (Do you still work there?) → Sí, todavía (Yes, still)",
-      "¿Ya terminaste? (Did you already finish?) → Sí, ya (Yes, already)",
-      "Todavía no = Not yet (expecting yes)",
-      "Ya no = No longer (was yes, now no)"
+    "structure": "Todavía + verb (affirmative/negative) | Ya + verb (affirmative/negative)",
+    "formation": [
+      "Todavía = still (affirmative), yet (negative)",
+      "Todavía no = not yet",
+      "Ya = already (affirmative), now/right now (emphasis)",
+      "Ya no = no longer, not anymore"
+    ],
+    "uses": [
+      "TODAVÍA (affirmative): Still (continuation) - todavía estoy trabajando",
+      "TODAVÍA NO: Not yet (expected to change) - todavía no he terminado",
+      "YA (affirmative): Already (completion) - ya terminé",
+      "YA NO: No longer (was true, now false) - ya no vive aquí",
+      "YA (emphasis): Now, right now - ¡Hazlo ya!"
+    ],
+    "examples": [
+      "¿Todavía vives en Madrid? (Do you still live in Madrid? - continuation)",
+      "Sí, todavía. (Yes, still - affirmative)",
+      "Todavía no ha llegado. (He hasn't arrived yet - not yet, but expected)",
+      "¿Ya terminaste? (Did you already finish? - completion)",
+      "Sí, ya. (Yes, already - affirmative)",
+      "Ya no fumo. (I don't smoke anymore - was true, now false)",
+      "¡Ya voy! (I'm coming! - right now/emphasis)"
+    ],
+    "important": [
+      "Todavía = expecting continuation; Ya = expecting completion or change",
+      "Todavía no = not yet (expecting yes later)",
+      "Ya no = no longer (was yes, now no)",
+      "Ya can mean 'already', 'now', or 'anymore' depending on context",
+      "Both can be used with various tenses"
     ]
   },
   "Quantifiers": {
     "rule": "Quantifiers indicate amount or number. They include algún/ningún, todo, mucho/poco, varios, and others. Some change form based on gender/number.",
-    "algun_ningun": {
-      "algún/alguno/alguna/algunos/algunas": "some/any (affirmative or questions)",
-      "ningún/ninguno/ninguna": "no/none/not any (negative - usually singular)",
-      "examples": [
-        "¿Tienes algún libro? (Do you have any book?)",
-        "Tengo algunos amigos aquí. (I have some friends here.)",
-        "No tengo ningún libro. (I don't have any book.)",
-        "Ninguno de ellos vino. (None of them came.)"
-      ],
-      "note": "Algún/ningún before masculine singular noun, alguno/ninguno when standing alone"
-    },
-    "todo": {
-      "todo/toda/todos/todas": "all/every/whole",
-      "examples": [
-        "Todo el día (All day / The whole day)",
-        "Todos los días (Every day)",
-        "Todas las personas (All the people)"
-      ],
-      "note": "Usually uses article: todo el, toda la, todos los, todas las"
-    },
-    "mucho_poco": {
-      "mucho/mucha/muchos/muchas": "much/many/a lot of",
-      "poco/poca/pocos/pocas": "little/few",
-      "examples": [
-        "Tengo mucho tiempo. (I have a lot of time.)",
-        "Hay muchas personas. (There are many people.)",
-        "Tengo poco dinero. (I have little money.)",
-        "Hay pocos estudiantes. (There are few students.)"
-      ]
-    },
-    "otros": {
-      "otro/otra/otros/otras": "other/another",
-      "note": "Never uses article: otro libro (another book), NOT *un otro libro",
-      "examples": [
-        "Dame otro café. (Give me another coffee.)",
-        "Los otros libros (The other books)"
-      ]
-    }
-  },
-  "Conditional vs Future Simple": {
-    "rule": "FUTURE SIMPLE expresses what will happen or probability in present. CONDITIONAL expresses what would happen or probability in past. Choose based on certainty and time frame.",
-    "future": {
-      "uses": [
-        "Future action: Mañana llegaré (Tomorrow I will arrive)",
-        "Probability in present: Serán las tres (It must be three o'clock)",
-        "Promise/prediction: Te llamaré (I'll call you)"
-      ],
-      "examples": [
-        "El año que viene iré a España. (Next year I'll go to Spain.)",
-        "¿Dónde estará María? (Where could María be?)"
-      ]
-    },
-    "conditional": {
-      "uses": [
-        "Hypothetical: Si tuviera tiempo, viajaría (If I had time, I would travel)",
-        "Probability in past: Serían las tres cuando llegó (It must have been three when he arrived)",
-        "Polite request: ¿Podrías ayudarme? (Could you help me?)",
-        "Future in past: Dijo que vendría (He said he would come)"
-      ],
-      "examples": [
-        "En tu lugar, yo no iría. (In your place, I wouldn't go.)",
-        "Me gustaría un café. (I would like a coffee.)"
-      ]
-    },
-    "comparison": [
-      "Probability NOW: future → Estará en casa (He must be at home)",
-      "Probability THEN: conditional → Estaría en casa (He must have been at home)",
-      "Will happen: future → Vendrá mañana (He will come tomorrow)",
-      "Would happen: conditional → Vendría si pudiera (He would come if he could)"
-    ]
-  },
-  "Algún vs Ningún": {
-    "rule": "ALGÚN/ALGUNO means 'some/any' and is used in affirmative and interrogative sentences. NINGÚN/NINGUNO means 'no/none/not any' and is used in negative sentences.",
-    "forms": {
-      "algún": "before masculine singular noun → algún día (some day)",
-      "alguno": "standing alone or after noun → alguno de ellos (some of them)",
-      "alguna/algunos/algunas": "feminine/plural forms",
-      "ningún": "before masculine singular noun → ningún problema (no problem)",
-      "ninguno": "standing alone or after noun → ninguno de ellos (none of them)",
-      "ninguna": "feminine form"
-    },
-    "usage": [
-      "Algún usually in questions/affirmative: ¿Tienes algún libro? (Do you have any book?)",
-      "Ningún in negatives (usually singular): No tengo ningún libro (I don't have any book)",
-      "Double negative OK in Spanish: No vino nadie (Nobody came - lit. 'didn't come nobody')"
+    "structure": "Quantifier + noun (most agree in gender/number)",
+    "formation": [
+      "Algún/alguno/alguna/algunos/algunas (some/any)",
+      "Ningún/ninguno/ninguna (no/none/not any - usually singular)",
+      "Todo/toda/todos/todas (all/every/whole)",
+      "Mucho/mucha/muchos/muchas (much/many)",
+      "Poco/poca/pocos/pocas (little/few)",
+      "Otro/otra/otros/otras (other/another - no article)",
+      "Varios/varias (several)"
+    ],
+    "uses": [
+      "ALGÚN/NINGÚN: Some/any (affirmative/questions) vs no/none (negative)",
+      "TODO: All/every/whole (usually with article)",
+      "MUCHO/POCO: Much/many vs little/few",
+      "OTRO: Other/another (never with article)",
+      "VARIOS: Several"
     ],
     "examples": [
-      "¿Hay algún mensaje? (Is there any message?)",
-      "Algunos estudiantes llegaron tarde. (Some students arrived late.)",
-      "No tengo ninguna pregunta. (I don't have any question.)",
-      "Ninguno de ellos sabe la respuesta. (None of them knows the answer.)"
+      "¿Tienes algún libro? (Do you have any book? - question)",
+      "Tengo algunos amigos aquí. (I have some friends here - affirmative)",
+      "No tengo ningún libro. (I don't have any book - negative)",
+      "Todo el día (All day / The whole day - with article)",
+      "Todos los días (Every day - with article)",
+      "Tengo mucho tiempo. (I have a lot of time - singular)",
+      "Hay muchas personas. (There are many people - plural)",
+      "Dame otro café. (Give me another coffee - no article with otro)"
     ],
-    "note": "After 'sin', use noun without article: sin ningún problema (without any problem)"
-  },
-  "Superlatives": {
-    "rule": "Superlatives express the extreme degree of a quality. Formed with el/la/los/las + más/menos + adjective. Absolute superlatives use -ísimo.",
-    "relative_superlative": {
-      "structure": "el/la/los/las + noun + más/menos + adjective + de",
-      "examples": [
-        "Es el estudiante más inteligente de la clase. (He's the most intelligent student in the class.)",
-        "Son las películas menos interesantes del año. (They're the least interesting movies of the year.)",
-        "Es la ciudad más grande del país. (It's the biggest city in the country.)"
-      ],
-      "irregulars": [
-        "bueno → el mejor (the best)",
-        "malo → el peor (the worst)",
-        "grande → el mayor (the biggest/oldest)",
-        "pequeño → el menor (the smallest/youngest)"
-      ]
-    },
-    "absolute_superlative": {
-      "structure": "adjective + ísimo/a/os/as = very/extremely",
-      "formation": [
-        "Drop final vowel and add -ísimo: alto → altísimo",
-        "Spelling changes: rico → riquísimo, largo → larguísimo",
-        "feliz → felicísimo"
-      ],
-      "examples": [
-        "La película es interesantísima. (The movie is extremely interesting.)",
-        "Estoy cansadísimo. (I'm very tired.)",
-        "Son facilísimas. (They're very easy.)"
-      ]
-    },
-    "notes": [
-      "Use 'de' not 'en' after superlative: el mejor del mundo (the best in the world)",
-      "Position: superlative adjective can go before or after noun",
-      "Agreement: must agree in gender and number with noun"
+    "important": [
+      "Algún/ningún before masculine singular noun; alguno/ninguno when alone",
+      "Ningún usually singular even when English uses plural",
+      "Todo usually requires article: todo el día, todos los días",
+      "Otro NEVER uses article: otro libro (NOT un otro libro)",
+      "Mucho/poco agree in gender and number with noun"
     ]
   },
   "Quedar": {
-    "rule": "QUEDAR has multiple meanings: to remain/stay, to have left, to fit (clothing), to arrange to meet, and to be located.",
-    "meanings": [
-      "To remain/stay: Me quedé en casa (I stayed at home)",
-      "To have left (gustar-type): Me quedan dos días (I have two days left)",
-      "To fit (clothing): La camisa me queda bien (The shirt fits me well)",
-      "To arrange to meet: Quedamos a las 5 (We're meeting at 5)",
-      "To be located: El hotel queda cerca (The hotel is located nearby)"
+    "rule": "QUEDAR has multiple meanings: to remain/stay, to have left (gustar-type), to fit (clothing), to arrange to meet, and to be located.",
+    "structure": "Various depending on meaning",
+    "formation": [
+      "Quedar: quedo, quedas, queda, quedamos, quedáis, quedan (regular)",
+      "Quedarse (reflexive): me quedo, te quedas, se queda, nos quedamos, os quedáis, se quedan"
     ],
-    "with_pronouns": {
-      "structure": "indirect object pronoun + quedar",
-      "examples": [
-        "Me queda un dólar. (I have one dollar left.)",
-        "Te quedan tres días. (You have three days left.)",
-        "¿Cuánto dinero te queda? (How much money do you have left?)"
-      ]
-    },
-    "clothing": {
-      "bien": "fits well → El vestido te queda bien (The dress fits you well)",
-      "mal": "fits poorly → Los zapatos me quedan mal (The shoes don't fit me)",
-      "grande/pequeño": "too big/small → La camisa me queda grande (The shirt is too big on me)"
-    },
-    "reflexive_quedarse": [
-      "To stay/remain (somewhere): Me quedé en el hotel (I stayed at the hotel)",
-      "To keep (something): Quédate con el cambio (Keep the change)",
-      "To end up: Se quedó dormido (He fell asleep / ended up sleeping)"
+    "uses": [
+      "TO REMAIN/STAY: Me quedé en casa (I stayed at home - reflexive)",
+      "TO HAVE LEFT: Me quedan dos días (I have two days left - gustar-type)",
+      "TO FIT (clothing): La camisa me queda bien (The shirt fits me well)",
+      "TO ARRANGE TO MEET: Quedamos a las 5 (We're meeting at 5)",
+      "TO BE LOCATED: El hotel queda cerca (The hotel is located nearby)"
+    ],
+    "examples": [
+      "Me quedé en casa todo el día. (I stayed at home all day - reflexive)",
+      "Me queda un dólar. (I have one dollar left - gustar-type, singular subject)",
+      "Me quedan tres días. (I have three days left - gustar-type, plural subject)",
+      "El vestido te queda bien. (The dress fits you well - clothing)",
+      "¿Quedamos a las 8? (Shall we meet at 8? - arrange to meet)",
+      "La farmacia queda en la esquina. (The pharmacy is located on the corner - location)"
+    ],
+    "important": [
+      "Quedarse = to stay/remain (reflexive); quedar = other meanings (non-reflexive)",
+      "With clothing: bien (fits well), mal (fits poorly), grande/pequeño (too big/small)",
+      "Quedar + left uses gustar structure: IOP + quedar + subject",
+      "Quedarse con = to keep (Quédate con el cambio = Keep the change)"
     ]
   },
   "Ningún vs Ninguno": {
     "rule": "NINGÚN is used before masculine singular nouns. NINGUNO is used when standing alone or after the noun. Both mean 'no/none/not any'.",
-    "usage": [
-      "Before masculine singular noun: ningún libro (no book), ningún problema (no problem)",
-      "Standing alone: Ninguno de ellos (None of them), ¿Cuál? Ninguno (Which one? None)",
-      "After noun (rare): libro ninguno",
-      "Feminine: ninguna (before or alone)"
+    "structure": "Ningún + masculine singular noun | Ninguno (alone or after noun) | Ninguna (feminine)",
+    "formation": [
+      "Ningún: before masculine singular noun only",
+      "Ninguno: standing alone, after noun (rare), or in phrases like 'ninguno de'",
+      "Ninguna: feminine form (before noun or alone)"
+    ],
+    "uses": [
+      "BEFORE masculine singular noun: ningún libro, ningún problema",
+      "STANDING ALONE: ¿Cuál? Ninguno. (Which one? None.)",
+      "WITH 'DE': Ninguno de ellos (None of them)",
+      "FEMININE: ninguna solución, ninguna de ellas"
     ],
     "examples": [
-      "No tengo ningún libro. (I don't have any book.)",
-      "¿Tienes libros? No, no tengo ninguno. (Do you have books? No, I don't have any.)",
-      "Ninguno de los estudiantes vino. (None of the students came.)",
-      "No hay ninguna solución. (There's no solution.)"
+      "No tengo ningún libro. (I don't have any book - before masculine noun)",
+      "¿Tienes libros? No, no tengo ninguno. (Do you have books? No, I don't have any - standing alone)",
+      "Ninguno de los estudiantes vino. (None of the students came - with 'de')",
+      "No hay ninguna solución. (There's no solution - feminine)",
+      "¿Cuál prefieres? Ninguno. (Which do you prefer? None - standing alone)"
     ],
-    "notes": [
-      "Usually used in singular even when referring to plural in English",
+    "important": [
+      "Usually used in singular even when English uses plural",
       "Part of negative words: ningún, ninguno, ninguna, nadie, nada, nunca, tampoco",
-      "Double negative is standard: No tengo ninguno (lit. 'I don't have none')"
+      "Double negative is standard in Spanish: No tengo ninguno (lit. 'I don't have none')",
+      "After 'sin': sin ningún problema (without any problem - no article)"
     ]
   },
-  "Conditional Clauses Type 2": {
-    "rule": "Type 2 conditional sentences express hypothetical or contrary-to-fact situations in the present or future. They use imperfect subjunctive in the 'si' clause and conditional in the main clause.",
-    "structure": "Si + imperfect subjunctive, + conditional",
-    "formation": {
-      "si_clause": "Imperfect subjunctive (-ra or -se endings)",
-      "main_clause": "Conditional tense",
-      "examples": [
-        "Si tuviera dinero, viajaría. (If I had money, I would travel.)",
-        "Si fuera rico, compraría una casa. (If I were rich, I would buy a house.)"
-      ]
-    },
+  "Superlatives": {
+    "rule": "Superlatives express the extreme degree of a quality. Relative superlatives use el/la/los/las + más/menos + adjective. Absolute superlatives use -ísimo.",
+    "structure": "Relative: el/la/los/las + más/menos + adj + de | Absolute: adj stem + ísimo/a/os/as",
+    "formation": [
+      "Relative superlative: article + más/menos + adjective + de",
+      "Absolute superlative: drop final vowel, add -ísimo/a/os/as",
+      "Spelling changes in absolute: c→qu (rico→riquísimo), g→gu (largo→larguísimo), z→c (feliz→felicísimo)"
+    ],
     "uses": [
-      "Hypothetical present: Si pudiera, te ayudaría (If I could, I would help you)",
-      "Contrary to fact: Si fuera tú, no iría (If I were you, I wouldn't go)",
-      "Unlikely future: Si ganara la lotería, viajaría (If I won the lottery, I would travel)"
+      "RELATIVE SUPERLATIVE: Compare one thing to a group (the most/least...)",
+      "ABSOLUTE SUPERLATIVE: Express very/extremely without comparison",
+      "IRREGULAR SUPERLATIVES: mejor (best), peor (worst), mayor (biggest/oldest), menor (smallest/youngest)"
     ],
     "examples": [
-      "Si tuviera más dinero, haría un viaje alrededor del mundo. (If I had more money, I would take a trip around the world.)",
-      "Si estudiaras más, aprobarías el examen. (If you studied more, you would pass the exam.)",
-      "Si tuvieras más confianza, participarías más. (If you had more confidence, you would participate more.)"
+      "Es el estudiante más inteligente de la clase. (He's the most intelligent student in the class - relative)",
+      "Son las películas menos interesantes del año. (They're the least interesting movies of the year - relative)",
+      "Es la ciudad más grande del país. (It's the biggest city in the country - relative)",
+      "Es el mejor estudiante del colegio. (He's the best student in the school - irregular)",
+      "La película es interesantísima. (The movie is extremely interesting - absolute)",
+      "Estoy cansadísimo. (I'm very tired - absolute)"
     ],
-    "contrast_type_1": [
-      "Type 1 (real/possible): Si tengo tiempo, voy (If I have time, I'll go)",
-      "Type 2 (hypothetical): Si tuviera tiempo, iría (If I had time, I would go)"
+    "important": [
+      "Use 'de' not 'en' after superlative: el mejor del mundo (NOT en el mundo)",
+      "Superlative adjective can go before or after noun",
+      "Article agrees with noun: la más alta, los más altos",
+      "Absolute superlative doesn't compare, just intensifies: muy interesante = interesantísimo"
+    ]
+  },
+  "Algún vs Ningún": {
+    "rule": "ALGÚN/ALGUNO means 'some/any' and is used in affirmative and interrogative sentences. NINGÚN/NINGUNO means 'no/none/not any' and is used in negative sentences.",
+    "structure": "Algún/ningún + noun | Alguno/ninguno (standing alone)",
+    "formation": [
+      "Algún: before masculine singular noun",
+      "Alguno: standing alone or after noun",
+      "Alguna/algunos/algunas: feminine/plural forms",
+      "Ningún: before masculine singular noun",
+      "Ninguno: standing alone or after noun",
+      "Ninguna: feminine form"
     ],
-    "important": "NEVER use conditional or future after 'si' - this is a common error"
+    "uses": [
+      "ALGÚN: In questions and affirmative sentences (some/any)",
+      "NINGÚN: In negative sentences (no/none/not any)",
+      "Both usually appear before noun, but can stand alone"
+    ],
+    "examples": [
+      "¿Hay algún mensaje? (Is there any message? - question)",
+      "Algunos estudiantes llegaron tarde. (Some students arrived late - affirmative plural)",
+      "Tengo alguna idea. (I have some idea - feminine)",
+      "No tengo ningún libro. (I don't have any book - negative)",
+      "No tengo ninguna pregunta. (I don't have any question - negative feminine)",
+      "Ninguno de ellos sabe la respuesta. (None of them knows the answer - with 'de')"
+    ],
+    "important": [
+      "Algún usually in questions/affirmative; ningún in negatives",
+      "Both usually singular even when meaning is plural in English",
+      "Double negative OK in Spanish: No vino nadie = Nobody came",
+      "After 'sin': sin ningún problema (without any problem)"
+    ]
+  },
+  "Conditional vs Future Simple": {
+    "rule": "FUTURE SIMPLE expresses what will happen or probability in present. CONDITIONAL expresses what would happen or probability in past. Choose based on certainty and time frame.",
+    "structure": "Future: infinitive + é/ás/á/emos/éis/án | Conditional: infinitive + ía/ías/ía/íamos/íais/ían",
+    "formation": [
+      "Future: infinitive + future endings (é, ás, á, emos, éis, án)",
+      "Conditional: infinitive + conditional endings (ía, ías, ía, íamos, íais, ían)",
+      "Same irregular stems for both: hacer→har-, decir→dir-, poder→podr-, etc."
+    ],
+    "uses": [
+      "FUTURE: Future action (llegaré mañana), probability in present (serán las tres), promise/prediction",
+      "CONDITIONAL: Hypothetical (si tuviera tiempo, viajaría), probability in past (serían las tres), polite request, future in past"
+    ],
+    "examples": [
+      "Mañana llegaré temprano. (Tomorrow I will arrive early - future action)",
+      "¿Dónde estará María? (Where could María be? - probability in present, future)",
+      "Si tuviera tiempo, viajaría. (If I had time, I would travel - hypothetical, conditional)",
+      "Serían las tres cuando llegó. (It must have been three when he arrived - probability in past, conditional)",
+      "El año que viene iré a España. (Next year I'll go to Spain - future)",
+      "Dijo que vendría mañana. (He said he would come tomorrow - future in past, conditional)"
+    ],
+    "important": [
+      "Probability NOW: future (Estará en casa = He must be at home)",
+      "Probability THEN: conditional (Estaría en casa = He must have been at home)",
+      "Future for promises/predictions; conditional for hypotheticals and polite requests",
+      "Both have same irregular stems"
+    ]
   }
 }
