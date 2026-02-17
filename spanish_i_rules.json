@@ -1,0 +1,611 @@
+{
+  "Present Simple (Regular Verbs)": {
+    "rule": "The present simple (presente de indicativo) expresses habitual actions, general truths, and current states. Regular verbs follow predictable conjugation patterns based on their infinitive ending (-ar, -er, -ir).",
+    "structure": "Subject + conjugated verb + complement",
+    "formation": [
+      "-AR verbs: -o, -as, -a, -amos, -áis, -an (e.g. hablar → hablo, hablas, habla, hablamos, habláis, hablan)",
+      "-ER verbs: -o, -es, -e, -emos, -éis, -en (e.g. comer → como, comes, come, comemos, coméis, comen)",
+      "-IR verbs: -o, -es, -e, -imos, -ís, -en (e.g. vivir → vivo, vives, vive, vivimos, vivís, viven)"
+    ],
+    "uses": [
+      "Habitual/routine actions: Me levanto a las siete todos los días.",
+      "General truths or facts: El agua hierve a 100 grados.",
+      "Current states or situations: Trabaja en un hospital.",
+      "Near future plans (with time marker): Mañana viajamos a Madrid.",
+      "Descriptions: Mi hermana tiene el pelo largo."
+    ],
+    "examples": [
+      "Hablo español todos los días. (I speak Spanish every day - habitual)",
+      "Comes demasiado rápido. (You eat too fast - habit)",
+      "Vivimos en un apartamento pequeño. (We live in a small apartment - current state)",
+      "¿Trabajas los sábados? (Do you work on Saturdays? - routine)",
+      "El tren sale a las ocho. (The train leaves at eight - scheduled fact)"
+    ],
+    "important": [
+      "Stem-changing verbs alter the vowel in stressed syllables but keep regular endings: querer → quiero, poder → puedo, pedir → pido",
+      "The yo form is often irregular even in otherwise regular verbs: hacer → hago, poner → pongo",
+      "Spanish subject pronouns are often omitted because the verb ending identifies the person",
+      "Time markers like siempre, todos los días, generalmente signal habitual use"
+    ]
+  },
+  "Common Irregular Verbs (Present)": {
+    "rule": "Many high-frequency Spanish verbs are irregular in the present tense. These must be memorized individually as they do not follow the standard conjugation patterns.",
+    "structure": "Subject + irregular verb form + complement",
+    "formation": [
+      "Ser: soy, eres, es, somos, sois, son",
+      "Estar: estoy, estás, está, estamos, estáis, están",
+      "Ir: voy, vas, va, vamos, vais, van",
+      "Tener: tengo, tienes, tiene, tenemos, tenéis, tienen",
+      "Hacer: hago, haces, hace, hacemos, hacéis, hacen",
+      "Poder: puedo, puedes, puede, podemos, podéis, pueden",
+      "Querer: quiero, quieres, quiere, queremos, queréis, quieren",
+      "Venir: vengo, vienes, viene, venimos, venís, vienen",
+      "Decir: digo, dices, dice, decimos, decís, dicen",
+      "Saber: sé, sabes, sabe, sabemos, sabéis, saben"
+    ],
+    "uses": [
+      "Ser: identity, profession, origin, inherent traits",
+      "Estar: location, temporary states, emotions, progressive",
+      "Ir: movement/direction, immediate future (ir + a + infinitive)",
+      "Tener: possession, age, obligation (tener que), fixed expressions",
+      "Hacer: actions, weather expressions (hace frío), duration (hace + time)"
+    ],
+    "examples": [
+      "Tengo veinte años y vivo en Madrid. (I am twenty and live in Madrid)",
+      "¿Sabes dónde está la biblioteca? (Do you know where the library is?)",
+      "Hace buen tiempo hoy. (The weather is nice today - weather expression)",
+      "Quiero aprender a tocar la guitarra. (I want to learn to play guitar)",
+      "Vengo de trabajar y estoy muy cansado. (I've just come from work and I'm very tired)"
+    ],
+    "important": [
+      "Many verbs are only irregular in the yo form: hago, pongo, salgo, traigo, conozco, sé",
+      "Stem-changing verbs change in all forms except nosotros and vosotros (boot/shoe pattern)",
+      "Ir + a + infinitive is extremely common for expressing near future plans",
+      "Tener and venir share the same irregular pattern: tengo/vengo, tienes/vienes..."
+    ]
+  },
+  "Ser vs Estar": {
+    "rule": "SER is used for permanent or essential characteristics: identity, origin, profession, material, time, and events. ESTAR is used for temporary or changeable conditions: location, emotions, states, and progressive actions.",
+    "structure": "Subject + ser/estar + adjective/noun/location",
+    "formation": [
+      "Ser: soy, eres, es, somos, sois, son",
+      "Estar: estoy, estás, está, estamos, estáis, están"
+    ],
+    "uses": [
+      "SER: Profession (Soy estudiante), nationality/origin (Es de México), inherent characteristics (Es alto), time/date (Son las tres), possession/material (Es de madera), events (La boda es el sábado)",
+      "ESTAR: Physical location (Estamos en clase), temporary states (Está enfermo), emotions (Estoy contento), progressive tense (Estoy comiendo), resulting conditions (La ventana está abierta)"
+    ],
+    "examples": [
+      "Mi padre es médico. (My father is a doctor - profession, ser)",
+      "Mi padre está en el hospital. (My father is at the hospital - location, estar)",
+      "La película es aburrida. (The film is boring - inherent quality, ser)",
+      "Estoy aburrido en clase. (I am bored in class - temporary state, estar)",
+      "La fiesta es en mi casa. (The party is at my house - event location, ser)",
+      "Mis llaves están en la mesa. (My keys are on the table - physical location, estar)"
+    ],
+    "important": [
+      "Some adjectives change meaning with ser vs estar: ser listo (to be clever) / estar listo (to be ready); ser malo (to be bad/evil) / estar malo (to be ill)",
+      "Location of events uses SER; physical location of people/objects uses ESTAR",
+      "Progressive tenses always use ESTAR + gerund: Estoy comiendo",
+      "Death uses ESTAR even though it is permanent: Está muerto (He is dead)"
+    ]
+  },
+  "Tener Expressions": {
+    "rule": "In Spanish, many physical sensations and states that use 'to be' in English are expressed with TENER (to have). These are fixed idiomatic expressions that must be memorized.",
+    "structure": "Subject + tener + noun (without article)",
+    "formation": [
+      "Tener: tengo, tienes, tiene, tenemos, tenéis, tienen",
+      "Expressions use a noun, not an adjective: tener frío (NOT estar frío for people)",
+      "To intensify, use mucho/mucha: tener mucho frío, tener mucha hambre"
+    ],
+    "uses": [
+      "Physical sensations: tener frío (to be cold), tener calor (to be hot), tener hambre (to be hungry), tener sed (to be thirsty), tener sueño (to be sleepy), tener dolor de... (to have a pain in...)",
+      "Emotions/states: tener miedo (to be afraid), tener vergüenza (to be embarrassed), tener celos (to be jealous)",
+      "Other: tener razón (to be right), tener prisa (to be in a hurry), tener suerte (to be lucky), tener ganas de (to feel like doing something)",
+      "Obligation: tener que + infinitive (to have to do something)"
+    ],
+    "examples": [
+      "Tengo mucha hambre. ¿Comemos ya? (I'm very hungry. Shall we eat now?)",
+      "Tiene miedo a la oscuridad. (He is afraid of the dark.)",
+      "Tienes razón, me equivoqué. (You are right, I made a mistake.)",
+      "Tenemos prisa. El tren sale en cinco minutos. (We're in a hurry. The train leaves in five minutes.)",
+      "Tengo ganas de ir a la playa. (I feel like going to the beach.)",
+      "Tienes que estudiar más. (You have to study more - obligation)"
+    ],
+    "important": [
+      "These expressions use nouns, not adjectives: tener frío (NOT ser/estar frío when describing a person's sensation)",
+      "Tener que + infinitive = must/have to: Tengo que trabajar mañana",
+      "Intensify with mucho/mucha (agrees with the noun): mucho frío, mucha hambre, mucha sed",
+      "Do not confuse with descriptions of objects: El café está frío (The coffee is cold - object uses estar)"
+    ]
+  },
+  "Hay vs Está/Están": {
+    "rule": "HAY (from haber) announces the existence of something ('there is/there are'). ESTÁ/ESTÁN (from estar) expresses the location of a known or specific person or thing.",
+    "structure": "Hay + indefinite/no article + noun | Está/Están + noun (definite/specific) + location",
+    "formation": [
+      "Hay: invariable — used for both singular and plural",
+      "Está: singular third person of estar",
+      "Están: plural third person of estar"
+    ],
+    "uses": [
+      "HAY: Introducing unknown/new elements (Hay un banco cerca), listing amenities or features (Hay tres habitaciones), announcing events (Hay un concierto esta noche), negating existence (No hay pan)",
+      "ESTÁ/ESTÁN: Asking or stating where something specific is (¿Dónde está la farmacia?), locating a known person or thing (El profesor está en clase)"
+    ],
+    "examples": [
+      "Hay una farmacia en esta calle. (There is a pharmacy on this street - existence)",
+      "La farmacia está en la esquina. (The pharmacy is on the corner - location of specific one)",
+      "¿Hay alguien en casa? (Is anyone home? - existence)",
+      "¿Dónde está María? Está en la cocina. (Where is María? She's in the kitchen - location of known person)",
+      "En mi ciudad hay muchos parques. (In my city there are many parks - listing)",
+      "Los parques están muy limpios. (The parks are very clean - description of known items)"
+    ],
+    "important": [
+      "HAY is always the same form regardless of singular or plural: hay un libro / hay tres libros",
+      "HAY is used with indefinite articles (un, una) or no article; ESTÁ/ESTÁN with definite articles (el, la, los, las)",
+      "Questions about existence use HAY: ¿Hay un hotel cerca?; questions about location use ESTÁ: ¿Dónde está el hotel?",
+      "After HAY, the noun acts as subject; after ESTÁ, the noun is already known (definite)"
+    ]
+  },
+  "Present Continuous (Estar + Gerund)": {
+    "rule": "The present continuous (estar + gerund) expresses an action happening right now or at this moment. It emphasises that the action is in progress.",
+    "structure": "Estar (conjugated) + gerund (-ando/-iendo)",
+    "formation": [
+      "-AR verbs → -ando: hablar → hablando, trabajar → trabajando, estudiar → estudiando",
+      "-ER/-IR verbs → -iendo: comer → comiendo, beber → bebiendo, vivir → viviendo",
+      "Stem-changing -IR verbs change in the gerund: pedir → pidiendo, dormir → durmiendo, seguir → siguiendo",
+      "Spelling change (i→y between vowels): leer → leyendo, oír → oyendo, caer → cayendo"
+    ],
+    "uses": [
+      "Actions in progress at the moment of speaking: Estoy comiendo ahora mismo.",
+      "Actions currently in progress (not necessarily at this exact moment): Estoy leyendo un libro muy interesante.",
+      "With time markers: ahora mismo, en este momento, ahora"
+    ],
+    "examples": [
+      "¿Qué estás haciendo? Estoy viendo la tele. (What are you doing? I'm watching TV.)",
+      "Está lloviendo mucho. No podemos salir. (It's raining a lot. We can't go out.)",
+      "Están durmiendo. No hagas ruido. (They're sleeping. Don't make noise.)",
+      "Estamos esperando el autobús. (We are waiting for the bus.)",
+      "¿Estás oyendo música? Baja el volumen. (Are you listening to music? Turn it down.)"
+    ],
+    "important": [
+      "Unlike English, Spanish present continuous is NOT used for future plans — use ir + a + infinitive or present simple instead",
+      "Irregular gerunds must be memorized: yendo (ir), siendo (ser), estando (estar), durmiendo (dormir), pidiendo (pedir)",
+      "The i between two vowels becomes y: le-iendo → leyendo, o-iendo → oyendo",
+      "Object and reflexive pronouns can attach to the gerund or go before estar: Lo estoy leyendo = Estoy leyéndolo"
+    ]
+  },
+  "Ir + a + Infinitive": {
+    "rule": "Ir + a + infinitive expresses a planned or intended action in the near future. It is equivalent to the English 'going to + verb'.",
+    "structure": "Ir (conjugated) + a + infinitive",
+    "formation": [
+      "Ir: voy, vas, va, vamos, vais, van",
+      "Always followed by 'a' and then the infinitive of the main verb",
+      "Voy a + infinitive, Vas a + infinitive, Va a + infinitive..."
+    ],
+    "uses": [
+      "Near future plans: Esta noche voy a cenar con mis amigos.",
+      "Predictions based on evidence: Va a llover. Mira esas nubes.",
+      "Intentions: Vamos a estudiar más.",
+      "Immediate future: ¡Cuidado! ¡Vas a caer!"
+    ],
+    "examples": [
+      "Esta noche voy a cenar en un restaurante italiano. (Tonight I'm going to have dinner at an Italian restaurant.)",
+      "¿Qué vas a hacer este fin de semana? (What are you going to do this weekend?)",
+      "Van a llegar tarde si no salen ahora. (They're going to arrive late if they don't leave now.)",
+      "Vamos a ver una película esta tarde. (We're going to watch a film this afternoon.)",
+      "Ese jugador va a marcar un gol. Está solo. (That player is going to score a goal. He's alone.)"
+    ],
+    "important": [
+      "This is far more common than the future simple (hablaré) in everyday spoken Spanish",
+      "After 'tener que', use infinitive directly: Tengo que estudiar (NOT Tengo que a estudiar)",
+      "Can also be used reflexively: Me voy a duchar = Voy a ducharme",
+      "Vamos a + infinitive can also mean 'Let's...': ¡Vamos a comer! (Let's eat!)"
+    ]
+  },
+  "Gustar and Similar Verbs": {
+    "rule": "GUSTAR and similar verbs (encantar, molestar, parecer, quedar, doler, interesar, etc.) use a reverse construction: the thing liked is the grammatical subject, and the person who likes it is an indirect object pronoun.",
+    "structure": "IOP (me/te/le/nos/os/les) + gustar/encantar... + subject (noun or infinitive)",
+    "formation": [
+      "Singular subject or infinitive → gusta: Me gusta el café. / Me gusta leer.",
+      "Plural subject → gustan: Me gustan los libros.",
+      "Often reinforced with: a mí, a ti, a él/ella, a nosotros, a vosotros, a ellos/ellas",
+      "Same pattern: encantar, molestar, interesar, doler, parecer, quedar, faltar, apetecer"
+    ],
+    "uses": [
+      "Likes/dislikes: Me gusta el fútbol. No me gustan las verduras.",
+      "Loves: Me encanta la música. Me encantan los animales.",
+      "Physical pain: Me duele la cabeza. Me duelen los pies.",
+      "Opinions: Me parece bien / mal / interesante.",
+      "Remaining amount: Me quedan tres días de vacaciones."
+    ],
+    "examples": [
+      "A mí me gusta el chocolate, pero a ella no le gusta. (I like chocolate, but she doesn't.)",
+      "Nos encantan las películas de terror. (We love horror films.)",
+      "¿Te molesta el ruido? (Does the noise bother you?)",
+      "Me duele mucho la espalda. (My back hurts a lot.)",
+      "Le interesan las ciencias. (He/she is interested in science.)",
+      "¿Te apetece tomar algo? (Do you feel like having something to drink?)"
+    ],
+    "important": [
+      "The verb agrees with the grammatical subject (the thing liked), NOT the person: Me gustan los libros (plural)",
+      "Infinitives are always treated as singular: Me gusta bailar (NOT gustan)",
+      "To clarify or emphasize the person, add a + pronoun: A mí me encanta, pero a ti no te gusta",
+      "Negation goes before the IOP: No me gusta / A mí no me gustan"
+    ]
+  },
+  "Possessive Adjectives": {
+    "rule": "Possessive adjectives agree in gender and number with the noun they modify (the thing possessed), NOT with the owner. Short forms are used before the noun.",
+    "structure": "Possessive adjective + noun (adjective agrees with noun)",
+    "formation": [
+      "mi/mis (my), tu/tus (your informal), su/sus (his, her, its, your formal, their)",
+      "nuestro/nuestra/nuestros/nuestras (our), vuestro/vuestra/vuestros/vuestras (your plural Spain)",
+      "Short forms (before noun): mi libro, tu casa, su coche, nuestros amigos",
+      "Long forms (after noun, for emphasis): un amigo mío, una idea tuya, un problema suyo"
+    ],
+    "uses": [
+      "Before noun to indicate possession: mi casa, tu coche, su libro",
+      "Agreement with the thing owned: mi hermano / mis hermanos; nuestra casa / nuestros hijos",
+      "Formal 'usted' uses su/sus: ¿Es su cita a las diez, señor García?",
+      "Long forms for emphasis or after verbs: Es culpa mía. Un amigo mío"
+    ],
+    "examples": [
+      "Mi libro es rojo, tu libro es azul y su libro es verde. (My book is red, your book is blue, his book is green.)",
+      "Nuestro profesor es muy simpático. (Our teacher is very friendly.)",
+      "Sus hijos son muy educados. (His/her/their children are very well-behaved.)",
+      "¿Es su cita a las diez, señor? (Is your appointment at ten, sir? - formal usted)",
+      "¿Dónde está tu mochila? No encuentro la mía. (Where is your backpack? I can't find mine.)"
+    ],
+    "important": [
+      "Possessive adjectives agree with the noun (thing possessed), not the owner: mi madre (feminine) / mis padres (plural)",
+      "Su/sus is ambiguous — can mean his, her, their, or your (formal). Context clarifies meaning",
+      "In formal contexts ('usted'), always use su/sus instead of tu/tus",
+      "Long forms (mío, tuyo, suyo...) are used after the noun or with ser: Es mío"
+    ]
+  },
+  "Demonstrative Adjectives": {
+    "rule": "Demonstrative adjectives (este, ese, aquel and their forms) point out the relative distance between the speaker, the listener, and the object. They agree in gender and number with the noun they modify.",
+    "structure": "Demonstrative adjective + noun (agreement in gender and number)",
+    "formation": [
+      "ESTE/ESTA/ESTOS/ESTAS: near the speaker (this/these)",
+      "ESE/ESA/ESOS/ESAS: near the listener or relatively close (that/those)",
+      "AQUEL/AQUELLA/AQUELLOS/AQUELLAS: far from both speaker and listener (that/those over there)"
+    ],
+    "uses": [
+      "ESTE: objects close to the speaker — Este libro que tengo aquí",
+      "ESE: objects near the listener or at medium distance — Ese libro que tienes tú",
+      "AQUEL: objects distant from both — Aquel edificio al fondo de la calle",
+      "Temporal use: este mes (this month), ese día (that day), aquel verano (that summer long ago)"
+    ],
+    "examples": [
+      "Ese libro que tienes en la mano parece interesante. (That book you're holding looks interesting.)",
+      "Estos auriculares que compré son inalámbricos. (These headphones I bought are wireless.)",
+      "¿Ves aquel edificio al fondo? Es mi oficina. (Do you see that building in the distance? That's my office.)",
+      "Este mes tengo que pagar el alquiler. (This month I have to pay the rent.)",
+      "Este pueblo es más bonito que aquel donde vivíamos antes. (This village is nicer than that one where we used to live.)"
+    ],
+    "important": [
+      "Agreement is always with the noun: este libro (m.s.) / estas fotos (f.pl.) / ese coche (m.s.) / aquellas casas (f.pl.)",
+      "ESTE is for the speaker's sphere; ESE for the listener's sphere; AQUEL for distant or historical distance",
+      "Aquel is often used for things distant in time as well as space: En aquel tiempo (In those days)",
+      "Demonstrative pronouns (éste, ése, aquél) look the same but stand alone without a noun — in modern Spanish the accent is usually omitted"
+    ]
+  },
+  "Direct Object Pronouns": {
+    "rule": "Direct object pronouns replace a direct object noun to avoid repetition. They agree in gender and number with the noun they replace and are placed before the conjugated verb.",
+    "structure": "IOP/DOP + conjugated verb | or conjugated verb + attached to infinitive/gerund",
+    "formation": [
+      "me (me), te (you informal), lo (him/it m.), la (her/it f.), nos (us), os (you pl. Spain), los (them m./you pl.), las (them f.)"
+    ],
+    "uses": [
+      "Replacing a previously mentioned direct object: ¿Tienes el libro? Sí, lo tengo.",
+      "Feminine nouns → la/las: la mochila → la busco; las fotos → las guardo",
+      "Masculine nouns → lo/los: el periódico → lo leo; los deberes → los hago",
+      "Position: before conjugated verb, or attached to infinitive/gerund"
+    ],
+    "examples": [
+      "¿Dónde está mi mochila? No la encuentro. (Where is my backpack? I can't find it.)",
+      "Tengo el periódico aquí. Lo leo todas las mañanas. (I have the newspaper here. I read it every morning.)",
+      "Tengo muchas fotos de mis vacaciones. Las guardo en mi teléfono. (I have many holiday photos. I keep them on my phone.)",
+      "¿Conoces a María? Sí, la conozco desde niño. (Do you know María? Yes, I've known her since childhood.)",
+      "Tengo que llamar a mis padres. Voy a llamarlos ahora. (I have to call my parents. I'm going to call them now.)"
+    ],
+    "important": [
+      "DOP placement: before conjugated verb (Lo veo) OR attached to infinitive (Voy a verlo) OR attached to gerund (Estoy viéndolo)",
+      "Lo/la/los/las agree with the gender and number of the replaced noun",
+      "'Personal a' is required before human direct objects: Veo a María → La veo",
+      "In Spain, 'le/les' is often used instead of 'lo/los' for masculine persons (leísmo)"
+    ]
+  },
+  "Reflexive Verbs (Basic)": {
+    "rule": "Reflexive verbs indicate that the subject performs and receives the action. They are conjugated with reflexive pronouns (me, te, se, nos, os, se) that match the subject.",
+    "structure": "Reflexive pronoun + conjugated verb | or infinitive + attached pronoun",
+    "formation": [
+      "me (yo), te (tú), se (él/ella/usted), nos (nosotros), os (vosotros), se (ellos/ellas/ustedes)",
+      "Pronoun before conjugated verb: Me levanto a las ocho.",
+      "Pronoun attached to infinitive: Voy a levantarme / Me voy a levantar"
+    ],
+    "uses": [
+      "Daily routine verbs: levantarse (to get up), ducharse (to shower), peinarse (to comb hair), vestirse (to get dressed), acostarse (to go to bed)",
+      "Personal care: afeitarse (to shave), lavarse (to wash), maquillarse (to put on make-up)",
+      "Emotional/state changes: alegrarse (to become happy), enfadarse (to get angry), aburrirse (to get bored)",
+      "Reciprocal actions (plural): se quieren (they love each other), se conocen (they know each other)"
+    ],
+    "examples": [
+      "Me despierto a las siete y me ducho antes de desayunar. (I wake up at seven and shower before breakfast.)",
+      "Mi hermano se ducha después del gimnasio porque tiene mucho sudor. (My brother showers after the gym because he sweats a lot.)",
+      "¿A qué hora te acuestas normalmente? (What time do you normally go to bed?)",
+      "Nos levantamos muy tarde los domingos. (We get up very late on Sundays.)",
+      "Se vistió rápidamente porque llegaba tarde. (He got dressed quickly because he was running late.)"
+    ],
+    "important": [
+      "Many daily routine verbs are reflexive in Spanish but not in English: ducharse (to shower), levantarse (to get up)",
+      "Some verbs change meaning when reflexive: ir (to go) vs irse (to leave/go away); dormir (to sleep) vs dormirse (to fall asleep)",
+      "The reflexive pronoun must match the subject: Yo me lavo / Tú te lavas / Él se lava",
+      "With two verbs, pronoun can go before the conjugated verb or attach to the infinitive: Me voy a duchar = Voy a ducharme"
+    ]
+  },
+  "Negation": {
+    "rule": "To form a negative sentence in Spanish, 'no' is placed directly before the verb (or before the object pronoun if present). Additional negative words can follow the verb in a double negative construction.",
+    "structure": "No + (pronoun) + verb + complement | or: Negative word + verb (without 'no')",
+    "formation": [
+      "Simple negation: no before the verb — No hablo inglés.",
+      "Double negation: no + verb + negative word — No como nunca carne. / No viene nadie.",
+      "Negative words: no (not), nunca/jamás (never), nada (nothing), nadie (nobody), ningún/ninguno (none), tampoco (neither)",
+      "Negative word before verb (no 'no' needed): Nunca como carne. / Nadie vino."
+    ],
+    "uses": [
+      "Simple denial: No tengo hambre. (I'm not hungry.)",
+      "Frequency negation: No salgo nunca los lunes. / Nunca salgo los lunes.",
+      "Existence negation: No hay nadie en casa. / Nadie está en casa.",
+      "Gustar constructions: A mí no me gustan las aceitunas."
+    ],
+    "examples": [
+      "A mí no me gustan las aceitunas. Las encuentro muy amargas. (I don't like olives. I find them very bitter.)",
+      "No hablo nunca por teléfono con mis amigos, prefiero el chat. (I never talk on the phone with my friends, I prefer chat.)",
+      "No hay nadie en la oficina a estas horas. (There's nobody in the office at this hour.)",
+      "No tengo ningún problema con eso. (I have no problem with that.)",
+      "Nunca he visitado ese país. (I have never visited that country.)"
+    ],
+    "important": [
+      "In Spanish, double negatives are grammatically correct and very common: No veo nada (I don't see anything)",
+      "When a negative word comes before the verb, 'no' is not needed: Nadie viene / Nunca estudio",
+      "When a negative word comes after the verb, 'no' is required: No viene nadie / No estudio nunca",
+      "Tampoco = neither/not either: A mí tampoco me gusta (I don't like it either)"
+    ]
+  },
+  "Articles (Definite/Indefinite)": {
+    "rule": "Definite articles (el, la, los, las) refer to specific, known nouns. Indefinite articles (un, una, unos, unas) introduce unknown or non-specific nouns. Articles agree in gender and number with the noun.",
+    "structure": "Article + noun (agreement in gender and number)",
+    "formation": [
+      "Definite: el (m.s.), la (f.s.), los (m.pl.), las (f.pl.)",
+      "Indefinite: un (m.s.), una (f.s.), unos (m.pl.), unas (f.pl.)",
+      "Exception: el is used before feminine nouns starting with stressed a-/ha-: el agua, el hacha (but: las aguas)"
+    ],
+    "uses": [
+      "Definite: specific/known items (el libro que compré), general categories/concepts (el español es difícil), titles/names with señor (el señor García), days of the week (los lunes), body parts and clothing with reflexive verbs",
+      "Indefinite: introducing new/unknown items (hay un banco cerca), professions after ser with no adjective (Soy médico — no article); approximate quantities (unos veinte euros)"
+    ],
+    "examples": [
+      "El español es mi asignatura favorita. (Spanish is my favourite subject - general, definite)",
+      "Hay un supermercado cerca de aquí. (There is a supermarket near here - introducing, indefinite)",
+      "La farmacia está en la esquina. (The pharmacy is on the corner - specific, definite)",
+      "Soy médico. (I'm a doctor - no article after ser + profession)",
+      "Tengo unos amigos italianos muy simpáticos. (I have some very friendly Italian friends - approximate, indefinite)"
+    ],
+    "important": [
+      "Languages and school subjects use definite article in general statements: El inglés es difícil, El español es interesante",
+      "After ser + profession (without adjective), no article is used: Soy profesor / Es enfermera",
+      "Days of the week use definite article to express 'on Mondays': Los lunes tengo clase",
+      "A + el = al; De + el = del: Voy al mercado / Vengo del trabajo"
+    ]
+  },
+  "Gender/Number Agreement": {
+    "rule": "In Spanish, adjectives, articles, and determiners must agree in gender (masculine/feminine) and number (singular/plural) with the noun they modify.",
+    "structure": "Article/adjective agrees with the noun in gender (m/f) and number (s/pl)",
+    "formation": [
+      "Masculine singular: -o or consonant (libro rojo, hotel moderno)",
+      "Feminine singular: -a (mesa roja, ciudad moderna)",
+      "Masculine plural: -os (libros rojos, hoteles modernos)",
+      "Feminine plural: -as (mesas rojas, ciudades modernas)",
+      "Adjectives ending in -e or consonant: same for m/f, add -s or -es for plural (coche grande / coches grandes; un examen difícil / unos exámenes difíciles)"
+    ],
+    "uses": [
+      "Adjective-noun agreement: una película interesante, unos zapatos cómodos",
+      "Article-noun agreement: el libro / la mesa / los niños / las niñas",
+      "Predicate adjective agreement: La película es muy buena. Los actores son buenos."
+    ],
+    "examples": [
+      "Tengo un coche nuevo y unas gafas nuevas. (I have a new car and new glasses.)",
+      "La película es muy aburrida. Los actores son malos. (The film is very boring. The actors are bad.)",
+      "Es una mujer muy inteligente y trabajadora. (She is a very intelligent and hardworking woman.)",
+      "Comemos en un restaurante chino muy bueno. (We eat at a very good Chinese restaurant.)",
+      "Mis hermanos son altos pero mis hermanas son bajas. (My brothers are tall but my sisters are short.)"
+    ],
+    "important": [
+      "When a group contains mixed genders, use masculine plural: Pedro y María son simpáticos",
+      "Nationality adjectives follow the same rules: español/española/españoles/españolas",
+      "Some adjectives are invariable for gender: un libro interesante / una película interesante",
+      "Position matters: adjectives usually come after the noun in Spanish (una casa grande), but some common adjectives go before (un buen amigo, una mala idea)"
+    ]
+  },
+  "Comparative Structure": {
+    "rule": "Comparatives express relative differences between two things. Spanish uses más... que (more than), menos... que (less than), and tan... como (as... as).",
+    "structure": "más/menos + adjective/adverb/noun + que | tan + adjective/adverb + como | más/menos + que (with verbs)",
+    "formation": [
+      "Superiority: más + adj/adv + que (more... than): Es más alto que su hermano.",
+      "Inferiority: menos + adj/adv + que (less... than): Es menos caro que el otro.",
+      "Equality: tan + adj/adv + como (as... as): Es tan rápido como el tren.",
+      "Irregular comparatives: bueno → mejor, malo → peor, grande → mayor, pequeño → menor"
+    ],
+    "uses": [
+      "Comparing qualities: Este hotel es más cómodo que el anterior.",
+      "Expressing equality: Mi gato es tan perezoso como el tuyo.",
+      "Comparing quantities: Tengo más libros que tú. / Tengo menos dinero que él.",
+      "Irregular forms for better/worse/older/younger: Este restaurante es mejor que el otro."
+    ],
+    "examples": [
+      "El examen de hoy fue tan difícil como el de ayer. (Today's exam was as difficult as yesterday's.)",
+      "Tu casa es más bonita que la mía. (Your house is nicer than mine.)",
+      "Este camino es menos peligroso que el otro. (This path is less dangerous than the other.)",
+      "Mi hermana mayor es más alta que yo. (My older sister is taller than me.)",
+      "Este restaurante es mejor que el del centro. (This restaurant is better than the one in the centre.)"
+    ],
+    "important": [
+      "Use tan... como for equality (NOT más... como or tan... que)",
+      "Irregular comparatives do not use más/menos: mejor (NOT más bueno), peor (NOT más malo)",
+      "Mayor/menor usually refer to age; más grande/más pequeño refer to size",
+      "With nouns (quantities): más/menos + noun + que: Tengo más tiempo que tú"
+    ]
+  },
+  "Question Words (Interrogativos)": {
+    "rule": "Spanish question words (interrogativos) are used to ask for specific information. They always carry a written accent mark to distinguish them from their relative pronoun counterparts.",
+    "structure": "¿Question word + verb + subject + complement?",
+    "formation": [
+      "¿Qué? (What?), ¿Quién?/¿Quiénes? (Who?), ¿Cuál?/¿Cuáles? (Which?/What?)",
+      "¿Dónde? (Where?), ¿Adónde? (Where to?), ¿De dónde? (Where from?)",
+      "¿Cuándo? (When?), ¿Cómo? (How?), ¿Por qué? (Why?)",
+      "¿Cuánto/a/os/as? (How much/many?) — agrees in gender and number with noun"
+    ],
+    "uses": [
+      "¿Qué? for things/definitions: ¿Qué es esto?",
+      "¿Cuál? for choosing among options or personal info: ¿Cuál es tu número de teléfono?",
+      "¿Quién? for people: ¿Quién llama?",
+      "¿Dónde? for place: ¿Dónde vives?",
+      "¿Cuándo? for time: ¿Cuándo llegas?",
+      "¿Cuánto/a/os/as? for quantity: ¿Cuántos idiomas hablas? ¿Cuánto cuesta?"
+    ],
+    "examples": [
+      "¿Cuántos idiomas hablas? Hablo tres: español, inglés y francés. (How many languages do you speak?)",
+      "¿Cuándo vas a empezar el nuevo trabajo? Empiezo el lunes que viene. (When are you going to start the new job?)",
+      "¿Dónde quedamos esta tarde? Quedamos en la puerta del cine. (Where shall we meet this afternoon?)",
+      "¿Por qué llegas tarde siempre? (Why are you always late?)",
+      "¿Dónde vas de vacaciones este verano? Voy a las Islas Canarias. (Where are you going on holiday this summer?)"
+    ],
+    "important": [
+      "¿Cuántos? agrees with masculine plural nouns; ¿Cuántas? with feminine plural: ¿Cuántos años tienes? / ¿Cuántas personas hay?",
+      "¿Qué? vs ¿Cuál?: ¿Qué es...? asks for a definition; ¿Cuál es...? asks to identify or choose",
+      "All question words carry a written accent (¿quién?, ¿dónde?, ¿cuándo?) unlike relative pronouns (que, donde, cuando)",
+      "¿Adónde? is used specifically with verbs of movement: ¿Adónde vas?"
+    ]
+  },
+  "Prepositions of Place": {
+    "rule": "Prepositions of place describe where something or someone is located in relation to another object. They are used with ESTAR to indicate location.",
+    "structure": "Noun/pronoun + estar + preposition of place + reference noun",
+    "formation": [
+      "en (in, on, at), encima de (on top of), debajo de (under), delante de (in front of), detrás de (behind)",
+      "al lado de (next to, beside), cerca de (near), lejos de (far from), entre (between)",
+      "a la derecha de (to the right of), a la izquierda de (to the left of), enfrente de (opposite)",
+      "dentro de (inside), fuera de (outside), junto a (next to/alongside)"
+    ],
+    "uses": [
+      "Describing location: El banco está enfrente del supermercado.",
+      "Giving directions: Gira a la derecha y está al lado de la farmacia.",
+      "Relative positions of objects: El gato está debajo de la mesa.",
+      "Distances: La estación está lejos del centro."
+    ],
+    "examples": [
+      "El supermercado está al lado del banco. (The supermarket is next to the bank.)",
+      "Mis llaves están encima de la mesa. (My keys are on top of the table.)",
+      "La farmacia está enfrente del parque. (The pharmacy is opposite the park.)",
+      "El niño se escondió detrás del sofá. (The child hid behind the sofa.)",
+      "La estación de metro está entre el cine y el hotel. (The metro station is between the cinema and the hotel.)"
+    ],
+    "important": [
+      "De + el always contracts to del: al lado del banco, enfrente del colegio",
+      "A + el always contracts to al: Voy al supermercado",
+      "'En' can mean in, on, or at depending on context: en la mesa (on the table), en la caja (in the box), en el trabajo (at work)",
+      "Encima de/debajo de refer to vertical position; delante de/detrás de refer to front/back position"
+    ]
+  },
+  "Numbers and Time": {
+    "rule": "Spanish numbers are used to express quantity, tell time, and indicate dates. Telling time uses ser (son las + time), and specific conventions apply for minutes, half-hours, and quarters.",
+    "structure": "Son las + hour (+ y/menos + minutes) | Es la una (for 1 o'clock)",
+    "formation": [
+      "1-15: uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez, once, doce, trece, catorce, quince",
+      "16-29: formed as one word: dieciséis, diecisiete... veintiuno, veintidós...",
+      "30+: formed separately: treinta y uno, cuarenta y dos...",
+      "Telling time: Son las tres y cuarto (3:15), Son las cinco y media (5:30), Son las ocho menos veinte (7:40)",
+      "Es la una (1:00), Es mediodía (noon), Es medianoche (midnight)"
+    ],
+    "uses": [
+      "Telling time: ¿Qué hora es? Son las nueve y media.",
+      "Expressing quantity: Tengo veinte años. Cuesta cien euros.",
+      "Dates: Hoy es el quince de marzo. (Today is the 15th of March.)",
+      "Approximate quantities: unos veinte euros (about twenty euros)"
+    ],
+    "examples": [
+      "Son las tres menos cuarto. El tren sale pronto. (It's quarter to three. The train leaves soon.)",
+      "¿A qué hora empieza la película? Empieza a las ocho y media. (What time does the film start? It starts at half past eight.)",
+      "Hoy es el veintidós de enero. Mi cumpleaños es el treinta de mayo. (Today is 22 January. My birthday is 30 May.)",
+      "El vuelo cuesta unos trescientos euros. (The flight costs about three hundred euros.)",
+      "Son las dos en punto. La reunión empieza ahora. (It's exactly two o'clock. The meeting starts now.)"
+    ],
+    "important": [
+      "Use es la una for 1 o'clock; son las + number for all others: son las dos, son las doce",
+      "Uno becomes un before masculine nouns and una before feminine: treinta y un días / treinta y una páginas",
+      "Cien = exactly 100; ciento + more: ciento uno (101), ciento veinte (120)",
+      "Dates: use cardinal numbers (el dos, el quince) except for the first of the month (el primero)"
+    ]
+  },
+  "Por vs Para": {
+    "rule": "PARA indicates purpose, destination, deadline, or recipient. POR indicates cause, duration, means, movement through, or exchange. This is an A1/A2 introduction to the distinction.",
+    "structure": "Verb/noun + para/por + complement",
+    "formation": [
+      "Para: purpose (para + infinitive), destination (para + place), deadline (para + time), recipient (para + person)",
+      "Por: cause/reason (por + noun/infinitive), duration (por + time period), means (por teléfono/correo), movement through (por + place), exchange (cambiar por, pagar por)"
+    ],
+    "uses": [
+      "PARA purpose: Estudio para aprender.",
+      "PARA destination: Sale para Madrid mañana.",
+      "PARA recipient: Este regalo es para ti.",
+      "PARA deadline: Lo necesito para el viernes.",
+      "POR duration: Estudié español por dos años.",
+      "POR means: Hablamos por teléfono.",
+      "POR exchange: Te lo cambio por esto.",
+      "POR cause: Ganó el premio por trabajar duro."
+    ],
+    "examples": [
+      "Necesito terminar este trabajo para el lunes. (I need to finish this work by Monday - deadline)",
+      "Compré flores para mi madre. (I bought flowers for my mother - recipient)",
+      "Gracias por tu ayuda. (Thank you for your help - cause/reason)",
+      "Hablamos por teléfono todos los días. (We talk on the phone every day - means)",
+      "Salgo para el aeropuerto en una hora. (I'm leaving for the airport in an hour - destination)"
+    ],
+    "important": [
+      "Fixed expressions with POR: por favor, por ejemplo, por fin, por supuesto, por eso",
+      "Fixed expressions with PARA: para siempre, para colmo, no es para tanto",
+      "POR + time period = duration of action: Viví en España por tres años",
+      "PARA + specific time = deadline: Necesito el informe para el martes"
+    ]
+  },
+  "Agreement Expression": {
+    "rule": "Spanish has specific expressions to agree and disagree. Agreement expressions often mirror the structure of the statement they respond to, using the same verb form or an auxiliary.",
+    "structure": "Affirmative agreement: Sí, también / Yo también / A mí también | Negative agreement: No, tampoco / Yo tampoco / A mí tampoco",
+    "formation": [
+      "Agreeing with an affirmative statement: (A mí) también / Yo también",
+      "Agreeing with a negative statement: (A mí) tampoco / Yo tampoco",
+      "Disagreeing with an affirmative statement: Pues yo no / A mí no",
+      "Disagreeing with a negative statement: Pues yo sí / A mí sí"
+    ],
+    "uses": [
+      "Agreeing with likes: A mí también me gusta el café.",
+      "Agreeing with dislikes: A mí tampoco me gustan las aceitunas.",
+      "Disagreeing with likes: A mí no me gusta el picante.",
+      "Disagreeing with dislikes: Pues a mí sí me gusta.",
+      "General agreement in conversation: Tienes razón. / Es verdad. / Claro que sí."
+    ],
+    "examples": [
+      "— Me encanta el cine. — A mí también. (I love cinema. — Me too.)",
+      "— No me gusta madrugar. — A mí tampoco. (I don't like getting up early. — Me neither.)",
+      "— Odio el tráfico. — Pues a mí no me molesta. (I hate traffic. — Well, it doesn't bother me.)",
+      "— Nunca como carne. — Pues yo sí como carne. (I never eat meat. — Well, I do eat meat.)",
+      "— Creo que tienes razón. — Sí, es verdad. (I think you're right. — Yes, that's true.)"
+    ],
+    "important": [
+      "Tampoco is the negative equivalent of también: Yo también / Yo tampoco",
+      "With gustar-type verbs, use a mí también / a mí tampoco to agree with the indirect object construction",
+      "Tener razón (to be right) is used to express agreement: Tienes razón (You're right)",
+      "Estar de acuerdo means to agree in opinion: Estoy de acuerdo contigo (I agree with you)"
+    ]
+  }
+}
