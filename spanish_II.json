@@ -11896,7 +11896,7 @@
   },
   {
     "problem_type": "Tense Contrast",
-    "category": "Conditional Clauses Type 2",
+    "category": "Conditional Clauses",
     "difficulty_tier": "Intermediate",
     "target_sentence": "Si tuviera más tiempo, [___] a aprender a tocar la guitarra.",
     "option_a": "iría",
@@ -12754,7 +12754,7 @@
   },
   {
     "problem_type": "Advanced Syntax",
-    "category": "Conditional Clauses Type 2",
+    "category": "Conditional Clauses",
     "difficulty_tier": "Intermediate",
     "target_sentence": "Si [___] más dinero, compraría una casa con vistas al mar.",
     "option_a": "tuviera",

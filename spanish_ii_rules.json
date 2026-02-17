@@ -227,30 +227,6 @@
       "Choose type based on likelihood: Type 1 = likely/possible, Type 2 = unlikely/hypothetical, Type 3 = past/impossible"
     ]
   },
-  "Conditional Clauses Type 2": {
-    "rule": "Type 2 conditional sentences express hypothetical or contrary-to-fact situations in the present or future. See 'Conditional Clauses' for complete information on all three types.",
-    "structure": "Si + imperfect subjunctive, conditional",
-    "formation": [
-      "If-clause: imperfect subjunctive (-ra or -se endings)",
-      "Main clause: conditional tense (infinitive + ía, ías, ía, íamos, íais, ían)"
-    ],
-    "uses": [
-      "Hypothetical present situations",
-      "Contrary-to-fact present (opposite of reality)",
-      "Unlikely future scenarios"
-    ],
-    "examples": [
-      "Si tuviera más dinero, haría un viaje alrededor del mundo. (If I had more money, I would take a trip around the world)",
-      "Si fuera tú, no iría. (If I were you, I wouldn't go)",
-      "Si estudiaras más, aprobarías el examen. (If you studied more, you would pass the exam)",
-      "Si tuvieras más confianza, participarías más. (If you had more confidence, you would participate more)"
-    ],
-    "important": [
-      "This is covered in detail under 'Conditional Clauses' category",
-      "NEVER use conditional or future after 'si'",
-      "Type 2 expresses hypothetical situations, Type 1 expresses real possibilities"
-    ]
-  },
   "Imperative": {
     "rule": "The imperative gives commands or instructions. It has different forms for affirmative and negative commands, and formal vs informal.",
     "structure": "Verb in imperative form (+ pronouns if needed)",
