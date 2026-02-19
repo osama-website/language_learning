@@ -1,0 +1,1312 @@
+{
+  "Relative Pronouns (cuyo, el cual, prepositional forms)": {
+    "rule": "Advanced relative pronouns in Spanish use prepositional + article + cual/que constructions, and the possessive relative 'cuyo'. These replace simpler 'que' in formal/legal writing when a preposition is required or when a possessive relationship must be expressed. 'Cuyo' agrees in gender and number with the noun it modifies (the thing possessed), not with the antecedent.",
+    "structure": "Antecedent + [preposition + el/la/los/las cual(es)] OR antecedent + cuyo/cuya/cuyos/cuyas + noun",
+    "formation": [
+      "Prepositional relative: preposition + el cual / la cual / los cuales / las cuales",
+      "Cuyo agreement: cuyo (m.sg), cuya (f.sg), cuyos (m.pl), cuyas (f.pl) — agrees with object possessed, not the owner",
+      "Neuter relative: lo cual / lo que (refers to entire preceding idea)",
+      "Place: en el que / en el cual / donde (for locations)",
+      "Common prepositional forms: en el cual, de la cual, con el cual, tras el cual, mediante el cual, en virtud de la cual, sin el cual, a través del cual, por el cual, gracias al cual"
+    ],
+    "uses": [
+      "After prepositions that cannot stand before bare 'que': en, de, con, sin, tras, por, para, ante, bajo, sobre, mediante, a través de, en virtud de",
+      "'Cuyo' for possessive relations in formal writing (replaces 'que tiene' / 'de quien')",
+      "'El cual' vs 'que': use el cual for disambiguation when the antecedent is far from the clause or there are two possible referents",
+      "'Lo cual' / 'lo que' to refer back to an entire proposition",
+      "In legal and academic texts, prepositional relatives are strongly preferred over informal alternatives"
+    ],
+    "notes": [
+      "NEVER use 'su' as a relative possessive: *la empresa su CEO → la empresa cuyo CEO",
+      "NEVER use 'de quien' for inanimate antecedents in formal text: use 'cuyo' or 'del cual'",
+      "Cuyo is NOT a question word and does NOT require accent",
+      "El cual can be split by an adverb or adjective phrase; 'que' cannot",
+      "'Donde' can replace 'en el que/cual' for physical locations but not abstract ones"
+    ],
+    "examples": [
+      "El contrato en virtud del cual se autorizó la operación fue firmado ayer. (The contract by virtue of which the operation was authorized was signed yesterday.)",
+      "La empresa cuya sede se encuentra en Madrid presentó sus resultados. (The company whose headquarters is in Madrid presented its results.)",
+      "Se aprobó una ley, lo cual supuso un cambio histórico. (A law was passed, which represented a historical change.)",
+      "El tribunal ante el cual se interpuso el recurso dictó sentencia. (The court before which the appeal was filed issued its ruling.)",
+      "La herramienta mediante la cual se llevó a cabo el análisis fue desarrollada internamente. (The tool by means of which the analysis was carried out was developed in-house.)",
+      "Existen razones de peso, entre las cuales cabe destacar la falta de financiación. (There are weighty reasons, among which the lack of funding stands out.)"
+    ]
+  },
+  "Discourse Connectors & Cohesion (formal register)": {
+    "rule": "Formal Spanish uses a rich set of discourse connectors to signal logical relationships between clauses. C1/C2 level requires distinguishing register (legal, academic, journalistic), position in sentence (sentence-initial vs. medial), and subtle semantic nuances between near-synonyms.",
+    "structure": "Connector + clause (sentence-initial) OR main clause + connector + clause (medial)",
+    "formation": [
+      "Concession: no obstante, sin embargo, con todo, pese a (que), a pesar de (que), aun cuando, bien que + subj.",
+      "Consequence: por tanto, por ende, por consiguiente, de ahí que + subj., en consecuencia",
+      "Cause/premise: habida cuenta de (que), a tenor de, dado que, en virtud de, máxime cuando",
+      "Addition (formal): amén de, aunado a, agregado a, sumado a",
+      "Condition/penalty: so pena de + noun/infinitive, bajo pena de",
+      "Purpose: en aras de, a fin de (que), con vistas a",
+      "Intensifying concessive: máxime cuando, sobre todo cuando, especialmente si"
+    ],
+    "uses": [
+      "No obstante: formal concession, preferred sentence-initially in legal writing; sin embargo is more flexible in position",
+      "Con todo: signals concession with cumulative obstacles — heavier than sin embargo",
+      "De ahí que + subjunctive: consequence drawn from immediately preceding evidence",
+      "Habida cuenta de que: formal premise acknowledgment ('given that', 'in view of the fact that')",
+      "A tenor de: 'in accordance with' / 'in light of' — used to cite a norm or text",
+      "Amén de: additive, literary/legal register ('in addition to', 'besides')",
+      "Aunado a: 'combined with', typically legal/academic; agrees in number (aunados a)",
+      "So pena de: archaic legal survival; introduces penalty clause",
+      "Máxime cuando: 'especially since' — introduces intensifying justification",
+      "Por ende: consequence, archaic/literary; more elevated than por lo tanto"
+    ],
+    "notes": [
+      "No obstante vs. sin embargo: both mean 'however'; no obstante is more formal/legal and typically sentence-initial",
+      "De ahí que requires subjunctive; por eso takes indicative — both express consequence",
+      "Pese a + infinitive/noun (same subject); pese a que + clause (different subjects)",
+      "A tenor de cites a text or norm; a la vista de responds to evidence/facts",
+      "So pena de is fixed and not productively formed; bajo pena de is less archaic",
+      "Aunado a does NOT conjugate like a verb; it functions as a prepositional phrase"
+    ],
+    "examples": [
+      "No obstante lo anterior, el tribunal consideró procedente el recurso. (Notwithstanding the foregoing, the court found the appeal admissible.)",
+      "La empresa incurrió en pérdidas; de ahí que se procediera a una reestructuración. (The company incurred losses; hence a restructuring was undertaken.)",
+      "Habida cuenta de que los plazos habían vencido, se desestimó la solicitud. (Given that the deadlines had expired, the application was dismissed.)",
+      "A tenor de lo dispuesto en el artículo 12, el contrato queda resuelto. (In accordance with article 12, the contract is terminated.)",
+      "Amén de los problemas económicos, la institución enfrentó una crisis de imagen. (In addition to the economic problems, the institution faced a reputational crisis.)",
+      "So pena de nulidad, el acto deberá notificarse en el plazo establecido. (Under penalty of nullity, the act must be notified within the stipulated period.)",
+      "Máxime cuando los datos apuntan a una tendencia estructural, resulta imprescindible actuar. (All the more so when the data points to a structural trend, action is essential.)"
+    ]
+  },
+  "Passive Voice (pasiva refleja, perifrástica, statal vs. eventive)": {
+    "rule": "Spanish has three main passive constructions: (1) pasiva perifrástica (ser + participle) — describes an event/action; (2) pasiva refleja (se + verb) — generic/impersonal, avoids naming agent; (3) statal passive (estar + participle) — describes the resulting state. C1/C2 requires choosing correctly among these and handling agent omission strategies in formal writing.",
+    "structure": "(1) Subject + ser + participle (+ por + agent) | (2) Se + verb (3rd person) + subject | (3) Subject + estar + participle",
+    "formation": [
+      "Pasiva perifrástica: ser (any tense) + past participle — participle agrees with subject in gender/number",
+      "Pasiva refleja: se + 3rd person singular or plural verb — verb agrees with grammatical subject",
+      "Statal passive: estar (any tense) + past participle — describes state resulting from prior action",
+      "Quedar + participle: stronger statal passive implying irrevocability or permanence",
+      "Agent omission strategies: impersonal se, nominalization, 3rd person plural, passive infinitive, gerund as depersonalizer"
+    ],
+    "uses": [
+      "Pasiva perifrástica: narrating historical events, legal judgments, biography — when event/action is key",
+      "Pasiva refleja: generic processes (se venden pisos), academic/procedural writing, avoiding agent",
+      "Statal passive (estar): describing current state after completed action (la puerta está cerrada)",
+      "Quedar + participle: irrevocable states, physical/emotional damage (quedó destruido, quedó absorto)",
+      "Pasiva refleja CANNOT be used when the direct object is animate and preceded by personal 'a' — use ser passive instead",
+      "Agent omission: preferred in formal/legal writing to depersonalize institutional actions"
+    ],
+    "notes": [
+      "KEY DISTINCTION: 'La ley fue aprobada' (event - it happened) vs. 'La ley está aprobada' (state - it is currently approved)",
+      "Pasiva refleja + animate DO: 'Se detuvo al sospechoso' (NOT *se detuvo el sospechoso) — must use personal 'a'",
+      "Quedar implies more permanence/irreversibility than estar: 'quedó paralizado' (permanently) vs. 'está paralizado'",
+      "In legal texts, pasiva refleja is extremely common for generic/normative statements",
+      "The gerund as agent-omitting strategy: 'Tomando las medidas oportunas, se evitará...' — no named subject"
+    ],
+    "examples": [
+      "El acusado fue condenado a tres años de prisión por el tribunal. (The accused was sentenced to three years in prison by the court. — perifrástica, event)",
+      "Se aprobaron nuevas medidas para combatir la evasión fiscal. (New measures were approved to combat tax evasion. — refleja, generic)",
+      "El edificio quedó destruido tras el incendio. (The building was left destroyed after the fire. — quedar, irrevocable state)",
+      "El contrato está firmado y listo para su ejecución. (The contract is signed and ready for execution. — statal, current state)",
+      "Pasiva refleja vs. perifrástica: 'Se construyó el puente en 1980' (refleja) vs. 'El puente fue construido en 1980' (perifrástica — both valid, refleja more common in journalism)",
+      "Nominalización como omisión de agente: 'La aprobación de la ley supuso...' (vs. 'Cuando el parlamento aprobó la ley...')"
+    ]
+  },
+  "Accidental se (se le olvidó, se le cayó, se le escapó)": {
+    "rule": "The 'accidental se' (also called 'se involuntario' or 'dativo de interés') presents an action as happening accidentally or unintentionally to someone, removing personal responsibility. The logical agent becomes an indirect object (le/les), and the thing involved becomes the grammatical subject governing verb agreement.",
+    "structure": "Se + indirect object pronoun (le/les) + verb (3rd person, agrees with subject) + subject (thing accidentally affected)",
+    "formation": [
+      "Se + le/les + verb (3rd sg. or pl. matching the thing) + [thing as subject]",
+      "Verb agrees with the thing accidentally involved, NOT with the person",
+      "Tense operates normally; subject (the thing) drives singular/plural",
+      "Common verbs: olvidar, caer, escapar, perder, romper, ocurrir, acabar, quemar, ir, escapar"
+    ],
+    "uses": [
+      "To present an action as unintentional, accidental, or outside the person's control",
+      "To mitigate blame or responsibility: 'Se me rompió' (it broke on me) vs. 'Lo rompí' (I broke it)",
+      "With cognitive verbs: se me olvidó (I forgot — it slipped my mind), se me ocurrió (it occurred to me)",
+      "With physical accidents: se le cayó (he dropped it), se le escapó (it escaped/slipped from him)",
+      "Contrast with intentional: 'olvidé' (I forgot — possibly intentionally) vs. 'se me olvidó' (it slipped my mind)"
+    ],
+    "notes": [
+      "The person is NEVER the grammatical subject — they are the indirect object (dativo de interés)",
+      "Verb number agrees with the THING, not the person: 'Se le cayeron los libros' (the books fell on him)",
+      "This construction does NOT work with all verbs — mainly verbs of loss, forgetting, physical mishap",
+      "Can stack with other object pronouns: 'Se te ha olvidado' is acceptable",
+      "Very common in spoken Spanish to avoid blame; also appears in formal writing with nuance"
+    ],
+    "examples": [
+      "Se le olvidó entregar el informe. (He forgot to hand in the report — it slipped his mind.)",
+      "Se me cayeron todos los papeles al suelo. (All my papers fell to the floor — I dropped them accidentally.)",
+      "Se les escapó un detalle crucial durante la revisión. (A crucial detail escaped them during the review.)",
+      "Se te fue la mano con la sal. (You went overboard with the salt — it got away from you.)",
+      "Se me ocurrió una idea brillante a mitad de la reunión. (A brilliant idea occurred to me mid-meeting.)",
+      "Se le rompieron las gafas justo antes del examen. (His glasses broke just before the exam — it happened to him.)"
+    ]
+  },
+  "Purpose Clauses: a fin de que vs. para que": {
+    "rule": "Purpose clauses in Spanish require subjunctive when the subject of the purpose clause differs from the main clause subject. 'Para que' is the neutral standard form; 'a fin de que', 'con el fin de que', 'con el objeto de que', and 'con vistas a que' are formal/legal alternatives. When subjects are the same, use para + infinitive instead.",
+    "structure": "Main clause + [purpose connector] + que + subjunctive (different subjects) | Main clause + para/a fin de + infinitive (same subject)",
+    "formation": [
+      "Different subjects: para que / a fin de que / con el fin de que / con el objeto de que + present or imperfect subjunctive",
+      "Same subject: para / a fin de / con el fin de / con vistas a + infinitive",
+      "Tense sequence: main clause present/future → present subjunctive; main past/conditional → imperfect subjunctive",
+      "Negative purpose: para que no / a fin de que no + subjunctive"
+    ],
+    "uses": [
+      "'A fin de que': more formal than 'para que'; typical in legal, administrative, academic texts",
+      "'Con el objeto de que': very formal, common in official documents and regulations",
+      "'Con vistas a' + infinitive/noun: forward-looking, often in planning/strategic contexts",
+      "'Para que no' / 'a fin de que no': to prevent something from happening",
+      "Same-subject rule: 'Estudio para aprobar' (NOT *para que apruebe — same person)"
+    ],
+    "notes": [
+      "A fin de que ALWAYS requires subjunctive — there is no indicative use",
+      "The formality hierarchy: con el objeto de que > a fin de que > con el fin de que > para que",
+      "In legal texts, a fin de que often introduces obligations or authorizations",
+      "Do not confuse 'a fin de + inf.' (same subject) with 'a fin de que + subj.' (different subjects)",
+      "Imperfect subjunctive required when main verb is in past or conditional: 'Se aprobó la ley a fin de que los ciudadanos pudieran...'"
+    ],
+    "examples": [
+      "Se promulgó la normativa a fin de que las empresas cumplieran con los nuevos estándares. (The regulation was issued so that companies would comply with the new standards.)",
+      "El director convocó la reunión con el objeto de que todos los departamentos coordinaran su respuesta. (The director called the meeting so that all departments would coordinate their response.)",
+      "Facilitamos esta guía para que los usuarios comprendan el proceso. (We provide this guide so that users understand the process.)",
+      "A fin de evitar malentendidos, se redactó un contrato detallado. (In order to avoid misunderstandings, a detailed contract was drawn up. — same subject, infinitive)",
+      "Con vistas a mejorar la eficiencia, se implantó un nuevo sistema. (With a view to improving efficiency, a new system was implemented.)",
+      "Se tomaron medidas estrictas a fin de que no se repitieran los incidentes. (Strict measures were taken so that the incidents would not recur.)"
+    ]
+  },
+  "Future Subjunctive in Legal/Formal Contexts": {
+    "rule": "The future subjunctive (futuro de subjuntivo) is an archaic tense virtually extinct in modern conversational Spanish but survives actively in legal, notarial, and official texts. It refers to hypothetical future conditions in formal clauses (si + future subj., relative clauses in legal codes, temporal conjunctions). C2 learners must recognize it and use it appropriately in formal legal writing.",
+    "structure": "Si + future subjunctive | Relative clause antecedent + future subjunctive | Temporal conjunction + future subjunctive",
+    "formation": [
+      "Regular formation: preterite 3rd plural stem + -ere/-eres/-ere/-éremos/-ereis/-eren",
+      "From amaron → amar-: amare, amares, amare, amáremos, amareis, amaren",
+      "From comieron → comier-: comiere, comieres, comiere, comiéremos, comiereis, comieren",
+      "Irregular preterites carry through: hicieron → hiciere, tuvieron → tuviere, fueren (ir/ser), hubiere (haber)",
+      "Ser/ir: fuere, fueres, fuere, fuéremos, fuereis, fueren"
+    ],
+    "uses": [
+      "Legal si-clauses: 'Si el deudor no pagare en el plazo estipulado...'",
+      "Legal relative clauses: 'El que cometiere este delito...' / 'Quien incumpliere...'",
+      "Temporal conjunctions in legal texts: cuando, en cuanto, siempre que, mientras, hasta que + future subj.",
+      "Conditional legal consequences: 'Quien fuere hallado culpable...'",
+      "Notarial/administrative formulae: 'A los efectos que hubiere lugar'"
+    ],
+    "notes": [
+      "In modern non-legal Spanish, the future subjunctive is ALWAYS replaced by present subjunctive",
+      "Legal texts (especially in Spain and Latin America) continue using it systematically",
+      "The future subjunctive of ser/ir is identical: fuere, fueres, etc.",
+      "Hubiere is very common as the future subjunctive of haber (for compound forms)",
+      "When reading older literary texts or legal codes, ability to recognize this tense is essential"
+    ],
+    "examples": [
+      "Si el contratista no cumpliere con las obligaciones pactadas, se procederá a la rescisión del contrato. (If the contractor fails to fulfill the agreed obligations, the contract will be rescinded.)",
+      "El que cometiere fraude fiscal será sancionado con arreglo a la legislación vigente. (Whoever commits tax fraud shall be sanctioned in accordance with current legislation.)",
+      "Cuando se hubiere dictado sentencia firme, se procederá a la ejecución. (Once a final judgment has been handed down, execution will proceed.)",
+      "Cualquier modificación que se introdujere en el presente acuerdo deberá constar por escrito. (Any modification introduced to this agreement must be in writing.)",
+      "Mientras no se acreditare lo contrario, se presumirá la buena fe del adquirente. (Unless otherwise proven, the good faith of the acquirer shall be presumed.)"
+    ]
+  },
+  "Como si + Pluperfect Subjunctive (hypothetical past)": {
+    "rule": "'Como si' (as if) always requires subjunctive. When imagining a hypothetical situation in the past that did not happen, use the pluperfect subjunctive (hubiera/hubiese + participle). When the hypothetical relates to an impossible present or unreal ongoing situation, use the imperfect subjunctive. The choice encodes temporal distance from reality.",
+    "structure": "Main clause + como si + [imperfect subjunctive (unreal present)] OR [pluperfect subjunctive (unreal past)]",
+    "formation": [
+      "Imperfect subjunctive (unreal present): como si + hablara/hablase, tuviera/tuviese, fuera/fuese...",
+      "Pluperfect subjunctive (unreal past): como si + hubiera/hubiese + past participle",
+      "Both -ra and -se forms are valid; -ra is more common in speech, -se in formal/literary writing",
+      "The main clause verb can be in any tense — 'como si' clause is always past or pluperfect subjunctive"
+    ],
+    "uses": [
+      "Como si + imperfect subj.: the unreality is contemporaneous with the main clause (he acts as if he were the boss — right now)",
+      "Como si + pluperfect subj.: the unreality is set in the past (he acts as if he had seen it — but he didn't)",
+      "Can follow verbs of behavior, appearance, attitude: actuar, comportarse, hablar, mirar, tratar",
+      "Can appear after 'parece que' equivalents: parecía, daba la impresión, se comportaba"
+    ],
+    "notes": [
+      "Como si NEVER takes indicative — always subjunctive, no exceptions",
+      "Pluperfect subj. with como si is a C2 distinction: many learners incorrectly use imperfect for past hypotheticals",
+      "Conditional perfect in the main clause + como si + pluperfect subj.: 'Habría respondido como si lo hubiera sabido de antemano'",
+      "The imperfect/pluperfect choice shifts the time frame of the hypothetical, not the main clause"
+    ],
+    "examples": [
+      "Habla de sus logros como si los hubiera alcanzado él solo. (He talks about his achievements as if he had reached them alone — but he didn't.)",
+      "Se comportó durante el juicio como si no hubiera sucedido nada. (He behaved during the trial as if nothing had happened.)",
+      "Me miró como si hubiera dicho algo inapropiado. (He looked at me as if I had said something inappropriate.)",
+      "Sigue trabajando como si no existieran los fines de semana. (He keeps working as if weekends didn't exist — unreal present.)",
+      "Reaccionó como si lo hubieran acusado injustamente. (He reacted as if he had been unjustly accused.)",
+      "Gastaba el dinero como si lo hubiera ganado en la lotería. (He spent the money as if he had won the lottery.)"
+    ]
+  },
+  "Aspect: Preterite vs. Imperfect (narrative nuance)": {
+    "rule": "At C1/C2, preterite vs. imperfect goes beyond 'completed vs. ongoing'. The preterite foregrounds events — it advances the narrative timeline. The imperfect backgrounds — it provides setting, description, habitual context. Some stative verbs (saber, conocer, querer, poder, tener) undergo meaning shifts in the preterite, gaining ingressive or completive aspect.",
+    "structure": "Narrative context determines choice; preterite = event/foreground; imperfect = state/background/habitual",
+    "formation": [
+      "Preterite: standard forms — interrupting action, sequence of events, specific completed moment",
+      "Imperfect: standard forms — ongoing background, habitual past, descriptions, emotional/mental states",
+      "Ingressive preterite: saber → supo (found out), conocer → conoció (met), querer → quiso (tried to), poder → pudo (managed to), no querer → no quiso (refused), no poder → no pudo (failed to)"
+    ],
+    "uses": [
+      "Foregrounding (preterite): actions that advance the plot; events in sequence; punctual occurrences",
+      "Backgrounding (imperfect): descriptions, settings, ongoing states that frame foreground events",
+      "Habitual past (imperfect): siempre llegaba tarde, de niño comía en casa — repeated/habitual",
+      "Stative verb shift (preterite): ingressive meaning — start of a new state: 'supo' = came to know / found out",
+      "Interrupted action: imperfect for the ongoing action, preterite for the interrupting event",
+      "Psychological states: tenía miedo (background fear) vs. tuvo miedo (a specific moment of fear)"
+    ],
+    "notes": [
+      "'Conocer' in preterite = met (for the first time); in imperfect = knew, was acquainted with",
+      "'Saber' in preterite = found out; in imperfect = knew (ongoing state)",
+      "'Querer' in preterite = tried to; 'no querer' in preterite = refused",
+      "'Poder' in preterite = managed to; 'no poder' in preterite = failed to",
+      "Coexistence pattern: two imperfects = simultaneous background; imperfect + preterite = event against background"
+    ],
+    "examples": [
+      "Leía el periódico cuando sonó el teléfono. (Was reading [background] when the phone rang [event].)",
+      "De repente supo la verdad: su socio le había mentido desde el principio. (Suddenly he found out the truth — ingressive preterite of saber.)",
+      "No pudo terminar el discurso porque se quedó sin voz. (He failed to finish the speech because he lost his voice. — preterite of poder = managed/failed)",
+      "Por aquel entonces, la ciudad tenía un aspecto muy diferente. (Back then, the city had a very different look — imperfect, description.)",
+      "Intentó convencerla durante horas, pero ella no quiso escucharle. (He tried for hours, but she refused to listen — no querer in preterite = refusal.)",
+      "Iba acumulando deudas mientras creía que podía controlar la situación. (He was accumulating debts while he believed he could control the situation — two backgrounding imperfects.)"
+    ]
+  },
+  "Aspect: Ir + gerund (progressive development)": {
+    "rule": "'Ir + gerund' is a periphrasis expressing gradual, progressive, or cumulative development. Unlike 'estar + gerund' (momentary action in progress), 'ir + gerund' emphasizes the incremental unfolding of a process — it is becoming, worsening, growing, or accumulating over time. The tense of 'ir' determines the temporal frame.",
+    "structure": "Ir (conjugated) + gerund",
+    "formation": [
+      "Present: va mejorando, van aumentando (ongoing gradual process now)",
+      "Imperfect: iba empeorando, iban acumulándose (gradual background process in past narrative)",
+      "Preterite: fue cayendo, fue perdiendo (completed gradual process, less common but valid)",
+      "Future: irá creciendo (projected gradual increase)"
+    ],
+    "uses": [
+      "Gradual physical deterioration or improvement: la situación fue empeorando (the situation kept worsening)",
+      "Cumulative numerical/quantitative build-up: las deudas fueron aumentando (debts kept growing)",
+      "Gradual spreading/expanding: la epidemia fue extendiéndose (the epidemic kept spreading)",
+      "Imperceptible progressive change: el clima va cambiando (the climate is gradually changing)",
+      "Background gradual process in narrative (imperfect): la tensión iba en aumento"
+    ],
+    "notes": [
+      "KEY CONTRAST: 'está mejorando' = is currently improving (momentary) vs. 'va mejorando' = is gradually/progressively improving",
+      "Ir + gerund implies process with direction — not static or momentary",
+      "Preterite 'fue + gerund' is rarer and tends to appear in more literary texts",
+      "Can be reinforced by adverbs: poco a poco iba cambiando, paulatinamente fue deteriorándose"
+    ],
+    "examples": [
+      "La situación económica fue empeorando a lo largo del año. (The economic situation kept worsening throughout the year.)",
+      "Las tensiones entre los socios fueron acumulándose hasta estallar. (Tensions between the partners kept building up until they exploded.)",
+      "El número de afectados va aumentando a medida que se extiende el virus. (The number of those affected keeps growing as the virus spreads.)",
+      "La brecha entre ricos y pobres fue ampliándose durante la última década. (The gap between rich and poor kept widening during the last decade.)",
+      "Iba perdiendo la esperanza de que alguien respondiera. (He was gradually losing hope that anyone would respond.)"
+    ]
+  },
+  "Aspect: Llevar + gerund (ongoing duration)": {
+    "rule": "'Llevar + gerund' expresses an action that has been ongoing for a stated duration up to a reference point. It is the Spanish equivalent of 'to have been doing [something] for [time]'. The tense of 'llevar' anchors the reference point: present llevar = up to now; imperfect = up to a past point.",
+    "structure": "Llevar (conjugated) + [time expression] + gerund",
+    "formation": [
+      "Present: llevo tres horas trabajando (I have been working for three hours)",
+      "Imperfect: llevaba dos años viviendo en Madrid cuando... (I had been living in Madrid for two years when...)",
+      "Negative: llevo sin dormir dos días (I haven't slept for two days — llevar sin + infinitive)",
+      "Interrogative: ¿Cuánto tiempo llevas esperando? (How long have you been waiting?)",
+      "With stative verbs: lleva siendo director desde 2010 (he has been director since 2010 — less common)"
+    ],
+    "uses": [
+      "Duration of ongoing action up to present: llevo leyendo este libro una semana",
+      "Duration up to a past moment: llevaba trabajando allí diez años cuando lo despidieron",
+      "Negative duration (llevar sin + infinitive): lleva sin hablar con su familia desde el incidente",
+      "Reported/interrogative: preguntó cuánto tiempo llevaba esperando",
+      "Future progressive duration: para entonces llevará tres años viviendo en el extranjero"
+    ],
+    "notes": [
+      "Contrast with 'hace + time + que': 'llevo estudiando dos horas' = 'hace dos horas que estudio' — both correct, llevar more dynamic",
+      "'Llevar sin + infinitive' is NOT the same as 'llevar + gerund': sin marks absence/interruption",
+      "Stative verbs are unusual with this construction; dynamic/activity verbs are most natural",
+      "The time expression can come between llevar and the gerund or at the end"
+    ],
+    "examples": [
+      "Llevo tres años investigando este fenómeno y aún no tengo respuestas definitivas. (I have been researching this phenomenon for three years and still have no definitive answers.)",
+      "Cuando le contrataron, ya llevaba trabajando en el sector más de una década. (When they hired him, he had already been working in the sector for over a decade.)",
+      "El paciente lleva sin hablar desde hace dos semanas. (The patient has not spoken for two weeks.)",
+      "¿Cuánto tiempo lleváis esperando los resultados? (How long have you been waiting for the results?)",
+      "Para cuando llegues, llevaré esperándote más de una hora. (By the time you arrive, I will have been waiting for you for over an hour.)"
+    ]
+  },
+  "Aspect: Acabar de + infinitive (recency)": {
+    "rule": "'Acabar de + infinitive' expresses an action that has just been completed — the 'recency' aspect. In the present tense, it equates to 'to have just done'. In the imperfect, it shifts to past recency ('had just done'). There are subtle distinctions: negative 'no acabar de + infinitive' means 'to not quite manage to' or 'to never quite succeed in' — a different meaning entirely.",
+    "structure": "Acabar de (present or imperfect) + infinitive",
+    "formation": [
+      "Present recency: acabo de llegar (I have just arrived)",
+      "Past recency: acababa de llegar cuando llamaste (I had just arrived when you called)",
+      "Negative with different meaning: no acaba de convencerme (it doesn't quite convince me / I'm not fully convinced)",
+      "Acabar de vs. terminar de: acabar de = recency; terminar de = to finish doing (completion sense)"
+    ],
+    "uses": [
+      "Present 'acabo de': very recent past action — closer to present than simple preterite",
+      "Imperfect 'acababa de': past recency — sets up a narrative moment just before another event",
+      "Negative 'no acabar de': expresses incomplete conviction, persistent doubt, or failure to fully achieve",
+      "Register note: acabar de is neutral/standard; 'acabo de' is more immediate than 'hace un momento que'"
+    ],
+    "notes": [
+      "IMPORTANT: 'no acaba de + infinitive' ≠ 'has not just done'; it means 'doesn't quite/fully [do]'",
+      "'No acabo de entenderlo' = I can't quite grasp it (persistent failure, not a recent action)",
+      "Acabar de in future context: 'cuando acabe de leer' = when I finish reading (NOT recency — this is acabar = to finish)",
+      "Terminar de + infinitive expresses completion, not recency: 'terminé de leer' = I finished reading"
+    ],
+    "examples": [
+      "Acabo de recibir los resultados del análisis y son preocupantes. (I have just received the analysis results and they are worrying.)",
+      "Acababa de firmar el contrato cuando se enteró de las irregularidades. (He had just signed the contract when he found out about the irregularities.)",
+      "No acabo de entender por qué tomaron esa decisión. (I can't quite understand why they made that decision — persistent doubt.)",
+      "La propuesta no acaba de convencer a los inversores. (The proposal doesn't quite convince the investors.)",
+      "Acabamos de publicar un informe sobre el impacto de las nuevas tecnologías. (We have just published a report on the impact of new technologies.)"
+    ]
+  },
+  "Aspect: Volver a + infinitive (iterative)": {
+    "rule": "'Volver a + infinitive' expresses the repetition or resumption of an action — 'to do again'. It functions as an iterative periphrasis, equivalent to 'de nuevo' or 'otra vez' but more elegant in formal contexts. The negative 'no volver a + infinitive' emphatically signals that something will never happen again.",
+    "structure": "Volver a (conjugated in any tense) + infinitive",
+    "formation": [
+      "Present: vuelve a intentarlo (he tries again / is trying again)",
+      "Preterite: volvió a equivocarse (he made a mistake again)",
+      "Future: no volverá a suceder (it will never happen again)",
+      "Subjunctive: espero que no vuelva a ocurrir (I hope it doesn't happen again)",
+      "Compound tenses: ha vuelto a fallar (has failed again), había vuelto a surgir (had arisen again)"
+    ],
+    "uses": [
+      "Repeating an action: volvió a llamar (called again), vuelven a reunirse (are meeting again)",
+      "Resuming after interruption: volvió a trabajar tras la enfermedad (returned to working after illness)",
+      "Negative emphasis: no volvió a hablar de ello (never spoke of it again — emphatic finality)",
+      "Formal/academic: useful in formal prose as stylistic alternative to adverb 'de nuevo'",
+      "Subjunctive context: after expressions of hope/wish/doubt about repetition"
+    ],
+    "notes": [
+      "'No volver a' in preterite is highly emphatic: 'no volvió a verlo' = he never saw him again",
+      "Can appear in subjunctive: 'para que no vuelva a ocurrir' (so that it doesn't happen again)",
+      "Aspect in compound tenses: 'ha vuelto a surgir el problema' = the problem has come up again (with present relevance)",
+      "Iterative aspect is inherent — no need to add 'otra vez' or 'de nuevo' alongside it"
+    ],
+    "examples": [
+      "El gobierno volvió a aplazar la decisión sobre la reforma fiscal. (The government again postponed the decision on tax reform.)",
+      "No volvió a mencionar el incidente en ninguna de sus intervenciones posteriores. (He never mentioned the incident again in any subsequent statements.)",
+      "El problema de la financiación ha vuelto a surgir en la última reunión del consejo. (The funding problem has come up again at the last board meeting.)",
+      "Para que no vuelva a producirse este error, se ha implantado un nuevo protocolo. (So that this error does not happen again, a new protocol has been implemented.)",
+      "Vuelven a debatirse las mismas cuestiones de siempre sin llegar a ningún acuerdo. (The same old issues are being debated again without reaching any agreement.)"
+    ]
+  },
+  "Aspect: Dejar de + infinitive (cessation)": {
+    "rule": "'Dejar de + infinitive' marks the cessation of an ongoing activity — 'to stop doing'. It focuses on the endpoint of an action. The tense of 'dejar' determines whether cessation is sudden, gradual, or regulatory. 'No volver a + infinitive' is stronger (never again); 'dejar de' is neutral. In formal/legal texts, 'dejar de' appears in regulatory cessation clauses.",
+    "structure": "Dejar de (conjugated) + infinitive",
+    "formation": [
+      "Present: deja de fumar (he's stopping smoking / stop smoking — command)",
+      "Preterite: dejó de funcionar (it stopped working — sudden cessation)",
+      "Imperfect: dejaba de trabajar a las 6 (used to stop working at 6 — habitual cessation)",
+      "Future: dejará de producirse (will stop occurring)",
+      "Subjunctive: es necesario que deje de hacerlo (it's necessary that he stop doing it)"
+    ],
+    "uses": [
+      "Sudden or definitive cessation: dejó de hablar (stopped speaking — abruptly)",
+      "Gradual cessation (imperfect): paulatinamente fue dejando de asistir (gradually stopped attending)",
+      "Regulatory cessation: la empresa deberá dejar de comercializar el producto (the company must stop selling)",
+      "Contrast with 'no volver a': dejar de = stop; no volver a = never again (more absolute)",
+      "Aspectual pair: empezar a (start) / dejar de (stop)"
+    ],
+    "notes": [
+      "'Dejar de + infinitive' ≠ 'no hacer': dejar de fumar implies a prior habit; simply 'no fumar' does not",
+      "Sudden vs. gradual: preterite dejar de = sudden; imperfect / ir + gerund combo = gradual",
+      "In legal texts: 'a partir de esta fecha dejará de tener validez' (will cease to be valid from this date)",
+      "Contrast: 'dejar de + inf.' (stop an action) vs. 'dejar + inf.' (to let/allow someone to do)"
+    ],
+    "examples": [
+      "La empresa dejó de fabricar ese modelo por falta de demanda. (The company stopped manufacturing that model due to lack of demand.)",
+      "Paulatinamente fue dejando de cumplir con sus obligaciones hasta que se rescindió el contrato. (He gradually stopped fulfilling his obligations until the contract was terminated.)",
+      "El régimen de excepción dejará de aplicarse una vez superada la crisis. (The state of exception will cease to apply once the crisis is over.)",
+      "Es imprescindible que el país deje de depender de las exportaciones de materias primas. (It is essential that the country stop depending on raw material exports.)",
+      "Dejó de hablar en mitad de la conferencia sin dar ninguna explicación. (He stopped speaking mid-conference without giving any explanation.)"
+    ]
+  },
+  "Gerund & Infinitive: Gerund of Cause, Means & Condition": {
+    "rule": "The Spanish gerund can function as an adverbial clause expressing cause, means, or condition without a conjunction. This is a high-register construction typical of formal, academic, and legal writing. The gerund subject is usually the same as the main clause subject (or impersonal). Incorrect use of a gerund to modify a noun (decree gerund / 'gerundio del BOE') is a C2-level trap.",
+    "structure": "Gerund (clause-initial or clause-final) + main clause [cause] | Main clause + gerund [means/condition]",
+    "formation": [
+      "Gerund of cause: Siendo experto en la materia, pudo resolverlo. (Being an expert, he could resolve it.)",
+      "Gerund of means: Estudiando cada día, consiguió aprobar. (By studying every day, he managed to pass.)",
+      "Gerund of condition: Trabajando así, nunca terminarás. (Working like that, you'll never finish. = If you work like that...)",
+      "Compound gerund of cause: Habiendo estudiado el caso, el juez dictó sentencia. (Having studied the case...)",
+      "Negative compound gerund: No habiendo presentado la documentación, se desestimó la solicitud."
+    ],
+    "uses": [
+      "Cause: presents the gerund action as the reason for the main clause; often sentence-initial",
+      "Means: gerund explains HOW the main clause action was achieved; typically sentence-final",
+      "Condition: gerund functions like a conditional clause; often has hypothetical force",
+      "Concession: 'Aun + gerund' = even + gerund (aun siendo difícil = even though it is difficult)",
+      "Prior cause: compound gerund (habiendo + participle) for an action completed before the main clause"
+    ],
+    "notes": [
+      "THE BOE GERUND TRAP (C2): A gerund CANNOT modify a noun — *'una ley regulando la materia' is WRONG; correct: 'una ley que regula la materia'",
+      "The gerund subject must match the main clause subject in almost all cases",
+      "Gerund of means is extremely common in academic writing: 'comprobando los datos, se verificó...'",
+      "Compound gerund (habiendo + participle) signals temporal priority and is common in legal/formal texts",
+      "Aun + gerund for concession requires careful register judgment — highly literary"
+    ],
+    "examples": [
+      "Conociendo los antecedentes del caso, el tribunal adoptó una postura cautelosa. (Knowing the background of the case, the court took a cautious stance. — cause)",
+      "Analizando los datos disponibles, se llega a la conclusión de que... (By analysing the available data, one reaches the conclusion that... — means)",
+      "Trabajando a ese ritmo, agotarás los recursos en menos de un mes. (Working at that rate, you'll exhaust the resources in less than a month. — condition)",
+      "No habiendo acreditado los requisitos exigidos, la solicitud fue desestimada. (Not having proven the required credentials, the application was dismissed. — compound gerund, cause)",
+      "*INCORRECT: 'se aprobó un decreto regulando el sector' → CORRECT: 'se aprobó un decreto que regula el sector'"
+    ]
+  },
+  "Gerund & Infinitive: Gerund of Consequence": {
+    "rule": "The gerund of consequence describes an action or state that results from or follows logically from the main clause action. It often appears sentence-finally, with the gerund depicting the outcome, effect, or resulting situation. This is distinct from gerund of means (how) and gerund of cause (why).",
+    "structure": "Main clause + gerund (depicting the resulting action or state)",
+    "formation": [
+      "Simple gerund: consiguió el primer puesto, logrando así superar todas las expectativas.",
+      "Negative gerund: fracasó en su intento, perdiendo toda credibilidad ante sus colegas.",
+      "Cumulative consequence: la deuda fue creciendo, alcanzando niveles insostenibles.",
+      "Often reinforced by 'así', 'con ello', 'de este modo' before or after the gerund"
+    ],
+    "uses": [
+      "Positive outcome: logrando, consiguiendo, alcanzando — achieving a desired result",
+      "Negative outcome: provocando, causando, generando, perdiendo — describing harm or failure",
+      "Cascading effects: introducing a chain of consequences in formal/academic prose",
+      "Narrative denouement: literary use to describe the climactic outcome",
+      "Institutional/policy results: 'Se aprobó la ley, reduciendo así la burocracia'"
+    ],
+    "notes": [
+      "The gerund of consequence implies the result FLOWS FROM the main clause — it is not a coincidental simultaneous action",
+      "This construction is more formal than using 'lo que resultó en' or 'de modo que'",
+      "Can describe unintended consequences: 'tomó la decisión precipitadamente, perjudicando a todos'",
+      "Adding 'así' or 'de este modo' clarifies the consecutive/resultative relationship"
+    ],
+    "examples": [
+      "La empresa implementó las medidas de eficiencia, reduciendo así sus costes operativos en un 20%. (The company implemented efficiency measures, thereby reducing its operating costs by 20%.)",
+      "El científico publicó sus hallazgos, desencadenando un debate internacional sin precedentes. (The scientist published his findings, triggering an unprecedented international debate.)",
+      "El gobierno incumplió los plazos acordados, poniendo en riesgo toda la operación. (The government missed the agreed deadlines, putting the entire operation at risk.)",
+      "Se aprobó el plan de urbanización, transformando por completo el paisaje de la zona. (The urban development plan was approved, completely transforming the landscape of the area.)",
+      "Ignoró todas las advertencias, llegando al borde de la quiebra en tan solo dos años. (He ignored all the warnings, ending up on the brink of bankruptcy in just two years.)"
+    ]
+  },
+  "Gerund & Infinitive: Infinitive vs. Subjunctive (restructuring verbs)": {
+    "rule": "With restructuring (or 'bridge') verbs, when the main clause subject and subordinate clause subject are the SAME, use infinitive. When subjects DIFFER, use que + subjunctive. This applies to verbs of volition, communication, emotion, cognition, permission, and causation. Some verbs allow both constructions even with the same subject, changing meaning or register.",
+    "structure": "Verb + infinitive (same subject) | Verb + que + subjunctive (different subjects)",
+    "formation": [
+      "Same subject → infinitive: quiero ir, espero terminar, intenté salir, logré convencerle",
+      "Different subjects → que + subjunctive: quiero que vayas, espero que termines, pido que salgas",
+      "Perception verbs: ver/oír + infinitive (same/different) OR ver/oír + que + indicative (factual)",
+      "Causative: hacer + infinitive (make someone do — different subjects possible without que)",
+      "Dejar: dejar + infinitive = let (him do) [different subjects]; dejar de + infinitive = stop doing [same subject]"
+    ],
+    "uses": [
+      "Volition verbs (querer, desear, esperar): infinitive same subj; que + subj different subj",
+      "Permission/prohibition (permitir, impedir, prohibir, dejar): infinitive or que + subj both possible",
+      "Communication verbs (pedir, decir, recomendar, proponer): que + subj when asking someone else",
+      "Causative (hacer, lograr, conseguir, obligar a): + infinitive or que + subj depending on subject coreference",
+      "Cognitive (evitar, intentar, conseguir, lograr): typically same subject → infinitive"
+    ],
+    "notes": [
+      "KEY: permitir/dejar can take EITHER structure: 'le permití salir' OR 'permití que saliera' — both correct",
+      "'Hacer + infinitive' (causative) does NOT require 'que': 'hizo trabajar a todos' (different subjects)",
+      "Obligar a always requires 'a': 'le obligaron a firmar' OR 'obligaron a que firmara'",
+      "Impedir + que + subj. is preferred when objects differ; impedir + infinitive only same subject",
+      "Register matters: que + subjunctive is often more formal than infinitive"
+    ],
+    "examples": [
+      "Espero terminar el informe antes del viernes. (I hope to finish the report by Friday. — same subject → infinitive)",
+      "Espero que termines el informe antes del viernes. (I hope you finish the report by Friday. — different subjects → subjunctive)",
+      "El director impidió que se publicaran los resultados. (The director prevented the results from being published. — different subjects)",
+      "Le permitieron abandonar el país tras pagar la fianza. (They allowed him to leave the country after paying bail. — different subjects, infinitive construction)",
+      "Obligaron a la empresa a que devolviera los fondos. (They forced the company to return the funds. — obligar a + que)",
+      "Conseguimos que todos los implicados firmaran el acuerdo. (We managed to get all those involved to sign the agreement.)"
+    ]
+  },
+  "Gerund & Infinitive: Incorrect gerund as noun modifier (C2 trap)": {
+    "rule": "In Spanish, a gerund CANNOT function as a noun modifier (adjective). This is called the 'gerundio del BOE' (named after Spain's official gazette). The only exceptions are 'ardiendo' and 'hirviendo' (water boiling, fire burning). All other attempts to use gerund as adjective are incorrect in standard Spanish and must be replaced by a relative clause.",
+    "structure": "INCORRECT: noun + gerund | CORRECT: noun + que + conjugated verb",
+    "formation": [
+      "WRONG: *una ley regulando el tráfico → CORRECT: una ley que regula el tráfico",
+      "WRONG: *un decreto estableciendo sanciones → CORRECT: un decreto que establece sanciones",
+      "WRONG: *una caja conteniendo documentos → CORRECT: una caja que contiene documentos",
+      "CORRECT EXCEPTIONS: agua hirviendo (boiling water), madera ardiendo (burning wood)"
+    ],
+    "uses": [
+      "This rule applies in ALL registers — the gerund-as-modifier is always incorrect except for the two fixed exceptions",
+      "Very common error in official/administrative writing (hence 'gerundio del BOE')",
+      "The correct replacement: always use a relative clause with a conjugated verb",
+      "This trap appears in C2 exams testing ability to identify and correct institutional-register errors"
+    ],
+    "notes": [
+      "The two exceptions (hirviendo, ardiendo) describe physical states and function almost like adjectives",
+      "English allows present participial modifiers freely ('a law regulating traffic') — this does NOT transfer to Spanish",
+      "Even when imitating legal English, Spanish must use the relative clause",
+      "Some gerunds in set phrases are acceptable (function-word-like): 'incluyendo', 'exceptuando', 'excluyendo' are marginal cases in lists"
+    ],
+    "examples": [
+      "*Una resolución estableciendo los requisitos → CORRECT: Una resolución que establece los requisitos. (A resolution establishing the requirements.)",
+      "*Una orden conteniendo las instrucciones → CORRECT: Una orden que contiene las instrucciones. (An order containing the instructions.)",
+      "*Las medidas aprobadas regulando el sector → CORRECT: Las medidas aprobadas que regulan el sector.",
+      "CORRECT: Necesito agua hirviendo para preparar la infusión. (I need boiling water to make the infusion. — exception)",
+      "CORRECT: El edificio ardiendo fue visto desde varios kilómetros. (The burning building was seen from several kilometres. — exception)"
+    ]
+  },
+  "Gerund & Infinitive: Compound Gerund, Concessive & Temporal Uses": {
+    "rule": "The compound gerund (habiendo + past participle) expresses an action completed prior to the main clause — it functions like a perfect participle. The concessive gerund with 'aun' (aun + gerund) concedes a point while maintaining the main clause. The temporal gerund expresses simultaneity or progressive background in formal writing.",
+    "structure": "Habiendo + participle [prior action] | Aun + gerund [concession] | Gerund alone [simultaneity/background]",
+    "formation": [
+      "Compound gerund: habiendo + past participle (habiendo analizado, habiendo recibido, habiendo concluido)",
+      "Negative compound: no habiendo + participle (no habiendo presentado los documentos...)",
+      "Concessive: aun + gerund (aun reconociendo los fallos, aun sabiendo la verdad)",
+      "Temporal/simultaneous: gerund in parallel with main clause (corrió descalzo, cometió el error confiando en...)",
+      "Simple vs. compound: gerund = simultaneous; compound gerund = prior to main clause"
+    ],
+    "uses": [
+      "Compound gerund: causal or temporal priority — the gerund action happened BEFORE the main clause",
+      "Negative compound: 'no habiendo acreditado los requisitos' — formal legal/administrative",
+      "Aun + gerund (concessive): acknowledges a fact while maintaining a contrasting claim; formal/literary",
+      "Temporal gerund (simple): background simultaneous action in narrative or description",
+      "Contrast: gerund vs. clause — gerund is more compact, preferred in formal written registers"
+    ],
+    "notes": [
+      "Compound gerund ≠ present perfect: 'habiendo llegado tarde, no pudo entrar' (gerund clause, prior action, not a full sentence)",
+      "Aun + gerund: the gerund must share its subject with the main clause",
+      "Simple gerund for simultaneity: 'estudió tocando música' — both actions at same time",
+      "In legal texts, compound gerunds in negative form are extremely common for procedural dismissals"
+    ],
+    "examples": [
+      "Habiendo examinado todas las pruebas, el tribunal procedió a deliberar. (Having examined all the evidence, the court proceeded to deliberate. — compound, prior)",
+      "No habiendo sido notificado en el plazo reglamentario, el interesado perdió su derecho a recurrir. (Not having been notified within the regulatory period, the interested party lost the right to appeal.)",
+      "Aun reconociendo la gravedad de los hechos, el tribunal aplicó una pena reducida. (Even acknowledging the seriousness of the facts, the court imposed a reduced sentence.)",
+      "Aun sabiendo que el proyecto era arriesgado, decidieron seguir adelante. (Even knowing the project was risky, they decided to go ahead.)",
+      "Llegó al despacho cargando con todos los expedientes del caso. (He arrived at the office carrying all the case files. — simultaneous)"
+    ]
+  },
+  "Mood & Tense: Ser vs. Estar (adjective meaning shifts)": {
+    "rule": "Certain Spanish adjectives change meaning depending on whether they are used with ser (essential/characteristic) or estar (state/condition). At C1/C2, this includes subtle nuances: ser + adjective = defining attribute; estar + adjective = temporary or resultant condition. Some pairs are near-minimal pairs requiring precise contextual reading.",
+    "structure": "Ser + adjective (essential property) | Estar + adjective (current state or condition)",
+    "formation": [
+      "Same form, different verb: ser/estar + adjective",
+      "Location: ser = event location; estar = physical location of person/thing",
+      "Statal passive: estar + participle (resulting state); ser + participle (event/action)"
+    ],
+    "uses": [
+      "listo: ser listo = to be clever; estar listo = to be ready",
+      "malo: ser malo = to be bad/evil; estar malo = to be ill",
+      "bueno: ser bueno = to be good (morally/quality); estar bueno = to taste good / to be attractive",
+      "rico: ser rico = to be wealthy; estar rico = to taste/smell delicious",
+      "seguro: ser seguro = to be safe (inherently); estar seguro = to be sure/certain",
+      "interesado: ser interesado = to be self-interested (personality); estar interesado = to be interested (in something)",
+      "vivo: ser vivo = to be sharp/clever; estar vivo = to be alive",
+      "muerto: ser muerto is ungrammatical; estar muerto = to be dead (state)",
+      "despierto: ser despierto = to be alert/sharp; estar despierto = to be awake",
+      "claro: ser claro = to be clear (a clear person/explanation); estar claro = to be clear (obvious, evident in context)"
+    ],
+    "notes": [
+      "The ser/estar distinction with these adjectives is not arbitrary — estar marks a state that contrasts with a potential other state",
+      "In the statal passive: 'está roto' (is broken — state) vs. 'fue roto' (was broken — event)",
+      "'Ser' with event location: 'El congreso es en Madrid' (the event takes place); 'está en Madrid' would mean the city itself is located",
+      "Advanced: some adjectives used with estar acquire an almost evaluative flavor: '¡Está buenísimo!' (this is delicious)"
+    ],
+    "examples": [
+      "Es listo para su edad, pero hoy no está listo para el examen. (He is clever for his age, but today he's not ready for the exam.)",
+      "El nuevo directivo es muy interesado — solo piensa en beneficios personales. Pero está muy interesado en el proyecto. (The new executive is very self-interested. But he is very interested in the project.)",
+      "El medicamento es seguro según los ensayos clínicos. Ahora estoy seguro de que tomé la decisión correcta. (The drug is safe according to clinical trials. Now I am sure I made the right decision.)",
+      "Era un hombre vivo, lleno de energía, pero ya no está vivo. (He was a sharp, energetic man, but he is no longer alive.)",
+      "La explicación es clara, y ahora me queda claro que debo actuar de inmediato. (The explanation is clear, and now it is clear to me that I must act immediately.)"
+    ]
+  },
+  "Mood & Tense: Sequence of Tenses (concordancia de tiempos)": {
+    "rule": "Sequence of tenses governs which subjunctive tense to use in subordinate clauses based on the tense of the main clause. The key parameter is temporal relationship: present/future main clause → present subjunctive; past/conditional main clause → imperfect subjunctive. Perfect and pluperfect subjunctive express anteriority within each sequence.",
+    "structure": "Main clause tense → governed subjunctive tense in subordinate clause",
+    "formation": [
+      "Present/future/imperative main → present subjunctive (or present perfect subj. for prior action)",
+      "Preterite/imperfect/conditional main → imperfect subjunctive (or pluperfect subj. for prior action)",
+      "Present → present subj.: Quiero que vengas. Es posible que haya llegado ya.",
+      "Past → imperfect subj.: Quería que vinieras. Era posible que hubiera llegado ya.",
+      "Conditional → imperfect subj.: Querría que vinieras.",
+      "Embedded past doubt: past main + pluperfect subj.: Dudaba de que hubiera dicho eso."
+    ],
+    "uses": [
+      "Doubt/emotion/desire with past main clause: 'Dudaba de que fuera cierto' (present subj. would be wrong)",
+      "Embedded clauses after past reporting verbs: 'Dijo que viniera' (indirect command, imperfect subj.)",
+      "Infinitive after past verb: 'Decidió marcharse' (same subject, no subjunctive; infinitive)",
+      "Future main + present subj.: 'Cuando llegues, te llamaré' (time clause, future event)",
+      "Conditional + imperfect subj.: 'Te diría la verdad si la supiera'"
+    ],
+    "notes": [
+      "The most common error at C1 level: using present subjunctive after a past main verb",
+      "Exception: 'historical present' can reset the sequence to present subjunctive even in narrative",
+      "In journalistic/academic writing, present subjunctive after past main is sometimes tolerated for stylistic immediacy",
+      "Pluperfect subjunctive (hubiera/hubiese + participle) always marks action prior to the main clause event"
+    ],
+    "examples": [
+      "Es fundamental que todos los miembros participen activamente. (Main: present → present subj.)",
+      "Era fundamental que todos los miembros participaran activamente. (Main: past → imperfect subj.)",
+      "El juez ordenó que se suspendieran las actuaciones. (Past main → imperfect subj.)",
+      "Dudaba de que hubiera presentado la documentación a tiempo. (Past main + prior action → pluperfect subj.)",
+      "Convendría que revisáramos los contratos antes de la firma. (Conditional main → imperfect subj.)",
+      "Te enviaré el informe en cuanto lo tenga listo. (Future main + time clause → present subj.)"
+    ]
+  },
+  "Mood & Tense: Si-clauses & Conditionals": {
+    "rule": "Spanish conditional sentences come in three main types plus mixed conditionals. Type 1 (real/open): si + present indicative + future/imperative. Type 2 (hypothetical present/future): si + imperfect subjunctive + conditional. Type 3 (counterfactual past): si + pluperfect subjunctive + conditional perfect. Mixed conditionals combine past condition with present consequence or vice versa.",
+    "structure": "Si + [indicative/subjunctive tense] + [result clause tense]",
+    "formation": [
+      "Type 1 (real): Si estudias, aprobarás. / Si tienes tiempo, llámame.",
+      "Type 2 (hypothetical): Si estudiara/estudiase, aprobaría. / Si tuviera tiempo, te llamaría.",
+      "Type 3 (counterfactual past): Si hubiera estudiado, habría aprobado.",
+      "Mixed (past condition + present result): Si hubiera estudiado medicina, ahora sería médico.",
+      "Mixed (present condition + past result): Si fuera más valiente, lo habría dicho antes."
+    ],
+    "uses": [
+      "Type 1: real or likely situations — present or general truths, advice, instructions",
+      "Type 2: hypothetical, unlikely, or contrary-to-present-fact situations",
+      "Type 3: counterfactual past — the condition did not occur, result did not follow",
+      "Mixed conditionals: when condition and consequence belong to different time frames",
+      "NEVER use subjunctive in the si-clause of Type 1; NEVER use future/conditional in si-clause of Type 2/3"
+    ],
+    "notes": [
+      "CRITICAL RULE: The si-clause NEVER takes future or conditional (common error): *Si vendría → WRONG",
+      "De + infinitive can replace si-clauses formally: 'De haberlo sabido, habría actuado distinto'",
+      "Mixed conditionals are common in formal/academic discourse and require flexible tense handling",
+      "Como si + subjunctive is NOT a conditional — it means 'as if' (see separate rule)"
+    ],
+    "examples": [
+      "Si se presentan las pruebas requeridas, el tribunal emitirá su veredicto. (Type 1 — real condition)",
+      "Si contáramos con más recursos, podríamos ampliar el programa. (Type 2 — hypothetical present)",
+      "Si se hubiera tomado la decisión a tiempo, se habrían evitado las pérdidas. (Type 3 — counterfactual past)",
+      "Si hubiera estudiado derecho, hoy trabajaría en un bufete internacional. (Mixed: past condition + present result)",
+      "De haberse implementado el protocolo adecuado, la crisis no habría escalado. (Formal alternative to si + pluperfect subj.)"
+    ]
+  },
+  "Mood & Tense: Concessive Clauses (aunque, por más que, bien que)": {
+    "rule": "Concessive clauses grant a point while maintaining a contrasting main clause. 'Aunque' takes indicative (established fact) or subjunctive (hypothesis/irrelevance to speaker). Advanced concessives include 'por más/mucho que + subjunctive' (no matter how much), 'bien que + subjunctive' (literary), 'así + subjunctive' (literary/formal), 'aun cuando + subjunctive/indicative', and 'a pesar de que / pese a que'.",
+    "structure": "Concessive connector + [indicative or subjunctive] + main clause",
+    "formation": [
+      "Aunque + indicative: concedes a known fact ('aunque llueve, saldré' = even though it's raining)",
+      "Aunque + subjunctive: irrelevance regardless of outcome ('aunque llueva, saldré' = even if it rains)",
+      "Por más que / por mucho que + subjunctive: 'no matter how much' (always subjunctive)",
+      "Bien que + subjunctive: literary concessive, equivalent to 'although'; formal written register",
+      "Así + subjunctive: literary/legal — 'así se lo pidan de rodillas, no lo hará'",
+      "A pesar de que / pese a que + indicative or subjunctive (same rules as aunque)"
+    ],
+    "uses": [
+      "Aunque + indicative: speaker accepts the conceded fact as real/known",
+      "Aunque + subjunctive: speaker presents the concession as hypothetical, irrelevant to main claim, or unknown",
+      "Por más que: emphasizes futility of effort regardless of degree — always subjunctive",
+      "Bien que: literary/formal written register; typically introduces subordinate clause in essay/academic prose",
+      "Así: archaic/legal force — 'even if that were the case, it would make no difference'"
+    ],
+    "notes": [
+      "The indicative/subjunctive distinction with aunque encodes the speaker's epistemic stance, not just tense",
+      "Por más que requires subjunctive — *por más que lo intenta is incorrect for true concessive use",
+      "Bien que is rarely heard in speech; its appearance in writing marks high formal register",
+      "Pese a + infinitive/noun (same subject); pese a que + clause (different subjects or same)",
+      "Aun cuando follows the same indicative/subjunctive split as aunque"
+    ],
+    "examples": [
+      "Aunque reconozco los méritos del proyecto, no puedo apoyarlo en estas condiciones. (Indicative — I acknowledge the merits as real.)",
+      "Aunque se reconocieran los méritos del proyecto, no contaría con mi apoyo. (Subjunctive — even if they were acknowledged, hypothetically.)",
+      "Por más que insistan los promotores, la decisión ya está tomada. (No matter how much the promoters insist — futility, subjunctive.)",
+      "Bien que la propuesta presente ventajas innegables, adolece de graves carencias estructurales. (Although the proposal presents undeniable advantages... — formal/literary.)",
+      "Así se lo solicitaran formalmente, el directorio no cambiaría de postura. (Even if they formally requested it, the board would not change its stance. — literary/formal.)"
+    ]
+  },
+  "Mood & Tense: Advanced Subjunctive Nuance": {
+    "rule": "This category covers advanced subjunctive uses beyond standard triggers: subjunctive in indefinite relative clauses (whoever, whatever), subjunctive after verbs of thinking in negative form, future subjunctive in formal contexts, and subjunctive expressing stipulations, strong volition, or exhortation.",
+    "structure": "Various — see formation for specific constructions",
+    "formation": [
+      "Indefinite relative: quien/lo que/el que + subjunctive (referring to a hypothetical/unknown entity)",
+      "Negative belief: no creer que / no pensar que / no parecer que + subjunctive",
+      "Affirmative belief: creer que / pensar que + indicative (contrast)",
+      "Ojalá: ojalá + present subj. (realizable wish), imperfect subj. (unrealizable present), pluperfect subj. (past regret)",
+      "Imperfect subj. for stipulations: 'se solicitó que el interesado presentara...' / 'se recomendó que...'"
+    ],
+    "uses": [
+      "Indefinite relative + subjunctive: 'quien lo sepa que lo diga' (whoever knows, let them say so)",
+      "No creer que + subjunctive: 'no creo que sea la mejor solución' — doubt triggers subjunctive",
+      "Creer que + indicative: 'creo que es la mejor solución' — affirmation → indicative",
+      "Subjunctive for exhortation/strong volition: 'que pase el siguiente', 'que lo hagan ellos'",
+      "Subjunctive in concessive indefinite: 'sea cual sea la decisión, la acataremos'"
+    ],
+    "notes": [
+      "KEY CONTRAST: 'creo que viene' (indicative — I think he's coming) vs. 'no creo que venga' (subjunctive — I don't think he's coming)",
+      "Sea cual sea / sea como sea / sea quien sea — frozen subjunctive expressions with concessive force",
+      "Exhortative subjunctive ('que + 3rd person subjunctive') functions like a 3rd-person command",
+      "Ojalá NEVER takes indicative — always subjunctive in all three tenses"
+    ],
+    "examples": [
+      "No creo que la situación mejore sin una reforma estructural profunda. (I don't think the situation will improve without deep structural reform.)",
+      "Quien tuviera información sobre el paradero del sospechoso debería comunicarlo a las autoridades. (Whoever has information about the suspect's whereabouts should communicate it to the authorities.)",
+      "Que se haga lo que dicte la ley. (Let what the law dictates be done — exhortative subjunctive.)",
+      "Sea cual sea el resultado de las negociaciones, la empresa seguirá operando. (Whatever the outcome of the negotiations, the company will continue operating.)",
+      "Ojalá hubieran tomado la decisión antes de que se agravara la situación. (If only they had made the decision before the situation worsened — pluperfect subj., past regret.)"
+    ]
+  },
+  "Mood & Tense: Ojalá + tense contrasts": {
+    "rule": "'Ojalá' expresses a wish and always requires subjunctive. The tense chosen determines the speaker's assessment of realizability. Present subjunctive: wish for something achievable. Imperfect subjunctive: wish for something currently impossible or unlikely. Pluperfect subjunctive: regret about something that did not happen in the past.",
+    "structure": "Ojalá + [present subj. / imperfect subj. / pluperfect subj.]",
+    "formation": [
+      "Ojalá + present subj.: Ojalá llegue a tiempo. (I hope he arrives on time — realizable)",
+      "Ojalá + imperfect subj.: Ojalá tuviera más tiempo. (I wish I had more time — currently impossible/unlikely)",
+      "Ojalá + pluperfect subj.: Ojalá hubiera estudiado más. (I wish I had studied more — past regret)",
+      "Ojalá (que) — the 'que' is optional and slightly more formal without it"
+    ],
+    "uses": [
+      "Present subj.: hope for something feasible/possible (upcoming event, reasonable expectation)",
+      "Imperfect subj.: wish for something contrary to current reality (would require a change in present facts)",
+      "Pluperfect subj.: regret about a past event that cannot be changed",
+      "Three-way contrast: ojalá apruebe (I hope he passes) / ojalá aprobara (I wish he were passing — he's not) / ojalá hubiera aprobado (I wish he had passed — he didn't)"
+    ],
+    "notes": [
+      "Ojalá NEVER takes indicative under any circumstances",
+      "The imperfect subj. signals that the speaker considers the wish essentially unrealizable in present time",
+      "Pluperfect subj. after ojalá is exclusively retrospective — it always refers to a past situation",
+      "Ojalá derives from Arabic 'insha'Allah' — historically introduced into Spanish via Arabic influence"
+    ],
+    "examples": [
+      "Ojalá consigamos financiación para el proyecto antes de que acabe el trimestre. (I hope we get funding for the project before the quarter ends. — present subj., realizable)",
+      "Ojalá tuviéramos los medios necesarios para abordar este problema de raíz. (I wish we had the necessary means to address this problem at its root. — imperfect subj., unrealizable now)",
+      "Ojalá hubieran implementado estas medidas antes de que estallara la crisis. (I wish they had implemented these measures before the crisis broke out. — pluperfect subj., past regret)",
+      "Ojalá la situación mejore pronto. (I hope the situation improves soon. — present subj.)",
+      "Ojalá hubiera podido asistir a la presentación. (I wish I had been able to attend the presentation. — past regret)"
+    ]
+  },
+  "Mood & Tense: Pretérito Anterior (literary/formal)": {
+    "rule": "The pretérito anterior (hube/hubiste/hubo + participle) is a compound past tense expressing an action completed IMMEDIATELY before another past action. It is triggered by specific temporal conjunctions and is largely restricted to literary and very formal written Spanish. In everyday speech, it is replaced by the pluperfect (había + participle) or simple preterite.",
+    "structure": "Temporal conjunction + pretérito anterior | Pretérito anterior + main clause (preterite)",
+    "formation": [
+      "Hube/hubiste/hubo/hubimos/hubisteis/hubieron + past participle",
+      "Example: hubo terminado, hubieron llegado, hube firmado",
+      "Triggered by: apenas, no bien, en cuanto, tan pronto como, cuando, después de que (literary context)",
+      "ONLY used in subordinate clauses after these specific conjunctions"
+    ],
+    "uses": [
+      "Expresses immediate anteriority: the action in the subordinate clause is completed RIGHT BEFORE the main clause action",
+      "Triggered conjunctions: apenas (no sooner than), no bien (no sooner), tan pronto como, en cuanto",
+      "Exclusively literary/archaic — found in 19th/20th century literature and formal legal/notarial texts",
+      "Modern replacement: pluperfect (había terminado) or simple preterite serves the same function informally"
+    ],
+    "notes": [
+      "The pretérito anterior is essentially extinct in spoken Spanish",
+      "It appears in literary texts and must be recognized for reading comprehension at C2",
+      "DO NOT use in contemporary speech or informal writing — use pluperfect instead",
+      "The tense signal is the triggering conjunction + immediate temporal adjacency"
+    ],
+    "examples": [
+      "Apenas hubo terminado el discurso, se desató una ovación entre el público. (No sooner had he finished the speech than the audience broke into applause.)",
+      "No bien hubo firmado el tratado, los delegados abandonaron la sala. (No sooner had he signed the treaty than the delegates left the room.)",
+      "Tan pronto como hubieron concluido las negociaciones, se publicó el comunicado oficial. (As soon as the negotiations had concluded, the official communiqué was published.)",
+      "En cuanto hubo leído el veredicto, el acusado perdió la compostura. (As soon as he had read the verdict, the accused lost his composure.)"
+    ]
+  },
+  "Mood & Tense: Subjunctive vs. Indicative after Verbs of Thinking/Believing": {
+    "rule": "Verbs of thinking, believing, and knowing in affirmative form take indicative in the subordinate clause (the speaker asserts the content as factual). In negative form, these same verbs trigger subjunctive (the speaker casts doubt on the content). This indicative/subjunctive contrast encodes epistemic commitment.",
+    "structure": "Affirmative believe/think verb + que + indicative | Negative believe/think verb + que + subjunctive",
+    "formation": [
+      "Affirmative + indicative: creer que, pensar que, opinar que, suponer que, imaginar que, parecer que",
+      "Negative + subjunctive: no creer que, no pensar que, no parecer que, no suponer que, no imaginar que",
+      "Dudar + subjunctive (always): dudar que / dudar de que always takes subjunctive",
+      "No dudar + indicative: 'no dudo de que es verdad' (I don't doubt it = I'm sure = indicative)"
+    ],
+    "uses": [
+      "Creer que + indicative: 'Creo que tiene razón' — speaker commits to the truth",
+      "No creer que + subjunctive: 'No creo que tenga razón' — speaker doubts the truth",
+      "Parecer que + indicative: 'Parece que va a llover' — evidential statement",
+      "No parecer que + subjunctive: 'No parece que vaya a llover' — evidential doubt",
+      "No imaginar que + indicative: 'No imaginaba que era tan difícil' — factual embedded clause (speaker now knows it's true)"
+    ],
+    "notes": [
+      "No imaginar/suponer que + indicative: when the embedded clause is a FACT known to the speaker after the event",
+      "This indicative use after negative verbs of imagining is an advanced nuance: 'no imaginaba que era posible' = he didn't imagine it (but it turned out to be true)",
+      "Question form: '¿Crees que viene?' (indicative — asking for speaker's belief about a fact)",
+      "The epistemic commitment model: positive assertive = indicative; negative/doubt = subjunctive"
+    ],
+    "examples": [
+      "Creo que el proyecto es viable a largo plazo. (I think the project is viable long-term. — affirmative, indicative)",
+      "No creo que el proyecto sea viable a largo plazo. (I don't think the project is viable long-term. — negative, subjunctive)",
+      "No parece que la situación vaya a mejorar en el corto plazo. (It doesn't seem that the situation will improve in the short term. — negative, subjunctive)",
+      "No imaginaba que el nivel de corrupción fuera tan elevado. (He didn't imagine the level of corruption was so high — nor did he know.)",
+      "No dudamos de que la decisión fue la correcta dadas las circunstancias. (We don't doubt that the decision was correct given the circumstances. — no dudar + indicative)"
+    ]
+  },
+  "Cleft Sentences & Focus Structures (ser + quien/lo que)": {
+    "rule": "Cleft sentences use 'ser + relative clause' to bring a constituent into focus. They split a simple sentence into two clauses for emphasis or contrast. 'Fue él quien lo hizo' focuses on the agent; 'Fue aquí donde ocurrió' focuses on location; 'Es el precio lo que me preocupa' focuses on the object. Pseudo-clefts use 'lo que... es'. Topicalization and left-dislocation are related focus strategies.",
+    "structure": "Ser (tense-marked) + focused element + que/quien/donde/cuando + rest of clause",
+    "formation": [
+      "Agent focus: Fue + [person] + quien + verb: 'Fue el director quien firmó el acuerdo'",
+      "Object focus: Es + [thing] + lo que + clause: 'Es la transparencia lo que se exige'",
+      "Place focus: Fue + [place] + donde + clause: 'Fue en ese momento donde todo cambió'",
+      "Pseudo-cleft: Lo que + clause + es (que) + focused element: 'Lo que me preocupa es la falta de datos'",
+      "Topicalization: fronted element + comma + pronoun restating: 'Ese informe, no lo he leído'"
+    ],
+    "uses": [
+      "To identify the responsible agent emphatically and exclusively: 'Fue él quien tomó la decisión, no yo'",
+      "To highlight an aspect of a situation as the key concern: 'Es la metodología lo que falla'",
+      "In academic/legal writing to assign responsibility or pinpoint the crucial factor",
+      "Pseudo-cleft for presenting a problem or argument: 'Lo que conviene recordar es que...'",
+      "Left-dislocation in spoken/informal: 'El presupuesto, lo aprobaron sin debate'"
+    ],
+    "notes": [
+      "Ser in clefts agrees in tense and number with the focused element or the main clause context",
+      "Quien (not que) is preferred for person-focused clefts in formal Spanish",
+      "Lo que pseudo-clefts are extremely common in academic writing as discourse organizers",
+      "Left-dislocation (topicalization) is more oral; right-dislocation adds afterthought flavor",
+      "Avoid overuse — cleft sentences signal strong contrast/exclusivity, so reserve for meaningful emphasis"
+    ],
+    "examples": [
+      "Fue precisamente este vacío normativo el que permitió que se produjeran las irregularidades. (It was precisely this regulatory gap that allowed the irregularities to occur.)",
+      "Lo que más preocupa a los analistas es la falta de diversificación en la cartera de inversiones. (What worries analysts most is the lack of diversification in the investment portfolio.)",
+      "Fue en 2008 cuando la empresa comenzó a experimentar dificultades financieras serias. (It was in 2008 that the company began to experience serious financial difficulties.)",
+      "Es la coherencia metodológica lo que distingue a este estudio de los anteriores. (It is the methodological consistency that distinguishes this study from previous ones.)",
+      "La financiación, en cambio, no la han resuelto todavía. (The funding, on the other hand, they haven't resolved yet. — topicalization)"
+    ]
+  },
+  "Pragmatics & Register (hedging, reported speech, indirect speech)": {
+    "rule": "C1/C2 academic and professional Spanish uses specific hedging devices to soften claims, signal uncertainty, and attribute statements to others. Reported speech requires tense shift (backshift). Indirect speech with the subjunctive appears in formal/literary contexts. Register-appropriate hedging ('cabe señalar', 'es menester', 'conviene destacar') marks academic maturity.",
+    "structure": "Hedging expression + indicative/infinitive | Reporting verb + que + backshifted clause",
+    "formation": [
+      "Hedging expressions: cabe señalar/mencionar, es menester, conviene destacar, cabe preguntarse, es preciso reconocer, no es de extrañar que + subj.",
+      "Reported speech backshift: present → imperfect; future → conditional; preterite → pluperfect",
+      "Indirect speech with subjunctive: pedir/rogar/ordenar + que + imperfect subj. (past reporting verb)",
+      "Modal hedging: podría decirse que, cabría afirmar que, parece ser que, al parecer"
+    ],
+    "uses": [
+      "Hedging in academic writing: avoid overclaiming; signal epistemic humility",
+      "Reporting verbs for attribution: señaló que, afirmó que, sostuvo que, indicó que",
+      "Tense backshift: 'Dijo que vendría' (he said he would come — future → conditional)",
+      "Indirect command with subjunctive: 'Pidió que lo hicieran' (asked that they do it)",
+      "Modal hedging: 'Cabría interpretar que...' marks the claim as one possible reading, not definitive"
+    ],
+    "notes": [
+      "Register: 'es menester' and 'cabe señalar' are formal academic; 'conviene' is neutral formal",
+      "Backshift is not obligatory in Spanish when the content is still current: 'Dijo que viene mañana' (still applicable today)",
+      "Indirect commands ALWAYS backshift to imperfect subjunctive when reporting verb is in past",
+      "Hedging is a mark of academic maturity — excessive certainty reads as unsophisticated in formal prose"
+    ],
+    "examples": [
+      "Cabe señalar que los resultados obtenidos difieren significativamente de los esperados. (It should be noted that the results obtained differ significantly from those expected.)",
+      "El ministro afirmó que se tomarían medidas adicionales antes de fin de año. (The minister stated that additional measures would be taken before the end of the year. — future → conditional backshift)",
+      "El tribunal ordenó que se suspendieran inmediatamente todas las actuaciones. (The court ordered that all proceedings be immediately suspended. — indirect command + imperfect subj.)",
+      "Cabría preguntarse si la metodología empleada es la más adecuada para este tipo de análisis. (One might ask whether the methodology employed is the most appropriate for this type of analysis.)",
+      "Conviene distinguir entre los efectos a corto y a largo plazo de la medida propuesta. (It is worth distinguishing between the short and long-term effects of the proposed measure.)"
+    ]
+  },
+  "Impersonal & Passive se vs. ser + participle": {
+    "rule": "The impersonal 'se' and passive 'se' are distinct constructions. Impersonal se has no grammatical subject and uses only 3rd person singular. Passive se (pasiva refleja) has a grammatical subject (the thing acted upon) and the verb agrees with it. The key diagnostic: if there is an identifiable grammatical subject, it's passive se; if not, it's impersonal se.",
+    "structure": "Se + 3rd sg. verb (impersonal, no subject) | Se + verb (agrees with subject) + subject (passive refleja)",
+    "formation": [
+      "Impersonal se: se habla español aquí (one speaks Spanish here — no grammatical subject)",
+      "Passive se (singular subject): se aprobó la ley (the law was passed)",
+      "Passive se (plural subject): se aprobaron las medidas (the measures were passed)",
+      "Impersonal se + infinitive complement: se puede entrar (one can enter — infinitive, not a subject)",
+      "Se impersonal with animate DO: se detuvo al sospechoso (NOT *se detuvo el sospechoso — personal 'a' required)"
+    ],
+    "uses": [
+      "Impersonal se: generic 'one', habitual processes, instructions without specifying actor",
+      "Passive se: to express passive meaning when agent is unknown or irrelevant",
+      "Distinction in academic/formal writing: both are common but serve different pragmatic functions",
+      "Impersonal se in procedural text: 'se añade sal al gusto', 'se mezclan los ingredientes'",
+      "Passive se in journalistic/legal: 'se firmó el acuerdo', 'se publicaron los resultados'"
+    ],
+    "notes": [
+      "Passive se can ONLY be used with inanimate direct objects OR animate objects introduced by personal 'a'",
+      "When the DO is animate without 'a', the sentence becomes ambiguous or ungrammatical: 'se contrató a los médicos' (passive; personal a) vs. '*se contrató los médicos' (wrong)",
+      "Impersonal se is often preferred in formal academic writing to avoid passive constructions",
+      "Se impersonal + active verb: 'aquí se trabaja mucho' (one works a lot here — impersonal, single subject)"
+    ],
+    "examples": [
+      "En esta región se habla un dialecto peculiar. (In this region a peculiar dialect is spoken / one speaks a peculiar dialect. — impersonal)",
+      "Se aprobaron las nuevas directrices en la última sesión del comité. (The new guidelines were approved at the last committee session. — passive refleja, plural agreement)",
+      "Se detuvo a los responsables del fraude pocas horas después del descubrimiento. (Those responsible for the fraud were detained a few hours after the discovery. — animate DO with personal 'a')",
+      "Cuando se trabaja bajo presión constante, la productividad tiende a decrecer. (When one works under constant pressure, productivity tends to decrease. — impersonal)",
+      "Se ha firmado un acuerdo de cooperación entre los dos países. (A cooperation agreement has been signed between the two countries. — passive refleja)"
+    ]
+  },
+  "Lexical Precision: Formal Verbs of Occurrence (acaecer, acontecer, suceder)": {
+    "rule": "Formal Spanish uses a hierarchy of verbs to express 'to happen/occur' with distinct register and nuance. 'Ocurrir' and 'suceder' are standard. 'Acontecer' is formal and often implies historically or socially significant events. 'Acaecer' is the most elevated — legal, notarial, and literary — with an archaic flavor. 'Tener lugar' is formal and neutral.",
+    "structure": "Subject + verb (3rd person, usually) | Verb + [context/temporal frame]",
+    "formation": [
+      "All these verbs are typically used in 3rd person (the event is subject)",
+      "Acaecer: conjugates like 'crecer' (irregular yo: no common yo form used); mainly 3rd person",
+      "Acontecer: regular -er verb; mainly 3rd person",
+      "Suceder: regular -er; also means 'to follow/succeed' — context disambiguates",
+      "Tener lugar: periphrasis, cannot conjugate further"
+    ],
+    "uses": [
+      "Ocurrir: neutral/standard; any register (¿qué ocurrió? — what happened?)",
+      "Suceder: standard-formal; also used as 'to follow': 'tras lo que sucedió', 'lo que sucede es que'",
+      "Acontecer: formal; for events of social/historical relevance: 'lo que aconteció durante la guerra'",
+      "Acaecer: highly formal/archaic; legal and literary: 'en el supuesto de que acaeciere su fallecimiento'",
+      "Tener lugar: formal neutral; preferred when specifying a time/place: 'el evento tuvo lugar en...' "
+    ],
+    "notes": [
+      "Register hierarchy (least → most formal): ocurrir < suceder < acontecer < acaecer",
+      "'Acaecer' in the future subjunctive ('acaeciere') is extremely common in legal texts",
+      "'Suceder' has two meanings — 'to happen' and 'to succeed/follow' — context is essential",
+      "Persistir is not a verb of occurrence but of continuation; do not confuse with 'suceder'"
+    ],
+    "examples": [
+      "Ignoramos qué ocurrió exactamente durante aquella reunión. (We don't know what exactly happened during that meeting. — neutral)",
+      "Los hechos que acontecieron durante el conflicto fueron documentados por organismos internacionales. (The events that occurred during the conflict were documented by international organisations. — formal/historical)",
+      "En el supuesto de que acaeciere el fallecimiento del titular, la cuenta pasará a sus herederos. (In the event that the account holder's death occurs, the account will pass to his heirs. — legal, future subjunctive)",
+      "El acto de entrega de premios tendrá lugar el próximo viernes en el Palacio de Congresos. (The awards ceremony will take place next Friday at the Conference Palace. — formal neutral)",
+      "Nadie pudo prever lo que sucedería a continuación. (No one could foresee what would happen next. — formal standard)"
+    ]
+  },
+  "Lexical Precision: Formal Nouns & Nominalizations (repercusión, prevalencia, incidencia)": {
+    "rule": "Formal Spanish — especially academic, legal, and journalistic — prefers nominalized structures over verbal/clausal ones. Deverbal nouns compress information elegantly. Key formal nouns with subtle distinctions: repercusión (wider ripple effect), incidencia (rate/frequency of occurrence), prevalencia (dominance/prevalence over time), vigencia (current validity/force), impacto (neutral, quantifiable effect). Nominalizations convert entire clauses into noun phrases.",
+    "structure": "Nominalized phrase (noun + de + complement) replacing verbal clause",
+    "formation": [
+      "Nominalization: 'cuando se aprobó la ley' → 'la aprobación de la ley'",
+      "Deverbal nouns: aprobación (aprobar), implementación (implementar), resolución (resolver), incumplimiento (incumplir)",
+      "Collocations: tener repercusiones en, registrar una incidencia de, mantener vigencia, constatar un impacto",
+      "Key nouns: repercusión, incidencia, prevalencia, vigencia, impacto, consecuencia, derivación, alcance"
+    ],
+    "uses": [
+      "Repercusión: broader, indirect effects radiating outward ('las repercusiones de la crisis energética')",
+      "Incidencia: rate or frequency of something occurring ('la incidencia del fraude fiscal', 'alta incidencia de casos')",
+      "Prevalencia: dominance of one thing over others, sustained over time ('la prevalencia de esta enfermedad')",
+      "Vigencia: being currently valid, in force ('la vigencia de la ley', 'mantener vigencia')",
+      "Nominalizations for formal register: 'la implementación del protocolo' vs. 'cuando se implementó el protocolo'"
+    ],
+    "notes": [
+      "Repercusión ≠ impacto: repercusión implies secondary/indirect effects; impacto is more direct and quantifiable",
+      "Incidencia ≠ prevalencia: incidencia = new cases/events (rate); prevalencia = existing cases over a period (proportion)",
+      "Vigencia is specific to norms, laws, agreements — an idea or trend uses 'vigencia' more loosely",
+      "Over-nominalization can obscure meaning — use judiciously for formal effect, not as a default"
+    ],
+    "examples": [
+      "La aprobación de esta normativa tendrá repercusiones significativas en el sector financiero. (The approval of this regulation will have significant repercussions for the financial sector.)",
+      "La incidencia de ciberataques en el sector público ha aumentado un 40% en el último año. (The incidence of cyberattacks in the public sector has increased by 40% in the past year.)",
+      "La prevalencia de este modelo de negocio en mercados emergentes plantea interrogantes sobre su sostenibilidad. (The prevalence of this business model in emerging markets raises questions about its sustainability.)",
+      "Dicho acuerdo perderá su vigencia a partir del próximo 31 de diciembre. (Said agreement will cease to be in force from 31 December.)",
+      "La implementación de las medidas acordadas se llevará a cabo de forma escalonada. (The implementation of the agreed measures will be carried out in a phased manner. — nominalization)"
+    ]
+  },
+  "Lexical Precision: Verbs of Clarification/Unraveling (desentrañar, dilucidar, desvelar)": {
+    "rule": "Spanish has a cluster of formal verbs for different types of 'clarifying', 'uncovering', or 'explaining'. They differ in the nature of what is being clarified and the degree of complexity/effort involved. C1/C2 precision requires selecting the right verb for the type of knowledge being revealed.",
+    "structure": "Subject + verb + direct object (the thing being clarified/uncovered)",
+    "formation": [
+      "All regular or standard conjugation patterns",
+      "Desentrañar: to unravel/disentangle (complex, deeply embedded content — requires effort)",
+      "Dilucidar: to elucidate/clarify (to shed light on, resolve ambiguity — academic/formal)",
+      "Desvelar: to unveil/reveal (to make known something previously hidden or unknown)",
+      "Esclarecer: to clarify/shed light on (general formal clarification)",
+      "Aclarar: neutral general clarification; less formal than esclarecer"
+    ],
+    "uses": [
+      "Desentrañar: for hidden, complex, deeply layered content: 'desentrañar el significado de un texto', 'desentrañar los mecanismos del fraude'",
+      "Dilucidar: academic/investigative; 'dilucidar las causas de un fenómeno', 'dilucidar si X es verdad'",
+      "Desvelar: journalistic/dramatic; reveal something previously concealed: 'desvelar la identidad', 'desvelar el escándalo'",
+      "Esclarecer: neutral formal clarification of a confused situation: 'esclarecer los hechos', 'esclarecer responsabilidades'",
+      "Descifrar: decode/decipher — for coded or cryptic content: 'descifrar un mensaje', 'descifrar las intenciones'"
+    ],
+    "notes": [
+      "Desentrañar implies the object is complex and tangled — it's not used for simple clarification",
+      "Desvelar has a dramatic/revelatory flavor — often used in journalism for exposés",
+      "Dilucidar is preferred in academic/scientific writing for resolving theoretical questions",
+      "Esclarecer and aclarar overlap but esclarecer is more formal and implies broader context",
+      "Descifrar is for genuinely cryptic or coded content; using it for simple clarification is too strong"
+    ],
+    "examples": [
+      "El análisis forense permitió desentrañar los mecanismos del fraude contable. (The forensic analysis made it possible to unravel the mechanisms of the accounting fraud.)",
+      "Los investigadores aún no han logrado dilucidar las causas exactas del accidente. (Researchers have still not managed to elucidate the exact causes of the accident.)",
+      "La investigación periodística desveló la existencia de cuentas bancarias ocultas en paraísos fiscales. (The journalistic investigation revealed the existence of hidden bank accounts in tax havens.)",
+      "El informe pericial contribuyó a esclarecer las responsabilidades de cada parte. (The expert report helped to clarify the responsibilities of each party.)",
+      "Fue imposible descifrar las verdaderas intenciones del negociador durante las conversaciones. (It was impossible to decipher the negotiator's true intentions during the talks.)"
+    ]
+  },
+  "Lexical Precision: Verbs of Entailment/Causation (conllevar, acarrear, comportar)": {
+    "rule": "Formal Spanish uses precise verbs to express that one thing entails, causes, or brings about another. These are not interchangeable: 'conllevar' emphasizes inherent logical entailment; 'acarrear' stresses negative or undesirable consequences; 'comportar' (legal/technical) implies an obligatory result or condition attached to something; 'implicar' covers logical implication broadly; 'suponer' means 'to represent/amount to' in formal contexts.",
+    "structure": "Subject (cause/condition) + verb + direct object (consequence/entailment)",
+    "formation": [
+      "All regular -ar or -er verbs in standard conjugations",
+      "Conllevar: takes a noun or infinitive object",
+      "Acarrear: takes a noun object (consequences, problems, risks)",
+      "Comportar: takes a noun object; mostly legal/technical register",
+      "Implicar: broadest — takes noun or que + subjunctive",
+      "Suponer: 'to represent/amount to' in formal use (not just 'to suppose')"
+    ],
+    "uses": [
+      "Conllevar: 'Esta decisión conlleva riesgos importantes' — the risks are inherent, attached, unavoidable",
+      "Acarrear: 'Su negligencia acarreó graves consecuencias' — negative consequences as a result",
+      "Comportar: 'El incumplimiento comporta la rescisión automática' — legal/contractual entailment",
+      "Suponer: 'Esto supone un avance significativo' — amounts to / represents (formal sense)",
+      "Implicar: broad logical implication: 'Esto implica que debemos reconsiderar nuestra estrategia'"
+    ],
+    "notes": [
+      "Acarrear almost always has negative connotation — do not use for neutral or positive entailments",
+      "Comportar is mainly legal/technical — rarely heard in general conversation",
+      "Conllevar is the most versatile of the group; negative, neutral, or even positive entailments",
+      "Suponer in this formal sense ≠ 'to suppose/assume' — context distinguishes ('supone un coste de X euros')"
+    ],
+    "examples": [
+      "La adopción de este nuevo marco regulatorio conlleva obligaciones adicionales para las empresas del sector. (The adoption of this new regulatory framework entails additional obligations for sector companies.)",
+      "Su falta de diligencia acarreó consecuencias nefastas para toda la organización. (His lack of diligence brought about disastrous consequences for the entire organisation.)",
+      "El incumplimiento de las condiciones estipuladas comportará la resolución inmediata del contrato. (Failure to meet the stipulated conditions will entail the immediate termination of the contract.)",
+      "Este hallazgo supone un avance fundamental en la comprensión de la enfermedad. (This finding represents a fundamental advance in understanding the disease.)",
+      "Aceptar estas condiciones implicaría renunciar a derechos previamente adquiridos. (Accepting these conditions would imply giving up previously acquired rights.)"
+    ]
+  },
+  "Lexical Precision: Adjectives of Obviousness (palmaria, patente, manifiesta, flagrante)": {
+    "rule": "Spanish has a rich set of formal adjectives meaning 'obvious/evident' with distinct nuances of register and connotation. C1/C2 precision requires selecting the right adjective for the context. These appear frequently in legal, academic, and journalistic writing.",
+    "structure": "Ser/resultar/quedar + adjective | Adjective + noun (attributive)",
+    "formation": [
+      "All regular adjective agreement: -o/-a/-os/-as or invariable",
+      "Patente: always follows ser/resultar/quedar or precedes noun — no change of form for gender",
+      "Manifiesta/manifiesto: agrees with noun gender",
+      "Flagrante: from Latin; used mainly in legal/criminal contexts, often in set phrases",
+      "Palmaria/palmario: formal, mainly predicative"
+    ],
+    "uses": [
+      "Patente: clear, plainly visible, beyond dispute — formal/academic: 'queda patente que...'",
+      "Manifiesto/a: openly evident, not hidden — often collocates with 'poner de manifiesto': 'su incompetencia resultó manifiesta'",
+      "Flagrante: caught in the act; highly negative and legal: 'flagrante violación de derechos', 'infracción flagrante'; set phrase 'in flagrante'",
+      "Palmario/a: very formal/literary for irrefutable clarity: 'es una verdad palmaria'",
+      "Ostensible: visible/apparent — sometimes used where a less dramatic word is needed; has slight connotation of 'ostentatious'"
+    ],
+    "notes": [
+      "Flagrante is ALMOST ALWAYS used in negative/condemning contexts — do not use for positive evidence",
+      "Poner de manifiesto is a fixed formal expression: 'el informe pone de manifiesto las deficiencias'",
+      "Palmario is the most elevated; using it conversationally would sound stiff",
+      "Patente and manifiesto are the most commonly used in academic prose",
+      "Ostensible can be ambiguous: 'ostensible mejora' may read as 'apparent (but not real) improvement'"
+    ],
+    "examples": [
+      "La investigación pone de manifiesto la existencia de irregularidades sistemáticas. (The investigation reveals the existence of systematic irregularities. — poner de manifiesto = fixed expression)",
+      "Es patente que el sistema de supervisión ha fallado en su función preventiva. (It is clear that the supervisory system has failed in its preventive function.)",
+      "La resolución judicial calificó los hechos de flagrante vulneración del derecho a la tutela efectiva. (The judicial ruling classified the events as a flagrant violation of the right to effective judicial protection.)",
+      "Su falta de preparación resultó manifiesta desde el primer momento de la comparecencia. (His lack of preparation was plainly evident from the first moment of the hearing.)",
+      "Es una verdad palmaria que sin inversión en educación no puede existir desarrollo sostenible. (It is a self-evident truth that without investment in education, sustainable development cannot exist.)"
+    ]
+  },
+  "Lexical Precision: Verbs of Revelation/Disclosure": {
+    "rule": "Formal Spanish distinguishes between verbs for different types of making something known: revealing hidden information (desvelar, revelar), demonstrating/evidencing (demostrar, evidenciar, acreditar), and formally confirming (constatar, corroborar, certificar). Register and agency matter: some imply active disclosure, others passive emergence of truth.",
+    "structure": "Subject (agent/source) + verb + direct object (information/fact revealed)",
+    "formation": [
+      "All standard conjugations; reflexive variants possible for some (revelarse como)"
+    ],
+    "uses": [
+      "Desvelar: dramatic revelation of previously hidden information (journalistic, exposé)",
+      "Revelar: broader — reveal, disclose; also used in scientific/academic contexts",
+      "Evidenciar: the evidence shows/demonstrates — often impersonal: 'los datos evidencian que...'",
+      "Constatar: to establish/verify as fact after observation: 'se constató que...'",
+      "Corroborar: to corroborate/confirm with additional evidence: 'estos datos corroboran la hipótesis'",
+      "Acreditar: formal/legal; to prove/establish officially: 'acreditar la identidad', 'acreditar méritos'"
+    ],
+    "notes": [
+      "Desvelar is more dramatic than revelar — journalistic exposés prefer desvelar",
+      "Constatar implies a direct observational or evidentiary basis — more scientific than revelar",
+      "Corroborar always implies secondary supporting evidence confirming something already claimed",
+      "Acreditar has a specifically formal/legal register — it implies official documentation or proof"
+    ],
+    "examples": [
+      "Los documentos filtrados desvelaron la existencia de acuerdos secretos entre los gobiernos. (The leaked documents revealed the existence of secret agreements between the governments.)",
+      "Los datos estadísticos evidencian una correlación entre desigualdad económica y conflictividad social. (Statistical data evidences a correlation between economic inequality and social conflict.)",
+      "La auditoría constató irregularidades en la gestión de los fondos públicos. (The audit established irregularities in the management of public funds.)",
+      "Los nuevos testimonios corroboran la versión ofrecida por el principal testigo. (The new testimonies corroborate the version offered by the main witness.)",
+      "El candidato deberá acreditar el dominio del idioma mediante certificado oficial. (The candidate must officially prove language proficiency through an official certificate.)"
+    ]
+  },
+  "Lexical Precision: Verbs of Dispute Resolution (dirimir, zanjar, solventar)": {
+    "rule": "Formal Spanish has specific verbs for resolving disputes, conflicts, or problems. 'Dirimir' is highly formal/legal and used almost exclusively for disputes, controversies, and conflicts between parties. 'Zanjar' conveys a definitive, often abrupt end to a disagreement. 'Solventar' applies to solving practical problems or difficulties. 'Resolver' is the most general.",
+    "structure": "Subject + verb + direct object (conflict/problem/dispute)",
+    "formation": [
+      "All standard conjugations; dirimir follows regular -ir pattern"
+    ],
+    "uses": [
+      "Dirimir: legal/formal — resolving disputes, controversies, differences of interpretation: 'dirimir una controversia', 'dirimir competencias'",
+      "Zanjar: cutting short / definitively closing: 'zanjar la discusión', 'zanjar el asunto' — implies finality, sometimes brusqueness",
+      "Solventar: solving practical difficulties or obstacles: 'solventar un problema técnico', 'solventar las deudas'",
+      "Resolver: neutral/general; applies to problems, conflicts, equations — broadest use",
+      "Dirimir diferencias/disputas/controversias: almost always collocates with these nouns"
+    ],
+    "notes": [
+      "Dirimir is NOT interchangeable with resolver in everyday language — it is exclusively formal/legal",
+      "Zanjar implies the matter is closed once and for all — it cannot be reopened: 'zanjar el debate'",
+      "Solventar focuses on eliminating an obstacle or settling a debt/difficulty — not for abstract disputes",
+      "In legal texts, 'dirimir' is frequently found with 'conflictos de competencia' and 'controversias'"
+    ],
+    "examples": [
+      "Corresponde al Tribunal Constitucional dirimir los conflictos de competencia entre el Estado y las comunidades autónomas. (It is for the Constitutional Court to resolve competence conflicts between the State and the autonomous communities.)",
+      "La mediación logró zanjar definitivamente el litigio sin necesidad de recurrir a los tribunales. (The mediation managed to definitively settle the litigation without the need to go to court.)",
+      "El equipo técnico consiguió solventar los problemas de infraestructura antes del plazo previsto. (The technical team managed to resolve the infrastructure problems before the anticipated deadline.)",
+      "Las partes acordaron dirimir sus diferencias mediante arbitraje internacional. (The parties agreed to resolve their differences through international arbitration.)"
+    ]
+  },
+  "Lexical Precision: Verbs of Fostering/Promoting": {
+    "rule": "Formal Spanish uses distinct verbs for encouraging or fostering something depending on the degree of active intervention and the nature of what is being promoted. 'Fomentar' suggests active cultivation/encouragement of a desirable process; 'impulsar' implies giving momentum/drive; 'promover' is formal for initiating or promoting; 'favorecer' means to favor/facilitate; 'propiciar' means to create conditions for.",
+    "structure": "Subject (institution/policy/agent) + verb + direct object (process/activity promoted)",
+    "formation": [
+      "All standard conjugations"
+    ],
+    "uses": [
+      "Fomentar: sustained encouragement of a positive process: 'fomentar la innovación', 'fomentar la cooperación'",
+      "Impulsar: give drive/momentum to something: 'impulsar el crecimiento', 'impulsar una reforma'",
+      "Promover: formally initiate or advocate for: 'promover una ley', 'promover el diálogo'",
+      "Favorecer: create favorable conditions: 'la reforma favorece la inversión'",
+      "Propiciar: create circumstances that make something more likely: 'propiciar un clima de confianza'"
+    ],
+    "notes": [
+      "Fomentar is the most common in institutional/policy language for desired positive development",
+      "Impulsar implies energy and momentum — often used for stalled processes given a push",
+      "Propiciar is subtler — it creates conditions rather than directly causing: 'propicia pero no garantiza'",
+      "Promover overlaps with 'fomentar' but has a more initiatory connotation"
+    ],
+    "examples": [
+      "El programa tiene como objetivo fomentar la cultura emprendedora entre los jóvenes. (The programme aims to foster an entrepreneurial culture among young people.)",
+      "Es necesario impulsar medidas que agilicen los trámites administrativos. (It is necessary to drive forward measures that streamline administrative procedures.)",
+      "La nueva política fiscal propicia un entorno más favorable para la inversión extranjera. (The new fiscal policy creates conditions more favorable to foreign investment.)",
+      "El acuerdo busca promover la transferencia de tecnología entre los países participantes. (The agreement seeks to promote technology transfer between the participating countries.)"
+    ]
+  },
+  "Lexical Precision: Legal Verbs (permission, prohibition, obligation)": {
+    "rule": "Legal Spanish uses specialized verbs for expressing permission, prohibition, and obligation that go beyond standard 'poder', 'no poder', and 'tener que'. These verbs appear in legislation, contracts, and formal administrative texts and carry specific legal force.",
+    "structure": "Modal legal verb + infinitive | Legal verb + que + subjunctive",
+    "formation": [
+      "Permission: autorizar a, facultar para, habilitar para, permitir (with legal force)",
+      "Prohibition: vedar, prohibir, proscribir, interdictar",
+      "Obligation: prescribir, estipular, preceptuar, establecer, disponer",
+      "Stipulation/definition: definir como, calificar de, tipificar como"
+    ],
+    "uses": [
+      "Vedar: to forbid/bar — more absolute than prohibir; often in formal/constitutional contexts: 'queda vedado el acceso'",
+      "Facultar: to empower/authorize — grants legal capacity to act: 'el reglamento le faculta para...'",
+      "Preceptuar/prescribir: to prescribe/mandate — used in legislation for obligatory norms",
+      "Estipular: to stipulate in a contract or agreement: 'tal como estipula el artículo 5'",
+      "Tipificar: to classify an action as a specific legal offense: 'el delito tipificado en el artículo...'"
+    ],
+    "notes": [
+      "Vedar is more absolute and formal than prohibir — often in constitutional or treaty language",
+      "Facultar is specifically about granting legal capacity/power — not the same as 'permitir'",
+      "Prescribir also means 'to expire' (a right or claim) — context is critical",
+      "Estipular collocates with contract/agreement terms and introduces specific conditions"
+    ],
+    "examples": [
+      "La Constitución veda cualquier forma de discriminación por razón de sexo, raza o religión. (The Constitution forbids any form of discrimination on grounds of sex, race or religion.)",
+      "Dicho reglamento faculta al director para adoptar las medidas urgentes que estime oportunas. (Said regulation empowers the director to adopt the urgent measures he deems appropriate.)",
+      "El contrato estipula que el pago deberá efectuarse dentro de los treinta días siguientes a la entrega. (The contract stipulates that payment must be made within thirty days of delivery.)",
+      "El artículo 248 del Código Penal tipifica como delito la falsificación de documentos oficiales. (Article 248 of the Penal Code classifies the falsification of official documents as a criminal offence.)"
+    ]
+  },
+  "Lexical Precision: Diminutives & Augmentatives (pragmatic force)": {
+    "rule": "Spanish diminutives (-ito/-ita, -illo/-illa) and augmentatives (-ón/-ona, -azo/-aza) go far beyond indicating size. At C1/C2, they encode pragmatic values: affection, irony, mitigation, intensification, and pejorative connotation. The same base word can have radically different pragmatic force depending on suffix, context, and region.",
+    "structure": "Noun/adjective + diminutive/augmentative suffix",
+    "formation": [
+      "Diminutive -ito/-ita: most common, neutral diminutive or affectionate: libro → librito",
+      "Diminutive -illo/-illa: slight pejorative or trivializing nuance: asunto → asuntillo",
+      "Augmentative -ón/-ona: big, intensified, often pejorative: hombre → hombrón (big man); also intensifying: buenón",
+      "Augmentative -azo/-aza: excellence/intensity OR pejorative large: golpe → golpazo; also 'what a [noun]!': exitazo"
+    ],
+    "uses": [
+      "-ito for mitigation/politeness: 'espera un momentito' (softer request than 'un momento')",
+      "-ito for irony: 'qué listo-ito' (how clever — sarcastic)",
+      "-illo for trivialization: 'ese asuntillo' (that little matter — dismissive)",
+      "-azo for excellence: '¡Qué golazo!' (What a great goal!); or intensification: 'un frío que pela, un friazo'",
+      "-ón for intensity (often pejorative): 'solterón' (confirmed bachelor, pejorative); 'grandullón' (big and clumsy)"
+    ],
+    "notes": [
+      "Regional variation is strong: -ito dominates in Latin America; -illo is more common in Spain",
+      "Pragmatic nuance can only be read in context — no suffix has a single fixed meaning",
+      "Some diminutives are lexicalized and have lost productive meaning: 'bolsillo' is just 'pocket', not 'small bag'",
+      "In formal/legal writing, diminutives and augmentatives are avoided — their appearance marks spoken register"
+    ],
+    "examples": [
+      "¿Me dejas un momentito? (Can you give me just a moment? — diminutive as mitigation/politeness)",
+      "Ese asuntillo que mencionaste ayer puede tener consecuencias más graves de lo que parece. (That little matter you mentioned yesterday may have more serious consequences than it seems. — -illo trivializing, contrast with reality)",
+      "¡Vaya exitazo ha tenido esa campaña! (What a huge success that campaign has had! — -azo for intensified positive)",
+      "No le hagas caso: es un bocazas que dice lo primero que se le ocurre. (Don't pay attention to him: he's a big-mouth who says whatever comes to mind first. — augmentative pejorative)"
+    ]
+  },
+  "Gerund & Infinitive: General": {
+    "rule": "This category covers gerund and infinitive uses that don't fall neatly into cause, consequence, means, or condition — including gerund of time (simultaneity), gerund of means in scientific/procedural writing, compound gerund for temporal ordering, and the contrast between gerund and subordinate clauses expressing manner. The core principle: Spanish gerunds are adverbial (they modify the verb), never adjectival (they cannot modify nouns).",
+    "structure": "Gerund (adverbial, modifying the main verb) | Infinitive (nominal or verbal complement)",
+    "formation": [
+      "Gerund of time/simultaneity: verb of motion or activity + gerund (llegó corriendo, salió llorando)",
+      "Gerund of means (scientific/procedural): gerund at clause boundary indicating method (analizando X, se obtuvo Y)",
+      "Gerund vs. manner clause: 'estudiando' (gerund, compact) = 'mientras estudia/estudiaba' (clause, explicit)",
+      "Infinitive as subject: 'Estudiar es importante' — gerund NOT used as noun subject in standard Spanish",
+      "Infinitive after prepositions: 'antes de salir', 'al llegar', 'para entender' — never gerund after prepositions (except 'en')"
+    ],
+    "uses": [
+      "Gerund of time: expresses an action simultaneous with or immediately following the main verb",
+      "Scientific/procedural gerund: method or instrument — 'comparando los datos, se concluye que...'",
+      "Contrast gerund vs. clause: gerund is more formal and compact; subordinate clause is more explicit",
+      "Infinitive as subject: Spanish uses infinitive where English might use '-ing': 'Fumar es malo'",
+      "Infinitive after 'al': 'al llegar' = upon arriving — temporal with immediate sequence"
+    ],
+    "notes": [
+      "Spanish does NOT use gerund as a noun (subject/object): *'el estudiando es difícil' is WRONG; use infinitive: 'el estudiar / estudiar es difícil'",
+      "After almost all prepositions, use INFINITIVE not gerund: 'después de llegar' NOT *'después de llegando'",
+      "Exception: 'en + gerund' is acceptable in formal/literary contexts: 'en llegando al destino...'",
+      "Gerund after verbs of perception (ver, oír, sentir) marks an ongoing action perceived in progress: 'la vi saliendo del edificio'"
+    ],
+    "examples": [
+      "Entró al despacho dando un portazo, sin saludar a nadie. (He entered the office slamming the door, without greeting anyone. — simultaneous)",
+      "Analizando las variables de forma individual, se observa que cada una contribuye de manera diferenciada al resultado. (By analysing the variables individually, one observes that each contributes differently to the result. — procedural means)",
+      "Al revisar los documentos, el auditor detectó varias inconsistencias. (Upon reviewing the documents, the auditor detected several inconsistencies. — al + infinitive, immediate sequence)",
+      "Fumar en espacios cerrados está prohibido por ley. (Smoking in enclosed spaces is prohibited by law. — infinitive as subject, NOT gerund)",
+      "La vi saliendo del edificio justo cuando yo llegaba. (I saw her leaving the building just as I was arriving. — perception verb + gerund)"
+    ]
+  },
+  "Lexical Precision & Register: Formal Vocabulary": {
+    "rule": "C1/C2 Spanish requires mastery of a broad formal lexical register used in academic, legal, journalistic, and institutional writing. This includes formal synonyms for common verbs and nouns, collocations specific to formal prose, verbs of intellectual activity, assessment, and consequence, as well as register-appropriate connector choice. The key skill is not just knowing the formal word but choosing it when it is the right register match.",
+    "structure": "Formal word/phrase + appropriate syntactic context",
+    "formation": [
+      "Formal verb pairs: ocurrir → acontecer/acaecer; hacer → llevar a cabo/efectuar/realizar; decir → señalar/manifestar/sostener/afirmar",
+      "Formal nouns: problema → problemática; resultado → consecuencia/derivación/corolario; razón → fundamento/justificación",
+      "Formal adjectives: importante → relevante/significativo/trascendental; claro → patente/manifiesto/palmario",
+      "Formal collocations: llevar a cabo, poner de manifiesto, dar lugar a, tener en cuenta, en el marco de, a raíz de",
+      "Verbs of intellectual activity: analizar, examinar, constatar, corroborar, refutar, contrastar, cotejar"
+    ],
+    "uses": [
+      "Academic/research writing: prefer 'efectuar un análisis' over 'hacer un análisis'",
+      "Legal texts: 'en el supuesto de que', 'a los efectos de', 'con arreglo a', 'de conformidad con'",
+      "Journalistic/institutional: 'dar cuenta de', 'poner de relieve', 'hacer patente', 'poner de manifiesto'",
+      "Verbs of assessment: evaluar, ponderar, valorar, estimar — each with specific collocational behavior",
+      "Register distinction in connectors: empero (archaic concession), mas (literary 'but'), antes bien (correction/contrary to expectation)"
+    ],
+    "notes": [
+      "Formal vocabulary is not better than neutral vocabulary — it is appropriate or inappropriate depending on context",
+      "Overcrowding a text with formal synonyms creates pomposity, not sophistication",
+      "Key principle: use formal vocabulary when the genre/register demands it (legal brief, academic article), not as a default",
+      "Fixed formal collocations cannot be broken up: 'llevar a cabo' works; *'llevar esto a cabo antes' is marked",
+      "Register-sensitive connectors: 'mas' (literary but, no accent) ≠ 'más' (more); 'antes bien' introduces a corrective/contrary assertion"
+    ],
+    "examples": [
+      "El informe llevó a cabo un análisis exhaustivo de las causas estructurales del fenómeno. (The report carried out an exhaustive analysis of the structural causes of the phenomenon.)",
+      "Los resultados ponen de manifiesto la necesidad de revisar el marco normativo vigente. (The results highlight the need to review the current regulatory framework.)",
+      "De conformidad con lo establecido en el artículo 7, el plazo comenzará a computarse desde la notificación. (In accordance with what is established in article 7, the period will begin to run from notification.)",
+      "Cabe señalar, no obstante, que los datos disponibles son insuficientes para extraer conclusiones definitivas. (It should be noted, however, that the available data is insufficient to draw definitive conclusions.)",
+      "La propuesta fue rechazada, mas no por razones técnicas sino por consideraciones de índole política. (The proposal was rejected, but not for technical reasons but for considerations of a political nature. — 'mas' literary concessive)"
+    ]
+  },
+  "Idiomatic Structures & Fixed Expressions": {
+    "rule": "C1/C2 Spanish requires knowledge of idiomatic and fixed expressions that cannot be decoded word-by-word, including pronominal verbs with idiomatic meaning, fixed expressions using hacerse/tornarse/volverse for change-of-state, impersonal constructions in formal contexts, and 'se' accidental in set phrases. These expressions are highly idiomatic and must be learned as units.",
+    "structure": "Fixed expression (invariable or with limited inflection) | Pronominal verb + complement",
+    "formation": [
+      "Hacerse + adjective/noun: to become (through gradual process or effort): hacerse rico, hacerse cargo",
+      "Volverse + adjective: to become (involuntary change): volverse loco, volverse agresivo",
+      "Tornarse + adjective: formal/literary 'to become': la situación se tornó insostenible",
+      "Ponerse + adjective: sudden/emotional change of state: ponerse nervioso, ponerse rojo",
+      "Fixed impersonal constructions: es menester, cabe señalar, conviene recordar, es preciso",
+      "Formal fixed phrases: poner de manifiesto, dar lugar a, hacer las veces de, tener cabida, salir a la luz"
+    ],
+    "uses": [
+      "Hacerse: implies effort, willingness, or gradual process: 'se hizo famoso con el tiempo'",
+      "Volverse: involuntary transformation, often negative: 'se volvió introvertido tras el accidente'",
+      "Tornarse: literary/formal equivalent of volverse: 'la negociación se tornó tensa'",
+      "Ponerse: sudden or emotional/physical change: 'se puso pálido al oír la noticia'",
+      "Quedarse + adjective: resulting state after an event: 'se quedó sin palabras', 'quedarse en blanco'",
+      "Formal impersonals as discourse organizers: cabe, conviene, es menester — signal academic/formal register"
+    ],
+    "notes": [
+      "The four change-of-state verbs (hacerse/volverse/tornarse/ponerse) are NOT interchangeable — choice depends on type of change",
+      "Quedarse + adjective signals a resulting/residual state: 'quedarse helado' (to be left speechless/frozen)",
+      "Formal impersonals (cabe, conviene, es menester) require infinitive, NOT que + subjunctive: 'cabe señalar que' NOT 'cabe que se señale'",
+      "Many fixed expressions involve 'dar': dar lugar a (to give rise to), dar cuenta de (to account for), dar fe de (to attest to)",
+      "Salir a la luz (to come to light) is a key journalistic fixed expression for revelations"
+    ],
+    "examples": [
+      "Tras años de esfuerzo, se hizo un nombre en el sector financiero internacional. (After years of effort, he made a name for himself in the international financial sector. — hacerse, gradual/effortful)",
+      "La situación se tornó insostenible a medida que aumentaban las presiones sobre la dirección. (The situation became untenable as pressure on management increased. — tornarse, formal/literary)",
+      "Se quedó en blanco cuando le preguntaron por los detalles del contrato. (He went blank when asked about the details of the contract. — quedarse, resulting state)",
+      "Cabe recordar que el plazo de presentación de candidaturas vence el próximo viernes. (It should be remembered that the deadline for submitting applications expires next Friday. — formal impersonal)",
+      "Los documentos que salieron a la luz durante la investigación revelaron la magnitud del fraude. (The documents that came to light during the investigation revealed the scale of the fraud.)",
+      "La aprobación de la ley dio lugar a un intenso debate parlamentario. (The passing of the law gave rise to an intense parliamentary debate. — dar lugar a)"
+    ]
+  }
+}
