@@ -234,7 +234,7 @@
       "Gastaba el dinero como si lo hubiera ganado en la lotería. (He spent the money as if he had won the lottery.)"
     ]
   },
-  "Aspect: Preterite vs. Imperfect (narrative nuance)": {
+  "Preterite vs. Imperfect (narrative nuance)": {
     "rule": "At C1/C2, preterite vs. imperfect goes beyond 'completed vs. ongoing'. The preterite foregrounds events — it advances the narrative timeline. The imperfect backgrounds — it provides setting, description, habitual context. Some stative verbs (saber, conocer, querer, poder, tener) undergo meaning shifts in the preterite, gaining ingressive or completive aspect.",
     "structure": "Narrative context determines choice; preterite = event/foreground; imperfect = state/background/habitual",
     "formation": [
@@ -266,7 +266,7 @@
       "Iba acumulando deudas mientras creía que podía controlar la situación. (He was accumulating debts while he believed he could control the situation — two backgrounding imperfects.)"
     ]
   },
-  "Aspect: Ir + gerund (progressive development)": {
+  "Ir + gerund (progressive development)": {
     "rule": "'Ir + gerund' is a periphrasis expressing gradual, progressive, or cumulative development. Unlike 'estar + gerund' (momentary action in progress), 'ir + gerund' emphasizes the incremental unfolding of a process — it is becoming, worsening, growing, or accumulating over time. The tense of 'ir' determines the temporal frame.",
     "structure": "Ir (conjugated) + gerund",
     "formation": [
@@ -296,7 +296,7 @@
       "Iba perdiendo la esperanza de que alguien respondiera. (He was gradually losing hope that anyone would respond.)"
     ]
   },
-  "Aspect: Llevar + gerund (ongoing duration)": {
+  "Llevar + gerund (ongoing duration)": {
     "rule": "'Llevar + gerund' expresses an action that has been ongoing for a stated duration up to a reference point. It is the Spanish equivalent of 'to have been doing [something] for [time]'. The tense of 'llevar' anchors the reference point: present llevar = up to now; imperfect = up to a past point.",
     "structure": "Llevar (conjugated) + [time expression] + gerund",
     "formation": [
@@ -327,7 +327,7 @@
       "Para cuando llegues, llevaré esperándote más de una hora. (By the time you arrive, I will have been waiting for you for over an hour.)"
     ]
   },
-  "Aspect: Acabar de + infinitive (recency)": {
+  "Acabar de + infinitive (recency)": {
     "rule": "'Acabar de + infinitive' expresses an action that has just been completed — the 'recency' aspect. In the present tense, it equates to 'to have just done'. In the imperfect, it shifts to past recency ('had just done'). There are subtle distinctions: negative 'no acabar de + infinitive' means 'to not quite manage to' or 'to never quite succeed in' — a different meaning entirely.",
     "structure": "Acabar de (present or imperfect) + infinitive",
     "formation": [
@@ -356,7 +356,7 @@
       "Acabamos de publicar un informe sobre el impacto de las nuevas tecnologías. (We have just published a report on the impact of new technologies.)"
     ]
   },
-  "Aspect: Volver a + infinitive (iterative)": {
+  "Volver a + infinitive (iterative)": {
     "rule": "'Volver a + infinitive' expresses the repetition or resumption of an action — 'to do again'. It functions as an iterative periphrasis, equivalent to 'de nuevo' or 'otra vez' but more elegant in formal contexts. The negative 'no volver a + infinitive' emphatically signals that something will never happen again.",
     "structure": "Volver a (conjugated in any tense) + infinitive",
     "formation": [
@@ -387,7 +387,7 @@
       "Vuelven a debatirse las mismas cuestiones de siempre sin llegar a ningún acuerdo. (The same old issues are being debated again without reaching any agreement.)"
     ]
   },
-  "Aspect: Dejar de + infinitive (cessation)": {
+  "Dejar de + infinitive (cessation)": {
     "rule": "'Dejar de + infinitive' marks the cessation of an ongoing activity — 'to stop doing'. It focuses on the endpoint of an action. The tense of 'dejar' determines whether cessation is sudden, gradual, or regulatory. 'No volver a + infinitive' is stronger (never again); 'dejar de' is neutral. In formal/legal texts, 'dejar de' appears in regulatory cessation clauses.",
     "structure": "Dejar de (conjugated) + infinitive",
     "formation": [
@@ -418,7 +418,7 @@
       "Dejó de hablar en mitad de la conferencia sin dar ninguna explicación. (He stopped speaking mid-conference without giving any explanation.)"
     ]
   },
-  "Gerund & Infinitive: Gerund of Cause, Means & Condition": {
+  "Gerund of Cause, Means & Condition": {
     "rule": "The Spanish gerund can function as an adverbial clause expressing cause, means, or condition without a conjunction. This is a high-register construction typical of formal, academic, and legal writing. The gerund subject is usually the same as the main clause subject (or impersonal). Incorrect use of a gerund to modify a noun (decree gerund / 'gerundio del BOE') is a C2-level trap.",
     "structure": "Gerund (clause-initial or clause-final) + main clause [cause] | Main clause + gerund [means/condition]",
     "formation": [
@@ -450,7 +450,7 @@
       "*INCORRECT: 'se aprobó un decreto regulando el sector' → CORRECT: 'se aprobó un decreto que regula el sector'"
     ]
   },
-  "Gerund & Infinitive: Gerund of Consequence": {
+  "Gerund of Consequence": {
     "rule": "The gerund of consequence describes an action or state that results from or follows logically from the main clause action. It often appears sentence-finally, with the gerund depicting the outcome, effect, or resulting situation. This is distinct from gerund of means (how) and gerund of cause (why).",
     "structure": "Main clause + gerund (depicting the resulting action or state)",
     "formation": [
@@ -480,7 +480,7 @@
       "Ignoró todas las advertencias, llegando al borde de la quiebra en tan solo dos años. (He ignored all the warnings, ending up on the brink of bankruptcy in just two years.)"
     ]
   },
-  "Gerund & Infinitive: Infinitive vs. Subjunctive (restructuring verbs)": {
+  "Infinitive vs. Subjunctive (restructuring verbs)": {
     "rule": "With restructuring (or 'bridge') verbs, when the main clause subject and subordinate clause subject are the SAME, use infinitive. When subjects DIFFER, use que + subjunctive. This applies to verbs of volition, communication, emotion, cognition, permission, and causation. Some verbs allow both constructions even with the same subject, changing meaning or register.",
     "structure": "Verb + infinitive (same subject) | Verb + que + subjunctive (different subjects)",
     "formation": [
@@ -513,7 +513,7 @@
       "Conseguimos que todos los implicados firmaran el acuerdo. (We managed to get all those involved to sign the agreement.)"
     ]
   },
-  "Gerund & Infinitive: Incorrect gerund as noun modifier (C2 trap)": {
+  "Incorrect gerund as noun modifier (C2 trap)": {
     "rule": "In Spanish, a gerund CANNOT function as a noun modifier (adjective). This is called the 'gerundio del BOE' (named after Spain's official gazette). The only exceptions are 'ardiendo' and 'hirviendo' (water boiling, fire burning). All other attempts to use gerund as adjective are incorrect in standard Spanish and must be replaced by a relative clause.",
     "structure": "INCORRECT: noun + gerund | CORRECT: noun + que + conjugated verb",
     "formation": [
@@ -542,7 +542,7 @@
       "CORRECT: El edificio ardiendo fue visto desde varios kilómetros. (The burning building was seen from several kilometres. — exception)"
     ]
   },
-  "Gerund & Infinitive: Compound Gerund, Concessive & Temporal Uses": {
+  "Compound Gerund, Concessive & Temporal Uses": {
     "rule": "The compound gerund (habiendo + past participle) expresses an action completed prior to the main clause — it functions like a perfect participle. The concessive gerund with 'aun' (aun + gerund) concedes a point while maintaining the main clause. The temporal gerund expresses simultaneity or progressive background in formal writing.",
     "structure": "Habiendo + participle [prior action] | Aun + gerund [concession] | Gerund alone [simultaneity/background]",
     "formation": [
@@ -573,7 +573,7 @@
       "Llegó al despacho cargando con todos los expedientes del caso. (He arrived at the office carrying all the case files. — simultaneous)"
     ]
   },
-  "Mood & Tense: Ser vs. Estar (adjective meaning shifts)": {
+  "Ser vs. Estar (adjective meaning shifts)": {
     "rule": "Certain Spanish adjectives change meaning depending on whether they are used with ser (essential/characteristic) or estar (state/condition). At C1/C2, this includes subtle nuances: ser + adjective = defining attribute; estar + adjective = temporary or resultant condition. Some pairs are near-minimal pairs requiring precise contextual reading.",
     "structure": "Ser + adjective (essential property) | Estar + adjective (current state or condition)",
     "formation": [
@@ -607,7 +607,7 @@
       "La explicación es clara, y ahora me queda claro que debo actuar de inmediato. (The explanation is clear, and now it is clear to me that I must act immediately.)"
     ]
   },
-  "Mood & Tense: Sequence of Tenses (concordancia de tiempos)": {
+  "Sequence of Tenses (concordancia de tiempos)": {
     "rule": "Sequence of tenses governs which subjunctive tense to use in subordinate clauses based on the tense of the main clause. The key parameter is temporal relationship: present/future main clause → present subjunctive; past/conditional main clause → imperfect subjunctive. Perfect and pluperfect subjunctive express anteriority within each sequence.",
     "structure": "Main clause tense → governed subjunctive tense in subordinate clause",
     "formation": [
@@ -640,7 +640,7 @@
       "Te enviaré el informe en cuanto lo tenga listo. (Future main + time clause → present subj.)"
     ]
   },
-  "Mood & Tense: Si-clauses & Conditionals": {
+  "Si-clauses & Conditionals": {
     "rule": "Spanish conditional sentences come in three main types plus mixed conditionals. Type 1 (real/open): si + present indicative + future/imperative. Type 2 (hypothetical present/future): si + imperfect subjunctive + conditional. Type 3 (counterfactual past): si + pluperfect subjunctive + conditional perfect. Mixed conditionals combine past condition with present consequence or vice versa.",
     "structure": "Si + [indicative/subjunctive tense] + [result clause tense]",
     "formation": [
@@ -671,7 +671,7 @@
       "De haberse implementado el protocolo adecuado, la crisis no habría escalado. (Formal alternative to si + pluperfect subj.)"
     ]
   },
-  "Mood & Tense: Concessive Clauses (aunque, por más que, bien que)": {
+  "Concessive Clauses (aunque, por más que, bien que)": {
     "rule": "Concessive clauses grant a point while maintaining a contrasting main clause. 'Aunque' takes indicative (established fact) or subjunctive (hypothesis/irrelevance to speaker). Advanced concessives include 'por más/mucho que + subjunctive' (no matter how much), 'bien que + subjunctive' (literary), 'así + subjunctive' (literary/formal), 'aun cuando + subjunctive/indicative', and 'a pesar de que / pese a que'.",
     "structure": "Concessive connector + [indicative or subjunctive] + main clause",
     "formation": [
@@ -704,7 +704,7 @@
       "Así se lo solicitaran formalmente, el directorio no cambiaría de postura. (Even if they formally requested it, the board would not change its stance. — literary/formal.)"
     ]
   },
-  "Mood & Tense: Advanced Subjunctive Nuance": {
+  "Advanced Subjunctive Nuance": {
     "rule": "This category covers advanced subjunctive uses beyond standard triggers: subjunctive in indefinite relative clauses (whoever, whatever), subjunctive after verbs of thinking in negative form, future subjunctive in formal contexts, and subjunctive expressing stipulations, strong volition, or exhortation.",
     "structure": "Various — see formation for specific constructions",
     "formation": [
@@ -735,7 +735,7 @@
       "Ojalá hubieran tomado la decisión antes de que se agravara la situación. (If only they had made the decision before the situation worsened — pluperfect subj., past regret.)"
     ]
   },
-  "Mood & Tense: Ojalá + tense contrasts": {
+  "Ojalá + tense contrasts": {
     "rule": "'Ojalá' expresses a wish and always requires subjunctive. The tense chosen determines the speaker's assessment of realizability. Present subjunctive: wish for something achievable. Imperfect subjunctive: wish for something currently impossible or unlikely. Pluperfect subjunctive: regret about something that did not happen in the past.",
     "structure": "Ojalá + [present subj. / imperfect subj. / pluperfect subj.]",
     "formation": [
@@ -764,7 +764,7 @@
       "Ojalá hubiera podido asistir a la presentación. (I wish I had been able to attend the presentation. — past regret)"
     ]
   },
-  "Mood & Tense: Pretérito Anterior (literary/formal)": {
+  "Pretérito Anterior (literary/formal)": {
     "rule": "The pretérito anterior (hube/hubiste/hubo + participle) is a compound past tense expressing an action completed IMMEDIATELY before another past action. It is triggered by specific temporal conjunctions and is largely restricted to literary and very formal written Spanish. In everyday speech, it is replaced by the pluperfect (había + participle) or simple preterite.",
     "structure": "Temporal conjunction + pretérito anterior | Pretérito anterior + main clause (preterite)",
     "formation": [
@@ -792,7 +792,7 @@
       "En cuanto hubo leído el veredicto, el acusado perdió la compostura. (As soon as he had read the verdict, the accused lost his composure.)"
     ]
   },
-  "Mood & Tense: Subjunctive vs. Indicative after Verbs of Thinking/Believing": {
+  "Subjunctive vs. Indicative after Verbs of Thinking/Believing": {
     "rule": "Verbs of thinking, believing, and knowing in affirmative form take indicative in the subordinate clause (the speaker asserts the content as factual). In negative form, these same verbs trigger subjunctive (the speaker casts doubt on the content). This indicative/subjunctive contrast encodes epistemic commitment.",
     "structure": "Affirmative believe/think verb + que + indicative | Negative believe/think verb + que + subjunctive",
     "formation": [
@@ -915,7 +915,7 @@
       "Se ha firmado un acuerdo de cooperación entre los dos países. (A cooperation agreement has been signed between the two countries. — passive refleja)"
     ]
   },
-  "Lexical Precision: Formal Verbs of Occurrence (acaecer, acontecer, suceder)": {
+  "Formal Verbs of Occurrence (acaecer, acontecer, suceder)": {
     "rule": "Formal Spanish uses a hierarchy of verbs to express 'to happen/occur' with distinct register and nuance. 'Ocurrir' and 'suceder' are standard. 'Acontecer' is formal and often implies historically or socially significant events. 'Acaecer' is the most elevated — legal, notarial, and literary — with an archaic flavor. 'Tener lugar' is formal and neutral.",
     "structure": "Subject + verb (3rd person, usually) | Verb + [context/temporal frame]",
     "formation": [
@@ -946,7 +946,7 @@
       "Nadie pudo prever lo que sucedería a continuación. (No one could foresee what would happen next. — formal standard)"
     ]
   },
-  "Lexical Precision: Formal Nouns & Nominalizations (repercusión, prevalencia, incidencia)": {
+  "Formal Nouns & Nominalizations (repercusión, prevalencia, incidencia)": {
     "rule": "Formal Spanish — especially academic, legal, and journalistic — prefers nominalized structures over verbal/clausal ones. Deverbal nouns compress information elegantly. Key formal nouns with subtle distinctions: repercusión (wider ripple effect), incidencia (rate/frequency of occurrence), prevalencia (dominance/prevalence over time), vigencia (current validity/force), impacto (neutral, quantifiable effect). Nominalizations convert entire clauses into noun phrases.",
     "structure": "Nominalized phrase (noun + de + complement) replacing verbal clause",
     "formation": [
@@ -976,7 +976,7 @@
       "La implementación de las medidas acordadas se llevará a cabo de forma escalonada. (The implementation of the agreed measures will be carried out in a phased manner. — nominalization)"
     ]
   },
-  "Lexical Precision: Verbs of Clarification/Unraveling (desentrañar, dilucidar, desvelar)": {
+  "Verbs of Clarification/Unraveling (desentrañar, dilucidar, desvelar)": {
     "rule": "Spanish has a cluster of formal verbs for different types of 'clarifying', 'uncovering', or 'explaining'. They differ in the nature of what is being clarified and the degree of complexity/effort involved. C1/C2 precision requires selecting the right verb for the type of knowledge being revealed.",
     "structure": "Subject + verb + direct object (the thing being clarified/uncovered)",
     "formation": [
@@ -1009,7 +1009,7 @@
       "Fue imposible descifrar las verdaderas intenciones del negociador durante las conversaciones. (It was impossible to decipher the negotiator's true intentions during the talks.)"
     ]
   },
-  "Lexical Precision: Verbs of Entailment/Causation (conllevar, acarrear, comportar)": {
+  "Verbs of Entailment/Causation (conllevar, acarrear, comportar)": {
     "rule": "Formal Spanish uses precise verbs to express that one thing entails, causes, or brings about another. These are not interchangeable: 'conllevar' emphasizes inherent logical entailment; 'acarrear' stresses negative or undesirable consequences; 'comportar' (legal/technical) implies an obligatory result or condition attached to something; 'implicar' covers logical implication broadly; 'suponer' means 'to represent/amount to' in formal contexts.",
     "structure": "Subject (cause/condition) + verb + direct object (consequence/entailment)",
     "formation": [
@@ -1041,7 +1041,7 @@
       "Aceptar estas condiciones implicaría renunciar a derechos previamente adquiridos. (Accepting these conditions would imply giving up previously acquired rights.)"
     ]
   },
-  "Lexical Precision: Adjectives of Obviousness (palmaria, patente, manifiesta, flagrante)": {
+  "Adjectives of Obviousness (palmaria, patente, manifiesta, flagrante)": {
     "rule": "Spanish has a rich set of formal adjectives meaning 'obvious/evident' with distinct nuances of register and connotation. C1/C2 precision requires selecting the right adjective for the context. These appear frequently in legal, academic, and journalistic writing.",
     "structure": "Ser/resultar/quedar + adjective | Adjective + noun (attributive)",
     "formation": [
@@ -1073,7 +1073,7 @@
       "Es una verdad palmaria que sin inversión en educación no puede existir desarrollo sostenible. (It is a self-evident truth that without investment in education, sustainable development cannot exist.)"
     ]
   },
-  "Lexical Precision: Verbs of Revelation/Disclosure": {
+  "Verbs of Revelation/Disclosure": {
     "rule": "Formal Spanish distinguishes between verbs for different types of making something known: revealing hidden information (desvelar, revelar), demonstrating/evidencing (demostrar, evidenciar, acreditar), and formally confirming (constatar, corroborar, certificar). Register and agency matter: some imply active disclosure, others passive emergence of truth.",
     "structure": "Subject (agent/source) + verb + direct object (information/fact revealed)",
     "formation": [
@@ -1101,7 +1101,7 @@
       "El candidato deberá acreditar el dominio del idioma mediante certificado oficial. (The candidate must officially prove language proficiency through an official certificate.)"
     ]
   },
-  "Lexical Precision: Verbs of Dispute Resolution (dirimir, zanjar, solventar)": {
+  "Verbs of Dispute Resolution (dirimir, zanjar, solventar)": {
     "rule": "Formal Spanish has specific verbs for resolving disputes, conflicts, or problems. 'Dirimir' is highly formal/legal and used almost exclusively for disputes, controversies, and conflicts between parties. 'Zanjar' conveys a definitive, often abrupt end to a disagreement. 'Solventar' applies to solving practical problems or difficulties. 'Resolver' is the most general.",
     "structure": "Subject + verb + direct object (conflict/problem/dispute)",
     "formation": [
@@ -1127,7 +1127,7 @@
       "Las partes acordaron dirimir sus diferencias mediante arbitraje internacional. (The parties agreed to resolve their differences through international arbitration.)"
     ]
   },
-  "Lexical Precision: Verbs of Fostering/Promoting": {
+  "Verbs of Fostering/Promoting": {
     "rule": "Formal Spanish uses distinct verbs for encouraging or fostering something depending on the degree of active intervention and the nature of what is being promoted. 'Fomentar' suggests active cultivation/encouragement of a desirable process; 'impulsar' implies giving momentum/drive; 'promover' is formal for initiating or promoting; 'favorecer' means to favor/facilitate; 'propiciar' means to create conditions for.",
     "structure": "Subject (institution/policy/agent) + verb + direct object (process/activity promoted)",
     "formation": [
@@ -1153,7 +1153,7 @@
       "El acuerdo busca promover la transferencia de tecnología entre los países participantes. (The agreement seeks to promote technology transfer between the participating countries.)"
     ]
   },
-  "Lexical Precision: Legal Verbs (permission, prohibition, obligation)": {
+  "Legal Verbs (permission, prohibition, obligation)": {
     "rule": "Legal Spanish uses specialized verbs for expressing permission, prohibition, and obligation that go beyond standard 'poder', 'no poder', and 'tener que'. These verbs appear in legislation, contracts, and formal administrative texts and carry specific legal force.",
     "structure": "Modal legal verb + infinitive | Legal verb + que + subjunctive",
     "formation": [
@@ -1182,7 +1182,7 @@
       "El artículo 248 del Código Penal tipifica como delito la falsificación de documentos oficiales. (Article 248 of the Penal Code classifies the falsification of official documents as a criminal offence.)"
     ]
   },
-  "Lexical Precision: Diminutives & Augmentatives (pragmatic force)": {
+  "Diminutives & Augmentatives (pragmatic force)": {
     "rule": "Spanish diminutives (-ito/-ita, -illo/-illa) and augmentatives (-ón/-ona, -azo/-aza) go far beyond indicating size. At C1/C2, they encode pragmatic values: affection, irony, mitigation, intensification, and pejorative connotation. The same base word can have radically different pragmatic force depending on suffix, context, and region.",
     "structure": "Noun/adjective + diminutive/augmentative suffix",
     "formation": [
@@ -1211,7 +1211,7 @@
       "No le hagas caso: es un bocazas que dice lo primero que se le ocurre. (Don't pay attention to him: he's a big-mouth who says whatever comes to mind first. — augmentative pejorative)"
     ]
   },
-  "Gerund & Infinitive: General": {
+  "Gerund & Infinitive": {
     "rule": "This category covers gerund and infinitive uses that don't fall neatly into cause, consequence, means, or condition — including gerund of time (simultaneity), gerund of means in scientific/procedural writing, compound gerund for temporal ordering, and the contrast between gerund and subordinate clauses expressing manner. The core principle: Spanish gerunds are adverbial (they modify the verb), never adjectival (they cannot modify nouns).",
     "structure": "Gerund (adverbial, modifying the main verb) | Infinitive (nominal or verbal complement)",
     "formation": [
@@ -1242,7 +1242,7 @@
       "La vi saliendo del edificio justo cuando yo llegaba. (I saw her leaving the building just as I was arriving. — perception verb + gerund)"
     ]
   },
-  "Lexical Precision & Register: Formal Vocabulary": {
+  "Formal Vocabulary": {
     "rule": "C1/C2 Spanish requires mastery of a broad formal lexical register used in academic, legal, journalistic, and institutional writing. This includes formal synonyms for common verbs and nouns, collocations specific to formal prose, verbs of intellectual activity, assessment, and consequence, as well as register-appropriate connector choice. The key skill is not just knowing the formal word but choosing it when it is the right register match.",
     "structure": "Formal word/phrase + appropriate syntactic context",
     "formation": [
