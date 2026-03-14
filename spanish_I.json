@@ -60,7 +60,7 @@
     "option_a": "oyendo",
     "option_b": "oiendo",
     "usage_example_a": "Estás oyendo música muy alta.",
-    "usage_example_b": "Estás escuchando música muy alta.",
+    "usage_example_b": "Incorrecto: no se dice 'estás oiendo' porque 'oiendo' no existe en español.",
     "solution": "oyendo",
     "linguistic_analysis": "'Oír' has an irregular gerund: 'oyendo' (not 'oiendo'). Like 'leer → leyendo', the i between two vowels becomes y. 'Baja el volumen' (turn down the volume) confirms the music is currently too loud."
   },
@@ -774,10 +774,10 @@
     "target_sentence": "¡Qué [___] sorpresa tan agradable verte aquí!",
     "option_a": "una",
     "option_b": "la",
-    "usage_example_a": "¡Qué una sorpresa tan bonita!",
+    "usage_example_a": "Fue una sorpresa muy bonita verle aquí.",
     "usage_example_b": "La sorpresa que me diste fue muy bonita.",
     "solution": "una",
-    "linguistic_analysis": "In exclamations with '¡Qué...!', the indefinite article 'una' is used. '¡Qué una sorpresa!' expresses surprise at an unexpected encounter, confirming 'una' for exclamatory constructions."
+    "linguistic_analysis": "In exclamations with '¡Qué + article + noun!', the indefinite article 'una' is used to express surprise at something unexpected. '¡Qué una sorpresa tan agradable!' treats 'sorpresa' as an indefinite, unexpected event. 'La sorpresa' would refer to a specific known surprise."
   },
   {
     "problem_id": 648,
@@ -5792,10 +5792,10 @@
     "target_sentence": "La lavadora está averiada. Necesito [___] reparar urgentemente.",
     "option_a": "la",
     "option_b": "lo",
-    "usage_example_a": "La lavadora está rota. Necesito la reparar.",
-    "usage_example_b": "El lavavajillas está roto. Necesito lo reparar.",
+    "usage_example_a": "La lavadora está rota. Necesito repararla urgentemente.",
+    "usage_example_b": "El lavavajillas está roto. Necesito repararlo urgentemente.",
     "solution": "la",
-    "linguistic_analysis": "We use 'la' because 'lavadora' (washing machine) is feminine singular. 'Urgentemente' (urgently) confirms an immediate need."
+    "linguistic_analysis": "We use 'la' because 'lavadora' (washing machine) is feminine singular. With infinitives, the direct object pronoun attaches to the end: 'repararla'. 'Urgentemente' (urgently) confirms an immediate need."
   },
   {
     "problem_id": 91,
@@ -6393,7 +6393,7 @@
     "usage_example_a": "Mi hijo tiene cinco años.",
     "usage_example_b": "Mi abuelo tiene noventa años.",
     "solution": "nueve",
-    "linguistic_analysis": "Born in 2015, she is now 9 years old (2024). 'Noventa' (90) would be impossible for someone born in 2015."
+    "linguistic_analysis": "Born in 2015, she is approximately 10–11 years old now. 'Nueve' (9) is the contextually plausible low-digit age for a child born that year. 'Noventa' (90) would be impossible for someone born in 2015."
   },
   {
     "problem_id": 732,
@@ -7170,10 +7170,10 @@
     "target_sentence": "El televisor está roto. Voy a [___] arreglar esta semana.",
     "option_a": "lo",
     "option_b": "la",
-    "usage_example_a": "El televisor está roto. Voy a lo arreglar.",
-    "usage_example_b": "La radio está rota. Voy a la arreglar.",
+    "usage_example_a": "El televisor está roto. Voy a arreglarlo esta semana.",
+    "usage_example_b": "La radio está rota. Voy a arreglarla esta semana.",
     "solution": "lo",
-    "linguistic_analysis": "We use 'lo' because 'televisor' (TV set) is masculine singular. With 'ir a + infinitive', the pronoun can attach to the infinitive or precede the conjugated verb."
+    "linguistic_analysis": "We use 'lo' because 'televisor' (TV set) is masculine singular. With 'ir a + infinitive', the pronoun attaches to the end of the infinitive: 'arreglarlo'. Alternatively, it can precede the conjugated verb: 'lo voy a arreglar'."
   },
   {
     "problem_id": 322,
@@ -7336,13 +7336,13 @@
     "problem_type": "Tense Contrast",
     "category": "Present Continuous (Estar + Gerund)",
     "difficulty_tier": "Beginner (A1/A2)",
-    "target_sentence": "¡Cuidado! Ese niño está [___] por el borde de la piscina.",
+    "target_sentence": "El bebé está [___] en la cuna. Por favor, habla más bajo.",
     "option_a": "durmiendo",
     "option_b": "dormiendo",
-    "usage_example_a": "El bebé está durmiendo.",
-    "usage_example_b": "El bebé está llorando.",
+    "usage_example_a": "El bebé está durmiendo la siesta ahora.",
+    "usage_example_b": "El bebé está llorando en la cuna.",
     "solution": "durmiendo",
-    "linguistic_analysis": "'Dormir' has a stem change o→u in the gerund: 'durmiendo' (not 'dormiendo'). Note: the example sentence was corrected to use 'durmiendo' — '¡Cuidado! El bebé está durmiendo' confirms the o→u stem change rule."
+    "linguistic_analysis": "'Dormir' has a stem change o→u in the gerund: 'durmiendo' (not 'dormiendo'). 'Por favor, habla más bajo' (please speak more quietly) confirms an ongoing action requiring quiet, and the o→u stem change rule applies."
   },
   {
     "problem_id": 782,
@@ -7559,11 +7559,11 @@
     "difficulty_tier": "Beginner (A1/A2)",
     "target_sentence": "Mi perro está [___] su comida. No lo interrumpas.",
     "option_a": "comiendo",
-    "option_b": "comiendo",
+    "option_b": "comendo",
     "usage_example_a": "El perro está comiendo en su plato.",
     "usage_example_b": "El gato está bebiendo agua.",
     "solution": "comiendo",
-    "linguistic_analysis": "The gerund of -er verbs is formed by replacing -er with -iendo. 'Comer' → 'comiendo'. 'No lo interrumpas' (don't interrupt it) confirms the dog is currently eating and should not be disturbed."
+    "linguistic_analysis": "The gerund of -er verbs is formed by replacing -er with -iendo. 'Comer' → 'comiendo' (not 'comendo'). 'No lo interrumpas' (don't interrupt it) confirms the dog is currently eating and should not be disturbed."
   },
   {
     "problem_id": 780,
@@ -13099,7 +13099,7 @@
     "option_a": "para",
     "option_b": "por",
     "usage_example_a": "Hice la cena para ti.",
-    "usage_example_b": "Hice la cena por ti (en tu lugar).",
+    "usage_example_b": "Hice la cena por ti porque llegabas tarde y estabas agotada del trabajo.",
     "solution": "para",
     "linguistic_analysis": "'Para' indicates the beneficiary of an action. 'Ti' (you) is the intended recipient of the cake. 'Sé que te encanta el chocolate' confirms it was made specifically for that person."
   },

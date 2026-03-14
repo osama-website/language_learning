@@ -20,8 +20,8 @@
     "target_sentence": "Durante su infancia en el pueblo, todos los veranos [___] a la fuente del monte para traer agua fresca al mediodía.",
     "option_a": "subían",
     "option_b": "subieron",
-    "usage_example_a": "Cuando era pequeña, mi abuela me contaba historias de la guerra mientras bordaba junto a la ventana.",
-    "usage_example_b": "En aquellos años, los artesanos madrugaban para instalar sus puestos en el mercado antes del amanecer.",
+    "usage_example_a": "Todos los veranos subían al cerro al amanecer para contemplar el paisaje antes de que llegara el calor del mediodía.",
+    "usage_example_b": "Aquel verano, subieron a la fuente del monte una sola vez antes de que la carretera quedara cortada por las lluvias.",
     "solution": "subían",
     "linguistic_analysis": "'Subían' (imperfect) correctly expresses habitual past action: going to the mountain spring was a repeated, regular activity during childhood summers — not a single, specific, completed event. The imperfect is the canonical tense for expressing habitual or iterative actions in the past. The contextual markers 'durante su infancia' and 'todos los veranos' are classic habitual-past triggers, signaling that the action was a repeated pattern across multiple occasions. 'Subieron' (preterite) would describe a single, completed ascent on a specific occasion — fundamentally changing the meaning from habitual custom to isolated event. Distinguishing habitual past (imperfect) from completed past event (preterite) in narrative contexts is a core C1/C2 competency."
   },
@@ -73,7 +73,7 @@
     "option_a": "No obstante",
     "option_b": "Sin embargo",
     "usage_example_a": "El presupuesto base de licitación fue superado ampliamente por todas las ofertas. No obstante, el órgano gestor decidió continuar el procedimiento por razones de urgencia.",
-    "usage_example_b": "El dictamen del Consejo de Estado es desfavorable a la propuesta. No obstante, el Consejo de Ministros puede apartarse motivadamente de dicho dictamen.",
+    "usage_example_b": "El dictamen del Consejo de Estado es desfavorable a la propuesta. Sin embargo, el Consejo de Ministros puede apartarse motivadamente de dicho dictamen.",
     "solution": "No obstante",
     "linguistic_analysis": "In official procurement and administrative texts, 'no obstante' as a sentence-initial connector is strongly preferred over 'sin embargo' because it indexes the highly formalized register of public contracting decisions and administrative resolutions. While both are grammatically and semantically equivalent, 'no obstante' appears consistently in Spanish public law documents ('pliegos', 'resoluciones', 'acuerdos') as the institutionally marked connector. Recognizing this pragmatic register distinction is key at C1/C2 level: using 'sin embargo' would not be wrong but would signal a less sophisticated command of administrative register."
   },
@@ -125,7 +125,7 @@
     "option_a": "perdiendo",
     "option_b": "con lo que perdió",
     "usage_example_a": "El ministro contradijo públicamente al presidente, perdiendo el apoyo de los sectores más moderados de su propio partido.",
-    "usage_example_b": "El presidente del club realizó una gestión controvertida de los fichajes, perdiendo la confianza de buena parte de la afición.",
+    "usage_example_b": "El candidato realizó declaraciones polémicas durante el debate, con lo que perdió el apoyo de los votantes indecisos en las encuestas posteriores.",
     "solution": "perdiendo",
     "linguistic_analysis": "'Perdiendo varios puntos en las encuestas' presents the polling loss as the direct, measurable consequence of the imprudent remarks. The gerund of consequence is particularly effective in political analysis for linking specific actions to their electoral or reputational repercussions. 'Con lo que perdió' (relative consequence clause) introduces an additional clause that is heavier syntactically and creates more distance between cause and effect. The gerund encodes the fall in the polls as the immediate, inevitable outcome of the misstep."
   },
@@ -137,8 +137,8 @@
     "target_sentence": "Nunca imaginé que aquel joven [___] convertirse algún día en uno de los novelistas más premiados de su generación.",
     "option_a": "llegaría a",
     "option_b": "llegara a",
-    "usage_example_a": "Nunca imaginé que la pequeña empresa que fundamos en un garaje alcanzaría la proyección internacional que tiene hoy.",
-    "usage_example_b": "Nadie imaginó que aquella decisión aparentemente menor tendría consecuencias tan profundas para el conjunto de la organización.",
+    "usage_example_a": "Nunca imaginé que aquel chico tímido llegaría a ser el director general de la empresa que fundamos juntos.",
+    "usage_example_b": "Nadie imaginó que aquella pequeña editorial llegara a publicar a algunos de los autores más célebres de la siguiente generación.",
     "solution": "llegaría a",
     "linguistic_analysis": "'Nunca imaginé que' does not function as a typical doubt/volition verb triggering the subjunctive — 'imaginar' used to describe a mental picture or expectation governs the indicative in embedded clauses when expressing a proposition about reality. 'Nunca imaginé que + indicative' = I never imagined (as a fact) that he would become... The future-in-past of the indicative 'llegaría' correctly encodes the speaker's retrospective view of an unexpected development. 'Llegara' (imperfect subj.) would imply epistemic distance from the proposition's truth — contradicted by the fact that it did happen."
   },
@@ -267,8 +267,8 @@
     "target_sentence": "El [___] de la huelga en el transporte público fue masivo durante las horas punta.",
     "option_a": "impacto",
     "option_b": "influjo",
-    "usage_example_a": "El impacto de la huelga se notó en la producción.",
-    "usage_example_b": "El influjo de la luna en las mareas.",
+    "usage_example_a": "El impacto de la huelga de transportes se notó de inmediato en la producción industrial de toda la región.",
+    "usage_example_b": "El influjo de la cultura árabe en la arquitectura andaluza es visible en los arcos de herradura y los azulejos decorativos.",
     "solution": "impacto",
     "linguistic_analysis": "A 'huelga' (strike) has a measurable, strong effect on a service, which is a 'impacto'. 'Influjo' is for natural or artistic influences."
   },
@@ -515,7 +515,7 @@
     "option_a": "queda claro",
     "option_b": "es claro",
     "usage_example_a": "Lo que queda claro tras el análisis es que ninguna de las soluciones propuestas aborda las causas estructurales.",
-    "usage_example_b": "Lo que es claro es que el sistema necesita una reforma urgente y profunda. (slightly redundant)",
+    "usage_example_b": "Lo que es claro es que el sistema necesita una reforma urgente y profunda.",
     "solution": "queda claro",
     "linguistic_analysis": "'Lo que queda claro es que...' is a fixed pseudo-cleft formula in academic Spanish for presenting a conclusion or established finding. 'Quedar claro' (to become/remain clear) implies that clarity has emerged from analysis or evidence—it is the result of a process. 'Lo que es claro es que' creates a tautological near-redundancy ('what is clear is that') which, while grammatically acceptable, is stylistically weaker. Standard academic pseudo-cleft formulas include: 'lo que queda claro', 'lo que cabe destacar', 'lo que se desprende de', 'lo que revela el análisis', 'lo que muestran los datos'—all using a verb that characterizes what has been established, not a mere copular description."
   },
@@ -605,8 +605,8 @@
     "target_sentence": "El [___] de la crisis en el sector inmobiliario ha provocado una caída drástica de los precios.",
     "option_a": "impacto",
     "option_b": "lastre",
-    "usage_example_a": "El impacto ambiental del proyecto.",
-    "usage_example_b": "Su pasado es un lastre para su carrera política.",
+    "usage_example_a": "El impacto de la crisis inmobiliaria fue devastador para los pequeños inversores que habían apostado por el sector.",
+    "usage_example_b": "Su pasado judicial es un lastre que arrastra desde hace años y que pesa sobre cada nueva candidatura electoral.",
     "solution": "impacto",
     "linguistic_analysis": "Refers to the objective effect on a sector. 'Lastre' would describe the crisis as a 'burden' preventing growth, but 'impacto' describes the causal effect on prices."
   },
@@ -788,7 +788,7 @@
     "option_a": "da lugar a",
     "option_b": "hace",
     "usage_example_a": "La apertura de los mercados da lugar a un incremento de la competencia que favorece la innovación.",
-    "usage_example_b": "La nueva política industrial hace una transformación del modelo productivo. (inappropriate collocation)",
+    "usage_example_b": "La empresa hace un gran esfuerzo por mejorar sus condiciones laborales, pero los resultados tardan en verse.",
     "solution": "da lugar a",
     "linguistic_analysis": "'Dar lugar a' (to give rise to, to lead to, to result in) is the standard formal collocation for expressing causal consequence when the result is a deverbal noun or abstract process. It is used with results like 'dar lugar a conflictos', 'dar lugar a una crisis', 'dar lugar a interpretaciones contradictorias'. 'Hacer' cannot collocate with 'una transformación'—you cannot 'make a transformation' in Spanish; you 'bring about', 'carry out', or 'produce' one. The distinction between the correct formal collocation ('dar lugar a') and the unacceptable collocation ('hacer + abstract noun') is a key collocation competency at C2: knowing not just vocabulary, but which verbs combine with which deverbal nouns."
   },
@@ -1398,7 +1398,7 @@
     "target_sentence": "En virtud de [___] de la nueva directiva, los estados miembros deberán adaptar su legislación antes del plazo fijado.",
     "option_a": "que se promulgó la nueva directiva",
     "option_b": "la promulgación",
-    "usage_example_a": "En virtud de que se promulgó la nueva directiva, los países miembros deben adaptar su legislación. (non-standard)",
+    "usage_example_a": "El informe señala que, dado que se promulgó la nueva directiva, los países miembros deben adaptar su legislación antes del plazo indicado.",
     "usage_example_b": "En virtud de la promulgación de la nueva directiva, los estados miembros deberán adaptar su legislación antes del plazo fijado.",
     "solution": "la promulgación",
     "linguistic_analysis": "'En virtud de' is a highly formal prepositional phrase meaning 'by virtue of, pursuant to'—used exclusively in legal and administrative registers. It mandatorily takes a nominalized complement: 'en virtud de + noun phrase'. 'En virtud de que + clause' is non-standard and essentially ungrammatical in formal legal Spanish. 'La promulgación de la directiva' (from 'promulgar', with -ción suffix) is the required nominalized complement. This question demonstrates how certain formal prepositions grammatically require nominalized complements—not merely as a stylistic preference, but as a syntactic requirement. Other examples: 'a tenor de', 'a consecuencia de', 'con arreglo a', 'de conformidad con'—all require noun phrases."
@@ -1451,7 +1451,7 @@
     "option_a": "lo que",
     "option_b": "que",
     "usage_example_a": "No fue la falta de financiación lo que hundió la iniciativa, sino la ausencia de liderazgo claro.",
-    "usage_example_b": "No fue la falta de financiación que hundió la iniciativa, sino la ausencia de liderazgo. (non-standard)",
+    "usage_example_b": "El informe que presentó la comisión demostró que la coordinación era el factor decisivo para el éxito del proyecto.",
     "solution": "lo que",
     "linguistic_analysis": "In 'ser + [nominal focus] + lo que + clause' clefts, 'lo que' is the required connector when the focus element is a nominal (noun phrase). The copula 'fue' links the topic ('la escasez de recursos') to the predicate ('lo que determinó el fracaso'), with 'lo que' serving as the relative pronoun introducing the verbal clause. Using bare 'que' without 'lo' is non-standard in this construction—'no fue X que determinó' is an interference pattern from French (ce n'est pas X qui...) or from incomplete acquisition. The rule: when the focused element is a noun phrase, use 'lo que' (for things) or 'quien/quienes' (for persons). The 'sino' at the end confirms this is a contrastive cleft correcting a false premise."
   },
@@ -2348,7 +2348,7 @@
     "option_a": "la creciente desigualdad entre países",
     "option_b": "muy preocupante la creciente desigualdad entre países",
     "usage_example_a": "Es la creciente desigualdad entre países ricos y pobres lo que más preocupa a los organismos internacionales.",
-    "usage_example_b": "Es muy preocupante la creciente desigualdad, especialmente en términos de acceso a recursos básicos. (not a cleft)",
+    "usage_example_b": "Es muy preocupante la creciente desigualdad en el acceso a la educación y la sanidad, que sigue afectando a millones de personas.",
     "solution": "la creciente desigualdad entre países",
     "linguistic_analysis": "The cleft structure 'Es [X] lo que [verb]' requires a noun phrase in focus position between 'es' and 'lo que'. Option A correctly places the nominal focus element 'la creciente desigualdad entre países' in the slot, producing a well-formed cleft. Option B produces 'Es muy preocupante la creciente desigualdad'—an evaluative copular sentence, not a cleft at all. A cleft must have the pattern: copula + [focus NP] + lo que/quien + [verbal predicate]. If the element after 'es' is an adjective or adjective phrase rather than a noun phrase, the structure is a predicative sentence, not a cleft. This distinction—between cleft sentences and evaluative copular sentences—is fundamental to understanding cleft syntax."
   },
@@ -2894,7 +2894,7 @@
     "option_a": "como",
     "option_b": "que",
     "usage_example_a": "Fue así como las pequeñas concesiones se acumularon hasta transformar por completo el equilibrio de poder.",
-    "usage_example_b": "Fue así que lograron sobrevivir durante los peores años de la persecución. (acceptable in informal/Latin American registers)",
+    "usage_example_b": "Fue así que los aldeanos, en el habla coloquial latinoamericana, refieren el momento en que hallaron refugio durante los años más duros.",
     "solution": "como",
     "linguistic_analysis": "In manner clefts focusing on 'así' (in this way, thus), the connector is 'como': 'fue así como [clause]'. This is the fixed formula for explaining how something came about in formal narrative and analytical writing. 'Fue así que' is heard in informal speech and is widespread in Latin American Spanish, but 'fue así como' is the prescriptively preferred and formally correct form in academic and literary registers. 'Como' here functions as a manner relative pronoun, parallel to 'donde' (place) and 'cuando' (time) in their respective cleft types. 'Fue así como' is extremely productive in academic argumentation: 'Fue así como surgió el movimiento', 'Fue así como se articuló la resistencia'."
   },
@@ -3440,7 +3440,7 @@
     "option_a": "diferencia",
     "option_b": "diferenciará",
     "usage_example_a": "Lo que diferencia este trabajo de sus predecesores es la triangulación metodológica y el alcance temporal del corpus analizado.",
-    "usage_example_b": "Lo que diferenciará este trabajo de futuros estudios será su perspectiva longitudinal. (future focus)",
+    "usage_example_b": "Lo que diferenciará este nuevo enfoque de los anteriores será el seguimiento longitudinal de los participantes durante una década.",
     "solution": "diferencia",
     "linguistic_analysis": "In pseudo-clefts describing a present state or characteristic, the verb in the 'lo que' clause uses present tense. 'Lo que diferencia este trabajo... es' presents the distinguishing feature as a current, inherent property of the work—not a future or hypothetical one. 'Diferenciará' (future) would be used if the distinction were prospective: 'lo que diferenciará este trabajo de estudios futuros será'. In academic writing, describing the contributions of a completed or submitted work uses the present tense ('este trabajo diferencia/aporta/contribuye'), not the future. The 'lo que + present verb + es' pseudo-cleft is the standard academic formula for stating a study's distinctive contributions in abstracts and introductions."
   },
@@ -3649,8 +3649,8 @@
     "option_b": "como si se arrepintiera",
     "usage_example_a": "Pidió perdón de rodillas, como si se hubiera arrepentido sinceramente de sus pecados.",
     "usage_example_b": "A veces cancela los planes a última hora, como si se arrepintiera de su propia vida social.",
-    "solution": "como si hubiera arrepentido",
-    "linguistic_analysis": "The burning of the manuscript is the physical manifestation of a (hypothetical) mental state. 'Arrepentirse' is a transformative verb; the 'regret' must be completed for the 'burning' to happen. 'Hubiera arrepentido' establishes this logical sequence of completed thought leading to action."
+    "solution": "como si se hubiera arrepentido",
+    "linguistic_analysis": "The burning of the manuscript is the physical manifestation of a (hypothetical) mental state. 'Arrepentirse' is a reflexive transformative verb; the regret must be completed for the burning to happen. 'Como si se hubiera arrepentido' establishes this logical sequence of a completed reflexive thought leading to action."
   },
   {
     "problem_id": 31,
@@ -4531,8 +4531,8 @@
     "target_sentence": "El fracaso del programa se explica por [___] de los objetivos sin tener en cuenta las condiciones locales.",
     "option_a": "que se diseñaron los objetivos sin tener en cuenta",
     "option_b": "el diseño",
-    "usage_example_a": "El fracaso se explica por el diseño deficiente de los objetivos sin adecuación al contexto local.",
-    "usage_example_b": "El fracaso se explica por que se diseñaron los objetivos sin tener en cuenta las condiciones locales. (awkward)",
+    "usage_example_a": "El informe señala que el programa fracasó por que se diseñaron los criterios de evaluación sin consultar a los beneficiarios directos.",
+    "usage_example_b": "El diseño deficiente de los objetivos, sin adaptación al contexto local, explica el fracaso del programa según los auditores.",
     "solution": "el diseño",
     "linguistic_analysis": "The preposition 'por' introducing cause requires a nominalized complement in formal writing: 'se explica por + noun phrase'. 'Por que se diseñaron' (with 'por que' meaning 'because of the fact that') is possible but unusual and syntactically awkward after 'se explica'—it creates 'se explica por que', which collides with the formal 'porqué' (noun, 'reason'). 'El diseño deficiente de los objetivos' nominalized as causal complement is idiomatic formal Spanish: 'se explica por el diseño', 'se debe a la falta de', 'obedece a la ausencia de'. After 'por', 'a', 'ante', 'con', causative and circumstantial prepositions strongly prefer nominalized complements in formal registers."
   },
@@ -4675,7 +4675,7 @@
     "option_a": "Lo que",
     "option_b": "Que lo",
     "usage_example_a": "Lo que necesitamos no es más financiación, sino una revisión estructural de cómo se asignan los recursos existentes.",
-    "usage_example_b": "Que lo necesitamos es evidente, pero el tipo de ayuda requerida debe ser cuidadosamente evaluado. (different structure)",
+    "usage_example_b": "Que lo necesitamos es evidente, pero determinar exactamente qué tipo de apoyo se requiere es una tarea que lleva su tiempo.",
     "solution": "Lo que",
     "linguistic_analysis": "'Lo que [verb]... es/no es [focus]' is the pseudo-cleft pattern. 'Lo que' opens the sentence by introducing the topic clause ('what we need'), after which 'es/no es' introduces the focused predicate ('not more resources, but a more efficient distribution'). 'Que lo' would begin a complement clause ('that we need it'), a completely different syntactic structure with no cleft function. This question tests recognition of the 'lo que' pseudo-cleft opener as a specific construction distinct from other 'que' clause types. The pseudo-cleft 'Lo que + [verb phrase] + es que + [clause]' OR 'Lo que + [verb] + es + [NP]' is a fundamental discourse structure in formal Spanish argumentation, particularly in academic writing and political speech."
   },
@@ -6196,9 +6196,9 @@
     "option_a": "como si se hubiera enterado",
     "option_b": "como si se enterara",
     "usage_example_a": "Reaccionó con mucha naturalidad, como si se hubiera enterado de la noticia días atrás.",
-    "usage_example_b": "Se pone muy nervioso cuando parece que alguien se enterara de sus mentiras.",
-    "solution": "como si hubiera enterado",
-    "linguistic_analysis": "The pretense involves an imaginary past discovery. He acts now as if his discovery (which happened via radio in the fiction) were a completed past event. This use of the pluperfect is essential to describe the elaborate counterfactual timelines of deceptive behavior."
+    "usage_example_b": "Se comporta con gran naturalidad cada vez que llega tarde, como si se enterara de la reunión en ese instante y no hubiera podido hacer nada.",
+    "solution": "como si se hubiera enterado",
+    "linguistic_analysis": "The pretense involves an imaginary past discovery. He acts now as if his discovery (which happened via radio in the fiction) were a completed past event. 'Enterarse' is reflexive and requires 'se'; the pluperfect subjunctive 'como si se hubiera enterado' is essential to describe the elaborate counterfactual timelines of deceptive behavior."
   },
   {
     "problem_id": 911,
@@ -7093,7 +7093,7 @@
     "option_a": "cuya",
     "option_b": "que su",
     "usage_example_a": "Es una empresa cuya sede principal está en Ginebra.",
-    "usage_example_b": "Vimos a la chica que su coche se averió ayer (Incorrect/Colloquial).",
+    "usage_example_b": "Encontramos al mecánico que su taller está cerca del mercado; en español formal se diría 'cuyo taller'.",
     "solution": "cuya",
     "linguistic_analysis": "'Cuya' establishes relative possession between the 'cineasta' and the 'mirada'. It is the standard relative pronoun in professional art criticism. Using 'que su' is a common grammatical error (quesuismo) that would be out of place in a formal, expert-level text."
   },
@@ -7561,7 +7561,7 @@
     "option_a": "es",
     "option_b": "son",
     "usage_example_a": "No es que el modelo falle; es su aplicación a contextos para los que no fue diseñado lo que genera los problemas.",
-    "usage_example_b": "No son que los datos incorrectos; son su interpretación lo que genera la controversia. (ungrammatical)",
+    "usage_example_b": "Son varios los expertos que señalan el problema, pero no todos coinciden en las soluciones más adecuadas.",
     "solution": "es",
     "linguistic_analysis": "In cleft sentences, the copula 'ser' agrees with the focused noun phrase, not with the subject of the embedded clause. The focused element here is 'su interpretación' (singular feminine)—therefore the copula is 'es' (3rd person singular). This is a key agreement rule in Spanish clefts: 'es [singular NP] lo que...' even when the embedded clause has a different-number subject. 'Son' would only be correct if the focused element were plural: 'son sus interpretaciones lo que genera'. This question targets a classic learner error: attempting to agree the cleft copula with some other element in the sentence (the plural 'datos' from the first clause) rather than with the focused NP immediately following 'es/son'."
   },
@@ -8029,7 +8029,7 @@
     "option_a": "es",
     "option_b": "muestra",
     "usage_example_a": "Lo que se desprende del estudio es que la inversión en educación temprana tiene efectos multiplicadores a largo plazo.",
-    "usage_example_b": "Lo que muestra el estudio es que los sistemas de alta inversión pública producen mejores resultados a largo plazo. (also correct but different verb)",
+    "usage_example_b": "Lo que muestra el estudio es que los sistemas de alta inversión pública en educación producen mejores resultados a largo plazo.",
     "solution": "es",
     "linguistic_analysis": "In the pseudo-cleft 'Lo que se desprende de X [copula] que [clause]', the copula 'es' links the 'lo que' topic clause to its predicate—here a 'que' clause. The copula must be 'es' (not a full verb like 'muestra') because the structure 'Lo que X es que Y' is the copular pseudo-cleft where 'es' equates the 'what' clause with its clausal predicate. 'Lo que muestra el estudio es que Y' uses 'muestra' as the main verb in the topic clause ('what the study shows'), with 'es que Y' still as the predicate—this is also a valid pseudo-cleft. The question tests whether students recognize that after 'lo que se desprende de X', the next element must be the copula 'es', not another verb."
   },
@@ -8133,7 +8133,7 @@
     "option_a": "cuyas",
     "option_b": "que sus",
     "usage_example_a": "Se trata de un autor cuyas obras marcaron un antes y un después en la literatura.",
-    "usage_example_b": "Tengo un amigo que sus padres viven en Londres (colloquial/incorrect).",
+    "usage_example_b": "Conozco a un poeta que sus versos son muy famosos en Latinoamérica; en español formal, 'cuyos versos'.",
     "solution": "cuyas",
     "linguistic_analysis": "'Cuyas' is the only correct way to express relative possession in standard formal Spanish. The construction 'que sus' (option B) is a common colloquialism (quesuismo) that is strictly prohibited in academic and formal registers. 'Cuyas' establishes the link between the 'filósofo' and the 'ideas' with the required grammatical elegance."
   },
@@ -9680,7 +9680,7 @@
     "option_a": "cuya",
     "option_b": "de la cual la",
     "usage_example_a": "Es una asociación cuyas actividades son totalmente gratuitas.",
-    "usage_example_b": "Leímos la noticia, de la cual la veracidad era dudosa (Clunky/Non-standard).",
+    "usage_example_b": "Firmamos un contrato de la cual la duración era de tres años; en español natural se prefiere 'cuya duración'.",
     "solution": "cuya",
     "linguistic_analysis": "'Cuya' is the most elegant and standard way to express possession by an institution. 'De la cual la sede' is technically possible but stylistically heavy and usually avoided in expert writing. 'Cuya' provides a direct and formal link between the company and its headquarters."
   },
@@ -10239,7 +10239,7 @@
     "option_a": "eran / había concluido",
     "option_b": "son / ha concluido",
     "usage_example_a": "El director afirmó que los resultados eran satisfactorios y que el proyecto había concluido con éxito.",
-    "usage_example_b": "El director afirma que los resultados son satisfactorios y que el proyecto ha concluido con éxito. (reporting verb in present)",
+    "usage_example_b": "El director afirma que los resultados son satisfactorios y que el proyecto ha concluido con éxito dentro del presupuesto previsto.",
     "solution": "eran / había concluido",
     "linguistic_analysis": "When the reporting verb ('afirmó') is in the past, the present tense of direct speech ('son') shifts to imperfect ('eran'), and the present perfect ('ha concluido') shifts to pluperfect ('había concluido'). This double backshift is mandatory in formal written Spanish. If the reporting verb were in the present ('afirma'), no backshift would occur. A C2 error is using mixed tenses: 'afirmó que los resultados son' violates temporal coherence. Mastery of coordinated backshifting across multiple clauses is a hallmark of expert written register."
   },
@@ -10784,7 +10784,7 @@
     "target_sentence": "El comité recomendó que la propuesta [___] antes de su presentación definitiva.",
     "option_a": "se revisa",
     "option_b": "se revisara",
-    "usage_example_a": "*El comité recomendó que la propuesta se revisa antes de su presentación. (ungrammatical)",
+    "usage_example_a": "La propuesta se revisa anualmente en el seno del comité para asegurarse de que sigue siendo pertinente.",
     "usage_example_b": "El comité recomendó que la propuesta se revisara antes de su presentación definitiva.",
     "solution": "se revisara",
     "linguistic_analysis": "'Recomendar' is a volitive verb that always requires subjunctive in its subordinate clause. With a past reporting verb ('recomendó'), the subordinate clause requires imperfect subjunctive ('se revisara'/'se revicase'). Sequence of tenses rule: past reporting verb → imperfect subjunctive. Using present indicative 'se revisa' is ungrammatical in this context. The reflexive passive 'se revisara' (the proposal be reviewed) also demonstrates the interplay of passive voice and subjunctive in formal reported speech. This construction is ubiquitous in academic reports, committee minutes, and institutional recommendations."
@@ -10942,8 +10942,8 @@
     "option_b": "como si se desvaneciera",
     "usage_example_a": "La esperanza desapareció rápidamente, como si se hubiera desvanecido por arte de magia.",
     "usage_example_b": "Mira al horizonte con nostalgia, como si los sueños se desvanecieran ante sus ojos.",
-    "solution": "como si hubiera desvanecido",
-    "linguistic_analysis": "The fog is the resulting state. The hypothetical 'fading' of the world must be completed for the current state to exist. 'Hubiera desvanecido' aligns the imaginary act as the cause of the present visual effect, a common trope in advanced descriptive Spanish."
+    "solution": "como si se hubiera desvanecido",
+    "linguistic_analysis": "The fog is the resulting state. The hypothetical 'fading' of the world must be completed for the current state to exist. 'Desvanecerse' is reflexive; 'como si se hubiera desvanecido' aligns the imaginary reflexive act as the cause of the present visual effect, a common trope in advanced descriptive Spanish."
   },
   {
     "problem_id": 643,
@@ -11254,8 +11254,8 @@
     "option_b": "como si se quedara",
     "usage_example_a": "Se quedó mudo ante la pregunta del juez, como si se hubiera quedado sin palabras.",
     "usage_example_b": "Se asusta mucho con la oscuridad, como si se quedara solo en el mundo.",
-    "solution": "como si hubiera quedado",
-    "linguistic_analysis": "Becoming blind is a transformative event ('quedarse ciego'). The clumsy movement is the result of that hypothetical transformation. 'Hubiera quedado' indicates the change is a completed, counterfactual past event that explains the current behavior."
+    "solution": "como si se hubiera quedado",
+    "linguistic_analysis": "Becoming blind is a transformative event ('quedarse ciego'). The clumsy movement is the result of that hypothetical transformation. 'Quedarse' is reflexive; 'como si se hubiera quedado' indicates the change is a completed, counterfactual past reflexive event that explains the current behavior."
   },
   {
     "problem_id": 35,
@@ -11421,7 +11421,7 @@
     "target_sentence": "De esa época de efervescencia intelectual, [___] quedado pocas huellas en la memoria colectiva de las generaciones posteriores.",
     "option_a": "le han",
     "option_b": "han",
-    "usage_example_a": "De esa época de efervescencia intelectual, le han quedado pocas huellas en la memoria colectiva. (dative of interest)",
+    "usage_example_a": "De esa época de efervescencia intelectual, le han quedado al escritor algunos poemas inéditos y una correspondencia memorable con sus contemporáneos.",
     "usage_example_b": "De esa época de efervescencia intelectual, han quedado pocas huellas en la memoria colectiva de las generaciones posteriores.",
     "solution": "han",
     "linguistic_analysis": "Left-dislocation of a partitive/temporal prepositional phrase ('de esa época') does not require a resumptive clitic because the phrase is a PP adjunct, not a core argument with a case role. 'Han quedado pocas huellas' (few traces have remained) has 'pocas huellas' as its subject and 'de esa época' as a partitive or source modifier—not an argument requiring a clitic. 'Le han quedado' introduces a dative of interest ('le' = for it/her), implying the epoch retained something for itself—a different, animacy-marked construction. 'De esa época... han quedado' is the correct partitive left-dislocation: the adjunct PP is fronted, and the main clause continues without a clitic because adjunct PPs don't require resumption. Only core arguments (direct objects, indirect objects) require clitic resumption in left-dislocation."
@@ -11994,7 +11994,7 @@
     "option_a": "inexplicable",
     "option_b": "inexplicablemente",
     "usage_example_a": "Lo que resulta inexplicable es que el organismo de supervisión no actuara a pesar de las repetidas advertencias.",
-    "usage_example_b": "Lo que resulta inexplicablemente es que nadie haya asumido responsabilidad alguna. (ungrammatical)",
+    "usage_example_b": "Actuó inexplicablemente con frialdad ante la noticia, sin mostrar ninguna reacción de sorpresa ante los periodistas.",
     "solution": "inexplicable",
     "linguistic_analysis": "'Lo que resulta [adjective] es que + clause' is a pseudo-cleft pattern with evaluative adjective. 'Resultar' functions as a copular verb (like 'ser/estar' in some uses), taking a predicate adjective: 'resulta inexplicable' = 'is/turns out to be inexplicable'. The adjective 'inexplicable' must be used, not the adverb 'inexplicablemente', because 'resultar' as a copular verb takes adjective predicates, not adverbs. This is the same rule as with 'ser' and 'estar': 'es difícil' (adjective), not *'es difícilmente' (adverb). 'Lo que resulta inexplicable es que' is a standard evaluative pseudo-cleft formula in political and journalistic commentary: 'lo que resulta llamativo/preocupante/sorprendente/inaceptable es que'."
   },
@@ -12137,7 +12137,7 @@
     "option_a": "concluyó",
     "option_b": "finiquitó",
     "usage_example_a": "El cirujano concluyó la intervención satisfactoriamente y trasladó al paciente a la UCI para observación.",
-    "usage_example_b": "El cirujano finiquitó la operación y pasó a la siguiente. (awkward/inappropriate register)",
+    "usage_example_b": "El cirujano finiquitó el contrato con el hospital privado y se incorporó a la sanidad pública.",
     "solution": "concluyó",
     "linguistic_analysis": "'Concluir' is the appropriate formal verb for completing a professional process such as a surgical operation—it implies bringing something to a proper, orderly end. 'Finiquitar' is semantically mismatched here: its connotations are tied to financial settlement, contractual closure, and definitively resolving obligations—not to professional procedures. Using 'finiquitar' for a surgery sounds jarring and inappropriate, as if the patient were a contract being settled. Understanding the collocational and connotative restrictions of near-synonyms—which verbs go with which nouns in which domains—is a hallmark of C2 lexical competence."
   },
@@ -12162,8 +12162,8 @@
     "target_sentence": "El ponente defendió su postura con una pasión desmedida, como si [___] en juego su reputación académica.",
     "option_a": "hubiera estado",
     "option_b": "estuviera",
-    "usage_example_a": "Actuó como si hubiera visto un fantasma.",
-    "usage_example_b": "Se comporta como si estuviera cansado.",
+    "usage_example_a": "El investigador actuó como si hubiera estado presente en los hechos, describiendo cada detalle con una precisión sorprendente para alguien que llegó después.",
+    "usage_example_b": "El atleta se comporta como si estuviera cansado antes de empezar, aunque suele mostrar su mejor nivel pasados los primeros minutos.",
     "solution": "hubiera estado",
     "linguistic_analysis": "The expression 'como si' (as if) always requires the subjunctive mood. The choice between imperfect subjunctive ('estuviera') and pluperfect subjunctive ('hubiera estado') depends on the temporal relationship to the main clause and the nuance intended. 'Estuviera' would imply a hypothetical condition concurrent with the main action ('defendió'). 'Hubiera estado' (pluperfect subjunctive) implies a hypothetical condition that would have been true *prior* to or *at the time of* the main action, but is contrary to the speaker's implied reality. Here, the 'reputación académica' being 'en juego' is a strong, complete hypothetical reason *why* he defended it so passionately, suggesting a completed or established (but false) past condition. It emphasizes a deeper, more profound hypothetical reality that motivated his current action."
   },
@@ -12695,7 +12695,7 @@
     "target_sentence": "La coordinadora pidió que los participantes [___] sus informes antes del viernes.",
     "option_a": "entregarán",
     "option_b": "entregaran",
-    "usage_example_a": "*La coordinadora pidió que los participantes entregarán sus informes. (ungrammatical)",
+    "usage_example_a": "Los participantes entregarán sus informes finales antes del viernes, tal como se especificó en el calendario del curso.",
     "usage_example_b": "La coordinadora pidió que los participantes entregaran sus informes antes del viernes.",
     "solution": "entregaran",
     "linguistic_analysis": "Verbs of request, desire, recommendation, and obligation in the past ('pidió', 'rogó', 'exigió', 'ordenó') trigger subjunctive in the subordinate clause. When the reporting verb is in the past, the subordinate subjunctive must use the imperfect subjunctive ('entregaran'), not the present subjunctive ('entreguen'). Using the future indicative ('entregarán') is ungrammatical—indicative mood cannot appear in purpose/volitional subordinate clauses. This pide/subjunctive structure is fundamental but the tense selection (present vs. imperfect subjunctive based on sequence of tenses) marks C1/C2 mastery."
@@ -13033,7 +13033,7 @@
     "target_sentence": "El tribunal exigió que el acusado [___] personalmente a la siguiente audiencia.",
     "option_a": "compareciera",
     "option_b": "comparecerá",
-    "usage_example_a": "El tribunal exige que el acusado comparezca personalmente a la audiencia. (present → present subj.)",
+    "usage_example_a": "El tribunal exige que el acusado comparezca personalmente a la audiencia y no pueda ser representado únicamente por su abogado.",
     "usage_example_b": "El tribunal exigió que el acusado compareciera personalmente a la siguiente audiencia.",
     "solution": "compareciera",
     "linguistic_analysis": "'Exigir' (to demand, to require) is a volitional verb requiring subjunctive. With past 'exigió', the subordinate clause uses imperfect subjunctive 'compareciera' (from 'comparecer' – to appear in court). 'Comparecerá' (future indicative) is ungrammatical after a volitional verb. Note also the legal vocabulary: 'comparecer' is the formal/legal verb for appearing before a court, not the everyday 'aparecer'. This question thus tests both subjunctive government in indirect speech AND formal lexical register in legal contexts—a dual challenge at C2 level."
@@ -13501,8 +13501,8 @@
     "target_sentence": "[___] quien presentó la denuncia formal ante el juzgado de guardia.",
     "option_a": "Él fue",
     "option_b": "Fue él",
-    "usage_example_a": "Él fue quien presentó la denuncia, no su abogado. (neutral word order, less emphatic)",
-    "usage_example_b": "Fue él quien presentó la denuncia formal ante el juzgado de guardia. (canonical cleft, maximal focus on 'él')",
+    "usage_example_a": "Él fue quien presentó la denuncia, no su abogado, aunque después intentó retirarla.",
+    "usage_example_b": "Fue él quien presentó la denuncia formal ante el juzgado de guardia, identificándose con su documentación.",
     "solution": "Fue él",
     "linguistic_analysis": "The canonical Spanish cleft sentence follows the pattern 'Fue + [focused constituent] + quien/que + [rest of clause]'. The auxiliary 'fue' always opens the cleft, followed immediately by the focused element. This structure places maximum contrastive focus on the focused constituent: 'Fue ÉL quien presentó'—not someone else, but him specifically. The alternative 'Él fue quien' uses SVO order with 'él' as grammatical subject before the verb, which reduces the cleft's contrastive focus effect—the emphasis is still present but pragmatically weaker. In both spoken and written formal Spanish, verb-first 'Fue X quien' is the unmarked cleft order; 'X fue quien' is a less contrastive variant more common in informal speech."
   },
@@ -15543,7 +15543,7 @@
     "option_a": "más interesa",
     "option_b": "más interesan",
     "usage_example_a": "Lo que más interesa de esta propuesta son sus implicaciones para la gobernanza europea a largo plazo.",
-    "usage_example_b": "Lo que más interesan de estas propuestas son sus implicaciones para la redistribución de competencias. (incorrect)",
+    "usage_example_b": "Los datos más interesan cuando se analizan en su contexto histórico, no de forma aislada.",
     "solution": "más interesa",
     "linguistic_analysis": "The verb 'interesar' in the 'lo que' clause takes 'lo que' as its subject (neuter singular) → 'interesa' (3rd person singular). The plural focus NP 'sus implicaciones' (plural) governs the copula 'son' (plural), but does NOT affect the verb within the topic clause. 'Lo que más interesan' incorrectly makes 'interesar' plural, attracted by the plural focus NP at the end of the sentence. This attraction agreement error is systematic in learners who have not fully internalized pseudo-cleft agreement rules. The sentence can be parsed as: '[Lo que más interesa de esta propuesta] [son] [sus implicaciones para la redistribución]'—three constituents with independent agreement: 'interesa' agrees with 'lo que'; 'son' agrees with 'sus implicaciones'."
   },
@@ -16089,7 +16089,7 @@
     "option_a": "estos",
     "option_b": "los que",
     "usage_example_a": "Los compromisos adquiridos en la cumbre, estos deben ser monitorizados de manera rigurosa y transparente.",
-    "usage_example_b": "Los compromisos adquiridos en la cumbre son los que deben ser objeto de seguimiento periódico. (relative clause, not left-dislocation)",
+    "usage_example_b": "Son los que han cumplido los requisitos los que podrán participar en la segunda fase del proceso de selección.",
     "solution": "estos",
     "linguistic_analysis": "'Estos' is the resumptive demonstrative pronoun for the left-dislocated topic 'los compromisos adquiridos en la cumbre'. Left-dislocation with a demonstrative resumptive is appropriate when the main clause uses a passive or deontic construction ('deben ser objeto de') that doesn't provide a direct object slot for a clitic pronoun. 'Los que deben ser objeto de seguimiento' introduces a restrictive relative clause, fundamentally changing the sentence structure: it becomes a headless relative construction, not a left-dislocation. The distinction between left-dislocation (topic, these must be monitored) and a relative clause (those that must be monitored) is a fundamental pragmatic difference: the former is about a specific, identified referent; the latter introduces a set by its properties."
   },
@@ -17648,8 +17648,8 @@
     "target_sentence": "Ana dijo que [___] al congreso el mes siguiente.",
     "option_a": "irá",
     "option_b": "iría",
-    "usage_example_a": "Ana dice que irá al congreso el mes que viene. (direct: «Iré al congreso el mes que viene.»)",
-    "usage_example_b": "Ana dijo que iría al congreso el mes siguiente. (direct: «Iré al congreso el mes que viene.»)",
+    "usage_example_a": "Ana dice que irá al congreso el mes que viene, ya que el tema de ponencia coincide perfectamente con su línea de investigación.",
+    "usage_example_b": "Ana dijo que iría al congreso el mes siguiente, pero al final no pudo asistir por motivos personales.",
     "solution": "iría",
     "linguistic_analysis": "When the reporting verb is in the past ('dijo'), the future indicative ('irá') in the original speech shifts to the conditional ('iría') in indirect speech. This is the standard backshift rule in Spanish: future → conditional. Using 'irá' after 'dijo' would suggest either that the reported action is still in the future from the speaker's current perspective (acceptable in informal speech but marked) or that no backshift has occurred—a grammatical error in formal written discourse. The conditional 'iría' correctly situates the reported intention in the past narrative frame."
   },
@@ -17857,9 +17857,9 @@
     "option_a": "como si se hubiera enterado",
     "option_b": "como si se enterara",
     "usage_example_a": "Reaccionó con mucha calma, como si se hubiera enterado de la noticia mucho antes que los demás.",
-    "usage_example_b": "Se pone muy nerviosa cada vez que parece que alguien se enterara de sus secretos.",
-    "solution": "como si hubiera enterado",
-    "linguistic_analysis": "The verb 'enterarse' (to find out) is a puntual, transformative verb. In this context, the hypothetical discovery must have happened before the gaze. 'Hubiera enterado' marks this prior completion. The imperfect subjunctive is typically avoided with punctual verbs in 'como si' clauses unless referring to a repeated or ongoing state, which is not the case here."
+    "usage_example_b": "Escucha las noticias del accidente con atención, como si se enterara de todo en ese mismo momento, aunque ya lo sabía desde la mañana.",
+    "solution": "como si se hubiera enterado",
+    "linguistic_analysis": "The verb 'enterarse' (to find out) is a punctual, transformative reflexive verb. In this context, the hypothetical discovery must have happened before the gaze. 'Como si se hubiera enterado' marks this prior completed reflexive event. The imperfect subjunctive is typically avoided with punctual verbs in 'como si' clauses unless referring to a repeated or ongoing state, which is not the case here."
   },
   {
     "problem_id": 1096,
@@ -18311,7 +18311,7 @@
     "target_sentence": "[___] de los datos ha sido llevada a cabo de acuerdo con los estándares éticos internacionalmente reconocidos.",
     "option_a": "Recoger los datos",
     "option_b": "La recogida",
-    "usage_example_a": "Recoger los datos ha sido llevado a cabo respetando los estándares éticos internacionales. (awkward)",
+    "usage_example_a": "Recoger los datos de todos los participantes ha sido llevado a cabo conforme a los protocolos aprobados por el comité ético.",
     "usage_example_b": "La recogida de los datos ha sido llevada a cabo de acuerdo con los estándares éticos internacionalmente reconocidos.",
     "solution": "La recogida",
     "linguistic_analysis": "'La recogida de datos' (from 'recoger') is a fixed technical term in research methodology—an expected nominalized expression in methods sections. The infinitive 'recoger los datos' as subject of 'ha sido llevada a cabo' creates gender-number agreement problems with the passive participle ('llevado' would be needed, or the sentence must be restructured), exposing the syntactic awkwardness of infinitive subjects in passive constructions. 'La recogida' correctly agrees with the feminine passive participle 'llevada a cabo'. This example illustrates how nominalization in Spanish is sometimes not merely stylistic but syntactically necessary to ensure agreement in passive constructions."
