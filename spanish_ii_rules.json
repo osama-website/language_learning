@@ -17,12 +17,113 @@
       "Dudo que el gobierno suba los impuestos. (I doubt the government will raise taxes.)",
       "Es importante que estudies para el examen. (It's important that you study for the exam.)",
       "Espero que vengas a la fiesta. (I hope you come to the party.)",
-      "No creo que sea el mejor momento. (I don't think it's the best moment.)"
+      "No creo que sea the mejor momento. (I don't think it's the best moment.)"
     ],
     "important": [
       "'Creo que' takes indicative, but 'no creo que' takes subjunctive",
       "Subjunctive is used for pending/future actions with time conjunctions",
       "Some conjunctions always require subjunctive (para que, sin que, a menos que)"
+    ]
+  },
+  "Double Object Pronouns": {
+    "rule": "When both a Direct Object Pronoun (DOP) and an Indirect Object Pronoun (IOP) are used in the same sentence, the IOP always comes before the DOP. If both pronouns start with 'L' (le/les + lo/la/los/las), the IOP (le/les) changes to 'se'.",
+    "structure": "Subject + [IOP] + [DOP] + Verb",
+    "formation": [
+      "IOPs: me, te, le (se), nos, os, les (se)",
+      "DOPs: me, te, lo/la, nos, os, los/las",
+      "Sequence: 'le lo' -> 'se lo', 'le la' -> 'se la', 'les los' -> 'se los', etc."
+    ],
+    "uses": [
+      "To avoid repetition of both the recipient and the object.",
+      "Placement: Before conjugated verbs, or attached to the end of infinitives, gerunds, and affirmative commands."
+    ],
+    "examples": [
+      "¿Me das el libro? Sí, te lo doy. (Give me the book? Yes, I give it to you.)",
+      "Le envié la carta a Juan. -> Se la envié. (I sent the letter to Juan. -> I sent it to him.)",
+      "Estoy escribiéndoselo ahora. (I am writing it to him/her right now.)",
+      "Dáselo a ella. (Give it to her.)",
+      "No se lo digas a nadie. (Don't tell it to anyone.)"
+    ],
+    "important": [
+      "The 'Laila' rule: 'le' and 'les' become 'se' when followed by lo, la, los, or las.",
+      "Accents are often needed when pronouns are attached to infinitives, gerunds, or commands to maintain original stress.",
+      "Order is fixed: Indirect + Direct (ID - Identity)."
+    ]
+  },
+  "Reciprocal Verbs": {
+    "rule": "Reciprocal verbs express an action that two or more subjects perform on each other. They always use plural reflexive pronouns (nos, os, se) and plural verb forms.",
+    "structure": "Plural Subject + [nos/os/se] + Plural Verb",
+    "formation": [
+      "Nosotros -> nos",
+      "Vosotros -> os",
+      "Ellos/Ellas/Ustedes -> se"
+    ],
+    "uses": [
+      "To express mutual actions (each other / one another).",
+      "Common verbs: conocerse, verse, amarse, ayudarse, escribirse, saludarse, pelearse."
+    ],
+    "examples": [
+      "Nos conocemos desde niños. (We have known each other since we were kids.)",
+      "Los amigos se saludaron con un abrazo. (The friends greeted each other with a hug.)",
+      "¿Os escribís a menudo? (Do you write to each other often?)",
+      "Mis padres se aman mucho. (My parents love each other a lot.)",
+      "Se pelearon por un juguete. (They fought each other over a toy.)"
+    ],
+    "important": [
+      "The verb must be plural because the action involves at least two people.",
+      "Context usually clarifies if an action is reflexive (to oneself) or reciprocal (to each other). Adding 'mutuamente' or 'el uno al otro' can provide extra clarity.",
+      "Preterite is used for specific mutual events (se conocieron), while Imperfect is used for habitual mutual actions (se veían todos los días)."
+    ]
+  },
+  "Time Duration (Hace / Desde)": {
+    "rule": "Spanish uses 'hace' (it makes) constructions to express how long an action has been going on or how long ago it happened. 'Desde' marks the starting point.",
+    "structure": "Hace + [time] + que + [verb] | [Verb] + desde hace + [time] | Hacía + [time] + que + [imperfect verb]",
+    "formation": [
+      "Present: Hace + time + que + present tense (Action still happening)",
+      "Ago: Preterite + hace + time (Completed action)",
+      "Past Background: Hacía + time + que + imperfect (Had been happening)"
+    ],
+    "uses": [
+      "To express duration of an ongoing action (for / has been).",
+      "To express how long ago an event occurred (ago).",
+      "To express a duration leading up to a past event (had been)."
+    ],
+    "examples": [
+      "Hace tres años que estudio español. (I have been studying Spanish for three years.)",
+      "Vivo aquí desde hace un mes. (I have lived here for a month.)",
+      "Lo vi hace dos horas. (I saw him two hours ago.)",
+      "Hacía media hora que esperaba cuando llegó. (I had been waiting for half an hour when he arrived.)",
+      "¿Hace cuánto tiempo que trabajas aquí? (How long have you worked here?)"
+    ],
+    "important": [
+      "'Hace' is always singular in these time expressions (never 'hacen').",
+      "'Desde' + specific point (desde lunes); 'Desde hace' + duration (desde hace tres días).",
+      "Using 'hacía' (imperfect) shifts the reference point to the past, describing how long something HAD been occurring."
+    ]
+  },
+  "Imperative (Commands)": {
+    "rule": "The imperative gives commands or instructions. It has different forms for affirmative and negative commands, and formal vs informal addresses.",
+    "structure": "Verb in imperative form (+ pronouns if needed)",
+    "formation": [
+      "Affirmative tú: Use 3rd person singular present for regulars (habla, come, escribe). Irregulars: ten, ven, pon, sal, haz, di, ve, sé",
+      "Negative tú: Use present subjunctive 'tú' form (no hables, no comas, no escribas)",
+      "Usted/Ustedes: Always use present subjunctive for both affirmative and negative (hable, hables / no hable, no hablen)"
+    ],
+    "uses": [
+      "Give direct commands or instructions.",
+      "Make requests, give directions, or offer advice."
+    ],
+    "examples": [
+      "Haz la tarea ahora. (Do the homework now - tú affirmative).",
+      "No hables tan fuerte. (Don't speak so loud - tú negative).",
+      "Vengan aquí, por favor. (Come here, please - ustedes).",
+      "Dime la verdad. (Tell me the truth - pronoun attached).",
+      "No me digas mentiras. (Don't tell me lies - pronoun before negative command)."
+    ],
+    "important": [
+      "Pronoun placement: Affirmative commands = ATTACHED (Dámelo); Negative commands = BEFORE verb (No lo hagas).",
+      "The 'vosotros' affirmative command (Spain) changes 'r' to 'd': comer -> comed.",
+      "Negative commands ALWAYS use subjunctive forms."
     ]
   },
   "Ser vs Estar": {
@@ -227,36 +328,6 @@
       "Choose type based on likelihood: Type 1 = likely/possible, Type 2 = unlikely/hypothetical, Type 3 = past/impossible"
     ]
   },
-  "Imperative": {
-    "rule": "The imperative gives commands or instructions. It has different forms for affirmative and negative commands, and formal vs informal.",
-    "structure": "Verb in imperative form (+ pronouns if needed)",
-    "formation": [
-      "Affirmative tú: Use 3rd person singular present for regulars (habla, come, escribe). Irregulars: ten, ven, pon, sal, haz, di, ve, sé",
-      "Negative tú: Use present subjunctive without final -s (no hables, no comas, no escribas)",
-      "Usted/Ustedes: Always use present subjunctive for both affirmative and negative (hable, coma, escriba / no hable, no coma)"
-    ],
-    "uses": [
-      "Give direct commands or instructions",
-      "Make requests (polite or direct)",
-      "Give directions",
-      "Offer suggestions or advice"
-    ],
-    "examples": [
-      "Habla más despacio. (Speak more slowly - tú affirmative)",
-      "No hables tan rápido. (Don't speak so fast - tú negative)",
-      "Hable usted con el director. (Speak with the director - usted affirmative)",
-      "Ten cuidado. (Be careful - tú irregular)",
-      "No tengas miedo. (Don't be afraid - tú negative)",
-      "Dime la verdad. (Tell me the truth - with pronoun attached)",
-      "No me digas. (Don't tell me - pronoun before verb)"
-    ],
-    "important": [
-      "With pronouns: Affirmative = attach to end (Dime, Házlo, Dáselo); Negative = place before verb (No me digas, No lo hagas)",
-      "8 irregular tú affirmative commands: ten, ven, pon, sal, haz, di, ve, sé",
-      "All negative commands use subjunctive forms",
-      "Usted/ustedes commands always use subjunctive (same form for affirmative and negative)"
-    ]
-  },
   "Reflexive Pronouns": {
     "rule": "Reflexive pronouns (me, te, se, nos, os, se) indicate the subject performs an action on itself, express spontaneous/natural processes, or are required with certain verbs.",
     "structure": "Reflexive pronoun + verb (or verb + reflexive pronoun attached)",
@@ -283,34 +354,6 @@
       "Position: Me lavo (present) / Voy a lavarme or Me voy a lavar (with infinitive) / Estoy lavándome or Me estoy lavando (with gerund)",
       "Some common always-reflexive verbs: quejarse, arrepentirse, atreverse, acordarse, darse cuenta",
       "Spontaneous se often indicates natural processes: se cayó, se rompió, se acabó, se derritió"
-    ]
-  },
-  "Object Pronouns": {
-    "rule": "Direct object pronouns replace the direct object (what/who receives the action). Indirect object pronouns replace the indirect object (to/for whom). Order: Indirect + Direct + Verb.",
-    "structure": "IOP + DOP + verb (or verb + IOP + DOP attached)",
-    "formation": [
-      "Direct pronouns: me, te, lo/la, nos, os, los/las",
-      "Indirect pronouns: me, te, le, nos, os, les",
-      "When both start with 'l': le/les becomes se → se lo, se la, se los, se las"
-    ],
-    "uses": [
-      "Direct pronouns replace direct objects (¿El libro? Lo leí)",
-      "Indirect pronouns replace indirect objects (Le di el regalo = I gave the gift to him/her)",
-      "Both together: Indirect before direct (Me lo dio = He gave it to me)",
-      "Le/les becomes 'se' before lo/la/los/las (Se lo di = I gave it to him/her/them)"
-    ],
-    "examples": [
-      "¿La carta? Ya la escribí. (The letter? I already wrote it - direct object)",
-      "¿Le diste el regalo a María? Sí, se lo di. (Did you give the gift to María? Yes, I gave it to her - both objects)",
-      "No me lo digas. (Don't tell it to me - both pronouns before negative command)",
-      "Voy a comprártelo. (I'm going to buy it for you - both attached to infinitive)",
-      "Estoy dándotelo. (I'm giving it to you - both attached to gerund)"
-    ],
-    "important": [
-      "Order is ALWAYS: Indirect + Direct + Verb (or attached in same order)",
-      "Le/les + lo/la/los/las = se lo/la/los/las (never le lo)",
-      "With infinitive/gerund: can attach or place before conjugated verb (Voy a dártelo = Te lo voy a dar)",
-      "With commands: Affirmative = attach (Dámelo), Negative = before (No me lo des)"
     ]
   },
   "Passive Voice": {
@@ -476,40 +519,6 @@
       "Verb agrees with subject (what's liked/interesting/hurting), NOT with person",
       "Use 'a + person' to clarify or emphasize: A mí me gusta, A ti te gusta",
       "With infinitives, use singular verb: Me gusta bailar y cantar"
-    ]
-  },
-  "Time Expressions": {
-    "rule": "Spanish has specific expressions and constructions for talking about time, including 'acabar de' (to have just), 'hace... que' (ago/for), 'llevar' (to have been), and others.",
-    "structure": "Various structures depending on expression",
-    "formation": [
-      "Acabar de + infinitive = to have just done",
-      "Hace + time + que + present = has been doing for (time)",
-      "Hace + time = ago",
-      "Llevar + time + gerund = to have been doing for (time)",
-      "Desde hace + time = for/since"
-    ],
-    "uses": [
-      "ACABAR DE: Recent completion (acabo de llegar)",
-      "HACE... QUE (present): Duration of ongoing action (hace dos años que vivo aquí)",
-      "HACE (preterite): Time ago (llegó hace dos horas)",
-      "LLEVAR: Duration with gerund (llevo tres años estudiando)",
-      "YA: Already/now (ya terminé, ya no vive aquí)",
-      "TODAVÍA: Still/yet (todavía estoy trabajando, todavía no he terminado)"
-    ],
-    "examples": [
-      "Acabo de llegar. (I have just arrived - acabar de)",
-      "Lo vi hace tres días. (I saw him three days ago - hace + preterite)",
-      "Hace dos años que vivo aquí. (I've been living here for two years - hace...que + present)",
-      "Llevo tres años estudiando español. (I've been studying Spanish for three years - llevar + gerund)",
-      "Vivo aquí desde hace cinco años. (I've been living here for five years - desde hace)",
-      "Ya terminé. (I already finished - ya)",
-      "Todavía no he terminado. (I still haven't finished - todavía no)"
-    ],
-    "important": [
-      "Acabar de + infinitive (never participle): acabo de llegar (NOT acabo de llegado)",
-      "Hace with present tense = for (duration), hace with preterite = ago",
-      "Ya = already (affirmative), ya no = no longer",
-      "Todavía = still (affirmative), todavía no = not yet"
     ]
   },
   "Conditional Tense": {
@@ -759,7 +768,7 @@
     ],
     "uses": [
       "TO REMAIN/STAY: Me quedé en casa (I stayed at home - reflexive)",
-      "TO HAVE LEFT: Me quedan dos días (I have two days left - gustar-type)",
+      "TO HAVE LEFT: Me quedan dos días (I have dos días left - gustar-type)",
       "TO FIT (clothing): La camisa me queda bien (The shirt fits me well)",
       "TO ARRANGE TO MEET: Quedamos a las 5 (We're meeting at 5)",
       "TO BE LOCATED: El hotel queda cerca (The hotel is located nearby)"
@@ -777,120 +786,6 @@
       "With clothing: bien (fits well), mal (fits poorly), grande/pequeño (too big/small)",
       "Quedar + left uses gustar structure: IOP + quedar + subject",
       "Quedarse con = to keep (Quédate con el cambio = Keep the change)"
-    ]
-  },
-  "Ningún vs Ninguno": {
-    "rule": "NINGÚN is used before masculine singular nouns. NINGUNO is used when standing alone or after the noun. Both mean 'no/none/not any'.",
-    "structure": "Ningún + masculine singular noun | Ninguno (alone or after noun) | Ninguna (feminine)",
-    "formation": [
-      "Ningún: before masculine singular noun only",
-      "Ninguno: standing alone, after noun (rare), or in phrases like 'ninguno de'",
-      "Ninguna: feminine form (before noun or alone)"
-    ],
-    "uses": [
-      "BEFORE masculine singular noun: ningún libro, ningún problema",
-      "STANDING ALONE: ¿Cuál? Ninguno. (Which one? None.)",
-      "WITH 'DE': Ninguno de ellos (None of them)",
-      "FEMININE: ninguna solución, ninguna de ellas"
-    ],
-    "examples": [
-      "No tengo ningún libro. (I don't have any book - before masculine noun)",
-      "¿Tienes libros? No, no tengo ninguno. (Do you have books? No, I don't have any - standing alone)",
-      "Ninguno de los estudiantes vino. (None of the students came - with 'de')",
-      "No hay ninguna solución. (There's no solution - feminine)",
-      "¿Cuál prefieres? Ninguno. (Which do you prefer? None - standing alone)"
-    ],
-    "important": [
-      "Usually used in singular even when English uses plural",
-      "Part of negative words: ningún, ninguno, ninguna, nadie, nada, nunca, tampoco",
-      "Double negative is standard in Spanish: No tengo ninguno (lit. 'I don't have none')",
-      "After 'sin': sin ningún problema (without any problem - no article)"
-    ]
-  },
-  "Superlatives": {
-    "rule": "Superlatives express the extreme degree of a quality. Relative superlatives use el/la/los/las + más/menos + adjective. Absolute superlatives use -ísimo.",
-    "structure": "Relative: el/la/los/las + más/menos + adj + de | Absolute: adj stem + ísimo/a/os/as",
-    "formation": [
-      "Relative superlative: article + más/menos + adjective + de",
-      "Absolute superlative: drop final vowel, add -ísimo/a/os/as",
-      "Spelling changes in absolute: c→qu (rico→riquísimo), g→gu (largo→larguísimo), z→c (feliz→felicísimo)"
-    ],
-    "uses": [
-      "RELATIVE SUPERLATIVE: Compare one thing to a group (the most/least...)",
-      "ABSOLUTE SUPERLATIVE: Express very/extremely without comparison",
-      "IRREGULAR SUPERLATIVES: mejor (best), peor (worst), mayor (biggest/oldest), menor (smallest/youngest)"
-    ],
-    "examples": [
-      "Es el estudiante más inteligente de la clase. (He's the most intelligent student in the class - relative)",
-      "Son las películas menos interesantes del año. (They're the least interesting movies of the year - relative)",
-      "Es la ciudad más grande del país. (It's the biggest city in the country - relative)",
-      "Es el mejor estudiante del colegio. (He's the best student in the school - irregular)",
-      "La película es interesantísima. (The movie is extremely interesting - absolute)",
-      "Estoy cansadísimo. (I'm very tired - absolute)"
-    ],
-    "important": [
-      "Use 'de' not 'en' after superlative: el mejor del mundo (NOT en el mundo)",
-      "Superlative adjective can go before or after noun",
-      "Article agrees with noun: la más alta, los más altos",
-      "Absolute superlative doesn't compare, just intensifies: muy interesante = interesantísimo"
-    ]
-  },
-  "Algún vs Ningún": {
-    "rule": "ALGÚN/ALGUNO means 'some/any' and is used in affirmative and interrogative sentences. NINGÚN/NINGUNO means 'no/none/not any' and is used in negative sentences.",
-    "structure": "Algún/ningún + noun | Alguno/ninguno (standing alone)",
-    "formation": [
-      "Algún: before masculine singular noun",
-      "Alguno: standing alone or after noun",
-      "Alguna/algunos/algunas: feminine/plural forms",
-      "Ningún: before masculine singular noun",
-      "Ninguno: standing alone or after noun",
-      "Ninguna: feminine form"
-    ],
-    "uses": [
-      "ALGÚN: In questions and affirmative sentences (some/any)",
-      "NINGÚN: In negative sentences (no/none/not any)",
-      "Both usually appear before noun, but can stand alone"
-    ],
-    "examples": [
-      "¿Hay algún mensaje? (Is there any message? - question)",
-      "Algunos estudiantes llegaron tarde. (Some students arrived late - affirmative plural)",
-      "Tengo alguna idea. (I have some idea - feminine)",
-      "No tengo ningún libro. (I don't have any book - negative)",
-      "No tengo ninguna pregunta. (I don't have any question - negative feminine)",
-      "Ninguno de ellos sabe la respuesta. (None of them knows the answer - with 'de')"
-    ],
-    "important": [
-      "Algún usually in questions/affirmative; ningún in negatives",
-      "Both usually singular even when meaning is plural in English",
-      "Double negative OK in Spanish: No vino nadie = Nobody came",
-      "After 'sin': sin ningún problema (without any problem)"
-    ]
-  },
-  "Conditional vs Future Simple": {
-    "rule": "FUTURE SIMPLE expresses what will happen or probability in present. CONDITIONAL expresses what would happen or probability in past. Choose based on certainty and time frame.",
-    "structure": "Future: infinitive + é/ás/á/emos/éis/án | Conditional: infinitive + ía/ías/ía/íamos/íais/ían",
-    "formation": [
-      "Future: infinitive + future endings (é, ás, á, emos, éis, án)",
-      "Conditional: infinitive + conditional endings (ía, ías, ía, íamos, íais, ían)",
-      "Same irregular stems for both: hacer→har-, decir→dir-, poder→podr-, etc."
-    ],
-    "uses": [
-      "FUTURE: Future action (llegaré mañana), probability in present (serán las tres), promise/prediction",
-      "CONDITIONAL: Hypothetical (si tuviera tiempo, viajaría), probability in past (serían las tres), polite request, future in past"
-    ],
-    "examples": [
-      "Mañana llegaré temprano. (Tomorrow I will arrive early - future action)",
-      "¿Dónde estará María? (Where could María be? - probability in present, future)",
-      "Si tuviera tiempo, viajaría. (If I had time, I would travel - hypothetical, conditional)",
-      "Serían las tres cuando llegó. (It must have been three when he arrived - probability in past, conditional)",
-      "El año que viene iré a España. (Next year I'll go to Spain - future)",
-      "Dijo que vendría mañana. (He said he would come tomorrow - future in past, conditional)"
-    ],
-    "important": [
-      "Probability NOW: future (Estará en casa = He must be at home)",
-      "Probability THEN: conditional (Estaría en casa = He must have been at home)",
-      "Future for promises/predictions; conditional for hypotheticals and polite requests",
-      "Both have same irregular stems"
     ]
   }
 }
