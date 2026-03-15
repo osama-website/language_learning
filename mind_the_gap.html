@@ -1,0 +1,2990 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hueco: Mind the Gap!</title>
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/osama-website/language_learning/refs/heads/main/train.png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-green: #6aaa64;
+            --primary-red: #e63946;
+            --bg-color: #f5f5f5;
+            --card-bg: #ffffff;
+            --text-primary: #1a1a1a;
+            --text-secondary: #6e6e6e;
+            --border-color: #d3d6da;
+            --hover-bg: #f0f0f0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            min-height: 100vh;
+            padding: 16px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 24px;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .header-controls {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-top: 16px;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .header-buttons {
+            display: flex;
+            gap: 8px;
+        }
+
+        .practice-toggle {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+        }
+
+        .toggle-switch {
+            position: relative;
+            width: 48px;
+            height: 24px;
+            background-color: var(--border-color);
+            border-radius: 12px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .toggle-switch.active {
+            background-color: var(--primary-green);
+        }
+
+        .toggle-slider {
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            width: 20px;
+            height: 20px;
+            background-color: white;
+            border-radius: 50%;
+            transition: transform 0.3s;
+        }
+
+        .toggle-switch.active .toggle-slider {
+            transform: translateX(24px);
+        }
+
+        .btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            min-width: 44px;
+            min-height: 44px;
+        }
+
+        .icon-btn {
+            padding: 10px; /* Overrides the 20px horizontal padding from .btn */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .icon-btn img {
+            display: block; /* Prevents tiny alignment gaps below the images */
+        }
+        .btn-primary {
+            background-color: var(--primary-green);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: #5a9a54;
+        }
+
+        .btn-secondary {
+            background-color: var(--card-bg);
+            color: var(--text-primary);
+            border: 2px solid var(--border-color);
+        }
+
+        .btn-secondary:hover {
+            background-color: var(--hover-bg);
+        }
+
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .progress-bar-container {
+            width: 100%;
+            height: 6px;
+            background-color: var(--bg-color);
+            border-radius: 3px;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary-green), #4a9a44);
+            border-radius: 3px;
+            transition: width 0.3s ease;
+        }
+
+        .question-text {
+            font-size: 20px;
+            margin-bottom: 24px;
+            line-height: 1.5;
+        }
+
+        .question-text .blank {
+            color: var(--primary-green);
+            font-weight: 700;
+            text-decoration: underline;
+            text-decoration-style: dotted;
+        }
+
+        .question-tags {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+        }
+
+        .question-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 12px;
+            border-radius: 16px;
+            font-size: 13px;
+            background-color: var(--bg-color);
+            border: 1px solid var(--border-color);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .question-tag:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .question-tag.active {
+            background-color: var(--primary-green);
+            border-color: var(--primary-green);
+            color: white;
+        }
+
+        .question-tag.active .tag-label {
+            color: white;
+        }
+
+        .tag-color {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        .tag-label {
+            font-weight: 500;
+            color: var(--text-secondary);
+        }
+
+        .filter-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 14px;
+            border-radius: 16px;
+            font-size: 14px;
+            background-color: var(--bg-color);
+            border: 2px solid var(--border-color);
+            cursor: pointer;
+            transition: all 0.2s;
+            user-select: none;
+        }
+
+        .filter-tag:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .filter-tag.active {
+            background-color: var(--primary-green);
+            border-color: var(--primary-green);
+            color: white;
+        }
+
+        .filter-tag.active .tag-label {
+            color: white;
+        }
+
+        .tooltip {
+            position: relative;
+        }
+
+        .tooltip .tooltip-text {
+            visibility: hidden;
+            background-color: var(--text-primary);
+            color: white;
+            text-align: center;
+            padding: 8px 12px;
+            border-radius: 6px;
+            position: absolute;
+            z-index: 100;
+            bottom: 125%;
+            left: 50%;
+            transform: translateX(-50%);
+            white-space: nowrap;
+            opacity: 0;
+            transition: opacity 0.3s;
+            font-size: 14px;
+            pointer-events: none;
+        }
+
+        .tooltip .tooltip-text::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: var(--text-primary) transparent transparent transparent;
+        }
+
+        .tooltip:hover .tooltip-text {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .option-container {
+            display: flex;
+            gap: 8px;
+            align-items: stretch;
+        }
+
+        .option-btn {
+            flex: 1;
+            padding: 16px 20px;
+            font-size: 18px;
+            text-align: left;
+            background-color: var(--card-bg);
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            min-height: 44px;
+        }
+
+        .option-btn:hover:not(:disabled) {
+            border-color: var(--text-primary);
+            background-color: var(--hover-bg);
+        }
+
+        .option-btn.correct {
+            background-color: #d4edda;
+            border-color: var(--primary-green);
+        }
+
+        .option-btn.incorrect {
+            background-color: #f8d7da;
+            border-color: var(--primary-red);
+        }
+
+        .option-btn:disabled {
+            cursor: default;
+        }
+
+        .example-btn {
+            padding: 12px 16px;
+            background-color: var(--card-bg);
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--text-secondary);
+            transition: all 0.2s;
+            min-width: 44px;
+        }
+
+        .example-btn:hover {
+            background-color: var(--hover-bg);
+            border-color: var(--text-primary);
+        }
+
+        .explanation {
+            background-color: #e7f3ff;
+            padding: 16px;
+            border-radius: 8px;
+            margin-top: 16px;
+            border-left: 4px solid var(--primary-green);
+        }
+
+        .explanation h4 {
+            margin-bottom: 8px;
+            color: var(--text-primary);
+        }
+
+        .report-issue-btn {
+            margin-top: 12px;
+            width: 100%;
+        }
+
+        .report-form {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .report-form label {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 6px;
+            display: block;
+        }
+
+        .report-form input,
+        .report-form textarea {
+            width: 100%;
+            padding: 12px 14px;
+            border: 2px solid var(--border-color);
+            border-radius: 10px;
+            font-size: 16px;
+            background: var(--card-bg);
+            color: var(--text-primary);
+            outline: none;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .report-form textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        .report-form input:focus,
+        .report-form textarea:focus {
+            border-color: var(--primary-green);
+            box-shadow: 0 0 0 3px rgba(106, 170, 100, 0.15);
+        }
+
+        .report-meta {
+            font-size: 13px;
+            color: var(--text-secondary);
+            background: var(--bg-color);
+            border: 1px solid var(--border-color);
+            padding: 10px 12px;
+            border-radius: 10px;
+            line-height: 1.5;
+        }
+
+        .report-actions {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+        }
+
+
+        .navigation {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 24px;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+            padding: 16px;
+            overflow-y: auto;
+        }
+
+        .modal.active {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #categoryRulesModal {
+            z-index: 1100;
+        }
+        
+        #categoryRulesModal .modal-content {
+            max-width: 600px;
+        }
+
+        .modal-content {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            padding: 0;
+            max-width: 500px;
+            width: 100%;
+            max-height: 100vh;
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 24px 24px 20px 24px;
+            border-bottom: 1px solid var(--border-color);
+            flex-shrink: 0;
+        }
+
+        .modal-body {
+            overflow-y: auto;
+            padding: 24px;
+            flex: 1;
+        }
+
+        .modal-header h3 {
+            font-size: 20px;
+        }
+
+        .close-btn {
+            background: none;
+            border: none;
+            font-size: 28px;
+            cursor: pointer;
+            color: var(--text-secondary);
+            line-height: 1;
+            padding: 0;
+            min-width: 32px;
+            min-height: 32px;
+        }
+
+        .close-btn:hover {
+            color: var(--text-primary);
+        }
+
+        .example-list {
+            list-style: none;
+        }
+
+        .example-list li {
+            padding: 12px;
+            border-bottom: 1px solid var(--border-color);
+            font-size: 16px;
+        }
+
+        .example-list li:last-child {
+            border-bottom: none;
+        }
+
+        .completion-screen {
+            text-align: center;
+        }
+
+        .completion-screen h2 {
+            font-size: 32px;
+            margin-bottom: 16px;
+            color: var(--primary-green);
+        }
+
+        .completion-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 16px;
+            margin: 24px 0;
+        }
+
+        .stat-item {
+            padding: 16px;
+            background-color: var(--bg-color);
+            border-radius: 8px;
+        }
+
+        .stat-value {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--primary-green);
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: var(--text-secondary);
+            margin-top: 4px;
+        }
+
+        .stats-dashboard {
+        }
+
+        .difficulty-selector {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin: 20px 0;
+        }
+
+        .difficulty-option {
+            display: flex;
+            align-items: center;
+            padding: 16px;
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .difficulty-option:hover {
+            background-color: var(--hover-bg);
+        }
+
+        .difficulty-option.selected {
+            border-color: var(--primary-green);
+            background-color: #e7f3ff;
+        }
+
+        .difficulty-radio {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 2px solid var(--border-color);
+            margin-right: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .difficulty-option.selected .difficulty-radio {
+            border-color: var(--primary-green);
+        }
+
+        .difficulty-radio-inner {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: var(--primary-green);
+            display: none;
+        }
+
+        .difficulty-option.selected .difficulty-radio-inner {
+            display: block;
+        }
+
+        .difficulty-info {
+            flex: 1;
+        }
+
+        .difficulty-name {
+            font-weight: 600;
+            font-size: 16px;
+            margin-bottom: 4px;
+        }
+
+        .difficulty-description {
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        .instructions {
+            background-color: var(--bg-color);
+            padding: 16px;
+            border-radius: 8px;
+            margin: 20px 0;
+            line-height: 1.8;
+        }
+
+        .instructions h4 {
+            margin-bottom: 12px;
+            color: var(--text-primary);
+        }
+
+        .instructions ul {
+            margin-left: 20px;
+        }
+
+        .instructions li {
+            margin-bottom: 8px;
+        }
+
+        .stats-section {
+            margin-bottom: 24px;
+        }
+
+        .stats-section h3 {
+            font-size: 18px;
+            margin-bottom: 12px;
+            color: var(--text-primary);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 12px;
+        }
+
+        .category-stat {
+            background-color: var(--bg-color);
+            padding: 12px;
+            border-radius: 8px;
+        }
+
+        .category-name {
+            font-size: 14px;
+            color: var(--text-secondary);
+            margin-bottom: 4px;
+        }
+
+        .category-accuracy {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--primary-green);
+        }
+
+        .chart-container {
+            position: relative;
+            height: 250px;
+            margin: 20px 0;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            font-size: 18px;
+            color: var(--text-secondary);
+        }
+
+        .error {
+            background-color: #f8d7da;
+            color: #721c24;
+            padding: 16px;
+            border-radius: 8px;
+            border-left: 4px solid var(--primary-red);
+        }
+
+        .category-rules-content {
+            line-height: 1.8;
+        }
+
+        .category-rules-content h4 {
+            color: var(--primary-green);
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        .category-rules-content h4:first-child {
+            margin-top: 0;
+        }
+
+        .category-rules-content ul,
+        .category-rules-content ol {
+            margin-left: 24px;
+            margin-bottom: 16px;
+        }
+
+        .category-rules-content li {
+            margin-bottom: 8px;
+        }
+
+        .category-rules-content p {
+            margin-bottom: 12px;
+        }
+
+        .category-rules-content strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        .category-rules-content code {
+            background-color: var(--bg-color);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+        }
+
+        .rule-section {
+            background-color: var(--bg-color);
+            padding: 16px;
+            border-radius: 8px;
+            margin-bottom: 16px;
+        }
+
+        .rule-main {
+            background-color: #e7f3ff;
+            padding: 16px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-left: 4px solid var(--primary-green);
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .example-box {
+            background-color: #f8f9fa;
+            padding: 12px 16px;
+            border-radius: 6px;
+            margin-bottom: 8px;
+            border-left: 3px solid var(--primary-green);
+            font-style: italic;
+        }
+
+        .clickable-category {
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .clickable-category:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .category-stat-selected {
+            border: 2px solid var(--primary-green);
+            background-color: #e7f3ff;
+            box-shadow: 0 2px 8px rgba(106, 170, 100, 0.2);
+        }
+
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 24px;
+            }
+
+            .question-text {
+                font-size: 18px;
+            }
+
+            .option-btn {
+                font-size: 16px;
+                padding: 14px 16px;
+            }
+
+            .completion-stats {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Hueco: Mind the Gap!</h1>
+            <div class="header-controls">
+
+                <div class="header-buttons">
+                    <button class="btn btn-secondary icon-btn" id="rulesBtn" title="Rules">
+                        <img src="https://raw.githubusercontent.com/osama-website/language_learning/refs/heads/main/rules.png" alt="Filters" width="22" height="22">
+                    </button>
+                    <button class="btn btn-secondary icon-btn" id="filtersBtn" title="Filters">
+                        <img src="https://raw.githubusercontent.com/osama-website/language_learning/refs/heads/main/filter.png" alt="Filters" width="22" height="22">
+                    </button>
+                    <button class="btn btn-secondary icon-btn" id="statsBtn" title="Stats">
+                        <img src="https://raw.githubusercontent.com/osama-website/language_learning/refs/heads/main/stats.png" alt="Stats" width="22" height="22">
+                    </button>
+                    <button class="btn btn-secondary icon-btn" id="settingsBtn" title="Settings">
+                        <img src="https://raw.githubusercontent.com/osama-website/language_learning/refs/heads/main/settings.png" alt="Settings" width="22" height="22">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="appContent">
+            <div class="loading">Loading questions...</div>
+        </div>
+    </div>
+
+    <!-- Example Modal -->
+    <div class="modal" id="exampleModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="exampleModalTitle">Examples</h3>
+                <button class="close-btn" id="closeExampleModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <ul class="example-list" id="exampleList"></ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stats Modal -->
+    <div class="modal" id="statsModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Your Statistics</h3>
+                <button class="close-btn" id="closeStatsModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="stats-dashboard" id="statsDashboard"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Settings Modal -->
+    <div class="modal" id="settingsModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Settings & Instructions</h3>
+                <button class="close-btn" id="closeSettingsModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="instructions">
+                    <h4>How to Play</h4>
+                    <ul>
+                        <li>Choose the correct word to fill in the blank for each sentence.</li>
+                        <li>Click the <img src="https://raw.githubusercontent.com/osama-website/language_learning/refs/heads/main/hint.png" alt="Hint" width="18" height="18" style="vertical-align: middle; margin: 0 2px;"> button next to any option to see real-world usage examples.</li>
+                        <li>Click the <span class="question-tag" style="vertical-align: middle; margin: 0 2px; padding: 4px 10px; cursor: default;"><span class="tag-color" style="background-color: #4ECDC4;"></span><span class="tag-label">Category</span></span> tag on a question, or use the <img src="https://raw.githubusercontent.com/osama-website/language_learning/refs/heads/main/rules.png" alt="Rules" width="18" height="18" style="vertical-align: middle; margin: 0 2px;"> <strong>Rules</strong> icon at the top, to study grammar rules.</li>
+                        <li>Use the <img src="https://raw.githubusercontent.com/osama-website/language_learning/refs/heads/main/filter.png" alt="Filters" width="18" height="18" style="vertical-align: middle; margin: 0 2px;"> <strong>Filters</strong> icon to focus your practice on specific grammar categories or problem types.</li>
+                        <li>Track your accuracy, progress, and streaks using the <img src="https://raw.githubusercontent.com/osama-website/language_learning/refs/heads/main/stats.png" alt="Stats" width="18" height="18" style="vertical-align: middle; margin: 0 2px;"> <strong>Stats</strong> icon.</li>
+                        <li>Switch between Beginner, Intermediate, and Expert difficulties in the <img src="https://raw.githubusercontent.com/osama-website/language_learning/refs/heads/main/settings.png" alt="Settings" width="18" height="18" style="vertical-align: middle; margin: 0 2px;"> <strong>Settings</strong> menu.</li>
+                    </ul>
+                </div>
+                <div class="difficulty-selector" id="difficultySelector"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Report Issue Modal -->
+    <div class="modal" id="reportIssueModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Report an Issue</h3>
+                <button class="close-btn" id="closeReportIssueModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="report-meta" id="reportIssueMeta"></div>
+
+                <form class="report-form" id="reportIssueForm">
+                    <div>
+                        <label for="reportIssueNote">What went wrong?</label>
+                        <textarea id="reportIssueNote" placeholder="Help us mind the gap! Is there a typo, a glitchy explanation, or is the answer just plain wrong? Let us know..."></textarea>
+                    </div>
+
+                    <div class="report-actions">
+                        <button type="button" class="btn btn-secondary" onclick="closeReportIssueForm()">Cancel</button>
+                        <a class="btn btn-primary" id="reportIssueMailtoLink" href="#" onclick="submitReportIssue(event)">
+                            Send Email
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Filters Modal -->
+    <div class="modal" id="filtersModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Filter Questions</h3>
+                <button class="close-btn" id="closeFiltersModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div style="margin-bottom: 20px;">
+                    <button class="btn btn-secondary" onclick="clearAllFilters()" style="width: 100%;">Clear All Filters</button>
+                </div>
+                
+                <div style="margin-bottom: 24px;">
+                    <h4 style="margin-bottom: 12px;">Categories</h4>
+                    <div id="categoryFilters" style="display: flex; flex-wrap: wrap; gap: 8px;"></div>
+                </div>
+                
+                <div>
+                    <h4 style="margin-bottom: 12px;">Problem Types</h4>
+                    <div id="problemTypeFilters" style="display: flex; flex-wrap: wrap; gap: 8px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Category Rules Modal -->
+    <div class="modal" id="categoryRulesModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="categoryRulesTitle">Category Rules</h3>
+                <button class="close-btn" id="closeCategoryRulesModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="categoryRulesContent"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="rulesListModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Grammar Rules</h3>
+                <button class="close-btn" id="closeRulesListModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p style="margin-bottom: 16px; color: var(--text-secondary);">Select a category to view its grammar rules:</p>
+                <div id="rulesCategoryList" style="display: flex; flex-wrap: wrap; gap: 8px;"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Constants
+        const REFERENCE_DATE = new Date('2026-02-14');
+        const QUESTIONS_PER_DAY = 10;
+        const DIFFICULTY_URLS = {
+            beginner: 'https://raw.githubusercontent.com/osama-website/language_learning/refs/heads/main/spanish_I.json',
+            intermediate: 'https://raw.githubusercontent.com/osama-website/language_learning/refs/heads/main/spanish_II.json',
+            expert: 'https://raw.githubusercontent.com/osama-website/language_learning/refs/heads/main/spanish_III.json'
+        };
+        const DIFFICULTY_INFO = {
+            beginner: {
+                name: 'Beginner',
+                description: 'Basic Spanish vocabulary and simple grammar'
+            },
+            intermediate: {
+                name: 'Intermediate',
+                description: 'More complex vocabulary and intermediate grammar'
+            },
+            expert: {
+                name: 'Expert',
+                description: 'Advanced vocabulary and complex grammar structures'
+            }
+        };
+
+        // State
+        let allQuestions = {}; // Now organized by difficulty: { beginner: [], intermediate: [], expert: [] }
+        let currentDayQuestions = [];
+        let currentQuestionIndex = 0;
+        let statsViewMode = 'daily'; // 'daily' or 'practice'
+        let statsDifficultyFilter = 'overall'; // 'overall', 'beginner', 'intermediate', 'expert'
+        let currentDifficulty = 'intermediate'; // default difficulty
+        
+        // Session tracking (not saved to localStorage)
+        let currentSession = {
+            questionsAnswered: 0,
+            questionsCorrect: 0,
+            recentQuestions: [] // Track last 10 questions
+        };
+        
+        // ADD THIS LINE:
+        let sessionHistory = [];
+        let forwardHistory = []; // ADD THIS LINE: Tracks questions when moving forward from a review
+        
+        // Track whether this is a brand new user (no localStorage data)
+        let isNewUser = !localStorage.getItem('userProgress');
+        
+        // Save normal mode state when switching to practice
+        let savedNormalModeQuestion = null;
+        
+        let userProgress = {
+            questionsAttempted: [],
+            questionsCorrect: [],
+            questionHistory: {},
+            dailyStats: {},
+            practiceStats: {},
+            practiceMode: false,
+            currentDifficulty: 'intermediate',
+            completedDifficultiesToday: {}, // Track which difficulties completed today
+            lastNormalModeIndex: {}, // Track current position in question bank per difficulty
+            activeFilters: {
+                categories: [],
+                problemTypes: []
+            },
+            currentQuestionId: null,       // Persist currently shown question across refreshes
+            currentQuestionState: null,    // Persist answer + randomized order
+            savedSessionHistory: [],       // Persist session history (question objects) for Review button
+            savedSessionAnswered: 0,       // Persist progress bar count
+            savedSessionCorrect: 0,        // Persist session correct count
+            savedRecentQuestions: []       // Persist recent questions for stats
+        };
+
+        // Utility Functions
+
+        // Report Issue (mailto helper)
+        const REPORT_ISSUE_EMAIL = 'osama.buganizer@gmail.com';
+        const RULES_URLS = {
+            'Spanish I': 'https://raw.githubusercontent.com/osama-website/language_learning/refs/heads/main/spanish_i_rules.json',
+            'Spanish III': 'https://raw.githubusercontent.com/osama-website/language_learning/refs/heads/main/spanish_iii_rules.json',
+            'Spanish II': 'https://raw.githubusercontent.com/osama-website/language_learning/refs/heads/main/spanish_ii_rules.json'
+        };
+        
+        let categoryRules = {}; // Will store the loaded rules for all categories
+
+        function getPageTitle() {
+            return document.title || 'Hueco: Mind the Gap!';
+        }
+
+        function buildReportSubject(question) {
+            const problemId = question?.problem_id ?? 'unknown';
+            const category = question?.category ?? 'unknown';
+            const problemType = question?.problem_type ?? 'unknown';
+
+            // Consistent subject format
+            return `[Hueco Issue]| Problem ID: ${problemId}`;
+        }
+
+        function buildReportBody(question, note) {
+            const title = getPageTitle();
+            const problemId = question?.problem_id ?? 'unknown';
+            const difficulty = question?.difficulty ?? currentDifficulty ?? 'unknown';
+
+            const sentence = question?.sentence ?? '';
+            const option1 = question?.option1 ?? '';
+            const option2 = question?.option2 ?? '';
+            const correct = question?.correct ?? '';
+            const explanation = question?.explanation ?? '';
+            const category = question?.category ?? '';
+            const problemType = question?.problem_type ?? '';
+
+            return [
+                `Problem ID: ${problemId}`,
+                `Category: ${category}`,
+                `Problem Type: ${problemType}`,
+                ``,
+                `Sentence: ${sentence}`,
+                `Option A: ${option1}`,
+                `Option B: ${option2}`,
+                ``,
+                `Explanation:`,
+                `${explanation}`,
+                ``,
+                `---`,
+                `User note:`,
+                `${note || '(no note provided)'}`
+            ].join('\n');
+        }
+
+        function updateReportIssueMailto() {
+            const question = currentDayQuestions[currentQuestionIndex];
+            const note = document.getElementById('reportIssueNote')?.value || '';
+
+            const subject = buildReportSubject(question);
+            const body = buildReportBody(question, note);
+
+            const href = `mailto:${REPORT_ISSUE_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+            const link = document.getElementById('reportIssueMailtoLink');
+            if (link) link.href = href;
+        }
+
+        function openReportIssueForm() {
+            const question = currentDayQuestions[currentQuestionIndex];
+            const meta = document.getElementById('reportIssueMeta');
+
+            const title = getPageTitle();
+            const problemId = question?.problem_id ?? 'unknown';
+            const difficulty = question?.difficulty ?? currentDifficulty ?? 'unknown';
+
+            if (meta) {
+                meta.innerHTML = `
+                    <span style="display: inline-block; margin-top: 6px;">
+                        <strong>Problem ID:</strong> ${problemId}<br>
+                    </span>
+                `;
+            }
+
+            // Clear note each time (optional, but feels nicer)
+            const noteEl = document.getElementById('reportIssueNote');
+            if (noteEl) noteEl.value = '';
+
+            updateReportIssueMailto();
+            document.getElementById('reportIssueModal').classList.add('active');
+
+            // Keep mailto updated while typing
+            if (noteEl) {
+                noteEl.oninput = () => updateReportIssueMailto();
+            }
+        }
+
+        function closeReportIssueForm() {
+            document.getElementById('reportIssueModal').classList.remove('active');
+        }
+
+        function submitReportIssue(e) {
+            // Ensure mailto is up-to-date right before navigation
+            updateReportIssueMailto();
+            // Close the modal after the mailto link is clicked
+            // The modal will close immediately, allowing the user to continue
+            setTimeout(() => {
+                closeReportIssueForm();
+            }, 100);
+            // Let the <a> navigate normally (opens mail client)
+        }
+
+        function getTodayString() {
+            const today = new Date();
+            return `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
+        }
+        
+        async function loadCategoryRules() {
+            try {
+                // Load all category rules
+                for (const [category, url] of Object.entries(RULES_URLS)) {
+                    try {
+                        const response = await fetch(url);
+                        if (response.ok) {
+                            const rules = await response.json();
+                            categoryRules[category] = rules;
+                            console.log(`Category rules loaded for ${category}`);
+                        } else {
+                            console.error(`Failed to load rules for ${category}`);
+                        }
+                    } catch (error) {
+                        console.error(`Error loading rules for ${category}:`, error);
+                    }
+                }
+            } catch (error) {
+                console.error('Error loading category rules:', error);
+            }
+        }
+
+        function getDaysSinceReference() {
+            const today = new Date();
+            today.setHours(0, 0, 0, 0);
+            const reference = new Date(REFERENCE_DATE);
+            reference.setHours(0, 0, 0, 0);
+            const diffTime = today - reference;
+            const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+            console.log('=== DEBUG: Days Since Reference ===');
+            console.log('Today:', today);
+            console.log('Reference:', reference);
+            console.log('Diff in ms:', diffTime);
+            console.log('Days since reference:', diffDays);
+            return Math.max(0, diffDays);
+        }
+
+        // Color assignment based on string hash
+        function getColorForString(str) {
+            const colors = [
+                '#FF6B6B', // Red
+                '#4ECDC4', // Teal
+                '#45B7D1', // Blue
+                '#FFA07A', // Light Salmon
+                '#98D8C8', // Mint
+                '#F7DC6F', // Yellow
+                '#BB8FCE', // Purple
+                '#85C1E2', // Sky Blue
+                '#F8B88B', // Peach
+                '#52B788', // Green
+                '#A8DADC', // Powder Blue
+                '#E76F51', // Burnt Orange
+                '#2A9D8F', // Dark Teal
+                '#E9C46A', // Gold
+                '#F4A261', // Sandy Brown
+                '#264653'  // Dark Blue-Green
+            ];
+            
+            // Simple hash function
+            let hash = 0;
+            for (let i = 0; i < str.length; i++) {
+                hash = str.charCodeAt(i) + ((hash << 5) - hash);
+            }
+            
+            return colors[Math.abs(hash) % colors.length];
+        }
+
+        function loadProgress() {
+            const stored = localStorage.getItem('userProgress');
+            if (stored) {
+                try {
+                    const loaded = JSON.parse(stored);
+                    userProgress = {
+                        ...userProgress,
+                        ...loaded
+                    };
+                    
+                    // DATA MIGRATION: Clean up questionsAttempted and questionsCorrect arrays
+                    // Ensure they only contain string IDs in the format "difficulty-index"
+                    if (userProgress.questionsAttempted) {
+                        userProgress.questionsAttempted = userProgress.questionsAttempted.filter(item => {
+                            if (typeof item !== 'string') {
+                                console.warn('Removing non-string item from questionsAttempted:', item);
+                                return false;
+                            }
+                            if (!item.includes('-')) {
+                                console.warn('Removing invalid format item from questionsAttempted:', item);
+                                return false;
+                            }
+                            return true;
+                        });
+                    }
+                    
+                    if (userProgress.questionsCorrect) {
+                        userProgress.questionsCorrect = userProgress.questionsCorrect.filter(item => {
+                            if (typeof item !== 'string') {
+                                console.warn('Removing non-string item from questionsCorrect:', item);
+                                return false;
+                            }
+                            if (!item.includes('-')) {
+                                console.warn('Removing invalid format item from questionsCorrect:', item);
+                                return false;
+                            }
+                            return true;
+                        });
+                    }
+                    
+                    currentDifficulty = userProgress.currentDifficulty || 'intermediate';
+                    
+                    // Clean up completed difficulties from previous days
+                    const today = getTodayString();
+                    if (userProgress.completedDifficultiesToday) {
+                        const newCompleted = {};
+                        Object.keys(userProgress.completedDifficultiesToday).forEach(key => {
+                            if (key.startsWith(today)) {
+                                newCompleted[key] = userProgress.completedDifficultiesToday[key];
+                            }
+                        });
+                        userProgress.completedDifficultiesToday = newCompleted;
+                    }
+                    
+                    console.log('Progress loaded and cleaned. questionsAttempted:', userProgress.questionsAttempted.length, 'questionsCorrect:', userProgress.questionsCorrect.length);
+                } catch (e) {
+                    console.error('Error loading progress:', e);
+                }
+            }
+        }
+
+        function saveProgress() {
+            localStorage.setItem('userProgress', JSON.stringify(userProgress));
+        }
+
+        function matchesFilters(question) {
+            const hasActiveFilters = userProgress.activeFilters.categories.length > 0 || 
+                                     userProgress.activeFilters.problemTypes.length > 0;
+            
+            if (!hasActiveFilters) {
+                return true; // No filters active, show all questions
+            }
+            
+            // Normalize function to handle variations
+            const normalize = (str) => {
+                return str
+                    .toLowerCase()
+                    .replace(/\s+/g, ' ')  // normalize whitespace
+                    .replace(/\./g, '')     // remove periods
+                    .trim();
+            };
+            
+            const categoryMatch = userProgress.activeFilters.categories.length === 0 || 
+                                  userProgress.activeFilters.categories.some(
+                                      f => normalize(f) === normalize(question.category)
+                                  );
+            const problemTypeMatch = userProgress.activeFilters.problemTypes.length === 0 || 
+                                     userProgress.activeFilters.problemTypes.some(
+                                         f => normalize(f) === normalize(question.problem_type)
+                                     );
+            
+            return categoryMatch && problemTypeMatch;
+        }
+
+        function getNormalModeQuestion() {
+            const questionsForDifficulty = allQuestions[currentDifficulty] || [];
+            const totalQuestions = questionsForDifficulty.length;
+            
+            console.log('=== DEBUG: Get Normal Mode Question ===');
+            console.log('Current difficulty:', currentDifficulty);
+            console.log('Questions for difficulty:', questionsForDifficulty.length);
+            
+            if (totalQuestions === 0) {
+                console.log('ERROR: No questions available for difficulty:', currentDifficulty);
+                return [];
+            }
+            
+            const today = getTodayString();
+            
+            // Track which question index we should show next
+            if (!userProgress.lastNormalModeIndex) {
+                userProgress.lastNormalModeIndex = {};
+            }
+            if (userProgress.lastNormalModeIndex[currentDifficulty] === undefined) {
+                userProgress.lastNormalModeIndex[currentDifficulty] = -1;
+            }
+            
+            // Restore the current question on refresh
+            if (userProgress.currentQuestionId) {
+                const [savedDiff, savedIdxStr] = userProgress.currentQuestionId.split('-');
+                const savedIdx = parseInt(savedIdxStr);
+                if (savedDiff === currentDifficulty && !isNaN(savedIdx)) {
+                    const savedQ = questionsForDifficulty[savedIdx];
+                    if (savedQ && matchesFilters(savedQ)) {
+                        console.log('Restoring current question:', userProgress.currentQuestionId);
+                        const restored = { ...savedQ, index: savedIdx,
+                            questionId: userProgress.currentQuestionId, difficulty: currentDifficulty };
+                        if (userProgress.currentQuestionState) {
+                            restored.userAnswer = userProgress.currentQuestionState.userAnswer;
+                            restored.randomizedOrder = userProgress.currentQuestionState.randomizedOrder;
+                        }
+                        return [restored];
+                    }
+                }
+            }
+
+            const lastIndex = userProgress.lastNormalModeIndex[currentDifficulty];
+            const startIndex = (lastIndex + 1) % totalQuestions;
+            
+            console.log('Last index shown:', lastIndex);
+            console.log('Starting search from index:', startIndex);
+            
+            // Search through all questions starting from last index, wrapping around
+            for (let offset = 0; offset < totalQuestions; offset++) {
+                const i = (startIndex + offset) % totalQuestions;
+                const questionId = `${currentDifficulty}-${i}`;
+                const question = questionsForDifficulty[i];
+                
+                console.log(`Checking question ${questionId} (index ${i})`);
+                
+                // Apply filters
+                if (!matchesFilters(question)) {
+                    console.log(`  -> Skipping question ${questionId} (doesn't match filters)`);
+                    continue;
+                }
+                
+                // Found a matching question
+                console.log(`  -> Found question ${questionId}, updating lastIndex to ${i}`);
+                userProgress.lastNormalModeIndex[currentDifficulty] = i;
+                userProgress.currentQuestionId = questionId;
+                userProgress.currentQuestionState = null;
+                saveProgress();
+                
+                return [{ 
+                    ...question, 
+                    index: i,
+                    questionId: questionId,
+                    difficulty: currentDifficulty
+                }];
+            }
+            
+            // No questions match filters
+            console.log('No questions match current filters');
+            return [];
+        }
+
+        function getPracticeQuestions() {
+            // Get all previously attempted questions across all difficulties
+            const attemptedQuestions = Object.keys(userProgress.questionHistory)
+                .map(questionId => {
+                    const [difficulty, indexStr] = questionId.split('-');
+                    const index = parseInt(indexStr);
+                    const questionsForDifficulty = allQuestions[difficulty];
+                    
+                    if (!questionsForDifficulty || !questionsForDifficulty[index]) return null;
+                    
+                    const question = questionsForDifficulty[index];
+                    const history = userProgress.questionHistory[questionId];
+                    
+                    // Calculate weight: more incorrect attempts = higher weight (shown more frequently)
+                    const incorrectAttempts = history.attempts - (history.correct ? 1 : 0);
+                    const weight = incorrectAttempts + 1; // Minimum weight of 1
+                    
+                    return { 
+                        ...question, 
+                        index,
+                        questionId,
+                        difficulty,
+                        weight: weight
+                    };
+                })
+                .filter(q => q && q.sentence && matchesFilters(q));
+            
+            if (attemptedQuestions.length === 0) {
+                return [];
+            }
+            
+            // Exclude the last shown question to prevent back-to-back repeats
+            let availableQuestions = attemptedQuestions;
+            if (userProgress.lastPracticeQuestionId !== undefined) {
+                availableQuestions = attemptedQuestions.filter(q => q.questionId !== userProgress.lastPracticeQuestionId);
+            }
+            
+            // If we only have one question, we have to show it
+            if (availableQuestions.length === 0) {
+                availableQuestions = attemptedQuestions;
+            }
+            
+            // Calculate total weight
+            const totalWeight = availableQuestions.reduce((sum, q) => sum + q.weight, 0);
+            
+            // Weighted random selection for a single question
+            const randomArray = new Uint32Array(1);
+            crypto.getRandomValues(randomArray);
+            let randomValue = (randomArray[0] / (0xFFFFFFFF + 1)) * totalWeight;
+            
+            let selectedQuestion = null;
+            for (const question of availableQuestions) {
+                randomValue -= question.weight;
+                if (randomValue <= 0) {
+                    selectedQuestion = { ...question };
+                    // Store this question's ID to avoid showing it next
+                    userProgress.lastPracticeQuestionId = selectedQuestion.questionId;
+                    // Remove the weight property
+                    delete selectedQuestion.weight;
+                    break;
+                }
+            }
+            
+            console.log('=== DEBUG: Practice Question Selection ===');
+            console.log('Attempted questions:', attemptedQuestions.length);
+            console.log('Question weights:', attemptedQuestions.map(q => ({ id: q.questionId, weight: q.weight })));
+            console.log('Total weight:', totalWeight);
+            console.log('Last question ID:', userProgress.lastPracticeQuestionId);
+            console.log('Selected question ID:', selectedQuestion?.questionId);
+            
+            return selectedQuestion ? [selectedQuestion] : [];
+        }
+
+        async function fetchQuestions() {
+            try {
+                console.log('=== DEBUG: Fetching Questions ===');
+                
+                // Fetch all three difficulty levels
+                const difficulties = ['beginner', 'intermediate', 'expert'];
+                const fetchPromises = difficulties.map(async (difficulty) => {
+                    console.log(`Fetching ${difficulty} from:`, DIFFICULTY_URLS[difficulty]);
+                    const response = await fetch(DIFFICULTY_URLS[difficulty]);
+                    if (!response.ok) throw new Error(`Failed to fetch ${difficulty} questions`);
+                    const rawQuestions = await response.json();
+                    
+                    // Map the JSON fields to our expected format
+                    return rawQuestions.map(q => ({
+                        sentence: q.target_sentence,
+                        problem_id: q.problem_id,
+                        option1: q.option_a,
+                        option2: q.option_b,
+                        correct: q.solution === q.option_a ? 1 : 2,
+                        explanation: q.linguistic_analysis,
+                        examples_option1: q.usage_example_a ? [q.usage_example_a] : [],
+                        examples_option2: q.usage_example_b ? [q.usage_example_b] : [],
+                        problem_type: q.problem_type,
+                        category: q.category
+                    }));
+                });
+                
+                const results = await Promise.all(fetchPromises);
+                allQuestions = {
+                    beginner: results[0],
+                    intermediate: results[1],
+                    expert: results[2]
+                };
+                
+                console.log('Questions fetched:');
+                console.log('  Beginner:', allQuestions.beginner.length);
+                console.log('  Intermediate:', allQuestions.intermediate.length);
+                console.log('  Expert:', allQuestions.expert.length);
+                
+                loadProgress();
+                console.log('Progress loaded:', userProgress);
+                
+                // Restore session state from localStorage so progress bar and Review button survive refresh
+                if (!userProgress.practiceMode) {
+                    currentSession.questionsAnswered = userProgress.savedSessionAnswered || 0;
+                    currentSession.questionsCorrect  = userProgress.savedSessionCorrect  || 0;
+                    currentSession.recentQuestions   = userProgress.savedRecentQuestions || [];
+                    // Rebuild sessionHistory from saved question IDs
+                    sessionHistory = (userProgress.savedSessionHistory || []).map(saved => {
+                        const [diff, idxStr] = saved.questionId.split('-');
+                        const idx = parseInt(idxStr);
+                        const q = allQuestions[diff] ? allQuestions[diff][idx] : null;
+                        if (!q) return null;
+                        return { ...q, index: idx, questionId: saved.questionId, difficulty: diff,
+                                 userAnswer: saved.userAnswer, randomizedOrder: saved.randomizedOrder };
+                    }).filter(Boolean);
+                }
+                
+                updateQuestionSet(true);
+                console.log('Question set updated. Current questions:', currentDayQuestions.length);
+                renderCurrentQuestion();
+                
+                // Update practice mode toggle after everything is loaded
+
+                
+                // Show settings on first visit so new users can read instructions and pick a level
+                if (isNewUser) {
+                    showSettings();
+                }
+            } catch (error) {
+                console.error('ERROR:', error);
+                document.getElementById('appContent').innerHTML = `
+                    <div class="card error">
+                        <h3>Error Loading Questions</h3>
+                        <p>${error.message}</p>
+                        <button class="btn btn-primary" onclick="location.reload()">Retry</button>
+                    </div>
+                `;
+            }
+        }
+        
+        function updateQuestionSet(preserveHistory = false) {
+            if (!preserveHistory) {
+                sessionHistory = [];
+                forwardHistory = [];
+            }
+            
+            if (userProgress.practiceMode) {
+                currentDayQuestions = getPracticeQuestions();
+            } else {
+                currentDayQuestions = getNormalModeQuestion();
+            }
+            currentQuestionIndex = 0;
+        }
+
+        function renderCurrentQuestion() {
+            const content = document.getElementById('appContent');
+            
+            console.log('=== DEBUG: Render Current Question ===');
+            console.log('Current index:', currentQuestionIndex);
+            console.log('Total questions in set:', currentDayQuestions.length);
+            
+            if (currentQuestionIndex >= currentDayQuestions.length) {
+                console.log('All questions completed, showing completion screen');
+                renderCompletionScreen();
+                return;
+            }
+
+            const question = currentDayQuestions[currentQuestionIndex];
+            console.log('Current question:', question);
+            
+            if (!question || !question.sentence) {
+                // Skip invalid question
+                console.log('Invalid question, skipping to next');
+                currentQuestionIndex++;
+                renderCurrentQuestion();
+                return;
+            }
+            
+            // Randomize option order ONLY if not already randomized for this question
+            if (!question.randomizedOrder) {
+                const randomArray = new Uint32Array(1);
+                crypto.getRandomValues(randomArray);
+                const randomValue = randomArray[0] / (0xFFFFFFFF + 1);
+                question.randomizedOrder = randomValue < 0.5 ? [1, 2] : [2, 1];
+                console.log('Created new random order:', question.randomizedOrder);
+                // Persist the randomized order so refresh shows same button layout
+                if (!userProgress.practiceMode && userProgress.currentQuestionId) {
+                    if (!userProgress.currentQuestionState) userProgress.currentQuestionState = {};
+                    userProgress.currentQuestionState.randomizedOrder = question.randomizedOrder;
+                    saveProgress();
+                }
+            }
+            
+            const firstOption = question.randomizedOrder[0];
+            const secondOption = question.randomizedOrder[1];
+            
+            const isAnswered = question.userAnswer !== undefined;
+            console.log('Is answered:', isAnswered);
+            console.log('Randomized order:', question.randomizedOrder);
+            console.log('First button shows option:', firstOption);
+            console.log('Second button shows option:', secondOption);
+            console.log('User selected option:', question.userAnswer);
+            console.log('Correct option is:', question.correct);
+            
+            // Get colors for category and problem type
+            const categoryColor = getColorForString(question.category);
+            const problemTypeColor = getColorForString(question.problem_type);
+            
+            // Helper to normalize strings for comparison
+            const normalize = (str) => {
+                return str
+                    .toLowerCase()
+                    .replace(/\s+/g, ' ')
+                    .replace(/\./g, '')
+                    .trim();
+            };
+            
+            // Check if tags are in active filters
+            const isCategoryFiltered = userProgress.activeFilters.categories.some(
+                f => normalize(f) === normalize(question.category)
+            );
+            const isProblemTypeFiltered = userProgress.activeFilters.problemTypes.some(
+                f => normalize(f) === normalize(question.problem_type)
+            );
+            
+            // Helper function to determine button styling based on what option it's showing
+            const getOptionClass = (optionNum) => {
+                if (!isAnswered) return '';
+                
+                // If this button is showing the correct option, make it green
+                if (optionNum === question.correct) {
+                    return 'correct';
+                }
+                
+                // If this button is showing the user's selected option (and it's wrong), make it red
+                if (optionNum === question.userAnswer) {
+                    return 'incorrect';
+                }
+                
+                return '';
+            };
+            
+            
+            // Calculate progress for the bar (0-100% over 10 questions)
+            // Show full bar at 10, 20, 30... until stats screen resets it
+            const progressInCycle = currentSession.questionsAnswered % 10;
+            const progressPercent = progressInCycle === 0 && currentSession.questionsAnswered > 0 ? 100 : (progressInCycle / 10) * 100;
+            
+            content.innerHTML = `
+                ${!userProgress.practiceMode ? `
+                    <div class="progress-bar-container">
+                        <div class="progress-bar-fill" style="width: ${progressPercent}%;"></div>
+                    </div>
+                ` : ''}
+                
+                <div class="card">
+                    <div class="question-tags" style="justify-content: flex-end;">
+                        <div class="question-tag" onclick="showCategoryRules('${question.category.replace(/'/g, "\\'")}')">
+                            <div class="tag-color" style="background-color: ${categoryColor};"></div>
+                            <span class="tag-label">${question.category}</span>
+                        </div>
+                    </div>
+                    
+                    <div class="question-text">
+                        ${question.sentence.replace(/\[___\]/g, '<span class="blank">___</span>')}
+                    </div>
+                    
+                    <div class="options">
+                        <div class="option-container">
+                            <button class="option-btn ${getOptionClass(firstOption)}" 
+                                    id="firstOptionBtn"
+                                    ${isAnswered ? 'disabled' : ''}>
+                                ${firstOption === 1 ? question.option1 : question.option2}
+                            </button>
+                            <button class="example-btn" style="display: flex; align-items: center; justify-content: center;" onclick="showExamples(${firstOption})">
+                                <img src="https://raw.githubusercontent.com/osama-website/language_learning/refs/heads/main/hint.png" alt="Examples" width="22" height="22">
+                            </button>
+                        </div>
+                        
+                        <div class="option-container">
+                            <button class="option-btn ${getOptionClass(secondOption)}" 
+                                    id="secondOptionBtn"
+                                    ${isAnswered ? 'disabled' : ''}>
+                                ${secondOption === 1 ? question.option1 : question.option2}
+                            </button>
+                            <button class="example-btn" style="display: flex; align-items: center; justify-content: center;" onclick="showExamples(${secondOption})">
+                                <img src="https://raw.githubusercontent.com/osama-website/language_learning/refs/heads/main/hint.png" alt="Examples" width="22" height="22">
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="navigation">
+                        ${sessionHistory.length > 0 ? `
+                            <button class="btn btn-secondary" onclick="previousQuestion()">
+                                &larr; Review
+                            </button>
+                        ` : ''}
+                        
+                        ${isAnswered ? `
+                            <button class="btn btn-primary" onclick="nextQuestion()">
+                                ${forwardHistory.length > 0 ? 'Next &rarr;' : 'Next Question &rarr;'}
+                            </button>
+                        ` : ''}
+                    </div>
+                    
+                    ${isAnswered ? `
+                        <div class="explanation">
+                            <h4>${question.userAnswer === question.correct ? '✅ Correct!' : '❌ Incorrect'}</h4>
+                            <p>${question.explanation}</p>
+
+                            <button class="btn btn-secondary report-issue-btn" onclick="openReportIssueForm()">
+                             Report issue
+                            </button>
+                        </div>
+                    ` : ''}
+                </div>
+            `;
+
+            if (!isAnswered) {
+                document.getElementById('firstOptionBtn').onclick = () => selectAnswer(firstOption);
+                document.getElementById('secondOptionBtn').onclick = () => selectAnswer(secondOption);
+            }
+        }
+
+        function addFilterFromTag(type, value) {
+            const filterArray = type === 'category' ? userProgress.activeFilters.categories : userProgress.activeFilters.problemTypes;
+            
+            if (!filterArray.includes(value)) {
+                filterArray.push(value);
+                saveProgress();
+                updateQuestionSet();
+                currentQuestionIndex = 0;
+                renderCurrentQuestion();
+            }
+            
+            // Open filters modal to show the updated filters
+            showFilters();
+        }
+
+        function selectAnswer(optionNum) {
+            const question = currentDayQuestions[currentQuestionIndex];
+            question.userAnswer = optionNum;
+            
+            const isCorrect = optionNum === question.correct;
+            const questionId = question.questionId;
+            const today = getTodayString();
+            
+            console.log('=== DEBUG: Select Answer ===');
+            console.log('Practice mode:', userProgress.practiceMode);
+            console.log('Is correct:', isCorrect);
+            console.log('Question ID:', questionId);
+            
+            // Update question history
+            if (!userProgress.questionHistory[questionId]) {
+                userProgress.questionHistory[questionId] = {
+                    firstAttempt: today,
+                    correct: false,
+                    attempts: 0
+                };
+            }
+            
+            userProgress.questionHistory[questionId].attempts++;
+            
+            if (isCorrect) {
+                userProgress.questionHistory[questionId].correct = true;
+                userProgress.questionHistory[questionId].correctDate = today;
+                
+                if (!userProgress.questionsCorrect.includes(questionId)) {
+                    userProgress.questionsCorrect.push(questionId);
+                }
+            }
+            
+            if (!userProgress.questionsAttempted.includes(questionId)) {
+                userProgress.questionsAttempted.push(questionId);
+            }
+            
+            // Update stats based on mode - ONLY track in the mode being used
+            if (userProgress.practiceMode) {
+                // Track practice stats ONLY
+                if (!userProgress.practiceStats[today]) {
+                    userProgress.practiceStats[today] = { correct: 0, total: 0 };
+                }
+                userProgress.practiceStats[today].total++;
+                if (isCorrect) {
+                    userProgress.practiceStats[today].correct++;
+                }
+                console.log('Updated practice stats:', userProgress.practiceStats[today]);
+            } else {
+                // Track daily stats ONLY
+                if (!userProgress.dailyStats[today]) {
+                    userProgress.dailyStats[today] = { correct: 0, total: 0 };
+                }
+                userProgress.dailyStats[today].total++;
+                if (isCorrect) {
+                    userProgress.dailyStats[today].correct++;
+                }
+                console.log('Updated daily stats:', userProgress.dailyStats[today]);
+                
+                // Track session stats for normal mode
+                currentSession.questionsAnswered++;
+                if (isCorrect) {
+                    currentSession.questionsCorrect++;
+                }
+                console.log('Session questions answered:', currentSession.questionsAnswered);
+                
+                // Add to recent questions list (keep last 10)
+                currentSession.recentQuestions.push({
+                    question: question.sentence,
+                    correct: isCorrect,
+                    category: question.category,
+                    problemType: question.problem_type
+                });
+                if (currentSession.recentQuestions.length > 10) {
+                    currentSession.recentQuestions.shift();
+                }
+            }
+            
+            saveProgress();
+            
+            // Persist current question answer + full session state so refresh restores everything
+            if (!userProgress.practiceMode) {
+                const q = currentDayQuestions[currentQuestionIndex];
+                if (q) {
+                    userProgress.currentQuestionState = {
+                        userAnswer: q.userAnswer,
+                        randomizedOrder: q.randomizedOrder
+                    };
+                }
+                userProgress.savedSessionAnswered  = currentSession.questionsAnswered;
+                userProgress.savedSessionCorrect   = currentSession.questionsCorrect;
+                userProgress.savedRecentQuestions  = currentSession.recentQuestions;
+                userProgress.savedSessionHistory   = sessionHistory.map(h => ({
+                    questionId: h.questionId,
+                    userAnswer: h.userAnswer,
+                    randomizedOrder: h.randomizedOrder
+                }));
+                saveProgress();
+            }
+            
+            renderCurrentQuestion();
+        }
+
+        function nextQuestion() {
+            // Clear persisted current question so next load gets a fresh one
+            userProgress.currentQuestionId = null;
+            userProgress.currentQuestionState = null;
+            saveProgress();
+            
+            // ONLY check for stats if we are at the "present" (no forward history)
+            if (!userProgress.practiceMode && forwardHistory.length === 0 && currentSession.questionsAnswered % 10 === 0 && currentSession.questionsAnswered > 0) {
+                console.log('Showing stats after', currentSession.questionsAnswered, 'questions');
+                renderSessionStats();
+                return;
+            }
+            
+            // Save the current question to history before moving forward
+            if (currentDayQuestions.length > 0) {
+                sessionHistory.push(currentDayQuestions[0]);
+                // Persist updated session history and counts
+                if (!userProgress.practiceMode) {
+                    userProgress.savedSessionHistory = sessionHistory.map(h => ({
+                        questionId: h.questionId,
+                        userAnswer: h.userAnswer,
+                        randomizedOrder: h.randomizedOrder
+                    }));
+                    userProgress.savedSessionAnswered = currentSession.questionsAnswered;
+                    userProgress.savedSessionCorrect  = currentSession.questionsCorrect;
+                    userProgress.savedRecentQuestions = currentSession.recentQuestions;
+                    saveProgress();
+                }
+            }
+
+            currentQuestionIndex++;
+            
+            // If we have questions in our forward history, pop the next one instead of generating a new one
+            if (forwardHistory.length > 0) {
+                currentDayQuestions = [forwardHistory.pop()];
+                currentQuestionIndex = 0;
+            } else {
+                // Otherwise, generate a completely new question
+                if (userProgress.practiceMode) {
+                    const newQuestion = getPracticeQuestions();
+                    if (newQuestion.length > 0) {
+                        currentDayQuestions = newQuestion;
+                        currentQuestionIndex = 0;
+                    }
+                } else {
+                    const nextQuestion = getNormalModeQuestion();
+                    if (nextQuestion.length > 0) {
+                        currentDayQuestions = nextQuestion;
+                        currentQuestionIndex = 0;
+                    }
+                }
+            }
+            
+            renderCurrentQuestion();
+        }
+        function previousQuestion() {
+            if (sessionHistory.length === 0) return;
+
+            // Save the current question to forward history so we can return to it
+            if (currentDayQuestions.length > 0) {
+                forwardHistory.push(currentDayQuestions[0]);
+            }
+
+            // Pop the last question from our history stack
+            const prevQuestion = sessionHistory.pop();
+            
+            // Set it as the current active question
+            currentDayQuestions = [prevQuestion];
+            currentQuestionIndex = 0;
+            
+            // Render it to the screen
+            renderCurrentQuestion();
+        }
+        function renderSessionStats() {
+            const today = getTodayString();
+            const todayStats = userProgress.dailyStats[today] || { correct: 0, total: 0 };
+            
+            // Calculate stats for last 10 questions
+            const last10Correct = currentSession.recentQuestions.filter(q => q.correct).length;
+            const last10Total = currentSession.recentQuestions.length;
+            
+            document.getElementById('appContent').innerHTML = `
+                <div class="card completion-screen">
+                    <h2><img src="https://raw.githubusercontent.com/osama-website/language_learning/refs/heads/main/stats.png" alt="Stats" width="24" height="24" style="vertical-align: middle; margin-right: 6px; margin-bottom: 2px;"> Progress Update</h2>
+                    
+                    <div style="margin-bottom: 24px;">
+                        <h3 style="margin-bottom: 12px;">Last 10 Questions</h3>
+                        <div class="completion-stats">
+                            <div class="stat-item">
+                                <div class="stat-value">${last10Correct}</div>
+                                <div class="stat-label">Correct</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">${last10Total}</div>
+                                <div class="stat-label">Total</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">${last10Total > 0 ? Math.round((last10Correct / last10Total) * 100) : 0}%</div>
+                                <div class="stat-label">Accuracy</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-bottom: 24px;">
+                        <h3 style="margin-bottom: 12px;">Today's Total</h3>
+                        <div class="completion-stats">
+                            <div class="stat-item">
+                                <div class="stat-value">${todayStats.correct}</div>
+                                <div class="stat-label">Correct</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">${todayStats.total}</div>
+                                <div class="stat-label">Total</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">${todayStats.total > 0 ? Math.round((todayStats.correct / todayStats.total) * 100) : 0}%</div>
+                                <div class="stat-label">Accuracy</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="navigation">
+                        <button class="btn btn-primary" onclick="continueAfterStats()">Continue</button>
+                        <button class="btn btn-secondary" onclick="showStats()">📊 View Full Stats</button>
+                    </div>
+                </div>
+            `;
+        }
+
+        function continueAfterStats() {
+            // Reset session for next cycle
+            currentSession.questionsAnswered = 0;
+            currentSession.questionsCorrect = 0;
+            currentSession.recentQuestions = [];
+            sessionHistory = [];
+            forwardHistory = [];
+            userProgress.savedSessionHistory = [];
+            userProgress.savedSessionAnswered = 0;
+            userProgress.savedSessionCorrect = 0;
+            userProgress.savedRecentQuestions = [];
+            userProgress.currentQuestionId = null;
+            userProgress.currentQuestionState = null;
+            saveProgress();
+            
+            // Load next question
+            const nextQuestion = getNormalModeQuestion();
+            if (nextQuestion.length > 0) {
+                currentDayQuestions = nextQuestion;
+                currentQuestionIndex = 0;
+            }
+            renderCurrentQuestion();
+        }
+
+        function renderCompletionScreen() {
+            const today = getTodayString();
+            const todayStats = userProgress.dailyStats[today] || { correct: 0, total: 0 };
+            
+            // If in practice mode and no questions available, show different message
+            if (userProgress.practiceMode) {
+                document.getElementById('appContent').innerHTML = `
+                    <div class="card completion-screen">
+                        <h2>📚 No Practice Questions Available</h2>
+                        <p>Complete some daily questions first to unlock practice mode!</p>
+                        
+                        <div class="navigation">
+                            <button class="btn btn-primary" onclick="togglePracticeModeOff()">Go to Daily Questions</button>
+                        </div>
+                    </div>
+                `;
+                return;
+            }
+            
+            // Daily mode completion - only shows when filters exclude all questions
+            document.getElementById('appContent').innerHTML = `
+                <div class="card completion-screen">
+                    <h2>🔍 No Questions Match Your Filters</h2>
+                    <p>None of the questions you've seen match your current filter selection. Try adjusting or clearing your filters!</p>
+                    
+                    <div class="completion-stats">
+                        <div class="stat-item">
+                            <div class="stat-value">${todayStats.correct}</div>
+                            <div class="stat-label">Correct Today</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">${todayStats.total}</div>
+                            <div class="stat-label">Total Today</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">${todayStats.total > 0 ? Math.round((todayStats.correct / todayStats.total) * 100) : 0}%</div>
+                            <div class="stat-label">Accuracy</div>
+                        </div>
+                    </div>
+                    
+                    <div class="navigation">
+                        <button class="btn btn-primary" onclick="clearAllFilters(); updateQuestionSet(); renderCurrentQuestion()">Clear Filters & Continue</button>
+                        <button class="btn btn-secondary" onclick="showFilters()">🏷️ Adjust Filters</button>
+                    </div>
+                </div>
+            `;
+        }
+        
+        function togglePracticeModeOff() {
+            userProgress.practiceMode = false;
+            saveProgress();
+            updateQuestionSet();
+            renderCurrentQuestion();
+        }
+        function showExamples(optionNum) {
+            const question = currentDayQuestions[currentQuestionIndex];
+            const examples = optionNum === 1 ? question.examples_option1 : question.examples_option2;
+            const optionText = optionNum === 1 ? question.option1 : question.option2;
+            
+            console.log('=== DEBUG: Show Examples ===');
+            console.log('Option num:', optionNum);
+            console.log('Option text:', optionText);
+            console.log('Examples:', examples);
+            
+            document.getElementById('exampleModalTitle').textContent = `Examples: "${optionText}"`;
+            
+            const exampleList = document.getElementById('exampleList');
+            if (examples && examples.length > 0) {
+                exampleList.innerHTML = examples.map(ex => `<li>${ex}</li>`).join('');
+            } else {
+                exampleList.innerHTML = '<li>No examples available for this option.</li>';
+            }
+            
+            document.getElementById('exampleModal').classList.add('active');
+        }
+
+        // Track which category / problem type is selected for drill-down in stats
+        let statsCategoryFilter = null;
+        let statsProblemTypeFilter = null;
+
+        function showStats(forceMode = null, forceDifficulty = null, forceCategoryFilter = undefined, forceProblemTypeFilter = undefined) {
+            console.log('');
+            console.log('═══════════════════════════════════════════════════════════');
+            console.log('showStats CALLED');
+            console.log('═══════════════════════════════════════════════════════════');
+            console.log('Parameters received:');
+            console.log('  forceMode:', forceMode);
+            console.log('  forceDifficulty:', forceDifficulty);
+            console.log('');
+            
+            // Set defaults if no parameters provided
+            if (forceMode === null) {
+                statsViewMode = 'daily';
+            } else {
+                statsViewMode = forceMode;
+            }
+            
+            if (forceDifficulty === null) {
+                statsDifficultyFilter = 'overall';
+            } else {
+                statsDifficultyFilter = forceDifficulty;
+            }
+            
+            // Handle category drill-down filter
+            // undefined = keep existing; null = clear; string = set
+            if (forceCategoryFilter === undefined) {
+                // On a completely fresh open (both forceMode and forceDifficulty are null), reset category filter
+                if (forceMode === null && forceDifficulty === null) {
+                    statsCategoryFilter = null;
+                }
+                // otherwise keep statsCategoryFilter as-is
+            } else {
+                statsCategoryFilter = forceCategoryFilter;
+            }
+            
+            // Handle problem type drill-down filter
+            if (forceProblemTypeFilter === undefined) {
+                if (forceMode === null && forceDifficulty === null) {
+                    statsProblemTypeFilter = null;
+                }
+            } else {
+                statsProblemTypeFilter = forceProblemTypeFilter;
+            }
+            
+            // Selecting a category clears problem type filter and vice versa
+            if (forceCategoryFilter !== undefined && forceCategoryFilter !== null) {
+                statsProblemTypeFilter = null;
+            }
+            if (forceProblemTypeFilter !== undefined && forceProblemTypeFilter !== null) {
+                statsCategoryFilter = null;
+            }
+            
+            console.log('After processing:');
+            console.log('  statsViewMode:', statsViewMode);
+            console.log('  statsDifficultyFilter:', statsDifficultyFilter);
+            console.log('═══════════════════════════════════════════════════════════');
+            console.log('');
+            
+            console.log('=== showStats called ===');
+            console.log('statsViewMode:', statsViewMode);
+            console.log('statsDifficultyFilter:', statsDifficultyFilter);
+            console.log('forceMode:', forceMode);
+            console.log('forceDifficulty:', forceDifficulty);
+            
+            console.log('=== DEBUG: Filtering Setup ===');
+            console.log('userProgress.questionsAttempted:', userProgress.questionsAttempted);
+            console.log('userProgress.questionsAttempted type check:', userProgress.questionsAttempted.map((item, idx) => ({
+                index: idx,
+                value: item,
+                type: typeof item,
+                isString: typeof item === 'string'
+            })));
+            console.log('userProgress.questionsCorrect:', userProgress.questionsCorrect);
+            
+            // Filter questions by difficulty if not 'overall'
+            const filterQuestions = (questionId) => {
+                // Type check - ensure questionId is a string
+                if (typeof questionId !== 'string') {
+                    console.warn(`Invalid questionId type: ${typeof questionId}, value:`, questionId);
+                    return false;
+                }
+                
+                if (statsDifficultyFilter === 'overall') return true;
+                
+                // Check if questionId has the expected format
+                if (!questionId.includes('-')) {
+                    console.warn(`questionId doesn't contain '-': ${questionId}`);
+                    return false;
+                }
+                
+                const [difficulty] = questionId.split('-');
+                const matches = difficulty === statsDifficultyFilter;
+                console.log(`Filtering ${questionId}: difficulty="${difficulty}", filter="${statsDifficultyFilter}", matches=${matches}`);
+                return matches;
+            };
+            
+            // Calculate overall stats filtered by difficulty
+            const filteredAttempted = userProgress.questionsAttempted.filter(filterQuestions);
+            const filteredCorrect = userProgress.questionsCorrect.filter(filterQuestions);
+            
+            console.log('=== DEBUG: Filtered Results ===');
+            console.log('filteredAttempted:', filteredAttempted);
+            console.log('filteredCorrect:', filteredCorrect);
+            
+            // Helper to get the question object for a given questionId
+            const getQuestionForId = (questionId) => {
+                const [difficulty, indexStr] = questionId.split('-');
+                const index = parseInt(indexStr);
+                const questionsForDifficulty = allQuestions[difficulty];
+                return questionsForDifficulty ? questionsForDifficulty[index] : null;
+            };
+            
+            // If a category or problem type is selected, further filter for the headline numbers
+            let displayedAttempted, displayedCorrect;
+            if (statsCategoryFilter) {
+                displayedAttempted = filteredAttempted.filter(id => {
+                    const q = getQuestionForId(id);
+                    return q && q.category === statsCategoryFilter;
+                });
+                displayedCorrect = filteredCorrect.filter(id => {
+                    const q = getQuestionForId(id);
+                    return q && q.category === statsCategoryFilter;
+                });
+            } else if (statsProblemTypeFilter) {
+                displayedAttempted = filteredAttempted.filter(id => {
+                    const q = getQuestionForId(id);
+                    return q && q.problem_type === statsProblemTypeFilter;
+                });
+                displayedCorrect = filteredCorrect.filter(id => {
+                    const q = getQuestionForId(id);
+                    return q && q.problem_type === statsProblemTypeFilter;
+                });
+            } else {
+                displayedAttempted = filteredAttempted;
+                displayedCorrect = filteredCorrect;
+            }
+            
+            const totalAttempted = displayedAttempted.length;
+            const totalCorrect = displayedCorrect.length;
+            const accuracy = totalAttempted > 0 ? Math.round((totalCorrect / totalAttempted) * 100) : 0;
+            
+            console.log('=== DEBUG: Calculated Stats ===');
+            console.log('totalAttempted:', totalAttempted);
+            console.log('totalCorrect:', totalCorrect);
+            console.log('accuracy:', accuracy);
+            
+            // Calculate streak (daily mode only)
+            let streak = 0;
+            if (statsViewMode === 'daily') {
+                const today = new Date();
+                for (let i = 0; i < 365; i++) {
+                    const checkDate = new Date(today);
+                    checkDate.setDate(checkDate.getDate() - i);
+                    const dateStr = `${checkDate.getFullYear()}-${String(checkDate.getMonth() + 1).padStart(2, '0')}-${String(checkDate.getDate()).padStart(2, '0')}`;
+                    
+                    if (userProgress.dailyStats[dateStr] && userProgress.dailyStats[dateStr].total > 0) {
+                        streak++;
+                    } else if (i > 0) {
+                        break;
+                    }
+                }
+            }
+            
+            // Category and problem type stats
+            const categoryStats = {};
+            const problemTypeStats = {};
+            
+            console.log('=== DEBUG: Category/Problem Type Stats ===');
+            console.log('userProgress.questionHistory keys:', Object.keys(userProgress.questionHistory));
+            
+            Object.keys(userProgress.questionHistory).forEach(questionId => {
+                // Filter by difficulty if needed
+                if (!filterQuestions(questionId)) {
+                    console.log(`Skipping ${questionId} - doesn't match filter`);
+                    return;
+                }
+                
+                const history = userProgress.questionHistory[questionId];
+                const [difficulty, indexStr] = questionId.split('-');
+                const index = parseInt(indexStr);
+                const questionsForDifficulty = allQuestions[difficulty];
+                const question = questionsForDifficulty ? questionsForDifficulty[index] : null;
+                
+                console.log(`Processing ${questionId}: difficulty="${difficulty}", index=${index}, question found=${!!question}`);
+                
+                if (question && history.attempts > 0) {
+                    console.log(`  Category: ${question.category}, Type: ${question.problem_type}, Correct: ${history.correct}`);
+                    
+                    // Category stats
+                    if (!categoryStats[question.category]) {
+                        categoryStats[question.category] = { correct: 0, total: 0 };
+                    }
+                    categoryStats[question.category].total++;
+                    if (history.correct) categoryStats[question.category].correct++;
+                    
+                    // Problem type stats
+                    if (!problemTypeStats[question.problem_type]) {
+                        problemTypeStats[question.problem_type] = { correct: 0, total: 0 };
+                    }
+                    problemTypeStats[question.problem_type].total++;
+                    if (history.correct) problemTypeStats[question.problem_type].correct++;
+                }
+            });
+            
+            console.log('=== DEBUG: Final Stats ===');
+            console.log('categoryStats:', categoryStats);
+            console.log('problemTypeStats:', problemTypeStats);
+            
+            // Prepare chart data — built from the same filtered question lists as the headline numbers
+            // so chart and totals are always consistent
+            const chartLabels = [];
+            const chartData = [];
+            const chartDataTotal = [];
+            
+            // Build per-date buckets using firstAttempt from questionHistory,
+            // but only for questions that are already in displayedAttempted / displayedCorrect
+            const displayedAttemptedSet = new Set(displayedAttempted);
+            const displayedCorrectSet = new Set(displayedCorrect);
+            
+            const chartAttemptedByDate = {};
+            const chartCorrectByDate = {};
+            
+            displayedAttemptedSet.forEach(qId => {
+                const history = userProgress.questionHistory[qId];
+                const dateKey = history && history.firstAttempt;
+                if (!dateKey) return;
+                chartAttemptedByDate[dateKey] = (chartAttemptedByDate[dateKey] || 0) + 1;
+            });
+            
+            displayedCorrectSet.forEach(qId => {
+                const history = userProgress.questionHistory[qId];
+                const dateKey = history && (history.correctDate || history.firstAttempt);
+                if (!dateKey) return;
+                chartCorrectByDate[dateKey] = (chartCorrectByDate[dateKey] || 0) + 1;
+            });
+            
+            for (let i = 29; i >= 0; i--) {
+                const date = new Date();
+                date.setDate(date.getDate() - i);
+                const dateStr = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
+                chartLabels.push(`${date.getMonth() + 1}/${date.getDate()}`);
+                chartData.push(chartCorrectByDate[dateStr] || 0);
+                chartDataTotal.push(chartAttemptedByDate[dateStr] || 0);
+            }
+            
+            const dashboard = document.getElementById('statsDashboard');
+            
+            console.log('=== About to render buttons ===');
+            console.log('statsViewMode for template:', statsViewMode);
+            console.log('statsDifficultyFilter for template:', statsDifficultyFilter);
+            console.log('statsViewMode === "daily":', statsViewMode === 'daily');
+            console.log('Will use class:', statsViewMode === 'daily' ? 'btn-primary' : 'btn-secondary');
+            
+            dashboard.innerHTML = `
+                <div class="stats-section">
+                    <div style="display: flex; justify-content: center; gap: 12px; margin-bottom: 20px; flex-wrap: wrap;">
+                        
+                        
+                    </div>
+                    <div style="display: flex; justify-content: center; gap: 8px; margin-bottom: 20px; flex-wrap: wrap;">
+                        <button class="btn ${statsDifficultyFilter === 'overall' ? 'btn-primary' : 'btn-secondary'}" style="font-size: 14px; padding: 8px 16px;" onclick="showStats('${statsViewMode}', 'overall', null, null)">
+                            Overall
+                        </button>
+                        <button class="btn ${statsDifficultyFilter === 'beginner' ? 'btn-primary' : 'btn-secondary'}" style="font-size: 14px; padding: 8px 16px;" onclick="showStats('${statsViewMode}', 'beginner', null, null)">
+                            Beginner
+                        </button>
+                        <button class="btn ${statsDifficultyFilter === 'intermediate' ? 'btn-primary' : 'btn-secondary'}" style="font-size: 14px; padding: 8px 16px;" onclick="showStats('${statsViewMode}', 'intermediate', null, null)">
+                            Intermediate
+                        </button>
+                        <button class="btn ${statsDifficultyFilter === 'expert' ? 'btn-primary' : 'btn-secondary'}" style="font-size: 14px; padding: 8px 16px;" onclick="showStats('${statsViewMode}', 'expert', null, null)">
+                            Expert
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="stats-section">
+                    ${statsCategoryFilter ? `<p style="font-size:13px;color:var(--primary-green);font-weight:600;margin-bottom:8px;">Showing stats for: ${statsCategoryFilter}</p>` : ''}
+                    ${statsProblemTypeFilter ? `<p style="font-size:13px;color:var(--primary-green);font-weight:600;margin-bottom:8px;">Showing stats for: ${statsProblemTypeFilter}</p>` : ''}
+                    <div class="completion-stats">
+                        <div class="stat-item">
+                            <div class="stat-value">${accuracy}%</div>
+                            <div class="stat-label">Accuracy</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">${totalAttempted}</div>
+                            <div class="stat-label">Questions Attempted</div>
+                        </div>
+                        ${statsViewMode === 'daily' ? `
+                            <div class="stat-item">
+                                <div class="stat-value">${streak}</div>
+                                <div class="stat-label">Day Streak</div>
+                            </div>
+                        ` : ''}
+                    </div>
+                </div>
+                
+                <div class="stats-section">
+                    <h3>Progress Over Time${statsDifficultyFilter !== 'overall' ? ` · ${DIFFICULTY_INFO[statsDifficultyFilter].name}` : ''}${statsCategoryFilter ? ` · ${statsCategoryFilter}` : ''}${statsProblemTypeFilter ? ` · ${statsProblemTypeFilter}` : ''}</h3>
+                    <div class="chart-container">
+                        <canvas id="progressChart"></canvas>
+                    </div>
+                </div>
+                
+                <div class="stats-section">
+                    <h3>Performance by Category</h3>
+                    <div class="stats-grid">
+                        ${Object.entries(categoryStats).length > 0 ? Object.entries(categoryStats).map(([cat, stats]) => {
+                            const isSelected = statsCategoryFilter === cat;
+                            const accuracy = Math.round((stats.correct / stats.total) * 100);
+                            return `
+                            <div class="category-stat clickable-category ${isSelected ? 'category-stat-selected' : ''}"
+                                 onclick="showStats('${statsViewMode}', '${statsDifficultyFilter}', ${isSelected ? 'null' : `'${cat.replace(/'/g, "\\'")}'`})">
+                                <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
+                                    <div class="tag-color" style="background-color: ${getColorForString(cat)};"></div>
+                                    <div class="category-name" style="font-weight: ${isSelected ? '700' : 'normal'}; color: ${isSelected ? 'var(--text-primary)' : ''};">${cat}</div>
+                                    ${isSelected ? '' : ''}
+                                </div>
+                                ${isSelected ? `
+                                    <div style="display:flex; gap:12px; margin-top:4px;">
+                                        <div>
+                                            <div style="font-size:22px;font-weight:700;color:#45B7D1;">${stats.total}</div>
+                                            <div style="font-size:12px;color:var(--text-secondary);">Attempted</div>
+                                        </div>
+                                        <div>
+                                            <div style="font-size:22px;font-weight:700;color:var(--primary-green);">${stats.correct}</div>
+                                            <div style="font-size:12px;color:var(--text-secondary);">Correct</div>
+                                        </div>
+                                        <div>
+                                            <div style="font-size:22px;font-weight:700;color:var(--primary-green);">${accuracy}%</div>
+                                            <div style="font-size:12px;color:var(--text-secondary);">Accuracy</div>
+                                        </div>
+                                    </div>
+                                ` : `
+                                    <div class="category-accuracy">${accuracy}%</div>
+                                    <div class="category-name">${stats.correct}/${stats.total} correct</div>
+                                `}
+                            </div>
+                        `}).join('') : '<p style="color: var(--text-secondary);">No data yet</p>'}
+                    </div>
+                </div>
+                
+                <div class="stats-section">
+                    <h3>Performance by Problem Type</h3>
+                    <div class="stats-grid">
+                        ${Object.entries(problemTypeStats).length > 0 ? Object.entries(problemTypeStats).map(([type, stats]) => {
+                            const isSelected = statsProblemTypeFilter === type;
+                            const typeAccuracy = Math.round((stats.correct / stats.total) * 100);
+                            return `
+                            <div class="category-stat clickable-category ${isSelected ? 'category-stat-selected' : ''}"
+                                 onclick="showStats('${statsViewMode}', '${statsDifficultyFilter}', null, ${isSelected ? 'null' : `'${type.replace(/'/g, "\\'")}'`})">
+                                <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
+                                    <div class="tag-color" style="background-color: ${getColorForString(type)};"></div>
+                                    <div class="category-name" style="font-weight: ${isSelected ? '700' : 'normal'}; color: ${isSelected ? 'var(--text-primary)' : ''};">${type}</div>
+                                    ${isSelected ? '<span style="margin-left:auto;font-size:11px;color:var(--primary-green);font-weight:600;">SELECTED ✕</span>' : ''}
+                                </div>
+                                ${isSelected ? `
+                                    <div style="display:flex; gap:12px; margin-top:4px;">
+                                        <div>
+                                            <div style="font-size:22px;font-weight:700;color:#45B7D1;">${stats.total}</div>
+                                            <div style="font-size:12px;color:var(--text-secondary);">Attempted</div>
+                                        </div>
+                                        <div>
+                                            <div style="font-size:22px;font-weight:700;color:var(--primary-green);">${stats.correct}</div>
+                                            <div style="font-size:12px;color:var(--text-secondary);">Correct</div>
+                                        </div>
+                                        <div>
+                                            <div style="font-size:22px;font-weight:700;color:var(--primary-green);">${typeAccuracy}%</div>
+                                            <div style="font-size:12px;color:var(--text-secondary);">Accuracy</div>
+                                        </div>
+                                    </div>
+                                ` : `
+                                    <div class="category-accuracy">${typeAccuracy}%</div>
+                                    <div class="category-name">${stats.correct}/${stats.total} correct</div>
+                                `}
+                            </div>
+                        `}).join('') : '<p style="color: var(--text-secondary);">No data yet</p>'}
+                    </div>
+                </div>
+            `;
+            
+            document.getElementById('statsModal').classList.add('active');
+            
+            // Render chart
+            setTimeout(() => {
+                const ctx = document.getElementById('progressChart').getContext('2d');
+                new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: chartLabels,
+                        datasets: [
+                            {
+                                label: 'Attempted',
+                                data: chartDataTotal,
+                                borderColor: '#45B7D1',
+                                backgroundColor: 'rgba(69, 183, 209, 0.1)',
+                                tension: 0.3,
+                                fill: false
+                            },
+                            {
+                                label: 'Correct',
+                                data: chartData,
+                                borderColor: '#6aaa64',
+                                backgroundColor: 'rgba(106, 170, 100, 0.15)',
+                                tension: 0.3,
+                                fill: false
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                display: true,
+                                position: 'top',
+                                labels: {
+                                    usePointStyle: true,
+                                    pointStyle: 'circle',
+                                    boxWidth: 10,
+                                    boxHeight: 10,
+                                    padding: 16,
+                                    font: { size: 13 },
+                                    generateLabels: function(chart) {
+                                        return chart.data.datasets.map((dataset, i) => ({
+                                            text: dataset.label,
+                                            fillStyle: dataset.borderColor,
+                                            strokeStyle: dataset.borderColor,
+                                            lineWidth: 0,
+                                            pointStyle: 'circle',
+                                            hidden: !chart.isDatasetVisible(i),
+                                            datasetIndex: i
+                                        }));
+                                    }
+                                }
+                            }
+                        },
+                        scales: {
+                            y: {
+                                beginAtZero: true,
+                                ticks: {
+                                    stepSize: 1
+                                }
+                            }
+                        }
+                    }
+                });
+            }, 100);
+        }
+        
+        function showCategoryRules(categoryName) {
+            // Find which rule set contains this category
+            let rules = null;
+            let sourceCategory = null;
+            
+            // Check each loaded category rules for a matching category
+            for (const [source, rulesData] of Object.entries(categoryRules)) {
+                if (rulesData[categoryName]) {
+                    rules = rulesData[categoryName];
+                    sourceCategory = source;
+                    break;
+                }
+            }
+            
+            if (!rules) {
+                alert(`Rules for "${categoryName}" are not available yet. This may be because:\n\n1. The category rules haven't been loaded\n2. The category name doesn't match any available rules\n\nAvailable rule sources: ${Object.keys(categoryRules).join(', ')}`);
+                return;
+            }
+            
+            document.getElementById('categoryRulesTitle').textContent = `${categoryName} (${sourceCategory})`;
+            const content = document.getElementById('categoryRulesContent');
+            
+            let html = '<div class="category-rules-content">';
+            
+            // Main rule (always first)
+            if (rules.rule) {
+                html += `<div class="rule-main">${rules.rule}</div>`;
+            }
+            
+            // Structure
+            if (rules.structure) {
+                html += '<div class="rule-section">';
+                html += '<h4>Structure</h4>';
+                // Replace | with line breaks for better readability
+                const structureText = rules.structure.replace(/\s*\|\s*/g, '<br>');
+                html += `<p>${structureText}</p>`;
+                html += '</div>';
+            }
+            
+            // Formation
+            if (rules.formation && Array.isArray(rules.formation)) {
+                html += '<div class="rule-section">';
+                html += '<h4>Formation</h4>';
+                html += '<ul>';
+                rules.formation.forEach(item => {
+                    html += `<li>${item}</li>`;
+                });
+                html += '</ul>';
+                html += '</div>';
+            }
+            
+            // Uses
+            if (rules.uses && Array.isArray(rules.uses)) {
+                html += '<div class="rule-section">';
+                html += '<h4>Uses</h4>';
+                html += '<ul>';
+                rules.uses.forEach(item => {
+                    html += `<li>${item}</li>`;
+                });
+                html += '</ul>';
+                html += '</div>';
+            }
+            
+            // Examples
+            if (rules.examples && Array.isArray(rules.examples)) {
+                html += '<div class="rule-section">';
+                html += '<h4>📝 Examples</h4>';
+                rules.examples.forEach(example => {
+                    html += `<div class="example-box">${example}</div>`;
+                });
+                html += '</div>';
+            }
+            
+            // Important (highlighted)
+            if (rules.important && Array.isArray(rules.important)) {
+                html += '<div class="rule-section" style="background-color: #fff3cd; border-left: 4px solid #ffc107;">';
+                html += '<h4>⚠️ Important</h4>';
+                html += '<ul>';
+                rules.important.forEach(item => {
+                    html += `<li>${item}</li>`;
+                });
+                html += '</ul>';
+                html += '</div>';
+            }
+            
+            html += '</div>';
+            content.innerHTML = html;
+            
+            document.getElementById('categoryRulesModal').classList.add('active');
+        }
+
+        function showSettings() {
+            const today = getTodayString();
+            
+            // For new users, show a welcome header and hide the close button
+            const modalHeader = document.querySelector('#settingsModal .modal-header h3');
+            const closeBtn = document.getElementById('closeSettingsModal');
+            
+            if (isNewUser) {
+                modalHeader.innerHTML = '<img src="https://raw.githubusercontent.com/osama-website/language_learning/refs/heads/main/train.png" alt="Train" width="24" height="24" style="vertical-align: middle; margin-right: 6px; margin-bottom: 2px;"> Welcome to Hueco: Please mind the gap!';
+                closeBtn.style.display = 'none';
+            } else {
+                modalHeader.textContent = 'Settings & Instructions';
+                closeBtn.style.display = '';
+            }
+            
+            const difficultySelector = document.getElementById('difficultySelector');
+            difficultySelector.innerHTML = `
+                <h4 style="margin-bottom: 12px;">${isNewUser ? 'Pick your starting level to begin:' : 'Select Difficulty Level'}</h4>
+                ${['beginner', 'intermediate', 'expert'].map(difficulty => {
+                    const info = DIFFICULTY_INFO[difficulty];
+                    const isSelected = difficulty === currentDifficulty;
+                    
+                    return `
+                        <div class="difficulty-option ${isSelected ? 'selected' : ''}" 
+                             onclick="changeDifficulty('${difficulty}')">
+                            <div class="difficulty-radio">
+                                <div class="difficulty-radio-inner"></div>
+                            </div>
+                            <div class="difficulty-info">
+                                <div class="difficulty-name">
+                                    ${info.name}
+                                </div>
+                                <div class="difficulty-description">${info.description}</div>
+                            </div>
+                        </div>
+                    `;
+                }).join('')}
+                ${isNewUser ? `<button class="btn btn-primary" style="width:100%;margin-top:8px;" onclick="changeDifficulty('${currentDifficulty}')">Start Playing →</button>` : ''}
+            `;
+            
+            document.getElementById('settingsModal').classList.add('active');
+        }
+
+        function showRulesList() {
+            const questionsForCurrentDifficulty = allQuestions[currentDifficulty] || [];
+            
+            if (questionsForCurrentDifficulty.length === 0) {
+                document.getElementById('rulesCategoryList').innerHTML = '<p style="color: var(--text-secondary);">No categories available for this difficulty</p>';
+                document.getElementById('rulesListModal').classList.add('active');
+                return;
+            }
+            
+            // Normalize function to group category strings safely
+            const normalize = (str) => {
+                return str
+                    .toLowerCase()
+                    .replace(/\s+/g, ' ')
+                    .replace(/\./g, '')
+                    .trim();
+            };
+            
+            const categoryMap = new Map();
+            
+            // Extract unique categories from current difficulty
+            questionsForCurrentDifficulty.forEach(q => {
+                if (q.category) {
+                    const normalized = normalize(q.category);
+                    if (!categoryMap.has(normalized)) {
+                        categoryMap.set(normalized, q.category);
+                    }
+                }
+            });
+            
+            // Render category chips
+            const rulesListDiv = document.getElementById('rulesCategoryList');
+            if (categoryMap.size === 0) {
+                rulesListDiv.innerHTML = '<p style="color: var(--text-secondary);">No categories found</p>';
+            } else {
+                rulesListDiv.innerHTML = Array.from(categoryMap.values()).sort().map(category => {
+                    const color = getColorForString(category);
+                    return `
+                        <div class="filter-tag" onclick="showCategoryRules('${category.replace(/'/g, "\\'")}')">
+                            <div class="tag-color" style="background-color: ${color};"></div>
+                            <span class="tag-label">${category}</span>
+                        </div>
+                    `;
+                }).join('');
+            }
+            
+            document.getElementById('rulesListModal').classList.add('active');
+        }
+        function showFilters() {
+            // Only show filters for the current difficulty's question bank
+            const questionsForCurrentDifficulty = allQuestions[currentDifficulty] || [];
+            
+            // If no questions loaded yet, show message
+            if (questionsForCurrentDifficulty.length === 0) {
+                document.getElementById('categoryFilters').innerHTML = '<p style="color: var(--text-secondary);">No questions available for this difficulty</p>';
+                document.getElementById('problemTypeFilters').innerHTML = '';
+                document.getElementById('filtersModal').classList.add('active');
+                return;
+            }
+            
+            // Normalize function to handle variations
+            const normalize = (str) => {
+                return str
+                    .toLowerCase()
+                    .replace(/\s+/g, ' ')  // normalize whitespace
+                    .replace(/\./g, '')     // remove periods
+                    .trim();
+            };
+            
+            // Track normalized to original mapping
+            const categoryMap = new Map();
+            const problemTypeMap = new Map();
+            
+            questionsForCurrentDifficulty.forEach(q => {
+                if (q.category) {
+                    const normalized = normalize(q.category);
+                    if (!categoryMap.has(normalized)) {
+                        categoryMap.set(normalized, q.category);
+                    }
+                }
+                if (q.problem_type) {
+                    const normalized = normalize(q.problem_type);
+                    if (!problemTypeMap.has(normalized)) {
+                        problemTypeMap.set(normalized, q.problem_type);
+                    }
+                }
+            });
+            
+            // Render category filters
+            const categoryFiltersDiv = document.getElementById('categoryFilters');
+            if (categoryMap.size === 0) {
+                categoryFiltersDiv.innerHTML = '<p style="color: var(--text-secondary);">No categories found</p>';
+            } else {
+                categoryFiltersDiv.innerHTML = Array.from(categoryMap.values()).sort().map(category => {
+                    const isActive = userProgress.activeFilters.categories.some(
+                        f => normalize(f) === normalize(category)
+                    );
+                    const color = getColorForString(category);
+                    return `
+                        <div class="filter-tag ${isActive ? 'active' : ''}" onclick="toggleFilter('category', '${category.replace(/'/g, "\\'")}')">
+                            <div class="tag-color" style="background-color: ${color};"></div>
+                            <span class="tag-label">${category}</span>
+                        </div>
+                    `;
+                }).join('');
+            }
+            
+            // Render problem type filters
+            const problemTypeFiltersDiv = document.getElementById('problemTypeFilters');
+            if (problemTypeMap.size === 0) {
+                problemTypeFiltersDiv.innerHTML = '<p style="color: var(--text-secondary);">No problem types found</p>';
+            } else {
+                problemTypeFiltersDiv.innerHTML = Array.from(problemTypeMap.values()).sort().map(type => {
+                    const isActive = userProgress.activeFilters.problemTypes.some(
+                        f => normalize(f) === normalize(type)
+                    );
+                    const color = getColorForString(type);
+                    return `
+                        <div class="filter-tag ${isActive ? 'active' : ''}" onclick="toggleFilter('problemType', '${type.replace(/'/g, "\\'")}')">
+                            <div class="tag-color" style="background-color: ${color};"></div>
+                            <span class="tag-label">${type}</span>
+                        </div>
+                    `;
+                }).join('');
+            }
+            
+            document.getElementById('filtersModal').classList.add('active');
+        }
+
+        function toggleFilter(type, value) {
+            const filterArray = type === 'category' ? userProgress.activeFilters.categories : userProgress.activeFilters.problemTypes;
+            const index = filterArray.indexOf(value);
+            
+            if (index === -1) {
+                filterArray.push(value);
+            } else {
+                filterArray.splice(index, 1);
+            }
+            
+            saveProgress();
+            showFilters(); // Re-render to update UI
+            
+            // Check if current question still matches filters
+            if (currentDayQuestions.length > 0 && currentQuestionIndex < currentDayQuestions.length) {
+                const currentQuestion = currentDayQuestions[currentQuestionIndex];
+                if (currentQuestion && matchesFilters(currentQuestion)) {
+                    console.log('Current question matches new filters, keeping it');
+                    // Just re-render to update highlighted tags
+                    renderCurrentQuestion();
+                    return;
+                }
+            }
+            
+            // Current question doesn't match, load new one
+            updateQuestionSet();
+            currentQuestionIndex = 0;
+            renderCurrentQuestion();
+        }
+
+        function clearAllFilters() {
+            userProgress.activeFilters.categories = [];
+            userProgress.activeFilters.problemTypes = [];
+            saveProgress();
+            showFilters(); // Re-render to update UI
+            
+            // When clearing filters, current question always matches (no filters = all match)
+            // Just re-render to update highlighted tags
+            if (currentDayQuestions.length > 0 && currentQuestionIndex < currentDayQuestions.length) {
+                console.log('Filters cleared, keeping current question');
+                renderCurrentQuestion();
+                return;
+            }
+            
+            // No current question, load one
+            updateQuestionSet();
+            currentQuestionIndex = 0;
+            renderCurrentQuestion();
+        }
+
+        function changeDifficulty(newDifficulty) {
+            const wasNewUser = isNewUser;
+            
+            // Clear new-user state — they've now made a choice
+            if (isNewUser) {
+                isNewUser = false;
+                document.getElementById('closeSettingsModal').style.display = '';
+            }
+            
+            if (currentDifficulty === newDifficulty && !wasNewUser) {
+                // Just close the modal if same difficulty (only for returning users)
+                document.getElementById('settingsModal').classList.remove('active');
+                return;
+            }
+            
+            currentDifficulty = newDifficulty;
+            userProgress.currentDifficulty = newDifficulty;
+            
+            // Clear any active filters — they belong to the previous difficulty's question set
+            userProgress.activeFilters.categories = [];
+            userProgress.activeFilters.problemTypes = [];
+            
+            // Clear persisted session state for old difficulty
+            userProgress.currentQuestionId = null;
+            userProgress.currentQuestionState = null;
+            userProgress.savedSessionHistory = [];
+            userProgress.savedSessionAnswered = 0;
+            userProgress.savedSessionCorrect = 0;
+            userProgress.savedRecentQuestions = [];
+            
+            saveProgress();
+            
+            // Close modal and reload to show new difficulty questions
+            document.getElementById('settingsModal').classList.remove('active');
+            updateQuestionSet();
+            renderCurrentQuestion();
+        }
+
+        // Event Listeners
+       
+        document.getElementById('rulesBtn').addEventListener('click', showRulesList);
+
+        // Add this to your close button listeners
+        document.getElementById('closeRulesListModal').addEventListener('click', () => {
+            document.getElementById('rulesListModal').classList.remove('active');
+        });
+
+        // Add this to your background click listeners
+        document.getElementById('rulesListModal').addEventListener('click', (e) => {
+            if (e.target.id === 'rulesListModal') {
+                document.getElementById('rulesListModal').classList.remove('active');
+            }
+        });
+
+        document.getElementById('statsBtn').addEventListener('click', () => showStats());
+        
+        document.getElementById('filtersBtn').addEventListener('click', showFilters);
+        
+        document.getElementById('settingsBtn').addEventListener('click', showSettings);
+
+        document.getElementById('closeExampleModal').addEventListener('click', () => {
+            document.getElementById('exampleModal').classList.remove('active');
+        });
+
+        document.getElementById('closeStatsModal').addEventListener('click', () => {
+            document.getElementById('statsModal').classList.remove('active');
+        });
+        
+        document.getElementById('closeFiltersModal').addEventListener('click', () => {
+            document.getElementById('filtersModal').classList.remove('active');
+        });
+        
+        document.getElementById('closeSettingsModal').addEventListener('click', () => {
+            document.getElementById('settingsModal').classList.remove('active');
+        });
+        
+        document.getElementById('closeCategoryRulesModal').addEventListener('click', () => {
+            document.getElementById('categoryRulesModal').classList.remove('active');
+        });
+
+        document.getElementById('closeReportIssueModal').addEventListener('click', () => {
+            closeReportIssueForm();
+        });
+
+        // Close modals on background click
+        document.getElementById('exampleModal').addEventListener('click', (e) => {
+            if (e.target.id === 'exampleModal') {
+                document.getElementById('exampleModal').classList.remove('active');
+            }
+        });
+
+        document.getElementById('statsModal').addEventListener('click', (e) => {
+            if (e.target.id === 'statsModal') {
+                document.getElementById('statsModal').classList.remove('active');
+            }
+        });
+        
+        document.getElementById('filtersModal').addEventListener('click', (e) => {
+            if (e.target.id === 'filtersModal') {
+                document.getElementById('filtersModal').classList.remove('active');
+            }
+        });
+        
+        document.getElementById('settingsModal').addEventListener('click', (e) => {
+            if (e.target.id === 'settingsModal' && !isNewUser) {
+                document.getElementById('settingsModal').classList.remove('active');
+            }
+        });
+        
+        document.getElementById('categoryRulesModal').addEventListener('click', (e) => {
+            if (e.target.id === 'categoryRulesModal') {
+                document.getElementById('categoryRulesModal').classList.remove('active');
+            }
+        });
+
+        document.getElementById('reportIssueModal').addEventListener('click', (e) => {
+            if (e.target.id === 'reportIssueModal') {
+                closeReportIssueForm();
+            }
+        });
+
+        // Initialize
+        fetchQuestions();
+        loadCategoryRules();
+    </script>
+</body>
+</html>
